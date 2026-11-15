@@ -68,6 +68,22 @@
     return s.replace(/[\s.\-_]+/g, "");
   }
 
+  // Cadenas grandes y especialistas conocidos en España/UE. El resto de tiendas que lista idealo (importadores de
+  // móviles, tiendas online pequeñas) se muestran igual, pero marcadas para que el lector mire opiniones y garantía.
+  const MAJOR_SHOPS = ["pccomponentes", "mediamarkt", "amazon", "carrefour", "elcorteingles", "fnac", "worten",
+    "coolmod", "neobyte", "lidl", "conforama", "electrodepot", "alternate", "ldlc", "reichelt", "3djake", "simufy",
+    "redcomputer", "lifeinformatica", "aussar", "vibbo", "decathlon", "eci", "apple", "samsung", "sony", "xiaomi",
+    "roborock", "irobot", "dreame", "ecovacs", "moza", "fanatec", "bambulab", "elegoo", "anycubic", "minisforum",
+    "lenovo", "hp", "dell", "asus", "logitech", "meta", "google"];
+  const BRAND_STORE = /\b(oficial|official|store)\b|^es\./i;
+
+  function isMajorShop(name) {
+    const raw = String(name == null ? "" : name);
+    if (/marketplace/i.test(raw)) return false;
+    const k = storeKey(raw.replace(/\/.*$/, ""));
+    return MAJOR_SHOPS.some((m) => k === m || k.startsWith(m)) || (BRAND_STORE.test(raw) && MAJOR_SHOPS.some((m) => k.includes(m)));
+  }
+
   const KIND_ORDER = { main: 0, option: 1, idealo: 2 };
 
   /**
@@ -95,7 +111,7 @@
       byKey.set(k, win);
     }
     const rows = [...byKey.values()].sort(cmp);
-    rows.forEach((r, i) => { r.best = i === 0 && r.eur != null; });
+    rows.forEach((r, i) => { r.best = i === 0 && r.eur != null; r.small = r.kind === "idealo" && !isMajorShop(r.store); });
     return rows;
   }
 
@@ -126,5 +142,5 @@
       .map((x) => x.d);
   }
 
-  return { storeKey, storeRows, storeCount, normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
+  return { isMajorShop, storeKey, storeRows, storeCount, normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
 });

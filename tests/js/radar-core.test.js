@@ -88,3 +88,19 @@ test("storeRows con empate prefiere la fila editorial y sin extras devuelve solo
   assert.equal(rows[0].kind, "main");
   assert.equal(C.storeRows(mk({ id: "z", store: "A", price: null }), fx).length, 1);
 });
+
+test("isMajorShop distingue grandes tiendas y tiendas oficiales de tiendas pequeñas", () => {
+  for (const s of ["pccomponentes.com", "Mediamarkt.es", "amazon.es", "carrefour.es", "El Corte Inglés", "fnac.es",
+                   "Neobyte.es", "es.roborock.com", "Samsung.com/es", "sony.es", "Apple Store ES", "Simufy.com", "3djake.es"])
+    assert.equal(C.isMajorShop(s), true, s);
+  for (const s of ["zomvy.com", "movilines.com", "bixoto.com/es", "electropolis.es", "Ocasionia", "Amazon Marketplace (ES)"])
+    assert.equal(C.isMajorShop(s), false, s);
+});
+
+test("storeRows marca como pequeñas solo las filas de idealo de tiendas no conocidas", () => {
+  const d = { store: "Tienda Rara", price: 100, currency: "€", link: "https://x", options: [],
+              live: { at: "2026-11-15T20:00", shops: [{ shop: "zomvy.com", price: 80 }, { shop: "amazon.es", price: 99 }] },
+              tracking: { url: "https://www.idealo.es/precios/1/x.html" } };
+  const rows = C.storeRows(d, { "€": 1 });
+  assert.deepEqual(rows.map((r) => [r.store, r.small]), [["zomvy.com", true], ["amazon.es", false], ["Tienda Rara", false]]);
+});

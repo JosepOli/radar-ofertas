@@ -142,6 +142,7 @@ dialog::backdrop{background:rgba(5,6,15,.75);backdrop-filter:blur(3px)}
 .buy .org{color:var(--muted);font-size:12px}.buy td a{white-space:nowrap}
 .buy .mini{display:inline-block;font:600 11px var(--display);letter-spacing:.05em;text-transform:uppercase;color:var(--good);border:1px solid var(--good);border-radius:5px;padding:0 5px;margin-left:6px}
 .buy .mnote{margin-top:6px}
+.buy .mini.small{color:var(--warn);border-color:var(--warn)}
 @media (max-width:560px){.buy th,.buy td{padding:6px 5px}.buy .lt{display:none}.buy td a{font-size:16px;padding:0 4px}.buy .org{font-size:11px}}
 @media (max-width:700px){.dlg{grid-template-columns:1fr}.dlg .ph{min-height:220px}}
 </style>
@@ -233,7 +234,8 @@ function marketLine(d){
   const p=L.offer_vs_market_pct;
   if(p==null)return{cls:"na",t:`Mejor precio ahora: ${fmt(L.price,"€")} en ${L.shop}${old}`};
   if(p<0)return{cls:"real",t:`Fuera de esta oferta: desde ${fmt(L.price,"€")} (aquí ${-p} % menos)${old}`};
-  if(p>0)return{cls:"fake",t:`Más barato fuera: ${fmt(L.price,"€")} en ${L.shop} (−${Math.round((1-L.price/d.price)*100)} %)${old}`};
+  const sm=C.isMajorShop(L.shop)?"":" · tienda pequeña";
+  if(p>0)return{cls:"fake",t:`Más barato fuera: ${fmt(L.price,"€")} en ${L.shop}${sm} (−${Math.round((1-L.price/d.price)*100)} %)${old}`};
   return{cls:"na",t:`Mismo precio en otras tiendas (${fmt(L.price,"€")})${old}`};
 }
 function storesLine(d){
@@ -248,8 +250,8 @@ function buyTable(d){
   const link=r=>{const u=safeUrl(r.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer" aria-label="${r.kind==="idealo"?"Ver en idealo":"Ir a la tienda"}: ${esc(r.store)}"><span class="lt">${r.kind==="idealo"?"idealo":"Tienda"} </span>↗</a>`:"—";};
   const price=r=>r.price==null?(r.kind==="main"?esc(priceTxt(d)):"ver tienda"):esc(fmt(r.price,r.currency));
   return `<div class="buy"><h4>Dónde comprarlo</h4><div class="tbl"><table><thead><tr><th>Tienda</th><th class="n">Precio</th><th>Origen</th><th>Enlace</th></tr></thead>
-   <tbody>${rows.map(r=>`<tr${r.best?' class="cheapest"':""}><td>${esc(r.store)}${r.best?'<span class="mini">más barata</span>':""}${r.note?`<small>${esc(r.note)}</small>`:""}</td><td class="n">${price(r)}</td><td class="org">${esc(origin(r))}</td><td>${link(r)}</td></tr>`).join("")}</tbody></table></div>
-   <p class="mnote">Ordenadas por precio en €. Las filas de idealo incluyen envío y se leen automáticamente; las demás las revisamos a mano.</p></div>`;
+   <tbody>${rows.map(r=>`<tr${r.best?' class="cheapest"':""}><td>${esc(r.store)}${r.best?'<span class="mini">más barata</span>':""}${r.small?'<span class="mini small" title="Tienda poco conocida: revisa opiniones, garantía y si es versión importada antes de comprar">tienda pequeña</span>':""}${r.note?`<small>${esc(r.note)}</small>`:""}</td><td class="n">${price(r)}</td><td class="org">${esc(origin(r))}</td><td>${link(r)}</td></tr>`).join("")}</tbody></table></div>
+   <p class="mnote">Ordenadas por precio en €. Las filas de idealo incluyen envío y se leen automáticamente; las demás las revisamos a mano. «Tienda pequeña»: comercio poco conocido o importador; revisa opiniones y garantía antes de comprar.</p></div>`;
 }
 function endTxt(d){const n=daysLeft(d);return n==null?"sin fecha de fin":(n<0?"terminada":(n===0?"acaba hoy":`termina en ${n} d (${dmy(d.ends_on)})`));}
 const discBadge=d=>d.discount_pct>0?`<span class="disc">−${d.discount_pct}%</span>`:(d.discount_pct<0?`<span class="disc up">+${-d.discount_pct}%</span>`:"");
@@ -332,7 +334,7 @@ function kpis(){
 function footer(){
   const m=DATA.meta;
   document.getElementById("footer").innerHTML=`
-   <p><b>Cómo leerlo.</b> El precio grande es el de la oferta y lo revisamos a mano (última revisión: ${dmy(m.checked_on)}). «Mín. anual» es el precio más bajo documentado en 2026 antes de la campaña, según comparadores y prensa de chollos; la fuente va en cada ficha. «Otras tiendas» es el mejor precio actual de tiendas fiables en <a href="https://www.idealo.es/" target="_blank" rel="noopener noreferrer">idealo.es</a> (envío incluido, sin vendedores externos de marketplaces ni productos usados), leído automáticamente varias veces al día; la última generación de esta página fue ${ago(m.generated_at)}.</p>
+   <p><b>Cómo leerlo.</b> El precio grande es el de la oferta y lo revisamos a mano (última revisión: ${dmy(m.checked_on)}). «Mín. anual» es el precio más bajo documentado en 2026 antes de la campaña, según comparadores y prensa de chollos; la fuente va en cada ficha. «Otras tiendas» es el mejor precio actual de las tiendas que lista <a href="https://www.idealo.es/" target="_blank" rel="noopener noreferrer">idealo.es</a> (envío incluido, sin vendedores externos de marketplaces ni productos usados; las tiendas poco conocidas se marcan como «tienda pequeña»), leído automáticamente varias veces al día; la última generación de esta página fue ${ago(m.generated_at)}.</p>
    <p>Los precios cambian rápido: confirma siempre el precio final en la tienda antes de comprar. Precios en $ = tiendas de EE. UU. (aduanas e impuestos aparte). Las fotos son orientativas. Página personal sin afiliados ni publicidad.</p>`;
 }
 
