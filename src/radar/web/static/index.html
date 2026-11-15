@@ -108,7 +108,7 @@ tr.home td:first-child{box-shadow:inset 3px 0 0 var(--neon)}
 .mnote{color:var(--muted);font-size:12px;margin:8px 0 0}
 footer{margin-top:28px;color:var(--muted);font-size:13px;max-width:90ch}
 footer p{margin:0 0 8px}
-@media (max-width:560px){.count{margin-left:0;width:100%} input[type=search]{min-width:0;width:100%} .ctl{flex-wrap:wrap}}
+@media (max-width:560px){.kpis{grid-template-columns:1fr 1fr}.kpi b{font-size:20px}.count{margin-left:0;width:100%}.ctl{width:100%}.ctl input[type=search],.ctl select{flex:1;min-width:0}input[type=range]{flex:1}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s,border-color .15s}.card:hover{transform:translateY(-2px);border-color:var(--cyan)}}
 
 dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);padding:0;width:min(900px,94vw);max-height:90vh}
