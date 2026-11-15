@@ -52,6 +52,7 @@ header p{color:var(--muted);margin:6px 0 0;max-width:72ch}
 input[type=search],select{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:7px 10px;font:inherit;font-size:14px}
 input[type=search]{min-width:240px}
 input[type=range]{accent-color:var(--neon);width:140px}
+input[type=checkbox]{accent-color:var(--cyan);width:16px;height:16px;margin:0}
 #maxv{font-family:var(--mono);color:var(--ink);min-width:62px;display:inline-block}
 button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--neon);outline-offset:2px}
 .count{margin-left:auto;font-family:var(--mono);color:var(--muted);font-size:13px}
@@ -199,12 +200,13 @@ function saveState(){
 
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl=u=>/^https:\/\//.test(u||"")?u:"";
-const fmt=(n,cur)=>{if(n==null)return"";const s=n.toLocaleString("es-ES",{minimumFractionDigits:Number.isInteger(n)?0:2,maximumFractionDigits:2});return cur==="€"?s+" €":(cur==="$"?s+" $":cur+" "+s)};
+const fmt=(n,cur)=>{if(n==null)return"";const s=n.toLocaleString("es-ES",{minimumFractionDigits:Number.isInteger(n)?0:2,maximumFractionDigits:2});return cur==="€"?s+"\u00a0€":(cur==="$"?s+"\u00a0$":cur+"\u00a0"+s)};
 const priceTxt=d=>d.price==null?(d.discount_pct?`hasta −${d.discount_pct} %`:"ver tienda"):(d.price_text?d.price_text+(d.currency==="€"?" €":" "+d.currency):fmt(d.price,d.currency));
 const art=d=>(ART[d.illustration]||ART.hdd)(VCOL[d.verdict]);
 const dmy=iso=>iso?`${iso.slice(8,10)}/${iso.slice(5,7)}`:"";
 function ago(iso){if(!iso)return"";const h=(Date.now()-new Date(iso).getTime())/36e5;if(h<1)return"hace menos de 1 h";if(h<36)return`hace ${Math.round(h)} h`;return`hace ${Math.round(h/24)} días`;}
 const daysLeft=d=>C.daysLeft(d.ends_on,TODAY);
+const nb=s=>String(s??"").replace(/(\d) (€|\$|%|TB|GB|Nm)/g,"$1\u00a0$2");
 
 function lowLine(d){
   if(d.vs_annual_low_pct==null)return{cls:"na",t:"Mín. anual: "+(d.annual_low_note||"sin dato fiable")};
@@ -233,7 +235,7 @@ function imgTag(d,cls){
 }
 
 function card(d){
-  const lw=lowLine(d),mk=marketLine(d),n=daysLeft(d);
+  const lw=lowLine(d),mk=marketLine(d),n=daysLeft(d);lw.t=nb(lw.t);if(mk)mk.t=nb(mk.t);
   const tags=[...d.highlights.map(t=>`<span class="tag hot">${esc(t)}</span>`),...d.tags.map(t=>`<span class="tag${/linux/i.test(t)&&!/sin|externo/i.test(t)?" lin":""}">${esc(t)}</span>`)].join("");
   return `<article class="card" data-v="${esc(d.verdict)}" data-id="${esc(d.id)}" tabindex="0" role="button" aria-label="Ver ficha de ${esc(d.name)}">
    <div class="img">${imgTag(d)}${discBadge(d)}<span class="badge">${VLBL[d.verdict]}</span></div>
