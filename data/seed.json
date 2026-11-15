@@ -45,6 +45,26 @@
    "id": "ia",
    "title": "Equipos para IA local",
    "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar."
+  },
+  {
+   "id": "portatiles",
+   "title": "Portátiles",
+   "intro": "Portátiles con precio comprobado en tiendas españolas. Compara RAM, gráfica y si incluyen sistema operativo o cargador antes de decidir solo por precio."
+  },
+  {
+   "id": "monitores",
+   "title": "Monitores",
+   "intro": "Mira resolución, frecuencia y tipo de panel antes que la marca: un QHD de 180 Hz por unos 160 € cubre casi todo el uso, y un OLED ronda los 500 €."
+  },
+  {
+   "id": "moviles",
+   "title": "Móviles",
+   "intro": "Compara siempre con el precio oficial del fabricante y mira cuántos años de actualizaciones te dan. En iPhone, las grandes tiendas suelen quedar por debajo de Apple."
+  },
+  {
+   "id": "audio",
+   "title": "Auriculares y audio",
+   "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas."
   }
  ],
  "fx_to_eur": {
@@ -586,7 +606,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 9,
    "tags": [
     "gama media",
     "HA oficial"
@@ -627,7 +647,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 11,
    "tags": [
     "entrada",
     "autovaciado",
@@ -672,7 +692,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 10,
    "tags": [
     "rodillo de fregado",
     "agua 40–75 °C"
@@ -718,7 +738,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 12,
    "tags": [
     "28.000 Pa",
     "gama media"
@@ -764,7 +784,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 12,
+   "rank": 13,
    "tags": [
     "25.000 Pa",
     "sin agua caliente"
@@ -1185,7 +1205,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 10,
+   "rank": 13,
    "tags": [
     "8 Nm",
     "sin pedales"
@@ -1227,7 +1247,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 11,
+   "rank": 14,
    "tags": [
     "2,3 Nm",
     "engranajes"
@@ -1384,7 +1404,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "doble boquilla",
     "cámara calefactada"
@@ -1430,7 +1450,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "4 cabezales",
     "multicolor sin purga"
@@ -1476,7 +1496,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 7,
    "tags": [
     "Vortek, 7 boquillas"
    ],
@@ -1521,7 +1541,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 7,
+   "rank": 8,
    "tags": [
     "doble extrusor",
     "gran volumen"
@@ -1564,7 +1584,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 9,
    "tags": [
     "9 cabezales",
     "novedad"
@@ -1615,7 +1635,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "no",
-   "rank": 9,
+   "rank": 12,
    "tags": [
     "abierta",
     "entrada"
@@ -2222,7 +2242,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 1,
+   "rank": 2,
    "tags": [
     "15,47 €/GB",
     "DDR5-6000"
@@ -2260,7 +2280,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "16,88 €/GB",
     "DDR5"
@@ -2294,7 +2314,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 3,
+   "rank": 4,
    "tags": [
     "16,43 €/GB",
     "128 GB"
@@ -2337,7 +2357,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "portátil / mini PC",
     "16,34 €/GB"
@@ -2379,7 +2399,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 1,
    "tags": [
     "6,56 €/GB",
     "DDR4"
@@ -2442,17 +2462,17 @@
    "illustration": "gpu",
    "image_query": "Intel Arc Pro B60 24GB",
    "name": "Intel Arc Pro B60 24 GB",
-   "store": "Tiendas España (gpuprix, jun.)",
-   "price": 732,
+   "store": "PcComponentes (ASRock Arc Pro B60 Creator)",
+   "price": 1251.48,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
    "reference_label": "precio habitual",
-   "annual_low": 721,
-   "annual_low_note": "mediana 721 € · dato de junio",
+   "annual_low": null,
+   "annual_low_note": "mediana de 721 € en junio (gpuprix); hoy no hay stock a ese precio",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
+   "verdict": "pasa",
    "rank": 2,
    "tags": [
     "24 GB VRAM",
@@ -2460,25 +2480,20 @@
     "Linux multi-GPU"
    ],
    "highlights": [],
-   "note": "24 GB nuevos por el precio de una 3090 usada, pero más lenta y con menos soporte de software. Revisa el precio actual.",
+   "note": "A 1.250 € ya no compensa: una RTX 3090 usada da los mismos 24 GB por bastante menos y con mejor soporte de software. Los 732 € eran de junio.",
    "info": "456 GB/s de ancho de banda y 200 W.",
-   "link": "https://gpuprix.com/es/spain/gpus/arc-pro-b60",
+   "link": "https://www.pccomponentes.com/tarjeta-grafica-asrock-intel-arc-pro-b60-creator-24gb-gddr6-cuatro-displayport-pcie-4-0",
    "sources": [
     {
      "title": "gpuprix · Arc Pro B60 España",
      "url": "https://gpuprix.com/es/spain/gpus/arc-pro-b60"
+    },
+    {
+     "title": "PcComponentes · ASRock Arc Pro B60 Creator",
+     "url": "https://www.pccomponentes.com/tarjeta-grafica-asrock-intel-arc-pro-b60-creator-24gb-gddr6-cuatro-displayport-pcie-4-0"
     }
    ],
-   "options": [
-    {
-     "store": "PcComponentes",
-     "price": 1251.48,
-     "currency": "€",
-     "url": "https://www.pccomponentes.com/tarjeta-grafica-asrock-intel-arc-pro-b60-creator-24gb-gddr6-cuatro-displayport-pcie-4-0",
-     "checked_on": "2026-11-15",
-     "note": "ASRock Arc Pro B60 Creator 24 GB, en stock"
-    }
-   ]
+   "options": []
   },
   {
    "id": "nvidia-rtx-4090-24-gb-segunda-mano",
@@ -2531,7 +2546,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "16 GB",
     "juego 1440p/4K"
@@ -2577,7 +2592,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 5,
+   "rank": 7,
    "tags": [
     "16 GB"
    ],
@@ -2622,7 +2637,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 6,
+   "rank": 8,
    "tags": [
     "16 GB"
    ],
@@ -2667,7 +2682,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 7,
+   "rank": 9,
    "tags": [
     "16 GB",
     "misma VRAM que la 4070 Ti S"
@@ -2713,7 +2728,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 8,
+   "rank": 10,
    "tags": [
     "16 GB"
    ],
@@ -2754,7 +2769,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 9,
+   "rank": 11,
    "tags": [
     "32 GB"
    ],
@@ -2834,7 +2849,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "AM5",
     "mejor CPU gaming"
@@ -2888,7 +2903,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 1,
+   "rank": 3,
    "tags": [
     "128 GB unificada",
     "2× 10 GbE",
@@ -2927,7 +2942,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 2,
+   "rank": 4,
    "tags": [
     "128 GB unificada",
     "Strix Halo"
@@ -2974,7 +2989,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 3,
+   "rank": 5,
    "tags": [
     "128 GB unificada",
     "Strix Halo"
@@ -3016,7 +3031,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "mini-ITX",
     "reparable",
@@ -3051,7 +3066,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 5,
+   "rank": 7,
    "tags": [
     "PCIe x16",
     "2× 10 GbE",
@@ -3095,7 +3110,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 6,
+   "rank": 8,
    "tags": [
     "máx. 64 GB",
     "sin CUDA"
@@ -3142,7 +3157,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 7,
+   "rank": 9,
    "tags": [
     "128 GB",
     "CUDA"
@@ -3166,6 +3181,2396 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208146/3/208146353/s11_produktbild_max/nvidia-dgx-spark-founders-edition-940-54242-0005-000.jpg",
    "options": []
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "dreame-d30-ultra",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame D30 Ultra robot",
+   "name": "Dreame D30 Ultra",
+   "store": "MediaMarkt",
+   "price": 289,
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "ok",
+   "rank": 7,
+   "tags": [
+    "25.000 Pa",
+    "230 min",
+    "base con autolimpieza"
+   ],
+   "note": "289 € en MediaMarkt (PcComponentes lo anuncia igual en idealo, pero en su listado de marca aparece a 399 €); el resto, desde 454 €. Sin histórico no es «Comprar». Frente al Qrevo 2 Pro de la lista (299 €, también 25.000 Pa) la diferencia es mínima.",
+   "info": "Robot aspirador y friegasuelos con 25.000 Pa, 230 min de autonomía y 37 dB(A). Versión blanca.",
+   "link": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-d30-ultra-230-min-autonomia-37-dba-succion-25000-pa-blanco-1625532.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Dreame D30 Ultra",
+     "url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-d30-ultra-230-min-autonomia-37-dba-succion-25000-pa-blanco-1625532.html"
+    },
+    {
+     "title": "idealo · Dreame D30 Ultra White",
+     "url": "https://www.idealo.es/precios/209903571/dreame-d30-ultra-white.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209903571",
+    "url": "https://www.idealo.es/precios/209903571/dreame-d30-ultra-white.html",
+    "include_regex": "d30\\s+ultra",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|staubbeutel|negro|black"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "dreame-l40-ultra-ae",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame L40 Ultra AE robot",
+   "name": "Dreame L40 Ultra AE",
+   "store": "MediaMarkt",
+   "price": 359,
+   "reference_price": 549,
+   "reference_label": "precio tienda oficial",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 14,
+   "tags": [
+    "11.000 Pa",
+    "194 min",
+    "autovaciado"
+   ],
+   "note": "359 € es lo que piden las tiendas grandes; solo Amazon (vendido por Dreame) baja a ~339 €. Los 549 € de la tienda oficial no son referencia real. En la lista, el Qrevo 2 Pro Set cuesta menos y es superior.",
+   "info": "Versión blanca con base de autovaciado, 11 kPa y 62 dB(A).",
+   "link": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-l40-ultra-ae-1611272.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Dreame L40 Ultra AE",
+     "url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-l40-ultra-ae-1611272.html"
+    },
+    {
+     "title": "Dreame ES · L40 Ultra AE",
+     "url": "https://es.dreametech.com/products/robot-aspirador-l40-ultra-ae"
+    },
+    {
+     "title": "idealo · Dreame L40 Ultra AE",
+     "url": "https://www.idealo.es/precios/206606273/dreame-l40-ultra-ae.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206606273",
+    "url": "https://www.idealo.es/precios/206606273/dreame-l40-ultra-ae.html",
+    "include_regex": "l40\\s+ultra\\s+ae",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|negro|black"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206606/2/206606273/s11_produktbild_max/dreame-l40-ultra-ae.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "irobot-roomba-115-combo",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "iRobot Roomba 115 Combo robot",
+   "name": "iRobot Roomba 115 Combo",
+   "store": "iRobot ES (tienda oficial)",
+   "price": 129,
+   "reference_price": 249,
+   "reference_label": "precio tienda oficial",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "ok",
+   "rank": 8,
+   "tags": [
+    "15.000 Pa",
+    "LiDAR",
+    "aspira y friega"
+   ],
+   "note": "129 € en iRobot, Amazon, MediaMarkt, PcComponentes y Fnac: precio muy bajo para un robot con LiDAR que también friega. Los 249 € son el PVP de la marca, no un precio pagado; sin histórico, buena opción pero no «Comprar».",
+   "info": "Roomba 115 Combo blanco con base de carga, 15.000 Pa y 250 min. La variante con base AutoEmpty es otro modelo y cuesta más.",
+   "link": "https://www.irobot.es/es_ES/roomba-115-combo/Y414240.html",
+   "sources": [
+    {
+     "title": "iRobot ES · Roomba 115 Combo",
+     "url": "https://www.irobot.es/es_ES/roomba-115-combo/Y414240.html"
+    },
+    {
+     "title": "idealo · iRobot Y414240",
+     "url": "https://www.idealo.es/precios/210209427/irobot-y414240.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210209427",
+    "url": "https://www.idealo.es/precios/210209427/irobot-y414240.html",
+    "include_regex": "115\\s+combo|y414240",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|autoempty|y454|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210209/4/210209427/s11_produktbild_max/irobot-y414240.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "Moza Racing EU (tienda oficial)",
+     "price": 359.0,
+     "currency": "€",
+     "url": "https://eu.mozaracing.com/es/products/crp2-pedals",
+     "checked_on": "2026-11-15",
+     "note": "precio oficial"
+    },
+    {
+     "store": "Simufy",
+     "price": 359.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/pedales-crp2-moza",
+     "checked_on": "2026-11-15",
+     "note": "variante acelerador + freno"
+    }
+   ],
+   "id": "moza-crp2-pedales",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Moza CRP2 load cell pedals",
+   "name": "Moza CRP2 (pedales)",
+   "store": "Neobyte",
+   "price": 342.9,
+   "reference_price": 359,
+   "reference_label": "precio tienda oficial",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 10,
+   "tags": [
+    "celda de carga 200 kg",
+    "acelerador + freno"
+   ],
+   "note": "La tienda oficial Moza lo pide a 359 € y Neobyte a 342,90 €: apenas un 4 % de diferencia, sin rebaja real de campaña. Si quieres pedales de celda de carga, el SRP2 de 159 € cubre casi todo.",
+   "info": "Pedalera de celda de carga de 200 kg con acelerador y freno. Embrague aparte.",
+   "link": "https://www.neobyte.es/moza-crp2-load-cell-pedals-juego-de-pedales-32422.html",
+   "sources": [
+    {
+     "title": "Neobyte · Moza CRP2",
+     "url": "https://www.neobyte.es/moza-crp2-load-cell-pedals-juego-de-pedales-32422.html"
+    },
+    {
+     "title": "Moza Racing EU · CRP2",
+     "url": "https://eu.mozaracing.com/es/products/crp2-pedals"
+    },
+    {
+     "title": "idealo · Moza CRP2",
+     "url": "https://www.idealo.es/precios/205854110/moza-racing-crp2-pedals.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205854110",
+    "url": "https://www.idealo.es/precios/205854110/moza-racing-crp2-pedals.html",
+    "include_regex": "crp2|rs066",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|clutch|embrague|rubber|goma|kit"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205854/1/205854110/s11_produktbild_max/moza-racing-crp2-pedals.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "moza-srp2-pedales",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Moza SRP2 pedals",
+   "name": "Moza SRP2 (pedales)",
+   "store": "Moza Racing EU (tienda oficial)",
+   "price": 159,
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 11,
+   "tags": [
+    "celda de carga 100 kg",
+    "acelerador + freno"
+   ],
+   "note": "Buenos pedales por el dinero, pero 159 € es lo que piden la tienda oficial y MediaMarkt: no hay rebaja visible. Si ya vas a comprar un bundle Moza, el R9 + SRP2 de la lista sale mejor.",
+   "info": "Pedalera de celda de carga de 100 kg con acelerador y freno, ampliable con embrague.",
+   "link": "https://eu.mozaracing.com/es/products/srp2-pedals",
+   "sources": [
+    {
+     "title": "Moza Racing EU · SRP2",
+     "url": "https://eu.mozaracing.com/es/products/srp2-pedals"
+    },
+    {
+     "title": "idealo · Moza SRP2",
+     "url": "https://www.idealo.es/precios/210271117/moza-racing-srp2-racing-pedals.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210271117",
+    "url": "https://www.idealo.es/precios/210271117/moza-racing-srp2-racing-pedals.html",
+    "include_regex": "srp2|rs098",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "Moza Racing EU (tienda oficial)",
+     "price": 279.0,
+     "currency": "€",
+     "url": "https://eu.mozaracing.com/es/products/r3-racing-bundle-pc",
+     "checked_on": "2026-11-15",
+     "note": "precio oficial"
+    }
+   ],
+   "id": "moza-r3-bundle-pc",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Moza R3 racing bundle PC",
+   "name": "Moza R3 (bundle PC)",
+   "store": "Simufy",
+   "price": 249.99,
+   "reference_price": 329.99,
+   "reference_label": "precio Simufy sin oferta",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "3,9 Nm",
+    "base + volante + pedales",
+    "solo PC"
+   ],
+   "note": "Simufy lo tiene a 249,99 €, por debajo de los 279 € de la tienda oficial y de los ~295 € de Neobyte y otras. Es una base de entrada (3,9 Nm): sirve para dar el salto desde un volante de engranajes, no para ir a más.",
+   "info": "Pack con base direct drive R3, volante y pedales para PC. Variante sin pedal de embrague ni kit Performance.",
+   "link": "https://simufy.com/products/pack-dd-r3-moza-solo-pc",
+   "sources": [
+    {
+     "title": "Simufy · Pack DD R3 Moza PC",
+     "url": "https://simufy.com/products/pack-dd-r3-moza-solo-pc"
+    },
+    {
+     "title": "Moza Racing EU · R3 PC",
+     "url": "https://eu.mozaracing.com/es/products/r3-racing-bundle-pc"
+    },
+    {
+     "title": "idealo · Moza R3 PC",
+     "url": "https://www.idealo.es/precios/206095619/moza-racing-r3-racing-wheel-and-pedals-pc-version.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206095619",
+    "url": "https://www.idealo.es/precios/206095619/moza-racing-r3-racing-wheel-and-pedals-pc-version.html",
+    "include_regex": "r3|rs074",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "thrustmaster-t-lcm-pedales",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Thrustmaster T-LCM pedals",
+   "name": "Thrustmaster T-LCM (pedales)",
+   "store": "Simufy",
+   "price": 229.99,
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 12,
+   "tags": [
+    "celda de carga 100 kg",
+    "acelerador + freno"
+   ],
+   "note": "Casi no hay competencia de precio: solo Simufy lo vende a 229,99 €. Solo compensa si necesitas pedales Thrustmaster; los Moza SRP2 (celda de carga de 100 kg) cuestan 159 €.",
+   "info": "Pedales de celda de carga de 100 kg para el ecosistema Thrustmaster.",
+   "link": "https://simufy.com/products/pedales-t-lcm",
+   "sources": [
+    {
+     "title": "Simufy · Thrustmaster T-LCM",
+     "url": "https://simufy.com/products/pedales-t-lcm"
+    },
+    {
+     "title": "idealo · Thrustmaster T-LCM",
+     "url": "https://www.idealo.es/precios/200301428/thrustmaster-t-lcm-pedals.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "200301428",
+    "url": "https://www.idealo.es/precios/200301428/thrustmaster-t-lcm-pedals.html",
+    "include_regex": "t-?lcm",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "3DJake",
+     "price": 354.86,
+     "currency": "€",
+     "url": "https://www.3djake.es/bambu-lab/p1s",
+     "checked_on": "2026-11-15",
+     "note": "solo impresora"
+    }
+   ],
+   "id": "bambu-lab-p1s",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab P1S printer",
+   "name": "Bambu Lab P1S (sola)",
+   "store": "Bambu Lab EU",
+   "price": 349,
+   "reference_price": 379,
+   "reference_label": "precio oficial el 7/10",
+   "annual_low": 379,
+   "annual_low_note": "379 € en la tienda oficial el 7/10 (Criterio Tech)",
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "cerrada",
+    "CoreXY",
+    "256 mm"
+   ],
+   "note": "349 € en Bambu Lab EU frente a los 379 € que costaba en octubre; 3DJake la tiene a 354,86 €. Buena segunda máquina cerrada. No es «Comprar» porque no hay un mínimo anual comprobado y la P2S la releva.",
+   "info": "Versión sola (sin AMS). Con AMS cuesta desde 469 € en la tienda oficial.",
+   "link": "https://eu.store.bambulab.com/es/products/p1s",
+   "sources": [
+    {
+     "title": "Bambu Lab EU · P1S",
+     "url": "https://eu.store.bambulab.com/es/products/p1s"
+    },
+    {
+     "title": "Criterio Tech · precios de referencia BF 2026",
+     "url": "https://criteriotech.es/impresion-3d/black-friday-2026-precios-impresoras-3d/"
+    },
+    {
+     "title": "idealo · Bambu Lab P1S",
+     "url": "https://www.idealo.es/precios/203480108/bambu-lab-p1s.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203480108",
+    "url": "https://www.idealo.es/precios/203480108/bambu-lab-p1s.html",
+    "include_regex": "p1s",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|combo|ams|placa|boquilla|hotend|filtro|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203480/1/203480108/s11_produktbild_max/bambu-lab-p1s.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "3DJake",
+     "price": 429.0,
+     "currency": "€",
+     "url": "https://www.3djake.es/impresoras-3d-y-accesorios-de-anycubic/kobra-s1-ace-2-pro-combo",
+     "checked_on": "2026-11-15",
+     "note": "1 ud."
+    }
+   ],
+   "id": "anycubic-kobra-s1-ace-2-pro-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Anycubic Kobra S1 ACE 2 Pro Combo",
+   "name": "Anycubic Kobra S1 ACE 2 Pro Combo",
+   "store": "Anycubic ES (tienda oficial)",
+   "price": 429,
+   "reference_price": 599,
+   "reference_label": "PVP tachado de la tienda",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 10,
+   "tags": [
+    "cerrada",
+    "multicolor",
+    "600 mm/s"
+   ],
+   "note": "429 € lo piden la tienda oficial y 3DJake; el resto, desde 459 €. Los 599 € tachados son PVP, no un precio real. Con 469 € la P1S con AMS ya es la apuesta más segura de la lista.",
+   "info": "Versión sin filamento del combo con el multicolor ACE 2 Pro. La impresora sola costaba 349 € el 7/10.",
+   "link": "https://es.anycubic3d.com/products/kobra-s1-ace-2-pro-combo",
+   "sources": [
+    {
+     "title": "Anycubic ES · Kobra S1 ACE 2 Pro Combo",
+     "url": "https://es.anycubic3d.com/products/kobra-s1-ace-2-pro-combo"
+    },
+    {
+     "title": "3DJake · Kobra S1 ACE 2 Pro Combo",
+     "url": "https://www.3djake.es/impresoras-3d-y-accesorios-de-anycubic/kobra-s1-ace-2-pro-combo"
+    },
+    {
+     "title": "idealo · Kobra S1 ACE 2 Pro Combo",
+     "url": "https://www.idealo.es/precios/213343026/anycubic-kobra-s1-ace-2-pro-combo.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "213343026",
+    "url": "https://www.idealo.es/precios/213343026/anycubic-kobra-s1-ace-2-pro-combo.html",
+    "include_regex": "s1.{0,15}ace\\s*2\\s*pro|ks2cbk",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|hotend|kit|boquilla"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/213343/0/213343026/s11_produktbild_max/anycubic-kobra-s1-ace-2-pro-combo.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "pla-elegoo-rfid-10-kg",
+   "section": "print",
+   "illustration": "spool",
+   "image_query": "Elegoo PLA RFID 10 kg filament",
+   "name": "Elegoo PLA (RFID) 10 kg",
+   "store": "Elegoo EU (tienda oficial)",
+   "price": 94.99,
+   "reference_price": 129.9,
+   "reference_label": "PVP tachado de la tienda",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 11,
+   "tags": [
+    "PLA",
+    "10 kg",
+    "RFID"
+   ],
+   "note": "Salen unos 9,50 €/kg, razonable para un pack de 10 kg, pero no he podido contrastarlo con otra tienda ni con un precio previo. Algunas variantes de color aparecen a 99,99 €. Para gastar mucho filamento, el de Bambu por volumen sigue por delante.",
+   "info": "Pack de 10 kg de PLA con chip RFID, pensado para impresoras Elegoo como la Centauri Carbon.",
+   "link": "https://eu.elegoo.com/es-es/products/pla-rfid-filament-10-kg",
+   "sources": [
+    {
+     "title": "Elegoo EU · PLA RFID 10 kg",
+     "url": "https://eu.elegoo.com/es-es/products/pla-rfid-filament-10-kg"
+    }
+   ]
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "sony-playstation-vr2",
+   "section": "vr",
+   "illustration": "vr",
+   "image_query": "Sony PlayStation VR2 headset",
+   "name": "Sony PlayStation VR2",
+   "store": "Carrefour",
+   "price": 424.99,
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "OLED 4K",
+    "seguimiento interior",
+    "PS5"
+   ],
+   "note": "Desde 399,90 € en idealo (una tienda pequeña); las grandes piden 425–450 € (Carrefour y Amazon 424,99 €). Es el precio normal. Pensada para PS5: en PC necesita adaptador y pierde funciones.",
+   "info": "Visor OLED 4K con mandos Sense. Una PS5 es imprescindible.",
+   "link": "https://www.carrefour.es/gafas-de-realidad-virtual-playstation-vr2/VC4A-20565977/p",
+   "sources": [
+    {
+     "title": "Carrefour · PlayStation VR2",
+     "url": "https://www.carrefour.es/gafas-de-realidad-virtual-playstation-vr2/VC4A-20565977/p"
+    },
+    {
+     "title": "idealo · Sony PlayStation VR2",
+     "url": "https://www.idealo.es/precios/202259655/sony-playstation-vr2.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202259655",
+    "url": "https://www.idealo.es/precios/202259655/sony-playstation-vr2.html",
+    "include_regex": "vr\\s?2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sense|adaptador|funda|soporte|cable|juego"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202259/6/202259655/s11_produktbild_max/sony-playstation-vr2.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "meta-quest-3s-reacondicionada-meta",
+   "section": "vr",
+   "illustration": "vr",
+   "image_query": "Meta Quest 3S refurbished",
+   "name": "Meta Quest 3S reacondicionada (Meta)",
+   "store": "Meta (reacondicionados oficiales)",
+   "price": 329.99,
+   "reference_price": 359.99,
+   "reference_label": "precio original en Meta",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "reacondicionada oficial",
+    "1 año de garantía",
+    "lentes Fresnel"
+   ],
+   "note": "Solo 30 € menos que la nueva (359 € en Amazon y MediaMarkt) y más cara que el mínimo del BF 2025 de la nueva (249,99 €). No compensa; si buscas ahorrar, espera a la semana del Black Friday.",
+   "info": "Reacondicionada por Meta con un año de garantía limitada y 30 días de devolución. Precio «a partir de».",
+   "link": "https://www.meta.com/es/refurbished/quest-3s/",
+   "sources": [
+    {
+     "title": "Meta · Quest 3S reacondicionadas",
+     "url": "https://www.meta.com/es/refurbished/quest-3s/"
+    },
+    {
+     "title": "idealo · Meta Quest 3S 128GB",
+     "url": "https://www.idealo.es/precios/204861013/meta-quest-3s-128gb.html"
+    }
+   ]
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "wd-blue-sn5100-2-tb-nvme",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "WD Blue SN5100 2TB NVMe",
+   "name": "WD Blue SN5100 2 TB NVMe",
+   "store": "Neobyte",
+   "price": 255.89,
+   "reference_price": 344.95,
+   "reference_label": "PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "no",
+   "rank": 12,
+   "tags": [
+    "128 €/TB",
+    "PCIe 4.0",
+    "QLC"
+   ],
+   "note": "Neobyte es la más barata (Amazon 284,99 €, PcComponentes 344,95 €), pero en la lista el Kioxia Exceria Plus G3 de 2 TB sale a 249,95 € y es TLC. 128 €/TB frente a los 79 €/TB del Lexar.",
+   "info": "SSD M.2 PCIe 4.0 con memoria QLC, hasta 7.100 MB/s.",
+   "link": "https://www.neobyte.es/wd-blue-sn5100-2tb-pcie-40-unidad-ssd-m2-30566.html",
+   "sources": [
+    {
+     "title": "Neobyte · WD Blue SN5100 2 TB",
+     "url": "https://www.neobyte.es/wd-blue-sn5100-2tb-pcie-40-unidad-ssd-m2-30566.html"
+    },
+    {
+     "title": "Xataka · WD de 2 TB antes del BF 2026",
+     "url": "https://www.xataka.com/seleccion/este-wd-2-tb-pocos-ssd-nvme-que-compraria-justo-antes-black-friday-2026"
+    },
+    {
+     "title": "idealo · WD Blue SN5100 2TB",
+     "url": "https://www.idealo.es/precios/207399531/western-digital-blue-sn5100-2tb.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207399531",
+    "url": "https://www.idealo.es/precios/207399531/western-digital-blue-sn5100-2tb.html",
+    "include_regex": "sn5100",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\s?tb|4\\s?tb|heatsink|disipador"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207399/5/207399531/s11_produktbild_max/western-digital-blue-sn5100-2tb.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 286.66,
+   "reference_label": "mín. 30 días PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin mínimo anual documentado; PcComponentes marca 286,66 € como mínimo de los últimos 30 días",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 269.95,
+     "currency": "€",
+     "url": "https://www.amazon.es/dp/B0D6NMDNNX",
+     "checked_on": "2026-11-15",
+     "note": "vendido por Amazon"
+    }
+   ],
+   "id": "amd-ryzen-7-9700x",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "AMD Ryzen 7 9700X",
+   "name": "AMD Ryzen 7 9700X",
+   "store": "PcComponentes",
+   "price": 269.95,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "AM5",
+    "8 núcleos",
+    "65 W"
+   ],
+   "note": "Está 17 € por debajo del mínimo de 30 días de PcComponentes (286,66 €) y entre las ofertas más bajas de tiendas con caja y garantía. Buena compra si montas un AM5 sin 3D V-Cache.",
+   "info": "Zen 5 de 8 núcleos y 65 W de TDP, con gráfica integrada básica. Amazon.es lo tiene al mismo precio.",
+   "link": "https://www.pccomponentes.com/procesador-amd-ryzen-7-9700x-3-8-5-5ghz",
+   "sources": [
+    {
+     "title": "PcComponentes · Ryzen 7 9700X",
+     "url": "https://www.pccomponentes.com/procesador-amd-ryzen-7-9700x-3-8-5-5ghz"
+    },
+    {
+     "title": "idealo · Ryzen 7 9700X",
+     "url": "https://www.idealo.es/precios/204581803/amd-ryzen-7-9700x.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204581803",
+    "url": "https://www.idealo.es/precios/204581803/amd-ryzen-7-9700x.html",
+    "include_regex": "ryzen\\s*7\\s*9700x\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|tray|bandeja|\\(t\\)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 181.05,
+   "reference_label": "mín. 30 días PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin mínimo anual documentado; PcComponentes marca 181,05 € como mínimo de los últimos 30 días",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 176.95,
+     "currency": "€",
+     "url": "https://www.amazon.es/dp/B0D6NN6TM7",
+     "checked_on": "2026-11-15",
+     "note": "vendido por Amazon"
+    }
+   ],
+   "id": "amd-ryzen-5-9600x",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "AMD Ryzen 5 9600X",
+   "name": "AMD Ryzen 5 9600X",
+   "store": "PcComponentes",
+   "price": 176.95,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "AM5",
+    "6 núcleos",
+    "65 W"
+   ],
+   "note": "Precio correcto pero casi igual al de las últimas semanas (solo 4 € menos que su mínimo de 30 días). Si no tienes prisa, no hay motivo para comprar ya.",
+   "info": "Zen 5 de 6 núcleos, buena base para un equipo de juego de gama media. Amazon.es y PcComponentes cuestan lo mismo.",
+   "link": "https://www.pccomponentes.com/procesador-amd-ryzen-5-9600x-3-9-5-4ghz",
+   "sources": [
+    {
+     "title": "PcComponentes · Ryzen 5 9600X",
+     "url": "https://www.pccomponentes.com/procesador-amd-ryzen-5-9600x-3-9-5-4ghz"
+    },
+    {
+     "title": "idealo · Ryzen 5 9600X",
+     "url": "https://www.idealo.es/precios/204581805/amd-ryzen-5-9600x.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204581805",
+    "url": "https://www.idealo.es/precios/204581805/amd-ryzen-5-9600x.html",
+    "include_regex": "ryzen\\s*5\\s*9600x\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|9600x3d|tray|bandeja|\\(t\\)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "intel-core-ultra-5-245k",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "Intel Core Ultra 5 245K",
+   "name": "Intel Core Ultra 5 245K",
+   "store": "Amazon.es",
+   "price": 207.8,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "LGA1851",
+    "14 núcleos",
+    "sin gráfica potente"
+   ],
+   "note": "Precio normal, sin descuento verificable. Las tiendas están entre 204 y 218 €. Para juego, un Ryzen de precio similar rinde igual o más.",
+   "info": "Arrow Lake de 6 núcleos P y 8 E. Exige placa con socket 1851 y memoria DDR5.",
+   "link": "https://www.amazon.es/dp/B0DFK2P311",
+   "sources": [
+    {
+     "title": "Amazon.es · Core Ultra 5 245K",
+     "url": "https://www.amazon.es/dp/B0DFK2P311"
+    },
+    {
+     "title": "idealo · Core Ultra 5 245K",
+     "url": "https://www.idealo.es/precios/204911341/intel-core-ultra-5-245k.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204911341",
+    "url": "https://www.idealo.es/precios/204911341/intel-core-ultra-5-245k.html",
+    "include_regex": "245k\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|245kf"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911341/s11_produktbild_max/intel-core-ultra-5-245k.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "intel-core-ultra-7-265k",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "Intel Core Ultra 7 265K",
+   "name": "Intel Core Ultra 7 265K",
+   "store": "PcComponentes",
+   "price": 348.99,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "LGA1851",
+    "20 núcleos"
+   ],
+   "note": "Precio normal y sin descuento. Es la única tienda fiable con la versión en caja; las versiones en bandeja de idealo salen unos 30 € más baratas pero sin garantía de caja.",
+   "info": "Arrow Lake de 20 núcleos (8 P + 12 E). Rinde bien en productividad; en juego no supera a los Ryzen con 3D V-Cache.",
+   "link": "https://www.pccomponentes.com/procesador-intel-core-ultra-7-265k-ia-integrada-3-3-5-5ghz-box",
+   "sources": [
+    {
+     "title": "PcComponentes · Core Ultra 7 265K",
+     "url": "https://www.pccomponentes.com/procesador-intel-core-ultra-7-265k-ia-integrada-3-3-5-5ghz-box"
+    },
+    {
+     "title": "idealo · Core Ultra 7 265K",
+     "url": "https://www.idealo.es/precios/204911340/intel-core-ultra-7-265k.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204911340",
+    "url": "https://www.idealo.es/precios/204911340/intel-core-ultra-7-265k.html",
+    "include_regex": "265k\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|265kf|tray|bandeja|oem|\\bpc\\b"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911340/s11_produktbild_max/intel-core-ultra-7-265k.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "amd-ryzen-9-9950x3d",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "AMD Ryzen 9 9950X3D",
+   "name": "AMD Ryzen 9 9950X3D",
+   "store": "PcComponentes",
+   "price": 680.68,
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "AM5",
+    "16 núcleos",
+    "3D V-Cache"
+   ],
+   "note": "Hay tiendas españolas más baratas: idealo muestra ofertas desde unos 620 €. Solo compensa si necesitas 16 núcleos y juego a la vez.",
+   "info": "El tope de gama de AMD con 3D V-Cache. Para solo jugar, un 9800X3D rinde casi igual por mucho menos.",
+   "link": "https://www.pccomponentes.com/procesador-amd-ryzen-9-9950x3d-4-3-5-7ghz-box",
+   "sources": [
+    {
+     "title": "PcComponentes · Ryzen 9 9950X3D",
+     "url": "https://www.pccomponentes.com/procesador-amd-ryzen-9-9950x3d-4-3-5-7ghz-box"
+    },
+    {
+     "title": "idealo · Ryzen 9 9950X3D",
+     "url": "https://www.idealo.es/precios/206095266/amd-ryzen-9-9950x3d.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206095266",
+    "url": "https://www.idealo.es/precios/206095266/amd-ryzen-9-9950x3d.html",
+    "include_regex": "9950x3d\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|x3d2|tray|bandeja|\\(t\\)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206095/2/206095266/s11_produktbild_max/amd-ryzen-9-9950x3d.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "asus-dual-rtx-5070-12-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "ASUS Dual GeForce RTX 5070 OC 12GB",
+   "name": "ASUS Dual RTX 5070 OC 12 GB",
+   "store": "Amazon.es",
+   "price": 959.9,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "12 GB GDDR7",
+    "PCIe 5.0"
+   ],
+   "note": "Precio de mercado actual, sin descuento verificable. Solo 110 € más que la RTX 5060 Ti 16 GB de ASUS: rinde más en juegos, pero tiene 4 GB menos de VRAM, que pesa para IA.",
+   "info": "Versión Dual OC de ASUS de dos ventiladores. Más cara que la 5060 Ti y más barata que la RTX 5070 Ti de la lista.",
+   "link": "https://www.amazon.es/dp/B0F8KJKC9Y",
+   "sources": [
+    {
+     "title": "Amazon.es · ASUS Dual RTX 5070 OC",
+     "url": "https://www.amazon.es/dp/B0F8KJKC9Y"
+    },
+    {
+     "title": "idealo · ASUS Dual RTX 5070 OC",
+     "url": "https://www.idealo.es/precios/206535919/asus-geforce-rtx-5070-dual-oc.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206535919",
+    "url": "https://www.idealo.es/precios/206535919/asus-geforce-rtx-5070-dual-oc.html",
+    "include_regex": "dual.*5070|5070.*dual",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|5070\\s*ti|white|blanc"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206535/9/206535919/s11_produktbild_max/asus-geforce-rtx-5070-dual-oc.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "asus-dual-rtx-5060-ti-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "ASUS Dual GeForce RTX 5060 Ti OC 16GB",
+   "name": "ASUS Dual RTX 5060 Ti OC 16 GB",
+   "store": "Amazon.es",
+   "price": 849.95,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "16 GB GDDR7",
+    "PCIe 5.0"
+   ],
+   "note": "Es 40 € más barata que la MSI Ventus 2X de la lista (889,99 €), pero sigue casi al doble de su precio de salida. Interesa solo si necesitas los 16 GB de VRAM.",
+   "info": "Versión Dual OC de ASUS. Tiene el doble de VRAM que la versión de 8 GB y es buena opción de entrada para IA local.",
+   "link": "https://www.amazon.es/dp/B0F4DVKSZ4",
+   "sources": [
+    {
+     "title": "Amazon.es · ASUS Dual RTX 5060 Ti 16 GB",
+     "url": "https://www.amazon.es/dp/B0F4DVKSZ4"
+    },
+    {
+     "title": "idealo · ASUS Dual RTX 5060 Ti 16 GB",
+     "url": "https://www.idealo.es/precios/206264275/asus-geforce-rtx-5060-ti-16gb-dual-oc.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206264275",
+    "url": "https://www.idealo.es/precios/206264275/asus-geforce-rtx-5060-ti-16gb-dual-oc.html",
+    "include_regex": "dual.*5060\\s*ti|5060\\s*ti.*dual",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|white|blanc|\\b8\\s?gb"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206264/2/206264275/s11_produktbild_max/asus-geforce-rtx-5060-ti-16gb-dual-oc.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "kingston-fury-beast-rgb-32-gb-ddr5-6000-cl30",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Kingston Fury Beast RGB DDR5 32GB 6000 CL30",
+   "name": "Kingston Fury Beast RGB 32 GB (2×16) DDR5-6000 CL30",
+   "store": "PcComponentes",
+   "price": 791.88,
+   "verdict": "no",
+   "rank": 6,
+   "tags": [
+    "32 GB",
+    "DDR5-6000",
+    "CL30",
+    "RGB"
+   ],
+   "note": "Precio de crisis de la DRAM: casi 800 € por 32 GB. La Lexar CL40 de la lista cuesta 495 €. Espera si puedes, o ahorra el sobrecoste del RGB.",
+   "info": "Kit de 2×16 GB con perfil EXPO/XMP y latencia CL30. Hay kits Kingston sin RGB desde unos 720 € en otras tiendas.",
+   "link": "https://www.pccomponentes.com/memoria-ram-memoria-kingston-fury-beast-ddr5-rgb-32gb-6000mt-s-cl30-kit-2x16gb-dimm-negro",
+   "sources": [
+    {
+     "title": "PcComponentes · Fury Beast RGB 32 GB",
+     "url": "https://www.pccomponentes.com/memoria-ram-memoria-kingston-fury-beast-ddr5-rgb-32gb-6000mt-s-cl30-kit-2x16gb-dimm-negro"
+    },
+    {
+     "title": "idealo · Fury Beast RGB 32 GB",
+     "url": "https://www.idealo.es/precios/204101930/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204101930",
+    "url": "https://www.idealo.es/precios/204101930/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.html",
+    "include_regex": "fury\\s*beast.*rgb.*(2\\s?x\\s?16|32\\s?gb)|rgb.*fury\\s*beast",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|cl36|cl40|64\\s?gb|5200|5600"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204101/9/204101930/s11_produktbild_max/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "corsair-vengeance-64-gb-ddr5-6000-cl30",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Corsair Vengeance DDR5 64GB 6000 CL30",
+   "name": "Corsair Vengeance 64 GB (2×32) DDR5-6000 CL30",
+   "store": "Amazon.es",
+   "price": 1406.99,
+   "verdict": "no",
+   "rank": 7,
+   "tags": [
+    "64 GB",
+    "DDR5-6000",
+    "CL30"
+   ],
+   "note": "1.407 € por 64 GB es un precio de escasez. La Vengeance RS de 64 GB de la lista cuesta unos 330 € menos. Compra solo si no puedes esperar.",
+   "info": "Kit de 2×32 GB con latencia CL30, la variante más rápida de la gama Vengeance sin RGB.",
+   "link": "https://www.amazon.es/dp/B0C5M7J967",
+   "sources": [
+    {
+     "title": "Amazon.es · Vengeance 64 GB CL30",
+     "url": "https://www.amazon.es/dp/B0C5M7J967"
+    },
+    {
+     "title": "idealo · Vengeance 64 GB CL30",
+     "url": "https://www.idealo.es/precios/203080042/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203080042",
+    "url": "https://www.idealo.es/precios/203080042/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.html",
+    "include_regex": "(6000.*cl30|cl30.*6000|vengeance)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rgb|cl36|cl40|32\\s?gb\\s*\\("
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203080/0/203080042/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 1499.0,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_apple-mac-mini-chip-m6-cpu-de-12-nucleos-gpu-de-12-nucleos-doble-neural-engine-de-16-nucleos-24-gb-ram-512-gb-ssd-plata-1673197.html",
+     "checked_on": "2026-11-15",
+     "note": "24 GB / 512 GB"
+    }
+   ],
+   "id": "mac-mini-m6-24-gb-512-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Apple Mac mini M6 24GB 512GB",
+   "name": "Mac mini M6 · 24 GB / 512 GB",
+   "store": "Amazon.es",
+   "price": 1499,
+   "verdict": "pasa",
+   "rank": 1,
+   "tags": [
+    "24 GB unificada",
+    "M6",
+    "sin CUDA"
+   ],
+   "note": "Mismo precio en Amazon.es y MediaMarkt y sin rebaja. Con 24 GB de memoria unificada te quedas corto para modelos grandes; para eso necesitas más memoria.",
+   "info": "Mac mini con chip M6 de 12 núcleos y 24 GB de memoria unificada. Silencioso y de bajo consumo, pero sin CUDA.",
+   "link": "https://www.amazon.es/dp/B0HGGHQ59P",
+   "sources": [
+    {
+     "title": "Amazon.es · Mac mini M6 24 GB",
+     "url": "https://www.amazon.es/dp/B0HGGHQ59P"
+    },
+    {
+     "title": "idealo · Mac mini M6 24 GB",
+     "url": "https://www.idealo.es/precios/213906037/apple-mac-mini-m6-2026-mhqm4ty-a.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "213906037",
+    "url": "https://www.idealo.es/precios/213906037/apple-mac-mini-m6-2026-mhqm4ty-a.html",
+    "include_regex": "mac\\s*mini.*(24\\s?gb)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|16\\s?gb\\s*ram|m4|m5"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/213906/0/213906037/s11_produktbild_max/apple-mac-mini-m6-2026-mhqm4ty-a.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "powercolor-radeon-ai-pro-r9700-32-gb",
+   "section": "ia",
+   "illustration": "gpu",
+   "image_query": "PowerColor Radeon AI PRO R9700 32GB",
+   "name": "PowerColor Radeon AI PRO R9700 32 GB",
+   "store": "Neobyte",
+   "price": 2198.99,
+   "verdict": "pasa",
+   "rank": 2,
+   "tags": [
+    "32 GB GDDR6",
+    "ROCm",
+    "640 GB/s"
+   ],
+   "note": "Es el precio más bajo de las tiendas españolas hoy, pero sale a unos 69 €/GB de VRAM. La Arc Pro B60 de la lista da 24 GB por 732 €. Solo compensa si necesitas 32 GB en una sola tarjeta.",
+   "info": "Gráfica profesional de AMD con 32 GB para IA local. Requiere ROCm; el soporte es peor que con CUDA.",
+   "link": "https://www.neobyte.es/powercolor-amd-radeon-ai-pro-r9700-32gb-gddr6-tarjeta-grafica-48462.html",
+   "sources": [
+    {
+     "title": "Neobyte · Radeon AI PRO R9700",
+     "url": "https://www.neobyte.es/powercolor-amd-radeon-ai-pro-r9700-32gb-gddr6-tarjeta-grafica-48462.html"
+    },
+    {
+     "title": "idealo · Radeon AI PRO R9700",
+     "url": "https://www.idealo.es/precios/208322827/powercolor-radeon-ai-pro-r9700.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208322827",
+    "url": "https://www.idealo.es/precios/208322827/powercolor-radeon-ai-pro-r9700.html",
+    "include_regex": "r9700",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208322/8/208322827/s11_produktbild_max/powercolor-radeon-ai-pro-r9700.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "asus-ascent-gx10-gg0003bn",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "ASUS Ascent GX10 GB10 128GB",
+   "name": "ASUS Ascent GX10 · GB10 128 GB / 1 TB",
+   "store": "Neobyte",
+   "price": 7398.99,
+   "verdict": "no",
+   "rank": 10,
+   "tags": [
+    "128 GB unificada",
+    "GB10",
+    "CUDA"
+   ],
+   "note": "Es la misma plataforma que el DGX Spark, que en la lista cuesta 6.950 €, pero sale 450 € más cara. No hay motivo para elegirla.",
+   "info": "Mini PC con superchip NVIDIA GB10 y 128 GB de memoria unificada. Corre CUDA, pero a un precio de superordenador.",
+   "link": "https://www.neobyte.es/asus-ascent-gx10-gg0003bn-mini-pc-nvidia-gb10-128gb-1tb-ssd-dgx-os-31822.html",
+   "sources": [
+    {
+     "title": "Neobyte · ASUS Ascent GX10",
+     "url": "https://www.neobyte.es/asus-ascent-gx10-gg0003bn-mini-pc-nvidia-gb10-128gb-1tb-ssd-dgx-os-31822.html"
+    },
+    {
+     "title": "idealo · ASUS Ascent GX10",
+     "url": "https://www.idealo.es/precios/208466308/asus-ascent-gx10-gg0003bn.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208466308",
+    "url": "https://www.idealo.es/precios/208466308/asus-ascent-gx10-gg0003bn.html",
+    "include_regex": "gx10",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|gg0026|gg0027"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208466/3/208466308/s11_produktbild_max/asus-ascent-gx10-gg0003bn.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "lenovo-loq-essential-15arp11-rtx-5050",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "Lenovo LOQ Essential 15ARP11 RTX 5050",
+   "name": "Lenovo LOQ Essential 15ARP11 · RTX 5050",
+   "store": "MediaMarkt",
+   "price": 929,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "RTX 5050",
+    "Ryzen 7 170",
+    "16 GB / 512 GB"
+   ],
+   "note": "Es la mejor opción de gaming de la lista: 90 € menos que el HP Victus con la misma gráfica. Otras tiendas lo tienen más caro (desde unos 1.000 €). Viene sin sistema operativo.",
+   "info": "Portátil gaming de 15,6\" Full HD con Ryzen 7 170, RTX 5050, 16 GB de RAM y 512 GB de SSD.",
+   "link": "https://www.mediamarkt.es/es/product/_portatil-gaming-lenovo-loq-essential-15arp11-156-full-hd-amd-ryzentm-7-170-16gb-ram-512gb-ssd-geforce-rtxtm-5050-sin-sistema-operativo-gris-1625749.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · LOQ Essential 15ARP11",
+     "url": "https://www.mediamarkt.es/es/product/_portatil-gaming-lenovo-loq-essential-15arp11-156-full-hd-amd-ryzentm-7-170-16gb-ram-512gb-ssd-geforce-rtxtm-5050-sin-sistema-operativo-gris-1625749.html"
+    },
+    {
+     "title": "idealo · LOQ Essential 15ARP11",
+     "url": "https://www.idealo.es/precios/209328638/lenovo-loq-essential-15-g11-2026.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209328638",
+    "url": "https://www.idealo.es/precios/209328638/lenovo-loq-essential-15-g11-2026.html",
+    "include_regex": "15arp11",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "asus-vivobook-15-m1502xa-bq012",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "ASUS Vivobook 15 M1502XA-BQ012",
+   "name": "ASUS Vivobook 15 M1502XA · Ryzen 7 7840HS",
+   "store": "MediaMarkt",
+   "price": 479,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "Ryzen 7 7840HS",
+    "Radeon 780M",
+    "8 GB / 512 GB"
+   ],
+   "note": "Mucho procesador por 479 €: una variante similar vale 599 € en Fnac. El límite son los 8 GB de RAM; mira si quieres ampliarla. Sin sistema operativo.",
+   "info": "Portátil de 15,6\" Full HD con Ryzen 7 7840HS y gráfica integrada Radeon 780M, útil para ofimática y juego ligero.",
+   "link": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-15-m1502xa-bq012-156-full-hd-amd-ryzentm-7-7840hs-8gb-ram-512gb-ssd-radeontm-780m-sin-sis",
+   "sources": [
+    {
+     "title": "MediaMarkt · Vivobook 15 M1502XA",
+     "url": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-15-m1502xa-bq012-156-full-hd-amd-ryzentm-7-7840hs-8gb-ram-512gb-ssd-radeontm-780m-sin-sis"
+    },
+    {
+     "title": "idealo · Vivobook 15 M1502",
+     "url": "https://www.idealo.es/precios/202630737/asus-vivobook-15-m1502.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202630737",
+    "url": "https://www.idealo.es/precios/202630737/asus-vivobook-15-m1502.html",
+    "include_regex": "m1502xa-bq012",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202630/7/202630737/s11_produktbild_max/asus-vivobook-15-m1502.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 1329.0,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_apple-macbook-air-2026-136-retina-chip-m5-apple-cpu-de-10-nucleos-gpu-de-8-nucleos-16gb-ram-512gb-ssd-medianoche-1622308.html",
+     "checked_on": "2026-11-15",
+     "note": "color Medianoche"
+    },
+    {
+     "store": "Neobyte",
+     "price": 1305.9,
+     "currency": "€",
+     "url": "https://www.neobyte.es/apple-macbook-air-13-m5-16gb-512gb-ssd-sky-blue-portatil-136-34927.html",
+     "checked_on": "2026-11-15",
+     "note": "color Azul cielo"
+    }
+   ],
+   "id": "apple-macbook-air-13-m5-16-gb-512-gb",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "Apple MacBook Air 13 M5 16GB 512GB",
+   "name": "Apple MacBook Air 13\" M5 · 16 GB / 512 GB",
+   "store": "Amazon.es",
+   "price": 1329,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "M5",
+    "16 GB / 512 GB",
+    "13,6\""
+   ],
+   "note": "Mismo precio en Amazon.es y MediaMarkt, sin descuento sobre la tarifa. Neobyte lo tiene 23 € más barato. Buen portátil, pero no hay chollo.",
+   "info": "MacBook Air de 13,6\" con chip M5 de 10 núcleos, 16 GB de memoria unificada y 512 GB de SSD.",
+   "link": "https://www.amazon.es/dp/B0GR1SB84G",
+   "sources": [
+    {
+     "title": "Amazon.es · MacBook Air 13 M5",
+     "url": "https://www.amazon.es/dp/B0GR1SB84G"
+    },
+    {
+     "title": "idealo · MacBook Air 13 M5",
+     "url": "https://www.idealo.es/precios/209562407/apple-macbook-air-13-m5-2026.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209562407",
+    "url": "https://www.idealo.es/precios/209562407/apple-macbook-air-13-m5-2026.html",
+    "include_regex": "macbook\\s*air.*(m5).*512",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|1\\s?tb|15[.,]?3|funda"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209562/4/209562407/s11_produktbild_max/apple-macbook-air-13-m5-2026.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "hp-victus-15-fa2001ns-rtx-5050",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "HP Victus 15-fa2001ns RTX 5050",
+   "name": "HP Victus 15-fa2001ns · RTX 5050",
+   "store": "PcComponentes",
+   "price": 1019,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "RTX 5050",
+    "Core 5 210H",
+    "16 GB / 512 GB"
+   ],
+   "note": "Mismas prestaciones básicas que el Lenovo LOQ (RTX 5050, 16 GB, 512 GB) pero 90 € más caro. Solo si prefieres este diseño o el Core 5.",
+   "info": "Portátil gaming de 15,6\" con Intel Core 5 210H, RTX 5050 de 8 GB, 16 GB de RAM y 512 GB de SSD.",
+   "link": "https://www.pccomponentes.com/portatil-hp-victus-15-fa2001ns-15-6-intel-core-5-210h-16gb-512gb-ssd-rtx-5050-8gb-azul",
+   "sources": [
+    {
+     "title": "PcComponentes · HP Victus 15-fa2001ns",
+     "url": "https://www.pccomponentes.com/portatil-hp-victus-15-fa2001ns-15-6-intel-core-5-210h-16gb-512gb-ssd-rtx-5050-8gb-azul"
+    },
+    {
+     "title": "idealo · HP Victus 15-fa2001ns",
+     "url": "https://www.idealo.es/precios/209055038/hp-victus-15-fa2001ns.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209055038",
+    "url": "https://www.idealo.es/precios/209055038/hp-victus-15-fa2001ns.html",
+    "include_regex": "fa2001ns",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209055/0/209055038/s11_produktbild_max/hp-victus-15-fa2001ns.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "lenovo-ideapad-slim-3-15amn8",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "Lenovo IdeaPad Slim 3 15AMN8",
+   "name": "Lenovo IdeaPad Slim 3 15AMN8 · Ryzen 5 7520U",
+   "store": "MediaMarkt",
+   "price": 529,
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "Ryzen 5 7520U",
+    "16 GB / 512 GB",
+    "sin cargador"
+   ],
+   "note": "Se vende sin cargador y sin sistema operativo. Por 50 € menos, el ASUS Vivobook de la lista lleva un Ryzen 7 mucho más potente. Mejor otra opción.",
+   "info": "Portátil básico de 15,6\" Full HD con Ryzen 5 7520U, 16 GB de RAM y 512 GB de SSD.",
+   "link": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15amn8-156-full-hd-amd-ryzentm-5-7520u-16gb-ram-512gb-ssd-radeontm-610m-sin-sistema-operativo-sin-cargador-1625754.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · IdeaPad Slim 3 15AMN8",
+     "url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15amn8-156-full-hd-amd-ryzentm-5-7520u-16gb-ram-512gb-ssd-radeontm-610m-sin-sistema-operativo-sin-cargador-1625754.html"
+    },
+    {
+     "title": "idealo · IdeaPad Slim 3 15",
+     "url": "https://www.idealo.es/precios/210667321/lenovo-ideapad-slim-3-15-2026.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210667321",
+    "url": "https://www.idealo.es/precios/210667321/lenovo-ideapad-slim-3-15-2026.html",
+    "include_regex": "15amn8.*7520u",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg"
+  },
+  {
+   "id": "samsung-odyssey-g5-g50f-27",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "Samsung Odyssey G5 G50F 27 QHD monitor",
+   "name": "Samsung Odyssey G5 G50F 27\" QHD 180 Hz",
+   "store": "MediaMarkt",
+   "price": 159,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "27\" QHD",
+    "180 Hz",
+    "IPS",
+    "altura ajustable"
+   ],
+   "highlights": [],
+   "note": "Es el QHD de 180 Hz más barato de la lista y el siguiente en idealo está a 163,90 €. Sin histórico, así que no es un «mínimo»: es una buena compra por precio, no un chollo demostrado.",
+   "info": "Panel IPS plano de 27\" a 2560×1440 y 180 Hz, con peana regulable en altura.",
+   "link": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27fg506euxen-27-qhd-180-hz-1-ms-ips-conmutacion-en-el-plano-altura-ajustable-negro-1614059.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Samsung LS27FG506EUXEN",
+     "url": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27fg506euxen-27-qhd-180-hz-1-ms-ips-conmutacion-en-el-plano-altura-ajustable-negro-1614059.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/209442252/samsung-odyssey-g5-g50f-ls27fg506euxen.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209442252",
+    "url": "https://www.idealo.es/precios/209442252/samsung-odyssey-g5-g50f-ls27fg506euxen.html",
+    "include_regex": "(g50f|fg506|27fg50)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo|oled"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg"
+  },
+  {
+   "id": "aoc-q27g4xf",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "AOC Q27G4XF 27 QHD 180Hz monitor",
+   "name": "AOC Q27G4XF 27\" QHD 180 Hz",
+   "store": "Amazon.es",
+   "price": 173.8,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "27\" QHD",
+    "180 Hz",
+    "Fast IPS",
+    "FreeSync"
+   ],
+   "highlights": [],
+   "note": "Buen monitor, pero tiene la misma resolución y frecuencia que el Samsung G5 y cuesta unos 15 € más. Si no te importa la marca, el Samsung sale mejor.",
+   "info": "Fast IPS plano de 27\" QHD a 180 Hz, con altura regulable y antirreflejos.",
+   "link": "https://www.amazon.es/dp/B0DCZF5X4P",
+   "sources": [
+    {
+     "title": "Amazon.es · AOC Q27G4XF",
+     "url": "https://www.amazon.es/dp/B0DCZF5X4P"
+    },
+    {
+     "title": "PcComponentes · AOC Q27G4XF",
+     "url": "https://www.pccomponentes.com/monitor-aoc-q27g4xf-27-led-fast-ips-qhd-180hz-regulable-en-altura"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/204856817/aoc-q27g4xf.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 173.8,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/monitor-aoc-q27g4xf-27-led-fast-ips-qhd-180hz-regulable-en-altura",
+     "checked_on": "2026-11-15",
+     "note": "vendido por PcComponentes"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204856817",
+    "url": "https://www.idealo.es/precios/204856817/aoc-q27g4xf.html",
+    "include_regex": "q27g4xf",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204856/8/204856817/s11_produktbild_max/aoc-q27g4xf.jpg"
+  },
+  {
+   "id": "dell-s2725dsm",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "Dell Plus S2725DSM 27 QHD monitor",
+   "name": "Dell Plus S2725DSM 27\" QHD 144 Hz",
+   "store": "Amazon.es",
+   "price": 209.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 235.99,
+   "reference_label": "mín. 30 días PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "27\" QHD",
+    "144 Hz",
+    "IPS",
+    "altavoces"
+   ],
+   "highlights": [],
+   "note": "PcComponentes lo marca 26 € por debajo de su mínimo de 30 días, pero sigue costando unos 35 € más que un QHD de 180 Hz como el Samsung G5. Solo compensa si quieres los altavoces integrados y el diseño.",
+   "info": "IPS de 27\" QHD a 144 Hz con altavoces integrados y acabado blanco.",
+   "link": "https://www.pccomponentes.com/monitor-dell-plus-s2725dsm-27-qhd-144hz-ips-blanco-altavoces-1ms-freesync",
+   "sources": [
+    {
+     "title": "PcComponentes · Dell S2725DSM",
+     "url": "https://www.pccomponentes.com/monitor-dell-plus-s2725dsm-27-qhd-144hz-ips-blanco-altavoces-1ms-freesync"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/208391544/dell-s2725dsm.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208391544",
+    "url": "https://www.idealo.es/precios/208391544/dell-s2725dsm.html",
+    "include_regex": "s2725dsm?",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208391/5/208391544/s11_produktbild_max/dell-s2725dsm.jpg"
+  },
+  {
+   "id": "asus-rog-xg27aqdmg-oled",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "ASUS ROG Strix OLED XG27AQDMG monitor",
+   "name": "ASUS ROG Strix OLED XG27AQDMG 26,5\" QHD 240 Hz",
+   "store": "Neobyte",
+   "price": 498.9,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "OLED 26,5\"",
+    "QHD",
+    "240 Hz",
+    "0,03 ms"
+   ],
+   "highlights": [],
+   "note": "Es el OLED más barato de la lista: unos 210 € menos que el Samsung G60SF. Tres tiendas lo tienen a 498,90 €. Sin histórico no sabemos si es mínimo, pero el precio es sólido para un OLED QHD.",
+   "info": "Panel OLED de 26,5\" QHD a 240 Hz con tiempo de respuesta de 0,03 ms.",
+   "link": "https://www.neobyte.es/asus-rog-oled-xg27aqdmg-monitor-265-qhd-240hz-22028.html",
+   "sources": [
+    {
+     "title": "Neobyte · ASUS XG27AQDMG",
+     "url": "https://www.neobyte.es/asus-rog-oled-xg27aqdmg-monitor-265-qhd-240hz-22028.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/204427524/asus-rog-strix-oled-xg27aqdmg.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204427524",
+    "url": "https://www.idealo.es/precios/204427524/asus-rog-strix-oled-xg27aqdmg.html",
+    "include_regex": "xg27aqdmg\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xg27aqdmg[rz]|soporte|lightbar"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204427/5/204427524/s11_produktbild_max/asus-rog-strix-oled-xg27aqdmg.jpg"
+  },
+  {
+   "id": "samsung-odyssey-oled-g60sf",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "Samsung Odyssey OLED G6 G60SF 27 monitor",
+   "name": "Samsung Odyssey OLED G6 G60SF 27\" QHD 500 Hz",
+   "store": "Samsung.com",
+   "price": 709,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 999,
+   "reference_label": "precio oficial Samsung",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "QD-OLED 27\"",
+    "QHD",
+    "500 Hz"
+   ],
+   "highlights": [],
+   "note": "El ASUS OLED de arriba cuesta unos 210 € menos con 240 Hz. Aquí pagas los 500 Hz y MediaMarkt lo tiene a 949 €. Solo si necesitas esa frecuencia concreta.",
+   "info": "QD-OLED plano de 27\" QHD a 500 Hz, antirreflejos.",
+   "link": "https://www.samsung.com/es/monitors/gaming/odyssey-oled-g6-g60sf-27-inch-500hz-oled-qhd-ls27fg602suxen/",
+   "sources": [
+    {
+     "title": "Samsung.com/es · Odyssey OLED G6 G60SF",
+     "url": "https://www.samsung.com/es/monitors/gaming/odyssey-oled-g6-g60sf-27-inch-500hz-oled-qhd-ls27fg602suxen/"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207270530/samsung-odyssey-oled-g60sf-s27fg602su.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 949,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-odyssey-g6-g60sf-ls27fg602suxen-27-qhd-500-hz-003-ms-oled-altura-ajustable-plata-1603145.html",
+     "checked_on": "2026-11-15"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207270530",
+    "url": "https://www.idealo.es/precios/207270530/samsung-odyssey-oled-g60sf-s27fg602su.html",
+    "include_regex": "(g60sf|fg602su)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207270/5/207270530/s11_produktbild_max/samsung-odyssey-oled-g60sf-s27fg602su.jpg"
+  },
+  {
+   "id": "google-pixel-10-128",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Google Pixel 10 128GB",
+   "name": "Google Pixel 10 128 GB",
+   "store": "Amazon.es",
+   "price": 499,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "6,3\" OLED",
+    "Tensor G5",
+    "128 GB",
+    "7 años de updates"
+   ],
+   "highlights": [],
+   "note": "Amazon.es y MediaMarkt lo tienen a 499 €; el siguiente precio en idealo sube a 559 €. Es un buen precio para un Pixel actual, aunque sin histórico no se puede hablar de mínimo.",
+   "info": "Pixel de 6,3\" con Tensor G5, 12 GB de RAM y batería de 4.970 mAh.",
+   "link": "https://www.amazon.es/dp/B0FHJNDQBR",
+   "sources": [
+    {
+     "title": "Amazon.es · Pixel 10",
+     "url": "https://www.amazon.es/dp/B0FHJNDQBR"
+    },
+    {
+     "title": "MediaMarkt · Pixel 10",
+     "url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10-obsidiana-128-gb-12-gb-ram-63-actua-oled-google-tensor-g5-4970-mah-android-16-1603395.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207317589/google-pixel-10-128gb-obsidian.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 499,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10-obsidiana-128-gb-12-gb-ram-63-actua-oled-google-tensor-g5-4970-mah-android-16-1603395.html",
+     "checked_on": "2026-11-15"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207317589",
+    "url": "https://www.idealo.es/precios/207317589/google-pixel-10-128gb-obsidian.html",
+    "include_regex": "pixel\\s*10\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|xl|256|funda|protector|10a"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207317/5/207317589/s11_produktbild_max/google-pixel-10-128gb-obsidian.jpg"
+  },
+  {
+   "id": "xiaomi-15t-256",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Xiaomi 15T 256GB",
+   "name": "Xiaomi 15T 256 GB",
+   "store": "MediaMarkt",
+   "price": 469,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "6,83\" AMOLED",
+    "Dimensity 8400",
+    "12 GB RAM",
+    "5.500 mAh"
+   ],
+   "highlights": [],
+   "note": "469 € en MediaMarkt frente a 492 € en Carrefour. Mucho móvil por el precio, pero sin histórico fiable no lo llamamos mínimo.",
+   "info": "Pantalla AMOLED WQHD+ de 6,83\", 12 GB de RAM y batería de 5.500 mAh.",
+   "link": "https://www.mediamarkt.es/es/product/_movil-xiaomi-15t-negro-256-gb-12-gb-ram-683-amoled-wqhd-eye-care-mediatek-dimensity-8400-ultra-5500-mah-1605106.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Xiaomi 15T",
+     "url": "https://www.mediamarkt.es/es/product/_movil-xiaomi-15t-negro-256-gb-12-gb-ram-683-amoled-wqhd-eye-care-mediatek-dimensity-8400-ultra-5500-mah-1605106.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207831193/xiaomi-15t.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207831193",
+    "url": "https://www.idealo.es/precios/207831193/xiaomi-15t.html",
+    "include_regex": "xiaomi\\s*15t\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|512|funda|protector|cargador"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207831/1/207831193/s11_produktbild_max/xiaomi-15t.jpg"
+  },
+  {
+   "id": "samsung-galaxy-a56-128",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Samsung Galaxy A56 5G 128GB",
+   "name": "Samsung Galaxy A56 5G 8/128 GB",
+   "store": "PcComponentes",
+   "price": 363.92,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 408.92,
+   "reference_label": "mín. 30 días PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "6,7\" AMOLED",
+    "8 GB RAM",
+    "5.000 mAh",
+    "gama media"
+   ],
+   "highlights": [],
+   "note": "Baja unos 45 € respecto a su mínimo de 30 días en PcComponentes. En idealo aparecen precios algo menores, así que compara antes de cerrar.",
+   "info": "Gama media de Samsung con pantalla de 6,7\", 8 GB de RAM y batería de 5.000 mAh.",
+   "link": "https://www.pccomponentes.com/samsung-galaxy-a56-5g-8gb-128gb-6-7-grafito",
+   "sources": [
+    {
+     "title": "PcComponentes · Galaxy A56",
+     "url": "https://www.pccomponentes.com/samsung-galaxy-a56-5g-8gb-128gb-6-7-grafito"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/206014246/samsung-galaxy-a56.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206014246",
+    "url": "https://www.idealo.es/precios/206014246/samsung-galaxy-a56.html",
+    "include_regex": "a56.*128|128.*a56",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg"
+  },
+  {
+   "id": "google-pixel-10a-128",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Google Pixel 10a 128GB",
+   "name": "Google Pixel 10a 128 GB",
+   "store": "MediaMarkt",
+   "price": 429,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "6,3\" pOLED",
+    "Tensor G4",
+    "8 GB RAM",
+    "5.100 mAh"
+   ],
+   "highlights": [],
+   "note": "429 € es el precio normal en Amazon.es y MediaMarkt. Por 70 € más tienes el Pixel 10, que es mejor compra si puedes estirar.",
+   "info": "Pixel de gama media-alta con pantalla pOLED de 6,3\" y Tensor G4.",
+   "link": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10a-frambuesa-128gb-8gb-ram-63-poled-a-4222-ppp-google-tensor-g4-5100-mah-1619530.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Pixel 10a",
+     "url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10a-frambuesa-128gb-8gb-ram-63-poled-a-4222-ppp-google-tensor-g4-5100-mah-1619530.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/209471909/google-pixel-10a.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209471909",
+    "url": "https://www.idealo.es/precios/209471909/google-pixel-10a.html",
+    "include_regex": "pixel\\s*10a",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209471/9/209471909/s11_produktbild_max/google-pixel-10a.jpg"
+  },
+  {
+   "id": "apple-iphone-17-256",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Apple iPhone 17 256GB",
+   "name": "Apple iPhone 17 256 GB",
+   "store": "MediaMarkt",
+   "price": 1029,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1109,
+   "reference_label": "precio en la tienda de Apple",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "6,3\" OLED",
+    "chip A19",
+    "256 GB"
+   ],
+   "highlights": [],
+   "note": "80 € menos que en la tienda de Apple (1.109 €), igual en MediaMarkt y PcComponentes. Rebaja habitual de tienda, no de Black Friday, pero es mejor comprarlo aquí que en Apple.",
+   "info": "iPhone con pantalla OLED de 6,3\" y chip A19.",
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-17-negro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-ios-1606125.html",
+   "sources": [
+    {
+     "title": "Apple Store ES · iPhone 17",
+     "url": "https://www.apple.com/es/shop/buy-iphone/iphone-17"
+    },
+    {
+     "title": "MediaMarkt · iPhone 17",
+     "url": "https://www.mediamarkt.es/es/product/_apple-iphone-17-negro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-ios-1606125.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207673491/apple-iphone-17-256gb-negro.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 1029,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/apple-iphone-17-256gb-lavanda",
+     "checked_on": "2026-11-15",
+     "note": ""
+    },
+    {
+     "store": "Apple Store ES",
+     "price": 1109,
+     "currency": "€",
+     "url": "https://www.apple.com/es/shop/buy-iphone/iphone-17",
+     "checked_on": "2026-11-15",
+     "note": "precio oficial"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207673491",
+    "url": "https://www.idealo.es/precios/207673491/apple-iphone-17-256gb-negro.html",
+    "include_regex": "iphone\\s*17\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg"
+  },
+  {
+   "id": "apple-iphone-16-128",
+   "section": "moviles",
+   "illustration": "phone",
+   "image_query": "Apple iPhone 16 128GB",
+   "name": "Apple iPhone 16 128 GB",
+   "store": "MediaMarkt",
+   "price": 899,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 6,
+   "tags": [
+    "6,1\" OLED",
+    "chip A18",
+    "128 GB"
+   ],
+   "highlights": [],
+   "note": "899 € es caro para un modelo de la generación anterior: en idealo hay tiendas de móviles a 719–779 €, y PcComponentes lo pide 929 €. Mejor el iPhone 17 en Apple, o espera.",
+   "info": "iPhone de 2024 con pantalla OLED de 6,1\" y chip A18.",
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-16-negro-128-gb-5g-61-oled-super-retina-xdr-chip-a18-bionic-ios-1582150.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · iPhone 16",
+     "url": "https://www.mediamarkt.es/es/product/_apple-iphone-16-negro-128-gb-5g-61-oled-super-retina-xdr-chip-a18-bionic-ios-1582150.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/204771161/apple-iphone-16-128gb-negro.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 929,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/apple-iphone-16-128-gb-negro",
+     "checked_on": "2026-11-15"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204771161",
+    "url": "https://www.idealo.es/precios/204771161/apple-iphone-16-128gb-negro.html",
+    "include_regex": "iphone\\s*16\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg"
+  },
+  {
+   "id": "sony-wh-1000xm5",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Sony WH-1000XM5 auriculares",
+   "name": "Sony WH-1000XM5",
+   "store": "Amazon.es",
+   "price": 239,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "cancelación de ruido",
+    "30 h",
+    "multipunto"
+   ],
+   "highlights": [],
+   "note": "Es la mejor relación calidad-precio de la lista: 239 € en Amazon.es y MediaMarkt, 238 € en idealo. Casi 110 € menos que su sucesor.",
+   "info": "Over-ear con cancelación de ruido y unas 30 h de batería.",
+   "link": "https://www.amazon.es/dp/B09Y2MYL5C",
+   "sources": [
+    {
+     "title": "Amazon.es · WH-1000XM5",
+     "url": "https://www.amazon.es/dp/B09Y2MYL5C"
+    },
+    {
+     "title": "MediaMarkt · WH-1000XM5B",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sony-wh-1000xm5b-noise-cancelling-40-h-alexa-y-google-assistant-hi-res-negro-1532952.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/201949755/sony-wh-1000xm5.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 239,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sony-wh-1000xm5b-noise-cancelling-40-h-alexa-y-google-assistant-hi-res-negro-1532952.html",
+     "checked_on": "2026-11-15"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "201949755",
+    "url": "https://www.idealo.es/precios/201949755/sony-wh-1000xm5.html",
+    "include_regex": "wh-?1000xm5",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/201949/7/201949755/s11_produktbild_max/sony-wh-1000xm5.jpg"
+  },
+  {
+   "id": "soundcore-space-one",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Soundcore Space One auriculares",
+   "name": "Soundcore Space One",
+   "store": "Amazon.es",
+   "price": 64.98,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "ANC adaptativa",
+    "LDAC",
+    "40 h"
+   ],
+   "highlights": [],
+   "note": "Cancelación de ruido y LDAC por 65 €, mismo precio en PcComponentes. Para presupuesto ajustado es la compra lógica; no llega al nivel de Sony.",
+   "info": "Over-ear con cancelación de ruido adaptativa, LDAC y hasta 40 h de batería.",
+   "link": "https://www.amazon.es/dp/B0C6KFZC9Z",
+   "sources": [
+    {
+     "title": "Amazon.es · Soundcore Space One",
+     "url": "https://www.amazon.es/dp/B0C6KFZC9Z"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/203229407/soundcore-space-one.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203229407",
+    "url": "https://www.idealo.es/precios/203229407/soundcore-space-one.html",
+    "include_regex": "space\\s*one",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|almohadilla|funda"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203229/4/203229407/s11_produktbild_max/soundcore-space-one.jpg"
+  },
+  {
+   "id": "sony-wh-1000xm6",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Sony WH-1000XM6 auriculares",
+   "name": "Sony WH-1000XM6",
+   "store": "Amazon.es",
+   "price": 349,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "cancelación de ruido",
+    "30 h",
+    "plegable"
+   ],
+   "highlights": [],
+   "note": "349 € igual en Amazon.es y MediaMarkt, sin descuento que lo distinga. Si no necesitas lo último, el XM5 cuesta 110 € menos.",
+   "info": "Sucesor del XM5 con cancelación de ruido mejorada y diseño plegable.",
+   "link": "https://www.amazon.es/dp/B0F2TSFXL7",
+   "sources": [
+    {
+     "title": "Amazon.es · WH-1000XM6",
+     "url": "https://www.amazon.es/dp/B0F2TSFXL7"
+    },
+    {
+     "title": "MediaMarkt · WH-1000XM6",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sony-wh-1000xm6-cancelacion-ruido-30h-autonomia-hi-res-carga-rapida-comodo-plegable-iosandroid-negro-1599427.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/206509477/sony-wh-1000xm6.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 349,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sony-wh-1000xm6-cancelacion-ruido-30h-autonomia-hi-res-carga-rapida-comodo-plegable-iosandroid-negro-1599427.html",
+     "checked_on": "2026-11-15"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206509477",
+    "url": "https://www.idealo.es/precios/206509477/sony-wh-1000xm6.html",
+    "include_regex": "wh-?1000xm6",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206509/4/206509477/s11_produktbild_max/sony-wh-1000xm6.jpg"
+  },
+  {
+   "id": "apple-airpods-pro-3",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Apple AirPods Pro 3",
+   "name": "Apple AirPods Pro 3",
+   "store": "Amazon.es",
+   "price": 219,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "ANC",
+    "pulsómetro",
+    "USB-C"
+   ],
+   "highlights": [],
+   "note": "219 € igual en Amazon.es y MediaMarkt; idealo baja a 215 € en tiendas menores. Precio normal, sin urgencia.",
+   "info": "Auriculares in-ear de Apple con cancelación de ruido y sensor de frecuencia cardíaca.",
+   "link": "https://www.amazon.es/dp/B0FQF32239",
+   "sources": [
+    {
+     "title": "Amazon.es · AirPods Pro 3",
+     "url": "https://www.amazon.es/dp/B0FQF32239"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207671730/apple-airpods-pro-3.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207671730",
+    "url": "https://www.idealo.es/precios/207671730/apple-airpods-pro-3.html",
+    "include_regex": "airpods\\s*pro\\s*(3|\\(3)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|puntas|almohadilla"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg"
+  },
+  {
+   "id": "bose-qc-ultra-earbuds-2",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Bose QuietComfort Ultra Earbuds 2 auriculares",
+   "name": "Bose QuietComfort Ultra Earbuds (2.ª gen)",
+   "store": "Amazon.es",
+   "price": 199.95,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "ANC",
+    "in-ear",
+    "2.ª gen"
+   ],
+   "highlights": [],
+   "note": "Solo lo vemos a 199,95 € en Amazon.es, sin segunda tienda con la que compararlo. Sin referencia fiable, no hay motivo para correr.",
+   "info": "Auriculares in-ear de Bose con cancelación de ruido, segunda generación.",
+   "link": "https://www.amazon.es/dp/B0F7M1JXVV",
+   "sources": [
+    {
+     "title": "Amazon.es · Bose QC Ultra Earbuds 2",
+     "url": "https://www.amazon.es/dp/B0F7M1JXVV"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/206785992/bose-quietcomfort-ultra-earbuds-2-gen.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206785992",
+    "url": "https://www.idealo.es/precios/206785992/bose-quietcomfort-ultra-earbuds-2-gen.html",
+    "include_regex": "(qc|quiet\\s?comfort)\\s*ultra",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\.?\\s?ª?\\s?gen\\b|funda|almohadilla|diadema|headphones"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206785/9/206785992/s11_produktbild_max/bose-quietcomfort-ultra-earbuds-2-gen.jpg"
+  },
+  {
+   "id": "apple-airpods-4",
+   "section": "audio",
+   "illustration": "headphones",
+   "image_query": "Apple AirPods 4",
+   "name": "Apple AirPods 4",
+   "store": "PcComponentes",
+   "price": 125,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "sin cancelación",
+    "H2",
+    "USB-C"
+   ],
+   "highlights": [],
+   "note": "125 € en PcComponentes; Fnac aparece a 123,23 € en idealo. Precio normal para la versión sin cancelación de ruido.",
+   "info": "Auriculares abiertos de Apple con chip H2 y estuche USB-C, sin ANC.",
+   "link": "https://www.pccomponentes.com/apple-airpods-4-auriculares-inalambricos-con-estuche-de-carga",
+   "sources": [
+    {
+     "title": "PcComponentes · AirPods 4",
+     "url": "https://www.pccomponentes.com/apple-airpods-4-auriculares-inalambricos-con-estuche-de-carga"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/204746227/apple-airpods-4.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204746227",
+    "url": "https://www.idealo.es/precios/204746227/apple-airpods-4.html",
+    "include_regex": "airpods\\s*4",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|anc|cancelaci"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg"
   }
  ]
 }
