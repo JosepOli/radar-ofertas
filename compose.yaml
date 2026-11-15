@@ -1,0 +1,13 @@
+services:
+  radar:
+    build: .
+    container_name: radar-ofertas
+    restart: unless-stopped
+    ports:
+      - "8080:8080"          # modo LAN opcional; el sitio público es el estático de GitHub Pages
+    volumes:
+      - radar-data:/data     # caché de fotos
+      - ./data/seed.json:/app/data/seed.json:ro
+      - ./data/observations.jsonl:/app/data/observations.jsonl:ro
+volumes:
+  radar-data:

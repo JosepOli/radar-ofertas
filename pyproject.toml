@@ -1,0 +1,25 @@
+[project]
+name = "radar-ofertas"
+version = "0.2.0"
+description = "Radar de ofertas reales: compara cada precio con su mínimo anual y con el precio actual en otras tiendas."
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115", "uvicorn[standard]>=0.30", "httpx>=0.27"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+refresh = ["curl_cffi>=0.7"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"radar.web" = ["static/*", "static/fonts/*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

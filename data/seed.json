@@ -1,0 +1,2989 @@
+{
+ "checked_on": "2026-11-15",
+ "sections": [
+  {
+   "id": "robots",
+   "title": "Robots aspiradores",
+   "intro": "Para renovar un robot viejo. Dreame no tiene integración oficial en Home Assistant (va con dreame_vacuum por HACS); Roborock sí la tiene en el núcleo. Ninguno sube escaleras."
+  },
+  {
+   "id": "volantes",
+   "title": "Volantes direct drive",
+   "intro": "Para dar el salto desde un volante de entrada con engranajes (tipo Logitech). En Linux manda el driver: Moza va con hid-universal-pidff dentro del kernel; Simagic Evo necesita el módulo externo simagic-ff. Fanatec empieza su Black Friday el 19/11 a las 9:00."
+  },
+  {
+   "id": "print",
+   "title": "Impresión 3D",
+   "intro": "Si ya tienes una Bambu P2S o similar, lo que más rinde aquí es el filamento por volumen, sobre todo si imprimes mucho o llevas un pequeño negocio de impresión. Las máquinas, solo si buscas una segunda o un cambiador de herramientas."
+  },
+  {
+   "id": "vr",
+   "title": "Realidad virtual",
+   "intro": "Para jugar PC VR en el sobremesa. Si vienes de una Quest 2, el salto a Quest 3 es en nitidez (lentes pancake) y en realidad mixta."
+  },
+  {
+   "id": "discos",
+   "title": "Discos duros y SSD",
+   "intro": "Datos de diskprices.com (Amazon) en sus 11 mercados, actualizados el 14/11. Amazon .de, .fr, .it y .ie envían a España sin aduanas; Reino Unido y fuera de la UE suman aduana e IVA."
+  },
+  {
+   "id": "ram",
+   "title": "Memoria RAM",
+   "intro": "Precios de diskprices.com para Amazon.es. La crisis de la DRAM ha multiplicado los precios: un kit DDR5 de 32 GB cuesta lo que una gráfica de gama media."
+  },
+  {
+   "id": "gpu",
+   "title": "Tarjetas gráficas",
+   "intro": "Las GPU con mucha memoria son las más castigadas. Para IA local cuenta la VRAM por euro, no los FPS."
+  },
+  {
+   "id": "cpu",
+   "title": "Procesadores",
+   "intro": "Los procesadores son de lo poco que no ha subido. Precios objetivo según el histórico de 2026 en España."
+  },
+  {
+   "id": "ia",
+   "title": "Equipos para IA local",
+   "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar."
+  }
+ ],
+ "fx_to_eur": {
+  "€": 1,
+  "£": 1.14,
+  "$": 0.86,
+  "CA$": 0.62,
+  "A$": 0.57,
+  "kr": 0.091,
+  "₹": 0.0099
+ },
+ "markets": [
+  {
+   "locale": "es",
+   "name": "España",
+   "code": "ES",
+   "eu": true,
+   "currency": "€",
+   "hdd": {
+    "per_tb": 42.62,
+    "total": 852,
+    "tb": 20,
+    "name": "Seagate IronWolf Pro 20 TB"
+   },
+   "ssd": {
+    "per_tb": 105,
+    "total": 211,
+    "tb": 2,
+    "name": "Netac 2 TB NVMe"
+   }
+  },
+  {
+   "locale": "de",
+   "name": "Alemania",
+   "code": "DE",
+   "eu": true,
+   "currency": "€",
+   "hdd": {
+    "per_tb": 27.63,
+    "total": 387,
+    "tb": 14,
+    "name": "Toshiba MG07ACA14TE 14 TB"
+   },
+   "ssd": {
+    "per_tb": 112.5,
+    "total": 225,
+    "tb": 2,
+    "name": "Netac 2 TB NVMe (PCIe 3.0)"
+   }
+  },
+  {
+   "locale": "fr",
+   "name": "Francia",
+   "code": "FR",
+   "eu": true,
+   "currency": "€",
+   "hdd": {
+    "per_tb": 37.56,
+    "total": 676,
+    "tb": 18,
+    "name": "Toshiba N300 18 TB"
+   },
+   "ssd": {
+    "per_tb": 135,
+    "total": 270,
+    "tb": 2,
+    "name": "KingSpec 2 TB Gen4"
+   }
+  },
+  {
+   "locale": "it",
+   "name": "Italia",
+   "code": "IT",
+   "eu": true,
+   "currency": "€",
+   "hdd": {
+    "per_tb": 37.29,
+    "total": 447,
+    "tb": 12,
+    "name": "WD Gold WD122KRYZ 12 TB"
+   },
+   "ssd": {
+    "per_tb": 130,
+    "total": 260,
+    "tb": 2,
+    "name": "KingSpec XG7000 2 TB"
+   }
+  },
+  {
+   "locale": "ie",
+   "name": "Irlanda",
+   "code": "IE",
+   "eu": true,
+   "currency": "€",
+   "hdd": {
+    "per_tb": 36.59,
+    "total": 586,
+    "tb": 16,
+    "name": "Toshiba MG08 16 TB"
+   },
+   "ssd": {
+    "per_tb": 79.18,
+    "total": 158,
+    "tb": 2,
+    "name": "Lexar NM610PRO 2 TB"
+   }
+  },
+  {
+   "locale": "se",
+   "name": "Suecia",
+   "code": "SE",
+   "eu": true,
+   "currency": "kr",
+   "hdd": {
+    "per_tb": 327,
+    "total": 8499,
+    "tb": 26,
+    "name": "Seagate Exos 26 TB"
+   },
+   "ssd": {
+    "per_tb": 962,
+    "total": 3850,
+    "tb": 4,
+    "name": "Crucial P310 4 TB"
+   }
+  },
+  {
+   "locale": "uk",
+   "name": "Reino Unido",
+   "code": "UK",
+   "eu": false,
+   "currency": "£",
+   "hdd": {
+    "per_tb": 23.04,
+    "total": 369,
+    "tb": 16,
+    "name": "Toshiba MG08 16 TB"
+   },
+   "ssd": {
+    "per_tb": 100,
+    "total": 200,
+    "tb": 2,
+    "name": "Crucial P310 2 TB"
+   }
+  },
+  {
+   "locale": "us",
+   "name": "EE. UU.",
+   "code": "US",
+   "eu": false,
+   "currency": "$",
+   "hdd": {
+    "per_tb": 37.43,
+    "total": 524,
+    "tb": 14,
+    "name": "Seagate IronWolf Pro 14 TB"
+   },
+   "ssd": null
+  },
+  {
+   "locale": "ca",
+   "name": "Canadá",
+   "code": "CA",
+   "eu": false,
+   "currency": "CA$",
+   "hdd": {
+    "per_tb": 56.25,
+    "total": 675,
+    "tb": 12,
+    "name": "Seagate SkyHawk AI 12 TB"
+   },
+   "ssd": {
+    "per_tb": 147,
+    "total": 590,
+    "tb": 4,
+    "name": "Fikwot FN960 4 TB"
+   }
+  },
+  {
+   "locale": "au",
+   "name": "Australia",
+   "code": "AU",
+   "eu": false,
+   "currency": "A$",
+   "hdd": {
+    "per_tb": 44.96,
+    "total": 1079,
+    "tb": 24,
+    "name": "Seagate BarraCuda 24 TB"
+   },
+   "ssd": {
+    "per_tb": 184,
+    "total": 368,
+    "tb": 2,
+    "name": "Crucial P310 2 TB"
+   }
+  },
+  {
+   "locale": "in",
+   "name": "India",
+   "code": "IN",
+   "eu": false,
+   "currency": "₹",
+   "hdd": {
+    "per_tb": 4896,
+    "total": 97911,
+    "tb": 20,
+    "name": "Synology HAT3320 20 TB"
+   },
+   "ssd": {
+    "per_tb": 13500,
+    "total": 26999,
+    "tb": 2,
+    "name": "EVM N700 2 TB"
+   }
+  }
+ ],
+ "offers": [
+  {
+   "id": "dreame-matrix10-ultra",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame Matrix10 Ultra robot",
+   "name": "Dreame Matrix10 Ultra",
+   "store": "Dreame ES (tienda oficial)",
+   "price": 649,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1299,
+   "reference_label": "precio habitual",
+   "annual_low": 735,
+   "annual_low_note": "735 € Euronics DE (oct.); 999 € en ES (jul.)",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "top",
+   "rank": 1,
+   "tags": [
+    "30.000 Pa",
+    "cambio de mopas",
+    "ProLeap 8 cm",
+    "HA vía HACS"
+   ],
+   "highlights": [
+    "mín. histórico"
+   ],
+   "note": "La mejor compra de la sección. Por 50 € más que el X50 tienes más succión y cambio automático de mopas.",
+   "info": "Base con cambiador de mopas tipo «jukebox» que elige mopa según el suelo. Sube umbrales de hasta 8 cm. Existe kit de toma y desagüe de agua aparte. En Home Assistant funciona con la integración comunitaria dreame_vacuum (mapa y habitaciones).",
+   "link": "https://es.dreametech.com/pages/black-friday",
+   "sources": [
+    {
+     "title": "Dreame España · Black Friday",
+     "url": "https://es.dreametech.com/pages/black-friday"
+    },
+    {
+     "title": "Comprasmartphone · histórico Matrix10",
+     "url": "https://comprasmartphone.com/robots-aspiradores/dreame-matrix-10-ultra"
+    },
+    {
+     "title": "smarthomeassistent.de · precios DE",
+     "url": "https://www.smarthomeassistent.de/deal-dreame-startet-black-friday-pre-sale/"
+    },
+    {
+     "title": "Selora · Dreame y Home Assistant",
+     "url": "https://selorahomes.com/home-assistant/integrations/dreame_vacuum/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207829835",
+    "url": "https://www.idealo.es/precios/207829835/dreame-matrix-10-ultra.html",
+    "include_regex": "matrix\\s?10\\s+ultra",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|mopa|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207829/8/207829835/s11_produktbild_max/dreame-matrix-10-ultra.jpg"
+  },
+  {
+   "id": "dreame-x50-ultra-complete",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame X50 Ultra Complete robot",
+   "name": "Dreame X50 Ultra Complete",
+   "store": "Dreame ES (tienda oficial)",
+   "price": 599,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 999,
+   "reference_label": "precio habitual",
+   "annual_low": 699,
+   "annual_low_note": "699 € MediaMarkt DE (oct.); 784 € en ES",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "20.000 Pa",
+    "supera 6 cm",
+    "agua a 80 °C",
+    "HA vía HACS"
+   ],
+   "highlights": [
+    "mín. histórico"
+   ],
+   "note": "Chollo real, pero el Matrix10 por 50 € más es mejor máquina.",
+   "info": "Patas ProLeap para pasar umbrales de 6 cm, mopas extensibles, lavado de mopas con agua caliente y vaciado automático.",
+   "link": "https://es.dreametech.com/pages/black-friday",
+   "sources": [
+    {
+     "title": "Dreame España · Black Friday",
+     "url": "https://es.dreametech.com/pages/black-friday"
+    },
+    {
+     "title": "Comprasmartphone · histórico X50",
+     "url": "https://comprasmartphone.com/robots-aspiradores/dreame-x50-ultra-complete"
+    },
+    {
+     "title": "smarthomeassistent.de · precios DE",
+     "url": "https://www.smarthomeassistent.de/deal-dreame-startet-black-friday-pre-sale/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205569273",
+    "url": "https://www.idealo.es/precios/205569273/dreame-x50-ultra-complete.html",
+    "include_regex": "x50\\s+ultra\\s+complete",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|mopa|x50 ultra\\b(?!\\s+complete)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205569/2/205569273/s11_produktbild_max/dreame-x50-ultra-complete.jpg"
+  },
+  {
+   "id": "roborock-saros-20-set",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Saros 20 robot vacuum",
+   "name": "Roborock Saros 20 Set",
+   "store": "Roborock / Amazon.es",
+   "price": 799,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1499,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "cupón INFBF2026: 5 % extra",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "tope de gama Roborock",
+    "HA oficial"
+   ],
+   "highlights": [
+    "−700 €"
+   ],
+   "note": "La alternativa al Matrix10 si quieres seguir en Roborock y su integración oficial en Home Assistant. Cuesta 150 € más.",
+   "info": "Buque insignia de Roborock en 2026. Con el cupón INFBF2026 en Amazon o la tienda de Roborock baja un 5 % más. Roborock está integrado de serie en Home Assistant, sin HACS.",
+   "link": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/",
+   "sources": [
+    {
+     "title": "Infobae · Black Friday Roborock",
+     "url": "https://www.infobae.com/america/agencias/2026/11/10/roborock-adelanta-sus-ofertas-de-black-friday-con-descuentos-de-hasta-el-57-en-robots-aspiradores/"
+    },
+    {
+     "title": "El Grupo Informático · Roborock",
+     "url": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210683941",
+    "url": "https://www.idealo.es/precios/210683941/roborock-saros-20.html",
+    "include_regex": "saros\\s*20\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sonic|neo|saros 20x|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210683/9/210683941/s11_produktbild_max/roborock-saros-20.jpg"
+  },
+  {
+   "id": "dreame-aqua10-ultra-roller-complete",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame Aqua10 Ultra Roller Complete",
+   "name": "Dreame Aqua10 Ultra Roller Complete",
+   "store": "Mi Electro",
+   "price": 575,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1099,
+   "reference_label": "precio habitual",
+   "annual_low": 799,
+   "annual_low_note": "799 € en ES (jul.); 649 € campaña Dreame",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "fregado con rodillo",
+    "30.000 Pa",
+    "HA vía HACS"
+   ],
+   "highlights": [
+    "mín. histórico"
+   ],
+   "note": "Si prefieres fregado con rodillo en lugar de mopas giratorias. Oferta de tienda, puede acabarse sin aviso.",
+   "info": "Rodillo de fregado que se limpia con agua limpia en tiempo real. La campaña oficial de Dreame lo deja en 649 € hasta el 30/11; Mi Electro lo tenía a 575 €.",
+   "link": "https://www.chollometro.com/2013462",
+   "sources": [
+    {
+     "title": "Chollometro · Aqua10 a 575 €",
+     "url": "https://www.chollometro.com/2013462"
+    },
+    {
+     "title": "Droidpanic · Black Friday Dreame",
+     "url": "https://droidpanic.com/ofertas-black-friday-dreame-2026/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207702195",
+    "url": "https://www.idealo.es/precios/207702195/dreame-aqua10-ultra-roller-complete.html",
+    "include_regex": "aqua\\s?10\\s+ultra\\s+roller\\s+complete",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|track|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/images/product/207702195/es_ES/0/max.jpg"
+  },
+  {
+   "id": "roborock-qrevo-edge-2-pro",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Qrevo Edge 2 Pro",
+   "name": "Roborock Qrevo Edge 2 Pro",
+   "store": "El Corte Inglés",
+   "price": 499,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1299,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "gama alta",
+    "HA oficial"
+   ],
+   "highlights": [
+    "−61 %"
+   ],
+   "note": "Gama alta de Roborock a precio de gama media. El PVP de 1.299 € está inflado.",
+   "info": "Oferta en El Corte Inglés dentro de la campaña de Roborock del 10 al 30 de noviembre.",
+   "link": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/",
+   "sources": [
+    {
+     "title": "Infobae · Black Friday Roborock",
+     "url": "https://www.infobae.com/america/agencias/2026/11/10/roborock-adelanta-sus-ofertas-de-black-friday-con-descuentos-de-hasta-el-57-en-robots-aspiradores/"
+    },
+    {
+     "title": "El Grupo Informático · Roborock",
+     "url": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209853675",
+    "url": "https://www.idealo.es/precios/209853675/roborock-qe2p02-00.html",
+    "include_regex": "qrevo\\s+edge\\s+2\\s+pro|qe2p02",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209853/6/209853675/s11_produktbild_max/roborock-qe2p02-00.jpg"
+  },
+  {
+   "id": "roborock-qrevo-2-pro-set-2-prox",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Qrevo 2 Pro robot",
+   "name": "Roborock Qrevo 2 Pro Set / 2 ProX",
+   "store": "Amazon.es / El Corte Inglés",
+   "price": 299,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 699,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 6,
+   "tags": [
+    "25.000 Pa",
+    "mopas desmontables",
+    "HA oficial"
+   ],
+   "highlights": [
+    "−57 %"
+   ],
+   "note": "El robot con base completa más barato de la lista. Ideal para una segunda planta o una zona de poco mobiliario.",
+   "info": "Base de autovaciado y lavado de mopas. Las dos variantes (2 Pro Set y 2 ProX) salen a 299 €.",
+   "link": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/",
+   "sources": [
+    {
+     "title": "Infobae · Black Friday Roborock",
+     "url": "https://www.infobae.com/america/agencias/2026/11/10/roborock-adelanta-sus-ofertas-de-black-friday-con-descuentos-de-hasta-el-57-en-robots-aspiradores/"
+    },
+    {
+     "title": "El Grupo Informático · Roborock",
+     "url": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "213561371",
+    "url": "https://www.idealo.es/precios/213561371/roborock-qrevo-2-pro-set-robot-aspirador-y-friegasuelos-25-000pa-anti-enredos-negro.html",
+    "include_regex": "qrevo\\s+2\\s+pro(?!x)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|curv|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/213561/3/213561371/s11_produktbild_max/roborock-qrevo-2-pro-set-robot-aspirador-y-friegasuelos-25-000pa-anti-enredos-negro.jpg"
+  },
+  {
+   "id": "roborock-qrevo-s-pro-negro",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Qrevo S Pro",
+   "name": "Roborock Qrevo S Pro (negro)",
+   "store": "Roborock / Amazon.es",
+   "price": 349.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 589.99,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 8,
+   "tags": [
+    "gama media",
+    "HA oficial"
+   ],
+   "highlights": [],
+   "note": "Correcto, pero el Qrevo 2 por 299 € es mejor compra.",
+   "info": "Cepillos antienredos y base de autovaciado.",
+   "link": "https://www.infobae.com/america/agencias/2026/11/10/roborock-adelanta-sus-ofertas-de-black-friday-con-descuentos-de-hasta-el-57-en-robots-aspiradores/",
+   "sources": [
+    {
+     "title": "Infobae · Black Friday Roborock",
+     "url": "https://www.infobae.com/america/agencias/2026/11/10/roborock-adelanta-sus-ofertas-de-black-friday-con-descuentos-de-hasta-el-57-en-robots-aspiradores/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209981364",
+    "url": "https://www.idealo.es/precios/209981364/roborock-qrevospro.html",
+    "include_regex": "qrevo\\s*s\\s*pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|white|blanco|accesorio|filtro|cepillo"
+   }
+  },
+  {
+   "id": "roborock-q7-tf",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Q7 TF+",
+   "name": "Roborock Q7 TF+",
+   "store": "El Corte Inglés",
+   "price": 129,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 299,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 10,
+   "tags": [
+    "entrada",
+    "autovaciado",
+    "HA oficial"
+   ],
+   "highlights": [
+    "−56 %"
+   ],
+   "note": "Solo aspira bien; friega poco. Para un trastero o un taller sobra.",
+   "info": "Base de autovaciado incluida.",
+   "link": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/",
+   "sources": [
+    {
+     "title": "El Grupo Informático · Roborock",
+     "url": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "214569089",
+    "url": "https://www.idealo.es/precios/214569089/roborock-q7tf.html",
+    "include_regex": "q7\\s*tf\\+?",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|q7tfp02|blanco|white|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/images/product/214569089/es_ES/0/max.jpg"
+  },
+  {
+   "id": "ecovacs-deebot-x9-pro-omni",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Ecovacs Deebot X9 Pro Omni",
+   "name": "Ecovacs Deebot X9 Pro Omni",
+   "store": "Amazon (desde el 20/11)",
+   "price": 769,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1499,
+   "reference_label": "precio habitual",
+   "annual_low": 685,
+   "annual_low_note": "685 € en el Black Friday de 2025",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 9,
+   "tags": [
+    "rodillo de fregado",
+    "agua 40–75 °C"
+   ],
+   "highlights": [],
+   "note": "Más caro que el año pasado. Y por menos tienes el Matrix10.",
+   "info": "La oferta de Ecovacs empieza el 20 de noviembre en Amazon.",
+   "link": "https://www.pcgames.de/Black-Friday-Sale-266963/News/Ecovacs-Saugroboter-Rabatt-1485288/",
+   "sources": [
+    {
+     "title": "PC Games · Black Friday Ecovacs",
+     "url": "https://www.pcgames.de/Black-Friday-Sale-266963/News/Ecovacs-Saugroboter-Rabatt-1485288/"
+    },
+    {
+     "title": "WinFuture · Ecovacs BF 2025",
+     "url": "https://winfuture.de/news,1549821.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206325142",
+    "url": "https://www.idealo.es/precios/206325142/ecovacs-x9-pro-omni.html",
+    "include_regex": "x9\\s+pro\\s+omni",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206325/1/206325142/s11_produktbild_max/ecovacs-x9-pro-omni.jpg"
+  },
+  {
+   "id": "dreame-l50-ultra-ae",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame L50 Ultra AE",
+   "name": "Dreame L50 Ultra AE",
+   "store": "Dreame ES / Amazon",
+   "price": 429,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 599,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 11,
+   "tags": [
+    "28.000 Pa",
+    "gama media"
+   ],
+   "highlights": [],
+   "note": "Correcto para una planta secundaria. Dreame lo listaba hasta el 11/11: comprueba que siga a ese precio.",
+   "info": "Mopa con agua caliente y vaciado automático.",
+   "link": "https://es.dreametech.com/pages/black-friday",
+   "sources": [
+    {
+     "title": "Dreame España · Black Friday",
+     "url": "https://es.dreametech.com/pages/black-friday"
+    },
+    {
+     "title": "Droidpanic · Black Friday Dreame",
+     "url": "https://droidpanic.com/ofertas-black-friday-dreame-2026/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "211704561",
+    "url": "https://www.idealo.es/precios/211704561/dreame-l50-ultra-ae.html",
+    "include_regex": "l50\\s+ultra\\s+ae",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/images/product/211704561/es_ES/0/max.jpg"
+  },
+  {
+   "id": "dreame-l10s-ultra-gen-3",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Dreame L10s Ultra Gen 3",
+   "name": "Dreame L10s Ultra Gen 3",
+   "store": "Dreame / PcComponentes",
+   "price": 379,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 499,
+   "reference_label": "precio habitual",
+   "annual_low": 379,
+   "annual_low_note": "379 € ya visto en verano",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 12,
+   "tags": [
+    "25.000 Pa",
+    "sin agua caliente"
+   ],
+   "highlights": [],
+   "note": "Igual que en verano. Barato, pero no es un descuento de Black Friday.",
+   "info": "Estación completa con dosificación de detergente.",
+   "link": "https://droidpanic.com/ofertas-black-friday-dreame-2026/",
+   "sources": [
+    {
+     "title": "Droidpanic · Black Friday Dreame",
+     "url": "https://droidpanic.com/ofertas-black-friday-dreame-2026/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208140519",
+    "url": "https://www.idealo.es/precios/208140519/dreame-l10s-ultra-gen-3-set.html",
+    "include_regex": "l10s\\s+ultra\\s+gen\\s?-?3",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|gen\\s?2|\\bkit\\b|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208140/5/208140519/s11_produktbild_max/dreame-l10s-ultra-gen-3-set.jpg"
+  },
+  {
+   "id": "moza-r9-v3-ks-srp2-bundle",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "MOZA R9 V3 KS SRP2 bundle",
+   "name": "Moza R9 V3 + KS + SRP2 (bundle)",
+   "store": "Moza Racing EU",
+   "price": 599,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 837,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "BF 2025: solo 6–14 % de descuento",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "top",
+   "rank": 1,
+   "tags": [
+    "9 Nm",
+    "base + volante + pedales",
+    "Linux en kernel"
+   ],
+   "highlights": [
+    "−28 %"
+   ],
+   "note": "La compra para dar el salto desde un volante de entrada: lo tienes todo y en Linux funciona sin módulos externos.",
+   "info": "Base direct drive de 9 Nm, volante KS (o CS V2P) y pedales SRP2. En Linux el driver hid-universal-pidff viene en el kernel desde la 6.15; para configurar la base tienes Boxflat.",
+   "link": "https://simracingnerd.net/black-friday-moza-racing/",
+   "sources": [
+    {
+     "title": "Sim Racing Nerd · Moza BF 2026",
+     "url": "https://simracingnerd.net/black-friday-moza-racing/"
+    },
+    {
+     "title": "Simracingcockpit · histórico Moza",
+     "url": "https://simracingcockpit.gg/moza-racing/"
+    },
+    {
+     "title": "Linux steering wheels (compatibilidad)",
+     "url": "https://awesome.ecosyste.ms/projects/github.com%2FJacKeTUs%2Flinux-steering-wheels"
+    },
+    {
+     "title": "ComputingForGeeks · volantes en Linux",
+     "url": "https://computingforgeeks.com/?p=179408"
+    }
+   ]
+  },
+  {
+   "id": "moza-r9-v3-solo-base",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "MOZA R9 V3 wheelbase",
+   "name": "Moza R9 V3 (solo base)",
+   "store": "Moza Racing EU",
+   "price": 289,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 399,
+   "reference_label": "precio habitual",
+   "annual_low": 305,
+   "annual_low_note": "305 € Sim-Motion",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "9 Nm",
+    "Linux en kernel"
+   ],
+   "highlights": [
+    "mín. histórico"
+   ],
+   "note": "Solo si ya tienes volante y pedales compatibles. Los pedales Logitech de entrada van a la base Logitech.",
+   "info": "Mismo motor que el bundle.",
+   "link": "https://simracingnerd.net/black-friday-moza-racing/",
+   "sources": [
+    {
+     "title": "Sim Racing Nerd · Moza BF 2026",
+     "url": "https://simracingnerd.net/black-friday-moza-racing/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206144362",
+    "url": "https://www.idealo.es/precios/206144362/moza-racing-r9-v3-wheel-base.html",
+    "include_regex": "r9\\s*v3",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|bundle|volante|pedales|ks\\b|srp|rs\\d+"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206144/3/206144362/s11_produktbild_max/moza-racing-r9-v3-wheel-base.jpg"
+  },
+  {
+   "id": "moza-r12-v2-solo-base",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "MOZA R12 V2 wheelbase",
+   "name": "Moza R12 V2 (solo base)",
+   "store": "Moza Racing EU",
+   "price": 379,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 529,
+   "reference_label": "PVP habitual en Moza EU",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable en EU",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "12 Nm",
+    "Linux en kernel"
+   ],
+   "highlights": [],
+   "note": "Si quieres margen de par a futuro. Mismo ecosistema y mismo driver que la R9.",
+   "info": "El bundle R12 V2 + volante + SRP2 también baja un 28 %.",
+   "link": "https://simracingnerd.net/black-friday-moza-racing/",
+   "sources": [
+    {
+     "title": "Sim Racing Nerd · Moza BF 2026",
+     "url": "https://simracingnerd.net/black-friday-moza-racing/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206144282",
+    "url": "https://www.idealo.es/precios/206144282/moza-racing-r12-v2.html",
+    "include_regex": "r12\\s*v2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|bundle|pedales|ks\\b|srp|rs\\d+|varilla|extension"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206144/2/206144282/s11_produktbild_max/moza-racing-r12-v2.jpg"
+  },
+  {
+   "id": "moza-r5-pro-bundle",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "MOZA R5 Pro bundle",
+   "name": "Moza R5 Pro (bundle)",
+   "store": "Simufy",
+   "price": 389.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 419.99,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "novedad: poco descuento",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "6 Nm",
+    "base + volante + pedales",
+    "Linux en kernel"
+   ],
+   "highlights": [],
+   "note": "Solo 30 € de descuento. Por 210 € más el bundle R9 es otro nivel.",
+   "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
+   "link": "https://simufy.com/en/collections/moza-black-friday?page=2",
+   "sources": [
+    {
+     "title": "Simufy · Moza BF",
+     "url": "https://simufy.com/en/collections/moza-black-friday?page=2"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "212941014",
+    "url": "https://www.idealo.es/precios/212941014/moza-racing-r5-pro-racing-simulator.html",
+    "include_regex": "r5\\s+pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|truck|camion|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/212941/0/212941014/s11_produktbild_max/moza-racing-r5-pro-racing-simulator.jpg"
+  },
+  {
+   "id": "fanatec-csl-dd-5-nm",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Fanatec CSL DD wheel base",
+   "name": "Fanatec CSL DD 5 Nm",
+   "store": "Fanatec (BF desde el 19/11)",
+   "price": 329.95,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "precio actual, rebaja aún sin anunciar",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "5 Nm (8 Nm con Boost Kit)",
+    "sin driver en kernel"
+   ],
+   "highlights": [],
+   "note": "Espera al 19/11 para ver el descuento. En Linux, Fanatec da más guerra que Moza.",
+   "info": "Fanatec revela los precios de Black Friday el 19 de noviembre a las 9:00. La versión con Boost Kit 180 (8 Nm) cuesta 429,95 € antes de descuento.",
+   "link": "https://simracingnerd.net/black-friday-fanatec/",
+   "sources": [
+    {
+     "title": "Sim Racing Nerd · Fanatec BF 2026",
+     "url": "https://simracingnerd.net/black-friday-fanatec/"
+    },
+    {
+     "title": "SimRacerPro · Fanatec BF",
+     "url": "https://simracerpro.net/black-friday-fanatec/"
+    }
+   ]
+  },
+  {
+   "id": "fanatec-clubsport-dd-15-nm",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Fanatec ClubSport DD wheel base",
+   "name": "Fanatec ClubSport DD 15 Nm",
+   "store": "Fanatec (BF desde el 19/11)",
+   "price": 599.95,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "precio actual, rebaja aún sin anunciar",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "15 Nm"
+   ],
+   "highlights": [],
+   "note": "Buena base, pero ya cuesta lo mismo que el bundle completo de Moza.",
+   "info": "La DD+ de 18 Nm cuesta 799,95 € y la Podium DD de 25 Nm, 1.099,95 € (antes de descuento).",
+   "link": "https://simracingnerd.net/black-friday-fanatec/",
+   "sources": [
+    {
+     "title": "Sim Racing Nerd · Fanatec BF 2026",
+     "url": "https://simracingnerd.net/black-friday-fanatec/"
+    },
+    {
+     "title": "SimRacerPro · Fanatec BF",
+     "url": "https://simracerpro.net/black-friday-fanatec/"
+    }
+   ]
+  },
+  {
+   "id": "simagic-alpha-evo-sport-9-nm",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Simagic Alpha EVO Sport wheelbase",
+   "name": "Simagic Alpha EVO Sport 9 Nm",
+   "store": "GPerformance",
+   "price": 459.4,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 482.79,
+   "reference_label": "precio habitual",
+   "annual_low": 399.9,
+   "annual_low_note": "399,90 € RueDuCommerce (jul.)",
+   "discount_override": null,
+   "ends_on": "2026-12-31",
+   "verdict": "pasa",
+   "rank": 8,
+   "tags": [
+    "9 Nm",
+    "driver externo en Linux"
+   ],
+   "highlights": [],
+   "note": "Mejor motor, pero más caro que en julio y en Linux depende de un módulo DKMS.",
+   "info": "Simagic aplica un 10 % en carrito a las bases en su web hasta el 31/12.",
+   "link": "https://gperformance.eu/es-es/collections/special-offers",
+   "sources": [
+    {
+     "title": "GPerformance · Simagic",
+     "url": "https://gperformance.eu/es-es/collections/special-offers"
+    },
+    {
+     "title": "Sim Racing Nerd · Simagic BF 2026",
+     "url": "https://simracingnerd.net/black-friday-simagic/"
+    },
+    {
+     "title": "Comparateur-gamer · histórico Evo Sport",
+     "url": "https://www.comparateur-gamer.fr/prix/simagic-alpha-evo-sport-6975472779553"
+    },
+    {
+     "title": "Linux steering wheels (compatibilidad)",
+     "url": "https://awesome.ecosyste.ms/projects/github.com%2FJacKeTUs%2Flinux-steering-wheels"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206311927",
+    "url": "https://www.idealo.es/precios/206311927/simagic-alpha-evo-sport.html",
+    "include_regex": "alpha\\s+evo\\s+sport",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|pro\\b|adaptador|volante|pedales"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311927/s11_produktbild_max/simagic-alpha-evo-sport.jpg"
+  },
+  {
+   "id": "simagic-alpha-evo-12-nm",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Simagic Alpha EVO 12Nm",
+   "name": "Simagic Alpha EVO 12 Nm",
+   "store": "GPerformance",
+   "price": 651,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 664.29,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 9,
+   "tags": [
+    "12 Nm",
+    "driver externo en Linux"
+   ],
+   "highlights": [],
+   "note": "Un 2 % de descuento no es Black Friday.",
+   "info": "La Alpha EVO Pro de 18 Nm sale a 802,23 € en la misma tienda.",
+   "link": "https://gperformance.eu/es-es/collections/special-offers",
+   "sources": [
+    {
+     "title": "GPerformance · Simagic",
+     "url": "https://gperformance.eu/es-es/collections/special-offers"
+    },
+    {
+     "title": "Sim Racing Nerd · Simagic BF 2026",
+     "url": "https://simracingnerd.net/black-friday-simagic/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206311931",
+    "url": "https://www.idealo.es/precios/206311931/simagic-alpha-evo-direct-drive.html",
+    "include_regex": "alpha\\s+evo(?!\\s+(sport|pro))",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sport|pro\\b|adaptador|volante|pedales"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311931/s11_produktbild_max/simagic-alpha-evo-direct-drive.jpg"
+  },
+  {
+   "id": "logitech-rs50-bundle-pc-sin-pedales",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Logitech RS50 direct drive",
+   "name": "Logitech RS50 (bundle PC, sin pedales)",
+   "store": "Logitech",
+   "price": 849.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 949.99,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 10,
+   "tags": [
+    "8 Nm",
+    "sin pedales"
+   ],
+   "highlights": [],
+   "note": "Caro para 8 Nm y sin pedales. Pierde contra Moza en todo.",
+   "info": "El bundle no incluye pedalera.",
+   "link": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/",
+   "sources": [
+    {
+     "title": "SimRacerPro · Logitech BF 2026",
+     "url": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207967958",
+    "url": "https://www.idealo.es/precios/207967958/logitech-g-rs50-system-xbox-pc.html",
+    "include_regex": "rs50",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|mclaren|pedales rs|h-shifter|round wheel"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207967/9/207967958/s11_produktbild_max/logitech-g-rs50-system-xbox-pc.jpg"
+  },
+  {
+   "id": "logitech-g923-bundle",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Logitech G923 racing wheel",
+   "name": "Logitech G923 (bundle)",
+   "store": "Logitech",
+   "price": 279,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 429.99,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 11,
+   "tags": [
+    "2,3 Nm",
+    "engranajes"
+   ],
+   "highlights": [],
+   "note": "Es el Logitech de entrada de siempre con otro nombre. No es una mejora si ya tienes uno.",
+   "info": "Volante de engranajes de 2,3 Nm.",
+   "link": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/",
+   "sources": [
+    {
+     "title": "SimRacerPro · Logitech BF 2026",
+     "url": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/"
+    }
+   ]
+  },
+  {
+   "id": "filamento-bambu-lab-por-volumen",
+   "section": "print",
+   "illustration": "spool",
+   "image_query": "Bambu Lab PLA filament spools",
+   "name": "Filamento Bambu Lab por volumen",
+   "store": "Bambu Lab EU",
+   "price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "descuento escalonado",
+   "discount_override": 47,
+   "ends_on": "2026-12-01",
+   "verdict": "top",
+   "rank": 1,
+   "tags": [
+    "−25 % con 4 bobinas",
+    "hasta −47 % con 14+"
+   ],
+   "highlights": [
+    "acopio"
+   ],
+   "note": "Lo más útil si imprimes mucho o llevas un pequeño negocio de impresión. Si gastas bobinas cada mes, compra ahora para todo el trimestre.",
+   "info": "El descuento crece con la cantidad: 25 % desde 4 bobinas y hasta 47 % desde 14.",
+   "link": "https://all3dp.com/de/4/black-friday-bei-bambu-lab-gestartet-x2d-fuer-549-e-filament-bis-zu-47-guenstiger/",
+   "sources": [
+    {
+     "title": "All3DP · Bambu BF, filamento",
+     "url": "https://all3dp.com/de/4/black-friday-bei-bambu-lab-gestartet-x2d-fuer-549-e-filament-bis-zu-47-guenstiger/"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-p2s-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab P2S Combo",
+   "name": "Bambu Lab P2S Combo",
+   "store": "Bambu Lab EU",
+   "price": 599,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 698.99,
+   "reference_label": "precio habitual",
+   "annual_low": 629,
+   "annual_low_note": "629 € en junio",
+   "discount_override": null,
+   "ends_on": "2026-12-01",
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "AMS 2 Pro",
+    "segunda máquina"
+   ],
+   "highlights": [
+    "mín. histórico"
+   ],
+   "note": "Chollo real. Solo tiene sentido como segunda máquina para producción.",
+   "info": "En el Black Friday de 2025 se quedó en 749 €.",
+   "link": "https://www.monsterdealz.de/magazin/bambu-lab-black-friday",
+   "sources": [
+    {
+     "title": "MonsterDealz · Bambu BF (EU)",
+     "url": "https://www.monsterdealz.de/magazin/bambu-lab-black-friday"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208041246",
+    "url": "https://www.idealo.es/precios/208041246/bambu-lab-p2s-combo.html",
+    "include_regex": "p2s\\s+combo",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sin ams|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208041/2/208041246/s11_produktbild_max/bambu-lab-p2s-combo.jpg"
+  },
+  {
+   "id": "elegoo-centauri-carbon-2-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Elegoo Centauri Carbon 2 Combo",
+   "name": "Elegoo Centauri Carbon 2 Combo",
+   "store": "Elegoo EU",
+   "price": 359,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "−18 % según Elegoo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "cerrada",
+    "multicolor",
+    "350 °C"
+   ],
+   "highlights": [],
+   "note": "La segunda máquina barata para producción si no quieres otra Bambu.",
+   "info": "CoreXY cerrada con boquilla de 350 °C y sistema multicolor.",
+   "link": "https://3dprinting.com/black-friday-sale/",
+   "sources": [
+    {
+     "title": "3DPrinting.com · BF impresoras",
+     "url": "https://3dprinting.com/black-friday-sale/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209249988",
+    "url": "https://www.idealo.es/precios/209249988/elegoo-centauri-carbon-2-combo.html",
+    "include_regex": "centauri\\s+carbon\\s+2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|boquilla suelta"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209249/9/209249988/s11_produktbild_max/elegoo-centauri-carbon-2-combo.jpg"
+  },
+  {
+   "id": "bambu-lab-x2d-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab X2D Combo",
+   "name": "Bambu Lab X2D Combo",
+   "store": "Bambu Lab EU",
+   "price": 749,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "primer descuento desde su salida",
+   "discount_override": null,
+   "ends_on": "2026-12-01",
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "doble boquilla",
+    "cámara calefactada"
+   ],
+   "highlights": [],
+   "note": "Buen precio, pero poco salto frente a una P2S salvo que imprimas materiales técnicos.",
+   "info": "Primera rebaja desde su lanzamiento a principios de 2026.",
+   "link": "https://www.giga.de/tech/bambu-lab-verkauft-3d-drucker-und-zubehoer-fuer-kurze-zeit-viel-guenstiger--01K8N3PAKVC5VV9THDGWBQ6PKC",
+   "sources": [
+    {
+     "title": "GIGA · Bambu BF (EU)",
+     "url": "https://www.giga.de/tech/bambu-lab-verkauft-3d-drucker-und-zubehoer-fuer-kurze-zeit-viel-guenstiger--01K8N3PAKVC5VV9THDGWBQ6PKC"
+    },
+    {
+     "title": "MonsterDealz · Bambu BF (EU)",
+     "url": "https://www.monsterdealz.de/magazin/bambu-lab-black-friday"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210248128",
+    "url": "https://www.idealo.es/precios/210248128/bambu-lab-x2d-combo.html",
+    "include_regex": "x2d\\s+combo",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210248/1/210248128/s11_produktbild_max/bambu-lab-x2d-combo.jpg"
+  },
+  {
+   "id": "snapmaker-u1-cambiador-de-herramientas",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Snapmaker U1 3D printer",
+   "name": "Snapmaker U1 (cambiador de herramientas)",
+   "store": "Snapmaker EE. UU.",
+   "price": 699,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": 999,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "−300 $",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "4 cabezales",
+    "multicolor sin purga"
+   ],
+   "highlights": [],
+   "note": "Interesante para multicolor sin desperdicio. Precio de EE. UU.: verifica la tienda europea.",
+   "info": "Cambia de herramienta en unos 5 segundos.",
+   "link": "https://us.snapmaker.com/pages/snapmaker-black-friday-sale",
+   "sources": [
+    {
+     "title": "Snapmaker · Black Friday",
+     "url": "https://us.snapmaker.com/pages/snapmaker-black-friday-sale"
+    },
+    {
+     "title": "3DPrinting.com · BF impresoras",
+     "url": "https://3dprinting.com/black-friday-sale/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208466677",
+    "url": "https://www.idealo.es/precios/208466677/snapmaker-u1.html",
+    "include_regex": "snapmaker\\s+u1",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|enclosure|filamento"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208466/6/208466677/s11_produktbild_max/snapmaker-u1.jpg"
+  },
+  {
+   "id": "bambu-lab-h2c-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab H2C Combo",
+   "name": "Bambu Lab H2C Combo",
+   "store": "Bambu Lab EU",
+   "price": 1799,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 2149,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "−350 €",
+   "discount_override": null,
+   "ends_on": "2026-12-01",
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "Vortek, 7 boquillas"
+   ],
+   "highlights": [],
+   "note": "La H3C acaba de salir: si buscas multimaterial serio, compáralas antes.",
+   "info": "La versión con láser de 40 W baja a 2.499 €.",
+   "link": "https://www.china-gadgets.de/bambu-lab-black-week-sale-3d-drucker-angebote/",
+   "sources": [
+    {
+     "title": "China-Gadgets · Bambu BF",
+     "url": "https://www.china-gadgets.de/bambu-lab-black-week-sale-3d-drucker-angebote/"
+    },
+    {
+     "title": "All3DP · Bambu BF, filamento",
+     "url": "https://all3dp.com/de/4/black-friday-bei-bambu-lab-gestartet-x2d-fuer-549-e-filament-bis-zu-47-guenstiger/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208669695",
+    "url": "https://www.idealo.es/precios/208669695/bambu-lab-h2c-ams-combo.html",
+    "include_regex": "h2c",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sin ams"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208669/6/208669695/s11_produktbild_max/bambu-lab-h2c-ams-combo.jpg"
+  },
+  {
+   "id": "bambu-lab-h2d-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab H2D Combo",
+   "name": "Bambu Lab H2D Combo",
+   "store": "Bambu Lab EU",
+   "price": 1599,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 1699,
+   "annual_low_note": "1.699 € en junio",
+   "discount_override": null,
+   "ends_on": "2026-12-01",
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "doble extrusor",
+    "gran volumen"
+   ],
+   "highlights": [],
+   "note": "Más barato que nunca, pero la recién salida H3C la deja vieja si buscas multimaterial.",
+   "info": "",
+   "link": "https://www.giga.de/tech/bambu-lab-verkauft-3d-drucker-und-zubehoer-fuer-kurze-zeit-viel-guenstiger--01K8N3PAKVC5VV9THDGWBQ6PKC",
+   "sources": [
+    {
+     "title": "GIGA · Bambu BF (EU)",
+     "url": "https://www.giga.de/tech/bambu-lab-verkauft-3d-drucker-und-zubehoer-fuer-kurze-zeit-viel-guenstiger--01K8N3PAKVC5VV9THDGWBQ6PKC"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-h3c-ams-combo",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab H3C 3D printer",
+   "name": "Bambu Lab H3C AMS Combo",
+   "store": "Bambu Lab EU",
+   "price": 2499,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "lanzamiento 3/11, sin descuento",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 8,
+   "tags": [
+    "9 cabezales",
+    "novedad"
+   ],
+   "highlights": [],
+   "note": "Novedad a precio de lanzamiento. Espera a reviews y a la primera rebaja.",
+   "info": "Volumen de 330 × 320 × 325 mm y extrusor específico para flexibles.",
+   "link": "https://www.3dnatives.com/es/nueva-impresora-bambu-lab-h3c-03112026/",
+   "sources": [
+    {
+     "title": "3Dnatives · Bambu H3C",
+     "url": "https://www.3dnatives.com/es/nueva-impresora-bambu-lab-h3c-03112026/"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-a1-mini-a1",
+   "section": "print",
+   "illustration": "printer",
+   "image_query": "Bambu Lab A1 mini",
+   "name": "Bambu Lab A1 mini / A1",
+   "store": "Bambu Lab EU",
+   "price": 179,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 189,
+   "reference_label": "precio habitual",
+   "annual_low": 179,
+   "annual_low_note": "igual que BF 2025 y junio",
+   "discount_override": null,
+   "ends_on": "2026-12-01",
+   "verdict": "no",
+   "rank": 9,
+   "tags": [
+    "abierta",
+    "entrada"
+   ],
+   "highlights": [],
+   "note": "Mismo precio que siempre en rebajas. No aporta nada nuevo.",
+   "info": "La A1 (grande) cuesta 239 €.",
+   "link": "https://www.monsterdealz.de/magazin/bambu-lab-black-friday",
+   "sources": [
+    {
+     "title": "MonsterDealz · Bambu BF (EU)",
+     "url": "https://www.monsterdealz.de/magazin/bambu-lab-black-friday"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203872867",
+    "url": "https://www.idealo.es/precios/203872867/bambu-lab-a1-mini.html",
+    "include_regex": "a1\\s+mini",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|combo|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203872/8/203872867/s11_produktbild_max/bambu-lab-a1-mini.jpg"
+  },
+  {
+   "id": "meta-quest-3-512-gb",
+   "section": "vr",
+   "illustration": "vr",
+   "image_query": "Meta Quest 3 512GB headset",
+   "name": "Meta Quest 3 512 GB",
+   "store": "AliExpress (envío desde España)",
+   "price": 418,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 549.99,
+   "reference_label": "precio habitual",
+   "annual_low": 418,
+   "annual_low_note": "418 € en mayo; BF 2026 aún sin precio",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "lentes pancake",
+    "realidad mixta"
+   ],
+   "highlights": [],
+   "note": "El salto lógico desde una Quest 2 para PC VR. Espera a ver si Amazon iguala ese precio la semana del 27/11.",
+   "info": "En España ha estado varias veces sobre 418–430 € en AliExpress con envío desde España. Meta no anuncia sus precios de Black Friday por adelantado.",
+   "link": "https://www.chollometro.com/categorias/meta-quest-3",
+   "sources": [
+    {
+     "title": "Chollometro · Meta Quest 3",
+     "url": "https://www.chollometro.com/categorias/meta-quest-3"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203284363",
+    "url": "https://www.idealo.es/precios/203284363/meta-quest-3-512gb.html",
+    "include_regex": "quest\\s*3\\b.*512|512.*quest\\s*3\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|quest\\s*3s|128\\s?gb|accesorio|funda"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203284/3/203284363/s11_produktbild_max/meta-quest-3-512gb.jpg"
+  },
+  {
+   "id": "meta-quest-3s-128-gb",
+   "section": "vr",
+   "illustration": "vr",
+   "image_query": "Meta Quest 3S headset",
+   "name": "Meta Quest 3S 128 GB",
+   "store": "Amazon.es",
+   "price": 249.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 299.99,
+   "reference_label": "precio habitual",
+   "annual_low": 249.99,
+   "annual_low_note": "mínimo del BF 2025",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 2,
+   "tags": [
+    "lentes Fresnel"
+   ],
+   "highlights": [],
+   "note": "Mismas lentes Fresnel que la Quest 2. No es una mejora real para PC VR.",
+   "info": "",
+   "link": "https://www.profesionalreview.com/?p=587608",
+   "sources": [
+    {
+     "title": "Profesional Review · Quest 3S",
+     "url": "https://www.profesionalreview.com/?p=587608"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204861013",
+    "url": "https://www.idealo.es/precios/204861013/meta-quest-3s-128gb.html",
+    "include_regex": "quest\\s*3s.*128|128.*quest\\s*3s",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|256\\s?gb|accesorio|funda|interfaz"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204861/0/204861013/s11_produktbild_max/meta-quest-3s-128gb.jpg"
+  },
+  {
+   "id": "meta-quest-3-reacondicionada",
+   "section": "vr",
+   "illustration": "vr",
+   "image_query": "Meta Quest 3 refurbished",
+   "name": "Meta Quest 3 reacondicionada",
+   "store": "Back Market",
+   "price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "descuentos extra desde el 17/11",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "reacondicionada"
+   ],
+   "highlights": [],
+   "note": "Mira el precio el 17/11: si baja de 350 €, compensa frente a nueva.",
+   "info": "",
+   "link": "https://www.backmarket.es/es-es/c/black-friday/meta-quest-deals",
+   "sources": [
+    {
+     "title": "Back Market · Quest reacondicionadas",
+     "url": "https://www.backmarket.es/es-es/c/black-friday/meta-quest-deals"
+    }
+   ]
+  },
+  {
+   "id": "toshiba-mg07aca14te-14-tb-interno-nuevo",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "Toshiba MG07ACA14TE 14TB hard drive",
+   "name": "Toshiba MG07ACA14TE 14 TB (interno, nuevo)",
+   "store": "Amazon.de",
+   "price": 387,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "27,63 €/TB · el más barato de la UE",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "top",
+   "rank": 1,
+   "tags": [
+    "27,63 €/TB",
+    "enterprise 7.200 rpm",
+    "envío UE"
+   ],
+   "highlights": [
+    "mejor €/TB UE"
+   ],
+   "note": "Un 35 % más barato por TB que lo mejor de Amazon.es. Ideal para un NAS o un servidor doméstico.",
+   "info": "SATA 512e, 256 MB de caché, 7.200 rpm. Disco de centro de datos: ruidoso, pero muy fiable.",
+   "link": "https://diskprices.com/?locale=de",
+   "sources": [
+    {
+     "title": "diskprices.com (DE)",
+     "url": "https://diskprices.com/?locale=de"
+    }
+   ]
+  },
+  {
+   "id": "seagate-exos-28-tb-interno-nuevo",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "Seagate Exos 28TB hard drive",
+   "name": "Seagate Exos 28 TB (interno, nuevo)",
+   "store": "Amazon.de",
+   "price": 809,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "28,89 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "28,89 €/TB",
+    "28 TB",
+    "envío UE"
+   ],
+   "highlights": [],
+   "note": "Si quieres mucha capacidad en una sola bahía.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=de",
+   "sources": [
+    {
+     "title": "diskprices.com (DE)",
+     "url": "https://diskprices.com/?locale=de"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207079638",
+    "url": "https://www.idealo.es/precios/207079638/seagate-exos-m-28tb-st28000nm003k.html",
+    "include_regex": "28\\s?tb|st28000nm",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|usad|ironwolf|expansion|externo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207079/6/207079638/s11_produktbild_max/seagate-exos-m-28tb-st28000nm003k.jpg"
+  },
+  {
+   "id": "wd-elements-22-tb-externo-para-desmontar",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "WD Elements 22TB external hard drive",
+   "name": "WD Elements 22 TB (externo, para desmontar)",
+   "store": "Amazon.es",
+   "price": 634,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "28,82 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "28,82 €/TB",
+    "USB, se puede extraer"
+   ],
+   "highlights": [],
+   "note": "El mejor €/TB nuevo en Amazon.es. Sacarlo de la carcasa anula la garantía.",
+   "info": "El WD My Book de 18 TB sale a 548 € (30,44 €/TB).",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202329491",
+    "url": "https://www.idealo.es/precios/202329491/western-digital-elements-desktop-22tb.html",
+    "include_regex": "elements.*22\\s?tb|22\\s?tb.*elements|wdbwlg0220",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|portable|my book"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202329/4/202329491/s11_produktbild_max/western-digital-elements-desktop-22tb.jpg"
+  },
+  {
+   "id": "seagate-exos-x10-10-tb-interno-nuevo",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "Seagate Exos X10 10TB",
+   "name": "Seagate Exos X10 10 TB (interno, nuevo)",
+   "store": "Amazon.es",
+   "price": 319,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "31,90 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "31,90 €/TB",
+    "10 TB"
+   ],
+   "highlights": [],
+   "note": "El interno nuevo más barato por TB en Amazon.es por debajo de 12 TB.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "seagate-exos-28-tb-usado",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "Seagate Exos 28TB",
+   "name": "Seagate Exos 28 TB (usado)",
+   "store": "Amazon.es",
+   "price": 771,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "27,55 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "usado",
+    "27,55 €/TB"
+   ],
+   "highlights": [],
+   "note": "Usado y apenas más barato que el nuevo de Amazon.de. Mejor nuevo.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "toshiba-n300-18-tb-nas",
+   "section": "discos",
+   "illustration": "hdd",
+   "image_query": "Toshiba N300 18TB NAS",
+   "name": "Toshiba N300 18 TB (NAS)",
+   "store": "Amazon.fr",
+   "price": 676,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "37,56 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "NAS",
+    "37,56 €/TB",
+    "envío UE"
+   ],
+   "highlights": [],
+   "note": "Disco NAS de verdad, pero un 36 % más caro por TB que el Toshiba MG07 de Alemania.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=fr",
+   "sources": [
+    {
+     "title": "diskprices.com (FR)",
+     "url": "https://diskprices.com/?locale=fr"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210641854",
+    "url": "https://www.idealo.es/precios/210641854/toshiba-n300-18tb-bulk-mn11aca18ts.html",
+    "include_regex": "n300.*18\\s?tb|18\\s?tb.*n300",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|hdwg51"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210641/8/210641854/s11_produktbild_max/toshiba-n300-18tb-bulk-mn11aca18ts.jpg"
+  },
+  {
+   "id": "lexar-nm610pro-2-tb-nvme",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "Lexar NM610PRO 2TB NVMe",
+   "name": "Lexar NM610PRO 2 TB NVMe",
+   "store": "Amazon.ie",
+   "price": 158,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "79,18 €/TB · el NVMe más barato de la UE",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "79 €/TB",
+    "PCIe 3.0",
+    "envío UE"
+   ],
+   "highlights": [
+    "mejor €/TB SSD"
+   ],
+   "note": "Suficiente para LXC, VMs o una biblioteca de juegos. No es para cargas de escritura intensivas.",
+   "info": "Tres años de garantía.",
+   "link": "https://diskprices.com/?locale=ie",
+   "sources": [
+    {
+     "title": "diskprices.com (IE)",
+     "url": "https://diskprices.com/?locale=ie"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202700444",
+    "url": "https://www.idealo.es/precios/202700444/lexar-nm610-pro-2tb.html",
+    "include_regex": "nm610\\s?pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|1\\s?tb|500"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202700/4/202700444/s11_produktbild_max/lexar-nm610-pro-2tb.jpg"
+  },
+  {
+   "id": "netac-nv3000-2-tb-nvme",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "Netac NV3000 2TB NVMe",
+   "name": "Netac NV3000 2 TB NVMe",
+   "store": "Amazon.ie",
+   "price": 196,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "98 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 8,
+   "tags": [
+    "98 €/TB",
+    "5 años de garantía"
+   ],
+   "highlights": [],
+   "note": "Algo más caro que el Lexar, pero con cinco años de garantía.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=ie",
+   "sources": [
+    {
+     "title": "diskprices.com (IE)",
+     "url": "https://diskprices.com/?locale=ie"
+    }
+   ]
+  },
+  {
+   "id": "netac-2-tb-nvme",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "Netac 2TB NVMe M.2",
+   "name": "Netac 2 TB NVMe",
+   "store": "Amazon.es",
+   "price": 211,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "105 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 9,
+   "tags": [
+    "105 €/TB",
+    "PCIe 3.0"
+   ],
+   "highlights": [],
+   "note": "Lo más barato en España, pero Irlanda está 53 € por debajo con envío a casa.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "kioxia-exceria-plus-g3-2-tb-gen4",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "Kioxia Exceria Plus G3 2TB",
+   "name": "Kioxia Exceria Plus G3 2 TB (Gen4)",
+   "store": "PcComponentes",
+   "price": 249.95,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "objetivo ≤ 220 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 10,
+   "tags": [
+    "PCIe 4.0",
+    "marca fiable"
+   ],
+   "highlights": [],
+   "note": "La opción Gen4 decente más barata en España. Espera a que baje de 220 €.",
+   "info": "",
+   "link": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/",
+   "sources": [
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203495994",
+    "url": "https://www.idealo.es/precios/203495994/kioxia-exceria-plus-g3-2tb.html",
+    "include_regex": "exceria\\s+plus\\s+g3",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|g2|g4|portable|1\\s?tb"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203495/9/203495994/s11_produktbild_max/kioxia-exceria-plus-g3-2tb.jpg"
+  },
+  {
+   "id": "wd-blue-sn5000-4-tb-nvme",
+   "section": "discos",
+   "illustration": "ssd",
+   "image_query": "WD Blue SN5000 4TB",
+   "name": "WD Blue SN5000 4 TB NVMe",
+   "store": "Amazon.fr",
+   "price": 542,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "136 €/TB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 11,
+   "tags": [
+    "136 €/TB",
+    "PCIe 4.0",
+    "4 TB"
+   ],
+   "highlights": [],
+   "note": "Si necesitas 4 TB en una sola ranura. Por TB sale más caro que dos de 2 TB.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=fr",
+   "sources": [
+    {
+     "title": "diskprices.com (FR)",
+     "url": "https://diskprices.com/?locale=fr"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204448904",
+    "url": "https://www.idealo.es/precios/204448904/western-digital-blue-sn5000-nvme-4tb.html",
+    "include_regex": "sn5000.*4\\s?tb|4\\s?tb.*sn5000",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|2\\s?tb|1\\s?tb|sn5100"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204448/9/204448904/s11_produktbild_max/western-digital-blue-sn5000-nvme-4tb.jpg"
+  },
+  {
+   "id": "ddr5-32-gb-2-16-6000-cl40-lexar-thor-z",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Lexar THOR Z DDR5 6000 32GB",
+   "name": "DDR5 32 GB (2×16) 6000 CL40 · Lexar THOR Z",
+   "store": "Amazon.es",
+   "price": 495,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "15,47 €/GB · el DDR5 más barato",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 1,
+   "tags": [
+    "15,47 €/GB",
+    "DDR5-6000"
+   ],
+   "highlights": [],
+   "note": "El kit DDR5 de 32 GB más barato de Amazon.es cuesta casi 500 €. Si no te hace falta, no compres RAM ahora.",
+   "info": "Crucial Pro 6000 CL36 y Patriot Viper Venom 6000 CL36 están a 500 €.",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ]
+  },
+  {
+   "id": "ddr5-64-gb-2-32-5600-6000-corsair-vengeance-rs",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Corsair Vengeance RGB RS DDR5 64GB",
+   "name": "DDR5 64 GB (2×32) 5600/6000 · Corsair Vengeance RS",
+   "store": "Amazon.es",
+   "price": 1080,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "16,88 €/GB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 2,
+   "tags": [
+    "16,88 €/GB",
+    "DDR5"
+   ],
+   "highlights": [],
+   "note": "Más de mil euros por 64 GB.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "ddr5-128-gb-2-64-6000-corsair-vengeance-rgb",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Corsair Vengeance RGB DDR5 128GB 2x64GB",
+   "name": "DDR5 128 GB (2×64) 6000 · Corsair Vengeance RGB",
+   "store": "Amazon.es",
+   "price": 2103,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "16,43 €/GB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 3,
+   "tags": [
+    "16,43 €/GB",
+    "128 GB"
+   ],
+   "highlights": [],
+   "note": "Explica por qué un mini PC de 128 GB cuesta lo que cuesta.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "sodimm-ddr5-64-gb-2-32-4800-corsair",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Corsair Vengeance SODIMM DDR5 64GB",
+   "name": "SODIMM DDR5 64 GB (2×32) 4800 · Corsair",
+   "store": "Amazon.es",
+   "price": 1046,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "16,34 €/GB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 4,
+   "tags": [
+    "portátil / mini PC",
+    "16,34 €/GB"
+   ],
+   "highlights": [],
+   "note": "Para ampliar un mini PC o un servidor doméstico. Mismo precio absurdo.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "201926749",
+    "url": "https://www.idealo.es/precios/201926749/corsair-vengeance-64gb-kit-ddr5-4800-cl40-cmsx64gx5m2a4800c40.html",
+    "include_regex": "64\\s?gb",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|32gb kit|16gb|1x"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/201926/7/201926749/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-4800-cl40-cmsx64gx5m2a4800c40.jpg"
+  },
+  {
+   "id": "ddr4-32-gb-2-16-3200-cl16-netac",
+   "section": "ram",
+   "illustration": "ram",
+   "image_query": "Netac DDR4 3200 32GB kit",
+   "name": "DDR4 32 GB (2×16) 3200 CL16 · Netac",
+   "store": "Amazon.es",
+   "price": 210,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "6,56 €/GB",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "6,56 €/GB",
+    "DDR4"
+   ],
+   "highlights": [],
+   "note": "La DDR4 sale a menos de la mitad por GB. Solo útil para equipos AM4 o Intel antiguos.",
+   "info": "",
+   "link": "https://diskprices.com/?locale=es",
+   "sources": [
+    {
+     "title": "diskprices.com (ES)",
+     "url": "https://diskprices.com/?locale=es"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-rtx-3090-24-gb-segunda-mano",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "NVIDIA GeForce RTX 3090",
+   "name": "NVIDIA RTX 3090 24 GB (segunda mano)",
+   "store": "Wallapop / eBay España",
+   "price": 750,
+   "price_text": "600–900",
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "rango de mercado",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "24 GB VRAM",
+    "revisar pads térmicos"
+   ],
+   "highlights": [
+    "mejor VRAM/€"
+   ],
+   "note": "La única compra sensata ahora para IA local. Prueba la tarjeta en persona antes de pagar.",
+   "info": "Muchas vienen de minería o de servidores de inferencia: revisa temperaturas de memoria y cambia pads si hace falta.",
+   "link": "https://pasqualepillitteri.it/es/news/10763/gpu-servidor-usadas-llm-local-precios-europa",
+   "sources": [
+    {
+     "title": "Pillitteri · GPUs usadas en Europa",
+     "url": "https://pasqualepillitteri.it/es/news/10763/gpu-servidor-usadas-llm-local-precios-europa"
+    },
+    {
+     "title": "Javadex · GPUs para IA",
+     "url": "https://www.javadex.es/blog/mejores-gpus-tarjetas-graficas-ia-2026-nvidia-amd"
+    }
+   ]
+  },
+  {
+   "id": "intel-arc-pro-b60-24-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "Intel Arc Pro B60 24GB",
+   "name": "Intel Arc Pro B60 24 GB",
+   "store": "Tiendas España (gpuprix, jun.)",
+   "price": 732,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 721,
+   "annual_low_note": "mediana 721 € · dato de junio",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "24 GB VRAM",
+    "nueva con garantía",
+    "Linux multi-GPU"
+   ],
+   "highlights": [],
+   "note": "24 GB nuevos por el precio de una 3090 usada, pero más lenta y con menos soporte de software. Revisa el precio actual.",
+   "info": "456 GB/s de ancho de banda y 200 W.",
+   "link": "https://gpuprix.com/es/spain/gpus/arc-pro-b60",
+   "sources": [
+    {
+     "title": "gpuprix · Arc Pro B60 España",
+     "url": "https://gpuprix.com/es/spain/gpus/arc-pro-b60"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-rtx-4090-24-gb-segunda-mano",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "NVIDIA RTX 4090",
+   "name": "NVIDIA RTX 4090 24 GB (segunda mano)",
+   "store": "Segunda mano España",
+   "price": 2000,
+   "price_text": "1.800–2.200",
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "rango de mercado",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "24 GB",
+    "rápida"
+   ],
+   "highlights": [],
+   "note": "Misma VRAM que una 3090 por casi el triple.",
+   "info": "",
+   "link": "https://www.javadex.es/blog/mejores-gpus-tarjetas-graficas-ia-2026-nvidia-amd",
+   "sources": [
+    {
+     "title": "Javadex · GPUs para IA",
+     "url": "https://www.javadex.es/blog/mejores-gpus-tarjetas-graficas-ia-2026-nvidia-amd"
+    }
+   ]
+  },
+  {
+   "id": "amd-radeon-rx-9070-xt-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "AMD Radeon RX 9070 XT",
+   "name": "AMD Radeon RX 9070 XT 16 GB",
+   "store": "ASRock Steel Legend (oct.)",
+   "price": 919,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 720,
+   "annual_low_note": "bajó de 720 € en octubre · objetivo ≤ 700 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 4,
+   "tags": [
+    "16 GB",
+    "juego 1440p/4K"
+   ],
+   "highlights": [],
+   "note": "No mejora lo suficiente a una RTX 4070 Ti Super como para pagar esto.",
+   "info": "",
+   "link": "https://gamerpc.es/tarjetas-graficas-black-friday/",
+   "sources": [
+    {
+     "title": "GamerPC · gráficas BF 2026",
+     "url": "https://gamerpc.es/tarjetas-graficas-black-friday/"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206012166",
+    "url": "https://www.idealo.es/precios/206012166/asrock-radeon-rx-9070-xt-steel-legend.html",
+    "include_regex": "9070\\s*xt.*steel\\s+legend",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|dark|9060|9070\\s+steel"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206012/1/206012166/s11_produktbild_max/asrock-radeon-rx-9070-xt-steel-legend.jpg"
+  },
+  {
+   "id": "amd-radeon-rx-9070-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "AMD Radeon RX 9070",
+   "name": "AMD Radeon RX 9070 16 GB",
+   "store": "ASRock Challenger (oct.)",
+   "price": 838.24,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "objetivo ≤ 650 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "16 GB"
+   ],
+   "highlights": [],
+   "note": "Muy por encima de un precio razonable.",
+   "info": "",
+   "link": "https://gamerpc.es/tarjetas-graficas-black-friday/",
+   "sources": [
+    {
+     "title": "GamerPC · gráficas BF 2026",
+     "url": "https://gamerpc.es/tarjetas-graficas-black-friday/"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206012298",
+    "url": "https://www.idealo.es/precios/206012298/asrock-radeon-rx-9070-challenger.html",
+    "include_regex": "(?=.*9070(?!\\s*xt))(?=.*challenger)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|xt\\b|9060"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206012/2/206012298/s11_produktbild_max/asrock-radeon-rx-9070-challenger.jpg"
+  },
+  {
+   "id": "amd-radeon-rx-9060-xt-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "AMD Radeon RX 9060 XT 16GB",
+   "name": "AMD Radeon RX 9060 XT 16 GB",
+   "store": "ASRock Challenger OC (oct.)",
+   "price": 731.55,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "objetivo ≤ 450 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 6,
+   "tags": [
+    "16 GB"
+   ],
+   "highlights": [],
+   "note": "Gama media a precio de gama alta.",
+   "info": "",
+   "link": "https://gamerpc.es/tarjetas-graficas-black-friday/",
+   "sources": [
+    {
+     "title": "GamerPC · gráficas BF 2026",
+     "url": "https://gamerpc.es/tarjetas-graficas-black-friday/"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206592455",
+    "url": "https://www.idealo.es/precios/206592455/asrock-radeon-rx-9060-xt-challenger-16g.html",
+    "include_regex": "9060\\s*xt.*challenger.*16|challenger.*9060\\s*xt.*16",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|8\\s?gb|steel"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206592/4/206592455/s11_produktbild_max/asrock-radeon-rx-9060-xt-challenger-16g.jpg"
+  },
+  {
+   "id": "nvidia-rtx-5070-ti-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "NVIDIA RTX 5070 Ti",
+   "name": "NVIDIA RTX 5070 Ti 16 GB",
+   "store": "Gigabyte Eagle OC SFF (oct.)",
+   "price": 1359,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "objetivo ≤ 950 €; en PcComponentes ya pasa de 1.800 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 7,
+   "tags": [
+    "16 GB",
+    "misma VRAM que la 4070 Ti S"
+   ],
+   "highlights": [],
+   "note": "Misma VRAM que una 4070 Ti Super. Cero sentido si vienes de ahí.",
+   "info": "",
+   "link": "https://gamerpc.es/tarjetas-graficas-black-friday/",
+   "sources": [
+    {
+     "title": "GamerPC · gráficas BF 2026",
+     "url": "https://gamerpc.es/tarjetas-graficas-black-friday/"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205942152",
+    "url": "https://www.idealo.es/precios/205942152/gigabyte-geforce-rtx-5070-ti-eagle-oc.html",
+    "include_regex": "5070\\s*ti.*eagle\\s+oc",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|ice|gaming|5070(?!\\s*ti)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205942/1/205942152/s11_produktbild_max/gigabyte-geforce-rtx-5070-ti-eagle-oc.jpg"
+  },
+  {
+   "id": "nvidia-rtx-5060-ti-16-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "NVIDIA RTX 5060 Ti 16GB",
+   "name": "NVIDIA RTX 5060 Ti 16 GB",
+   "store": "MSI Ventus 2X (oct.)",
+   "price": 889.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "PVPR 429 $",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 8,
+   "tags": [
+    "16 GB"
+   ],
+   "highlights": [],
+   "note": "El doble de su precio de salida.",
+   "info": "",
+   "link": "https://gamerpc.es/tarjetas-graficas-black-friday/",
+   "sources": [
+    {
+     "title": "GamerPC · gráficas BF 2026",
+     "url": "https://gamerpc.es/tarjetas-graficas-black-friday/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206266533",
+    "url": "https://www.idealo.es/precios/206266533/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus.html",
+    "include_regex": "5060\\s*ti.*16.*ventus\\s*2x",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|8\\s?g|ventus\\s*3x"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206266/5/206266533/s11_produktbild_max/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus.jpg"
+  },
+  {
+   "id": "nvidia-rtx-5090-32-gb",
+   "section": "gpu",
+   "illustration": "gpu",
+   "image_query": "NVIDIA GeForce RTX 5090",
+   "name": "NVIDIA RTX 5090 32 GB",
+   "store": "Más barata en España (Alternate)",
+   "price": 7492,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 2369,
+   "reference_label": "precio oficial",
+   "annual_low": null,
+   "annual_low_note": "precio medio en España: 6.228 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 9,
+   "tags": [
+    "32 GB"
+   ],
+   "highlights": [],
+   "note": "Más del triple de su precio oficial. Absurdo.",
+   "info": "Algunos modelos rozan los 17.000 € de vendedores externos.",
+   "link": "https://gpuprix.com/es/spain/gpus/geforce-rtx-5090?show=listings",
+   "sources": [
+    {
+     "title": "gpuprix · RTX 5090 en España",
+     "url": "https://gpuprix.com/es/spain/gpus/geforce-rtx-5090?show=listings"
+    },
+    {
+     "title": "Geeknetic · precio medio RTX 5090",
+     "url": "https://www.geeknetic.es/Noticia/39932/El-precio-medio-de-las-RTX-5090-ya-supera-los-6200-euros-en-Espana.html"
+    }
+   ]
+  },
+  {
+   "id": "amd-ryzen-7-7800x3d",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "AMD Ryzen 7 7800X3D",
+   "name": "AMD Ryzen 7 7800X3D",
+   "store": "Amazon.es",
+   "price": 368,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 368,
+   "annual_low_note": "en su mínimo registrado (12/11) · objetivo ≤ 320 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "AM5",
+    "8 núcleos",
+    "3D V-Cache"
+   ],
+   "highlights": [],
+   "note": "Solo si vas a montar o renovar un equipo AM5. Para juego rinde casi como el 9800X3D.",
+   "info": "",
+   "link": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/",
+   "sources": [
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202722732",
+    "url": "https://www.idealo.es/precios/202722732/amd-ryzen-7-7800x3d.html",
+    "include_regex": "7800\\s?x3d",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|tray|bandeja|pc\\b|vist|gaming pc|rtx|\\(t\\)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s11_produktbild_max/amd-ryzen-7-7800x3d.jpg"
+  },
+  {
+   "id": "amd-ryzen-7-9800x3d",
+   "section": "cpu",
+   "illustration": "cpu",
+   "image_query": "AMD Ryzen 7 9800X3D",
+   "name": "AMD Ryzen 7 9800X3D",
+   "store": "Neobyte / Coolmod",
+   "price": 409.9,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 329.66,
+   "annual_low_note": "329,66 € AliExpress con cupón (sept.) · objetivo ≤ 370 €",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 2,
+   "tags": [
+    "AM5",
+    "mejor CPU gaming"
+   ],
+   "highlights": [],
+   "note": "Espera a que baje de 370 €; ya ha estado en 330 €. El «−45 %» de Neobyte es sobre un PVP inventado de 749,90 €.",
+   "info": "Coolmod lo tiene a 409,95 €.",
+   "link": "https://www.neobyte.es/black-friday-258",
+   "sources": [
+    {
+     "title": "Neobyte · Black Friday",
+     "url": "https://www.neobyte.es/black-friday-258"
+    },
+    {
+     "title": "Coolmod · BF procesadores",
+     "url": "https://www.coolmod.com/black-friday/procesadores/"
+    },
+    {
+     "title": "HardZone · mínimo 9800X3D",
+     "url": "https://hardzone.es/ofertas/mix/procesador-amd-ryzen-7-9800x3d-aliexpress/"
+    },
+    {
+     "title": "ArmaPCgamer · BF Amazon España",
+     "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205072279",
+    "url": "https://www.idealo.es/precios/205072279/amd-ryzen-7-9800x3d.html",
+    "include_regex": "9800\\s?x3d",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|tray|bandeja|delid|pc\\b|rtx|\\(t\\)"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205072/2/205072279/s11_produktbild_max/amd-ryzen-7-9800x3d.jpg"
+  },
+  {
+   "id": "beelink-gtr9-pro-ai-max-395-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Beelink GTR9 Pro mini PC",
+   "name": "Beelink GTR9 Pro · AI Max+ 395 128 GB",
+   "store": "Beelink EU",
+   "price": 4619,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 5199,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "salió en 2025 a ~1.985 $",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 1,
+   "tags": [
+    "128 GB unificada",
+    "2× 10 GbE",
+    "3 años de garantía"
+   ],
+   "highlights": [],
+   "note": "Más del doble que en su salida. No compres ahora.",
+   "info": "Doble 10 GbE: el mejor de los Strix Halo para servir modelos en red.",
+   "link": "https://eu.bee-link.com/products/beelink-gtr9-pro-amd-ryzen-ai-max-395",
+   "sources": [
+    {
+     "title": "Beelink EU · GTR9 Pro",
+     "url": "https://eu.bee-link.com/products/beelink-gtr9-pro-amd-ryzen-ai-max-395"
+    },
+    {
+     "title": "MacMyths · Strix Halo disponibles",
+     "url": "https://macmyths.com/there-are-37-amd-ryzen-ai-max-395-mini-pcs-in-the-world-right-now-heres-where-you-can-buy-them-from-1500/"
+    }
+   ]
+  },
+  {
+   "id": "bosgame-m5-ai-max-395-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Bosgame M5 AI mini PC",
+   "name": "Bosgame M5 · AI Max+ 395 128 GB",
+   "store": "Amazon EE. UU.",
+   "price": 3599,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin cambios desde septiembre",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 2,
+   "tags": [
+    "128 GB unificada",
+    "Strix Halo"
+   ],
+   "highlights": [],
+   "note": "El 128 GB más barato en stock y aun así carísimo frente a 2025.",
+   "info": "",
+   "link": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/",
+   "sources": [
+    {
+     "title": "ComputingForGeeks · Strix Halo",
+     "url": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/"
+    },
+    {
+     "title": "ComputingForGeeks · precios mini PC",
+     "url": "https://computingforgeeks.com/mini-pc-prices/"
+    }
+   ]
+  },
+  {
+   "id": "gmktec-evo-x2-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "GMKtec EVO-X2 mini PC",
+   "name": "GMKtec EVO-X2 128 GB",
+   "store": "GMKtec",
+   "price": 3649.99,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "en 2025 era la opción barata",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 3,
+   "tags": [
+    "128 GB unificada",
+    "Strix Halo"
+   ],
+   "highlights": [],
+   "note": "Precio inflado por la RAM.",
+   "info": "",
+   "link": "https://spawningpoint.com/article/gmktec-evo-x2-review-2026",
+   "sources": [
+    {
+     "title": "Spawning Point · EVO-X2 en 2026",
+     "url": "https://spawningpoint.com/article/gmktec-evo-x2-review-2026"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206554273",
+    "url": "https://www.idealo.es/precios/206554273/gmktec-evo-x2-ryzen-ai-max-395-128gb-2tb.html",
+    "include_regex": "evo-?\\s?x2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|96\\s?gb|x1"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206554/2/206554273/s11_produktbild_max/gmktec-evo-x2-ryzen-ai-max-395-128gb-2tb.jpg"
+  },
+  {
+   "id": "framework-desktop-ai-max-395-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Framework Desktop mainboard",
+   "name": "Framework Desktop · AI Max+ 395 128 GB",
+   "store": "Framework (reserva)",
+   "price": 3449,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin SSD, reserva con 100 $",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 4,
+   "tags": [
+    "mini-ITX",
+    "reparable",
+    "Linux-first"
+   ],
+   "highlights": [],
+   "note": "El más abierto y con mejor soporte Linux, pero en reserva y sin stock.",
+   "info": "La versión de 64 GB cuesta 1.959 $.",
+   "link": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/",
+   "sources": [
+    {
+     "title": "ComputingForGeeks · Strix Halo",
+     "url": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/"
+    }
+   ]
+  },
+  {
+   "id": "minisforum-ms-s1-max-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Minisforum MS-S1 Max",
+   "name": "Minisforum MS-S1 Max 128 GB",
+   "store": "Amazon EE. UU.",
+   "price": 3919,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "subió 40 $ en noviembre",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "PCIe x16",
+    "2× 10 GbE",
+    "formato rack"
+   ],
+   "highlights": [],
+   "note": "El más ampliable para un servidor doméstico, y el más caro de los Strix Halo.",
+   "info": "",
+   "link": "https://computingforgeeks.com/mini-pc-prices/",
+   "sources": [
+    {
+     "title": "ComputingForGeeks · precios mini PC",
+     "url": "https://computingforgeeks.com/mini-pc-prices/"
+    }
+   ]
+  },
+  {
+   "id": "mac-mini-m5-pro",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "Mac mini M5 Pro",
+   "name": "Mac mini M5 Pro",
+   "store": "Apple ES",
+   "price": 1999,
+   "price_text": "desde 1.999",
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin descuentos",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 6,
+   "tags": [
+    "máx. 64 GB",
+    "sin CUDA"
+   ],
+   "highlights": [],
+   "note": "Se queda en 64 GB como máximo. Insuficiente para modelos grandes y sin rebaja.",
+   "info": "El M6 base arranca en 1.049 € pero se queda en 32 GB.",
+   "link": "https://www.bleap.finance/es-mx/blog/new-mac-mini-m6-m5-pro",
+   "sources": [
+    {
+     "title": "Bleap · Mac mini M6 / M5 Pro",
+     "url": "https://www.bleap.finance/es-mx/blog/new-mac-mini-m6-m5-pro"
+    },
+    {
+     "title": "Wavect · Mac mini vs Mac Studio",
+     "url": "https://wavect.io/es/blog/mac-mini-m6-vs-mac-studio-m5-local-ai/"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-dgx-spark-128-gb",
+   "section": "ia",
+   "illustration": "minipc",
+   "image_query": "NVIDIA DGX Spark",
+   "name": "NVIDIA DGX Spark 128 GB",
+   "store": "NVIDIA",
+   "price": 6950,
+   "price_text": null,
+   "currency": "$",
+   "reference_price": 3999,
+   "reference_label": "lanzamiento",
+   "annual_low": null,
+   "annual_low_note": "+74 % desde el lanzamiento",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "no",
+   "rank": 7,
+   "tags": [
+    "128 GB",
+    "CUDA"
+   ],
+   "highlights": [],
+   "note": "Ha subido de 3.999 $ a 6.950 $. Ni mirarlo.",
+   "info": "La versión de 64 GB cuesta 4.999 $.",
+   "link": "https://www.implicator.ai/nvidia-adds-64gb-dgx-spark-at-4-999-as-128gb-model-climbs-to-6-950/",
+   "sources": [
+    {
+     "title": "Implicator · precio DGX Spark",
+     "url": "https://www.implicator.ai/nvidia-adds-64gb-dgx-spark-at-4-999-as-128gb-model-climbs-to-6-950/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208146353",
+    "url": "https://www.idealo.es/precios/208146353/nvidia-dgx-spark-founders-edition-940-54242-0005-000.html",
+    "include_regex": "dgx\\s+spark",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|asus|gx10|msi|lenovo|dell|hp\\b"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208146/3/208146353/s11_produktbild_max/nvidia-dgx-spark-founders-edition-940-54242-0005-000.jpg"
+  }
+ ]
+}
