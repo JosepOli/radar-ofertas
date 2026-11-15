@@ -48,3 +48,43 @@ test("días restantes con fecha local", () => {
   assert.equal(C.daysLeft("2026-11-14", today), -1);
   assert.equal(C.daysLeft(null, today), null);
 });
+
+test("la búsqueda encuentra por tienda de options e idealo", () => {
+  const M = mk({ id: "m", name: "Dreame X50", store: "Dreame ES", options: [{ store: "PcComponentes", price: 600, currency: "€" }] });
+  assert.deepEqual(ids(C.query([...ALL, M], { q: "pccomponentes" }, ctx)), ["m"]);
+  assert.deepEqual(ids(C.query([...ALL, M], { q: "pccomponentés x50" }, ctx)), ["m"]);
+  assert.deepEqual(ids(C.query([...ALL, M], { q: "fnac" }, ctx)), []);
+});
+
+test("storeKey normaliza nombres de tienda", () => {
+  assert.equal(C.storeKey("www.PcComponentes.com"), C.storeKey("PcComponentes"));
+  assert.equal(C.storeKey("El Corte Inglés"), C.storeKey("elcorteingles.es"));
+  assert.equal(C.storeKey("Dreame ES (tienda oficial)"), "dreame");
+});
+
+test("storeRows une principal, options e idealo, ordena por precio en € y marca la más barata", () => {
+  const d = mk({ id: "x", store: "Dreame ES", price: 599, link: "https://d.es/x", tracking: { url: "https://www.idealo.es/p" },
+    options: [{ store: "MediaMarkt", price: 579, currency: "€", url: "https://mm.es/x", checked_on: "2026-11-15", note: "" },
+              { store: "US Shop", price: 700, currency: "$", url: "https://us/x", checked_on: null },
+              { store: "Sin precio", price: null, currency: "€", url: "https://sp/x" }],
+    live: { at: "2026-11-15T10:00", shops: [{ shop: "carrefour.es", price: 560 }, { shop: "www.mediamarkt.es", price: 570 }] } });
+  const rows = C.storeRows(d, fx);
+  assert.deepEqual(rows.map((r) => r.store), ["carrefour.es", "MediaMarkt", "Dreame ES", "US Shop", "Sin precio"]);
+  // mediamarkt: editorial 579 vs idealo 570 → gana el más barato (idealo)
+  assert.equal(rows[1].kind, "idealo");
+  assert.equal(rows[1].price, 570);
+  assert.deepEqual(rows.map((r) => r.best), [true, false, false, false, false]);
+  assert.equal(rows[3].eur, 700 * 0.86);
+  assert.equal(rows[0].kind, "idealo");
+  assert.equal(rows[2].kind, "main");
+  assert.equal(rows[4].eur, null);
+  assert.equal(C.storeCount(d), 5);
+});
+
+test("storeRows con empate prefiere la fila editorial y sin extras devuelve solo la principal", () => {
+  const d = mk({ id: "y", store: "Carrefour", price: 100, link: "https://c/x", live: { shops: [{ shop: "carrefour.es", price: 100 }] } });
+  const rows = C.storeRows(d, fx);
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].kind, "main");
+  assert.equal(C.storeRows(mk({ id: "z", store: "A", price: null }), fx).length, 1);
+});

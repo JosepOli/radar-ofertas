@@ -11,7 +11,8 @@ import time
 from dataclasses import dataclass
 from typing import Callable
 
-from radar.domain.models import SourceQuote, TrackingSpec
+from radar.domain.text import store_key
+from radar.domain.models import ShopPrice, SourceQuote, TrackingSpec
 
 Fetch = Callable[[str], str]
 
@@ -90,13 +91,31 @@ def is_valid(o: IdealoOffer, spec: TrackingSpec) -> bool:
     return True
 
 
+MAX_SHOPS = 6
+
+
+def shop_prices(valid_sorted: list[IdealoOffer], limit: int = MAX_SHOPS) -> tuple[ShopPrice, ...]:
+    """La oferta más barata de cada tienda distinta, de menor a mayor precio."""
+    seen: set[str] = set()
+    out: list[ShopPrice] = []
+    for o in valid_sorted:
+        key = store_key(o.shop)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(ShopPrice(o.shop, o.total))
+        if len(out) == limit:
+            break
+    return tuple(out)
+
+
 def best_quote(page: IdealoPage, spec: TrackingSpec, url: str) -> SourceQuote | None:
     valid = sorted((o for o in page.offers if is_valid(o, spec)), key=lambda o: o.total)
     if not valid:
         return None
     best = valid[0]
     return SourceQuote(price=best.total, shop=best.shop, title=best.title, url=url,
-                       offers_seen=len(page.offers), offers_valid=len(valid))
+                       offers_seen=len(page.offers), offers_valid=len(valid), shops=shop_prices(valid))
 
 
 class IdealoPriceSource:

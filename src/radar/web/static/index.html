@@ -130,6 +130,19 @@ dialog::backdrop{background:rgba(5,6,15,.75);backdrop-filter:blur(3px)}
 .box{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:rgba(13,15,31,.5);font-size:14px}
 .box h4{margin:0 0 4px;font:600 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .box .big{font:500 20px var(--mono)}
+.stores-line{font-size:13px;font-family:var(--mono);color:var(--cyan)}
+.buy h4{margin:0 0 6px;font:600 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.buy .tbl{border:1px solid var(--line);border-radius:10px}
+.buy table{min-width:0;font-size:13px}
+.buy th,.buy td{padding:6px 8px}
+.buy td.n,.buy th.n{white-space:nowrap}
+.buy tr.cheapest td{background:rgba(61,220,151,.1)}
+.buy tr.cheapest td:first-child{box-shadow:inset 3px 0 0 var(--good)}
+.buy tr.cheapest td.n{color:var(--good);font-weight:600}
+.buy .org{color:var(--muted);font-size:12px}.buy td a{white-space:nowrap}
+.buy .mini{display:inline-block;font:600 11px var(--display);letter-spacing:.05em;text-transform:uppercase;color:var(--good);border:1px solid var(--good);border-radius:5px;padding:0 5px;margin-left:6px}
+.buy .mnote{margin-top:6px}
+@media (max-width:560px){.buy th,.buy td{padding:6px 5px}.buy .lt{display:none}.buy td a{font-size:16px;padding:0 4px}.buy .org{font-size:11px}}
 @media (max-width:700px){.dlg{grid-template-columns:1fr}.dlg .ph{min-height:220px}}
 </style>
 </head>
@@ -223,6 +236,21 @@ function marketLine(d){
   if(p>0)return{cls:"fake",t:`Más barato fuera: ${fmt(L.price,"€")} en ${L.shop} (−${Math.round((1-L.price/d.price)*100)} %)${old}`};
   return{cls:"na",t:`Mismo precio en otras tiendas (${fmt(L.price,"€")})${old}`};
 }
+function storesLine(d){
+  const rows=C.storeRows(d,DATA.meta.fx_to_eur);if(rows.length<2)return null;
+  const b=rows[0];return b.eur==null?`${rows.length} tiendas`:`${rows.length} tiendas · desde ${fmt(b.price,b.currency)}`;
+}
+function buyTable(d){
+  const rows=C.storeRows(d,DATA.meta.fx_to_eur);
+  if(rows.length<2&&!d.options.length&&!(d.live&&d.live.shops&&d.live.shops.length))return"";
+  const origin=r=>r.kind==="main"?(DATA.meta.checked_on?`oferta revisada ${dmy(DATA.meta.checked_on)}`:"oferta revisada"):
+    r.kind==="option"?(r.checked_on?`revisado ${dmy(r.checked_on)}`:"sin fecha"):`idealo · ${ago(r.at)||"sin fecha"}`;
+  const link=r=>{const u=safeUrl(r.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer" aria-label="${r.kind==="idealo"?"Ver en idealo":"Ir a la tienda"}: ${esc(r.store)}"><span class="lt">${r.kind==="idealo"?"idealo":"Tienda"} </span>↗</a>`:"—";};
+  const price=r=>r.price==null?(r.kind==="main"?esc(priceTxt(d)):"ver tienda"):esc(fmt(r.price,r.currency));
+  return `<div class="buy"><h4>Dónde comprarlo</h4><div class="tbl"><table><thead><tr><th>Tienda</th><th class="n">Precio</th><th>Origen</th><th>Enlace</th></tr></thead>
+   <tbody>${rows.map(r=>`<tr${r.best?' class="cheapest"':""}><td>${esc(r.store)}${r.best?'<span class="mini">más barata</span>':""}${r.note?`<small>${esc(r.note)}</small>`:""}</td><td class="n">${price(r)}</td><td class="org">${esc(origin(r))}</td><td>${link(r)}</td></tr>`).join("")}</tbody></table></div>
+   <p class="mnote">Ordenadas por precio en €. Las filas de idealo incluyen envío y se leen automáticamente; las demás las revisamos a mano.</p></div>`;
+}
 function endTxt(d){const n=daysLeft(d);return n==null?"sin fecha de fin":(n<0?"terminada":(n===0?"acaba hoy":`termina en ${n} d (${dmy(d.ends_on)})`));}
 const discBadge=d=>d.discount_pct>0?`<span class="disc">−${d.discount_pct}%</span>`:(d.discount_pct<0?`<span class="disc up">+${-d.discount_pct}%</span>`:"");
 function photo(d){
@@ -235,13 +263,14 @@ function imgTag(d,cls){
 }
 
 function card(d){
-  const lw=lowLine(d),mk=marketLine(d),n=daysLeft(d);lw.t=nb(lw.t);if(mk)mk.t=nb(mk.t);
+  const lw=lowLine(d),mk=marketLine(d),n=daysLeft(d),sl=storesLine(d);lw.t=nb(lw.t);if(mk)mk.t=nb(mk.t);
   const tags=[...d.highlights.map(t=>`<span class="tag hot">${esc(t)}</span>`),...d.tags.map(t=>`<span class="tag${/linux/i.test(t)&&!/sin|externo/i.test(t)?" lin":""}">${esc(t)}</span>`)].join("");
   return `<article class="card" data-v="${esc(d.verdict)}" data-id="${esc(d.id)}" tabindex="0" role="button" aria-label="Ver ficha de ${esc(d.name)}">
    <div class="img">${imgTag(d)}${discBadge(d)}<span class="badge">${VLBL[d.verdict]}</span></div>
    <div class="body"><div><div class="name">${esc(d.name)}</div><div class="store">${esc(d.store)}</div></div>
     <div class="prices"><span class="now">${esc(priceTxt(d))}</span>${d.reference_price?`<span class="ref">${fmt(d.reference_price,d.currency)}</span>`:""}</div>
     <div class="low ${lw.cls}">${esc(lw.t)}</div>${mk?`<div class="mkt-line ${mk.cls}">${esc(mk.t)}</div>`:""}
+    ${sl?`<div class="stores-line">${esc(nb(sl))}</div>`:""}
     <div class="tags">${tags}</div><p class="note">${esc(d.note)}</p>
     <div class="foot"><span class="end${n!=null&&n>=0&&n<=7?" soon":""}">${endTxt(d)}</span><span>Ver ficha →</span></div></div></article>`;
 }
@@ -320,6 +349,7 @@ function openDetail(id){
       <div class="mkt-line ${mk.cls}">${esc(mk.t)}</div>
       <div class="store">Leído ${ago(L.at)} · ${L.offers_seen} ofertas comparadas · mínimo visto desde el ${dmy(L.since)}: ${fmt(L.lowest,"€")} (${esc(L.lowest_shop)}, ${dmy(L.lowest_at)})</div></div>`
       :(d.tracking?`<div class="box"><h4>Otras tiendas</h4><div class="store">Pendiente de la primera lectura automática.</div></div>`:"")}
+    ${buyTable(d)}
     <p class="note"><b>Veredicto:</b> ${esc(d.note)}</p>${d.info?`<p class="note">${esc(d.info)}</p>`:""}
     <dl><dt>Plazo</dt><dd>${endTxt(d)}</dd>${d.reference_price?`<dt>Referencia</dt><dd>${esc(d.reference_label)}: ${fmt(d.reference_price,d.currency)}</dd>`:""}<dt>Etiquetas</dt><dd>${[...d.highlights,...d.tags].map(esc).join(" · ")||"—"}</dd></dl>
     <div><b>Fuentes</b><ul>${d.sources.map(s=>`<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></li>`).join("")}</ul></div>

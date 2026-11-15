@@ -53,6 +53,26 @@ class TrackingSpec:
 
 
 @dataclass(frozen=True)
+class StoreOption:
+    """Otra tienda donde se vende el mismo producto, verificada a mano (dato editorial)."""
+
+    store: str
+    url: str
+    price: float | None = None
+    currency: str = "€"
+    checked_on: date | None = None
+    note: str = ""
+
+
+@dataclass(frozen=True)
+class ShopPrice:
+    """Precio total de una tienda leído de un comparador."""
+
+    shop: str
+    price: float
+
+
+@dataclass(frozen=True)
 class Offer:
     id: str
     section: str
@@ -79,9 +99,11 @@ class Offer:
     image_url: str = ""
     sources: tuple[Source, ...] = field(default_factory=tuple)
     tracking: TrackingSpec | None = None
+    options: tuple[StoreOption, ...] = ()
 
     def searchable_text(self) -> str:
-        return " ".join((self.name, self.store, self.note, self.info, *self.tags, *self.highlights))
+        return " ".join((self.name, self.store, self.note, self.info, *self.tags, *self.highlights,
+                         *(op.store for op in self.options)))
 
 
 @dataclass(frozen=True)
@@ -94,6 +116,7 @@ class SourceQuote:
     url: str
     offers_seen: int
     offers_valid: int
+    shops: tuple[ShopPrice, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -108,6 +131,7 @@ class PriceObservation:
     source: str
     url: str
     offers_seen: int = 0
+    shops: tuple[ShopPrice, ...] = ()
 
 
 @dataclass(frozen=True)

@@ -29,7 +29,7 @@
   }
 
   function haystack(d, sectionTitle) {
-    return normalize([d.name, d.store, d.note, d.info, sectionTitle || "", ...(d.tags || []), ...(d.highlights || [])].join(" "));
+    return normalize([d.name, d.store, d.note, d.info, sectionTitle || "", ...(d.tags || []), ...(d.highlights || []), ...(d.options || []).map((o) => o.store)].join(" "));
   }
 
   function matchesAll(hay, ts) {
@@ -61,6 +61,46 @@
     }
   }
 
+  /** Clave estable de tienda: «www.PcComponentes.com» y «PcComponentes» coinciden (igual que domain/text.py). */
+  function storeKey(name) {
+    let s = normalize(String(name == null ? "" : name).replace(/\([^)]*\)/g, " "));
+    s = s.replace(/^www\./, "").replace(/\.(es|com|eu|net|org|de|fr|it|pt|co\.uk)$/, "").replace(/\s+es$/, "");
+    return s.replace(/[\s.\-_]+/g, "");
+  }
+
+  const KIND_ORDER = { main: 0, option: 1, idealo: 2 };
+
+  /**
+   * Una fila por tienda: oferta principal, options editoriales y tiendas de idealo (live.shops).
+   * Si una tienda aparece varias veces gana el precio más barato (a igualdad, la editorial) y se conserva el
+   * nombre editorial. Orden por precio en € (sin precio al final); best = la más barata.
+   */
+  function storeRows(d, fx) {
+    const rate = (c) => (fx && fx[c] != null ? fx[c] : 1);
+    const eur = (p, c) => (p == null ? null : p * rate(c));
+    const cand = [{ store: d.store, price: d.price, currency: d.currency, url: d.link, kind: "main", checked_on: null, note: "" }];
+    for (const o of d.options || []) cand.push({ store: o.store, price: o.price, currency: o.currency || "€", url: o.url, kind: "option", checked_on: o.checked_on || null, note: o.note || "" });
+    const at = d.live && d.live.at;
+    const itrack = d.tracking && d.tracking.url;
+    for (const s of (d.live && d.live.shops) || []) cand.push({ store: s.shop, price: s.price, currency: "€", url: itrack || "", kind: "idealo", checked_on: null, note: "", at });
+    const rank = (r) => [r.eur == null ? 1 : 0, r.eur == null ? 0 : r.eur, KIND_ORDER[r.kind]];
+    const cmp = (a, b) => { const x = rank(a), y = rank(b); return x[0] - y[0] || x[1] - y[1] || x[2] - y[2]; };
+    const byKey = new Map();
+    for (const c of cand) {
+      c.eur = eur(c.price, c.currency);
+      const k = storeKey(c.store), prev = byKey.get(k);
+      if (!prev) { byKey.set(k, c); continue; }
+      const win = cmp(c, prev) < 0 ? c : prev;
+      win.store = prev.kind !== "idealo" ? prev.store : (c.kind !== "idealo" ? c.store : win.store); // nombre editorial
+      byKey.set(k, win);
+    }
+    const rows = [...byKey.values()].sort(cmp);
+    rows.forEach((r, i) => { r.best = i === 0 && r.eur != null; });
+    return rows;
+  }
+
+  function storeCount(d) { return storeRows(d, null).length; }
+
   /**
    * Filtra y ordena. state: {sec, q, verdict, sort, max (null = sin límite), real}.
    * Devuelve las ofertas ordenadas dentro de su sección (el orden de secciones lo decide quien pinta).
@@ -86,5 +126,5 @@
       .map((x) => x.d);
   }
 
-  return { normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
+  return { storeKey, storeRows, storeCount, normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
 });
