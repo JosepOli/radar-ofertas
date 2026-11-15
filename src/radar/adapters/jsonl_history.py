@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from radar.domain.models import PriceObservation
+from radar.domain.models import PriceObservation, ShopPrice
 
 log = logging.getLogger(__name__)
 
@@ -30,6 +30,7 @@ class JsonlPriceHistory:
                             offer_id=r["offer_id"], at=datetime.fromisoformat(r["at"]), price=float(r["price"]),
                             currency=r["currency"], shop=r["shop"], source=r["source"], url=r["url"],
                             offers_seen=int(r.get("offers_seen", 0)),
+                            shops=tuple(ShopPrice(str(s["shop"]), float(s["price"])) for s in r.get("shops") or ()),
                         ))
                     except (ValueError, KeyError, TypeError):
                         log.warning("Línea %d del histórico ilegible; se ignora", n)
@@ -44,6 +45,7 @@ class JsonlPriceHistory:
             "offer_id": obs.offer_id, "at": obs.at.isoformat(timespec="seconds"), "price": obs.price,
             "currency": obs.currency, "shop": obs.shop, "source": obs.source, "url": obs.url,
             "offers_seen": obs.offers_seen,
+            "shops": [{"shop": s.shop, "price": s.price} for s in obs.shops],
         }, ensure_ascii=False)
         self._path.parent.mkdir(parents=True, exist_ok=True)
         with self._path.open("a", encoding="utf-8") as f:

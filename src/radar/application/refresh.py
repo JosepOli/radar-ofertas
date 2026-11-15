@@ -55,6 +55,7 @@ class RefreshJob:
             self._history.record(PriceObservation(
                 offer_id=offer.id, at=self._clock.now(), price=quote.price, currency="€",
                 shop=quote.shop, source=offer.tracking.source, url=quote.url, offers_seen=quote.offers_seen,
+                shops=quote.shops,
             ))
             report.ok.append(offer.id)
         return report

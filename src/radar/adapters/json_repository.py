@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Mapping
 
-from radar.domain.models import Market, MarketQuote, Offer, Section, Source, TrackingSpec, Verdict
+from radar.domain.models import Market, MarketQuote, Offer, Section, Source, StoreOption, TrackingSpec, Verdict
 
 
 class SeedError(ValueError):
@@ -52,7 +52,48 @@ class JsonSeedRepository:
             image_url=o.get("image_url") or "",
             sources=tuple(Source(**s) for s in o.get("sources") or ()),
             tracking=self._tracking(o),
+            options=self._options(o),
         )
+
+    MAX_OPTIONS = 8
+
+    def _options(self, o: Mapping[str, Any]) -> tuple[StoreOption, ...]:
+        raw = o.get("options")
+        if raw is None:
+            return ()
+        oid = o["id"]
+        if not isinstance(raw, list):
+            raise SeedError(f"{oid}: options debe ser una lista")
+        if len(raw) > self.MAX_OPTIONS:
+            raise SeedError(f"{oid}: máximo {self.MAX_OPTIONS} options")
+        out = []
+        for i, x in enumerate(raw):
+            where = f"{oid}: options[{i}]"
+            if not isinstance(x, Mapping):
+                raise SeedError(f"{where} debe ser un objeto")
+            store, url, note = x.get("store"), x.get("url"), x.get("note") or ""
+            if not isinstance(store, str) or not store.strip():
+                raise SeedError(f"{where}.store vacío")
+            if not isinstance(url, str) or not url.startswith("https://"):
+                raise SeedError(f"{where}.url debe ser https")
+            price = x.get("price")
+            if price is not None and (isinstance(price, bool) or not isinstance(price, (int, float))):
+                raise SeedError(f"{where}.price debe ser número o null")
+            currency = x.get("currency") or "€"
+            if currency not in self._fx:
+                raise SeedError(f"{where}: divisa sin tipo de cambio {currency}")
+            checked = x.get("checked_on")
+            try:
+                checked_on = None if checked is None else date.fromisoformat(checked)
+            except (TypeError, ValueError) as exc:
+                raise SeedError(f"{where}.checked_on debe ser una fecha ISO") from exc
+            if not isinstance(note, str):
+                raise SeedError(f"{where}.note debe ser texto")
+            if any(ord(c) < 32 for c in store + url + note):
+                raise SeedError(f"{where} contiene caracteres de control")
+            out.append(StoreOption(store=store.strip(), url=url, price=None if price is None else float(price),
+                                   currency=currency, checked_on=checked_on, note=note))
+        return tuple(out)
 
     @staticmethod
     def _tracking(o: Mapping[str, Any]) -> TrackingSpec | None:

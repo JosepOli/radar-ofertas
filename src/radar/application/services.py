@@ -9,6 +9,7 @@ from typing import Any
 from radar.domain.catalog import OfferQuery, effective_discount, run_query
 from radar.domain.history import summarize
 from radar.domain.models import Offer
+from radar.domain.text import store_key
 from radar.domain.pricing import days_left, is_below_annual_low, to_eur, vs_annual_low_pct
 
 from .ports import Clock, ImageCache, ImageProvider, OfferRepository, PriceHistory
@@ -100,6 +101,7 @@ class CatalogService:
             "count": s.count,
             "stale": s.is_stale,
             "offer_vs_market_pct": offer_vs_market,
+            "shops": [{"shop": x.shop, "price": x.price} for x in s.latest.shops],
         }
 
     def _view(self, o: Offer, today) -> dict[str, Any]:
@@ -113,6 +115,10 @@ class CatalogService:
         d["days_left"] = days_left(o.ends_on, today)
         d["photo_url"] = f"/img/{o.id}"
         d["live"] = self._live(o)
+        d["options"] = [{**asdict(op), "checked_on": op.checked_on.isoformat() if op.checked_on else None}
+                        for op in o.options]
+        d["stores"] = len({store_key(n) for n in (o.store, *(op.store for op in o.options),
+                                                 *(x["shop"] for x in (d["live"] or {}).get("shops", ())))})
         d.pop("image_query", None)
         if o.tracking is not None:
             d["tracking"] = {"source": o.tracking.source, "url": o.tracking.url}
