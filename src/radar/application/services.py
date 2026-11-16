@@ -30,7 +30,8 @@ class CatalogService:
     def sections(self) -> list[dict[str, Any]]:
         offers = self._repo.offers()
         return [
-            {**asdict(s), "count": sum(1 for o in offers if o.section == s.id)}
+            {**asdict(s), "filters": [{"key": f.key, "label": f.label} for f in s.filters],
+             "count": sum(1 for o in offers if o.section == s.id)}
             for s in self._repo.sections()
         ]
 
@@ -114,6 +115,7 @@ class CatalogService:
         d["vs_annual_low_pct"] = vs_annual_low_pct(o.price, o.annual_low)
         d["below_annual_low"] = is_below_annual_low(o.price, o.annual_low)
         d["days_left"] = days_left(o.ends_on, today)
+        d["facets"] = dict(o.facets)
         d["photo_url"] = f"/img/{o.id}"
         d["live"] = self._live(o)
         d["options"] = [{**asdict(op), "checked_on": op.checked_on.isoformat() if op.checked_on else None}

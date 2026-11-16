@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Mapping
 
-from radar.domain.models import Market, MarketQuote, Offer, Section, Source, StoreOption, TrackingSpec, Verdict
+from radar.domain.models import Market, MarketQuote, Offer, Section, SectionFilter, Source, StoreOption, TrackingSpec, Verdict
 
 
 class SeedError(ValueError):
@@ -19,9 +19,9 @@ class JsonSeedRepository:
         raw = json.loads(Path(path).read_text(encoding="utf-8"))
         self._checked_on = date.fromisoformat(raw["checked_on"])
         self._fx: dict[str, float] = dict(raw["fx_to_eur"])
-        self._sections = tuple(Section(**s) for s in raw["sections"])
-        section_ids = {s.id for s in self._sections}
-        self._offers = tuple(self._offer(o, section_ids) for o in raw["offers"])
+        self._sections = tuple(self._section(s) for s in raw["sections"])
+        sections = {s.id: s for s in self._sections}
+        self._offers = tuple(self._offer(o, sections) for o in raw["offers"])
         ids = [o.id for o in self._offers]
         if len(ids) != len(set(ids)):
             raise SeedError("Hay ids de oferta duplicados")
@@ -33,8 +33,62 @@ class JsonSeedRepository:
     def fx_to_eur(self) -> Mapping[str, float]: return self._fx
     def checked_on(self) -> date: return self._checked_on
 
-    def _offer(self, o: Mapping[str, Any], section_ids: set[str]) -> Offer:
-        if o["section"] not in section_ids:
+    MAX_FILTERS = 3
+    MAX_FACET_LEN = 32
+    _FILTER_KEY = re.compile(r"[a-z][a-z0-9_]*")
+
+    @classmethod
+    def _section(cls, s: Mapping[str, Any]) -> Section:
+        extra = set(s) - {"id", "title", "intro", "filters"}
+        if extra:
+            raise SeedError(f"{s.get('id')}: campos de sección desconocidos {sorted(extra)}")
+        sid = s["id"]
+        raw = s.get("filters")
+        if raw is None:
+            raw = []
+        if not isinstance(raw, list):
+            raise SeedError(f"{sid}: filters debe ser una lista")
+        if len(raw) > cls.MAX_FILTERS:
+            raise SeedError(f"{sid}: máximo {cls.MAX_FILTERS} filters")
+        out: list[SectionFilter] = []
+        for i, f in enumerate(raw):
+            where = f"{sid}: filters[{i}]"
+            if not isinstance(f, Mapping):
+                raise SeedError(f"{where} debe ser un objeto")
+            key, label = f.get("key"), f.get("label")
+            if not isinstance(key, str) or not cls._FILTER_KEY.fullmatch(key):
+                raise SeedError(f"{where}.key debe cumplir [a-z][a-z0-9_]*")
+            if not isinstance(label, str) or not label.strip() or any(ord(c) < 32 for c in label):
+                raise SeedError(f"{where}.label vacío o con caracteres de control")
+            if any(key == x.key for x in out):
+                raise SeedError(f"{where}: clave duplicada {key}")
+            out.append(SectionFilter(key=key, label=label.strip()))
+        return Section(id=sid, title=s["title"], intro=s["intro"], filters=tuple(out))
+
+    @classmethod
+    def _facets(cls, o: Mapping[str, Any], section: Section) -> tuple[tuple[str, str], ...]:
+        raw = o.get("facets")
+        if raw is None:
+            return ()
+        oid = o["id"]
+        if not isinstance(raw, Mapping):
+            raise SeedError(f"{oid}: facets debe ser un objeto")
+        allowed = {f.key for f in section.filters}
+        out = []
+        for k, v in raw.items():
+            if k not in allowed:
+                raise SeedError(f"{oid}: facet «{k}» no está en los filters de la sección {section.id}")
+            if not isinstance(v, str) or not v.strip():
+                raise SeedError(f"{oid}: facets.{k} debe ser texto no vacío")
+            if len(v.strip()) > cls.MAX_FACET_LEN:
+                raise SeedError(f"{oid}: facets.{k} supera {cls.MAX_FACET_LEN} caracteres")
+            if any(ord(c) < 32 or ord(c) == 127 for c in v):
+                raise SeedError(f"{oid}: facets.{k} contiene caracteres de control")
+            out.append((k, v.strip()))
+        return tuple(out)
+
+    def _offer(self, o: Mapping[str, Any], sections: Mapping[str, Section]) -> Offer:
+        if o["section"] not in sections:
             raise SeedError(f"{o['id']}: sección desconocida {o['section']}")
         if o["currency"] not in self._fx:
             raise SeedError(f"{o['id']}: divisa sin tipo de cambio {o['currency']}")
@@ -54,6 +108,7 @@ class JsonSeedRepository:
             tracking=self._tracking(o),
             options=self._options(o),
             checked_on=self._date(o, "checked_on"),
+            facets=self._facets(o, sections[o["section"]]),
         )
 
     @staticmethod

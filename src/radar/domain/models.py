@@ -35,10 +35,19 @@ class Source:
 
 
 @dataclass(frozen=True)
+class SectionFilter:
+    """Un filtro que la sección ofrece (p. ej. «marca»); cada oferta aporta su valor en `Offer.facets`."""
+
+    key: str
+    label: str
+
+
+@dataclass(frozen=True)
 class Section:
     id: str
     title: str
     intro: str
+    filters: tuple[SectionFilter, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -101,10 +110,12 @@ class Offer:
     tracking: TrackingSpec | None = None
     options: tuple[StoreOption, ...] = ()
     checked_on: date | None = None  # última comprobación manual del precio principal
+    facets: tuple[tuple[str, str], ...] = ()  # (clave de filtro, valor), inmutable
 
     def searchable_text(self) -> str:
         return " ".join((self.name, self.store, self.note, self.info, *self.tags, *self.highlights,
-                         *(op.store for op in self.options)))
+                         *(op.store for op in self.options),
+                         *(v for _, v in self.facets)))
 
 
 @dataclass(frozen=True)
