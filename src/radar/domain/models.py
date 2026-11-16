@@ -100,6 +100,7 @@ class Offer:
     sources: tuple[Source, ...] = field(default_factory=tuple)
     tracking: TrackingSpec | None = None
     options: tuple[StoreOption, ...] = ()
+    checked_on: date | None = None  # última comprobación manual del precio principal
 
     def searchable_text(self) -> str:
         return " ".join((self.name, self.store, self.note, self.info, *self.tags, *self.highlights,

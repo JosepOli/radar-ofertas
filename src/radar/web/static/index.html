@@ -245,7 +245,7 @@ function storesLine(d){
 function buyTable(d){
   const rows=C.storeRows(d,DATA.meta.fx_to_eur);
   if(rows.length<2&&!d.options.length&&!(d.live&&d.live.shops&&d.live.shops.length))return"";
-  const origin=r=>r.kind==="main"?(DATA.meta.checked_on?`oferta revisada ${dmy(DATA.meta.checked_on)}`:"oferta revisada"):
+  const origin=r=>r.kind==="main"?((d.checked_on||DATA.meta.checked_on)?`oferta revisada ${dmy(d.checked_on||DATA.meta.checked_on)}`:"oferta revisada"):
     r.kind==="option"?(r.checked_on?`revisado ${dmy(r.checked_on)}`:"sin fecha"):`idealo · ${ago(r.at)||"sin fecha"}`;
   const link=r=>{const u=safeUrl(r.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer" aria-label="${r.kind==="idealo"?"Ver en idealo":"Ir a la tienda"}: ${esc(r.store)}"><span class="lt">${r.kind==="idealo"?"idealo":"Tienda"} </span>↗</a>`:"—";};
   const price=r=>r.price==null?(r.kind==="main"?esc(priceTxt(d)):"ver tienda"):esc(fmt(r.price,r.currency));
@@ -334,7 +334,7 @@ function kpis(){
 function footer(){
   const m=DATA.meta;
   document.getElementById("footer").innerHTML=`
-   <p><b>Cómo leerlo.</b> El precio grande es el de la oferta y lo revisamos a mano (última revisión: ${dmy(m.checked_on)}). «Mín. anual» es el precio más bajo documentado en 2026 antes de la campaña, según comparadores y prensa de chollos; la fuente va en cada ficha. «Otras tiendas» es el mejor precio actual de las tiendas que lista <a href="https://www.idealo.es/" target="_blank" rel="noopener noreferrer">idealo.es</a> (envío incluido, sin vendedores externos de marketplaces ni productos usados; las tiendas poco conocidas se marcan como «tienda pequeña»), leído automáticamente varias veces al día; la última generación de esta página fue ${ago(m.generated_at)}.</p>
+   <p><b>Cómo leerlo.</b> El precio grande es el de la oferta: lo revisamos a mano a diario, empezando por los que han cambiado, y cada ficha indica la fecha de su última revisión (última pasada: ${dmy(m.checked_on)}). «Mín. anual» es el precio más bajo documentado en 2026 antes de la campaña, según comparadores y prensa de chollos; la fuente va en cada ficha. «Otras tiendas» es el mejor precio actual de las tiendas que lista <a href="https://www.idealo.es/" target="_blank" rel="noopener noreferrer">idealo.es</a> (envío incluido, sin vendedores externos de marketplaces ni productos usados; las tiendas poco conocidas se marcan como «tienda pequeña»), leído automáticamente varias veces al día; la última generación de esta página fue ${ago(m.generated_at)}.</p>
    <p>Los precios cambian rápido: confirma siempre el precio final en la tienda antes de comprar. Precios en $ = tiendas de EE. UU. (aduanas e impuestos aparte). Las fotos son orientativas. Página personal sin afiliados ni publicidad.</p>`;
 }
 
@@ -353,7 +353,7 @@ function openDetail(id){
       :(d.tracking?`<div class="box"><h4>Otras tiendas</h4><div class="store">Pendiente de la primera lectura automática.</div></div>`:"")}
     ${buyTable(d)}
     <p class="note"><b>Veredicto:</b> ${esc(d.note)}</p>${d.info?`<p class="note">${esc(d.info)}</p>`:""}
-    <dl><dt>Plazo</dt><dd>${endTxt(d)}</dd>${d.reference_price?`<dt>Referencia</dt><dd>${esc(d.reference_label)}: ${fmt(d.reference_price,d.currency)}</dd>`:""}<dt>Etiquetas</dt><dd>${[...d.highlights,...d.tags].map(esc).join(" · ")||"—"}</dd></dl>
+    <dl><dt>Plazo</dt><dd>${endTxt(d)}</dd><dt>Revisada</dt><dd>${dmy(d.checked_on||DATA.meta.checked_on)}</dd>${d.reference_price?`<dt>Referencia</dt><dd>${esc(d.reference_label)}: ${fmt(d.reference_price,d.currency)}</dd>`:""}<dt>Etiquetas</dt><dd>${[...d.highlights,...d.tags].map(esc).join(" · ")||"—"}</dd></dl>
     <div><b>Fuentes</b><ul>${d.sources.map(s=>`<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></li>`).join("")}</ul></div>
     <div class="ctas"><a class="cta" href="${esc(safeUrl(d.link))}" target="_blank" rel="noopener noreferrer">Ir a la oferta ↗</a>${d.tracking?`<a href="${esc(safeUrl(d.tracking.url))}" target="_blank" rel="noopener noreferrer">Comparar en ${esc(d.tracking.source)} ↗</a>`:""}</div></div>`;
   const img=document.getElementById("ph-img");

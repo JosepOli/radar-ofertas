@@ -109,6 +109,7 @@ class CatalogService:
         d["verdict"] = o.verdict.value
         d["verdict_label"] = o.verdict.label
         d["ends_on"] = o.ends_on.isoformat() if o.ends_on else None
+        d["checked_on"] = o.checked_on.isoformat() if o.checked_on else None
         d["discount_pct"] = effective_discount(o)
         d["vs_annual_low_pct"] = vs_annual_low_pct(o.price, o.annual_low)
         d["below_annual_low"] = is_below_annual_low(o.price, o.annual_low)

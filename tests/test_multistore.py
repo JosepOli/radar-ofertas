@@ -204,3 +204,27 @@ def test_payload_live_without_shops_legacy(clock):
     o = make_offer(id="m10", tracking=TrackingSpec("idealo", "1", URL))
     d = CatalogService(FakeRepo([o]), clock, Hist([_obs()])).payload()["offers"][0]
     assert d["live"]["shops"] == [] and d["stores"] == 1
+
+
+# ---------- revisión diaria: fecha de comprobación por oferta ----------
+
+def _write_offer(tmp_path, **fields):
+    raw = json.loads(SEED.read_text(encoding="utf-8"))
+    raw["offers"][0].update(fields)
+    p = tmp_path / "seed.json"
+    p.write_text(json.dumps(raw), encoding="utf-8")
+    return p
+
+
+def test_offer_checked_on_parsed_and_optional(tmp_path, seed_repo):
+    assert JsonSeedRepository(_write_offer(tmp_path, checked_on="2026-11-16")).offers()[0].checked_on == date(2026, 11, 16)
+    assert seed_repo.offers()[0].checked_on is None or isinstance(seed_repo.offers()[0].checked_on, date)
+    with pytest.raises(SeedError):
+        JsonSeedRepository(_write_offer(tmp_path, checked_on="16/11/2026"))
+
+
+def test_payload_exposes_offer_checked_on(clock):
+    svc = CatalogService(FakeRepo([make_offer(checked_on=date(2026, 11, 16))]), clock)
+    assert svc.payload()["offers"][0]["checked_on"] == "2026-11-16"
+    svc = CatalogService(FakeRepo([make_offer()]), clock)
+    assert svc.payload()["offers"][0]["checked_on"] is None

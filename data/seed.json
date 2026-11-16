@@ -339,7 +339,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|mopa|pack de"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207829/8/207829835/s11_produktbild_max/dreame-matrix-10-ultra.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "dreame-x50-ultra-complete",
@@ -393,7 +394,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|mopa|x50 ultra\\b(?!\\s+complete)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205569/2/205569273/s11_produktbild_max/dreame-x50-ultra-complete.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "roborock-saros-20-set",
@@ -441,7 +443,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sonic|neo|saros 20x|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210683/9/210683941/s11_produktbild_max/roborock-saros-20.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "dreame-aqua10-ultra-roller-complete",
@@ -490,7 +493,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|track|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/images/product/207702195/es_ES/0/max.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "roborock-qrevo-edge-2-pro",
@@ -538,7 +542,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209853/6/209853675/s11_produktbild_max/roborock-qe2p02-00.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "roborock-qrevo-2-pro-set-2-prox",
@@ -587,7 +592,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|curv|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213561/3/213561371/s11_produktbild_max/roborock-qrevo-2-pro-set-robot-aspirador-y-friegasuelos-25-000pa-anti-enredos-negro.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "roborock-qrevo-s-pro-negro",
@@ -628,7 +634,8 @@
     "include_regex": "qrevo\\s*s\\s*pro",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|white|blanco|accesorio|filtro|cepillo"
    },
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "roborock-q7-tf",
@@ -673,7 +680,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|q7tfp02|blanco|white|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/images/product/214569089/es_ES/0/max.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "ecovacs-deebot-x9-pro-omni",
@@ -719,7 +727,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206325/1/206325142/s11_produktbild_max/ecovacs-x9-pro-omni.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "dreame-l50-ultra-ae",
@@ -765,7 +774,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/images/product/211704561/es_ES/0/max.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "dreame-l10s-ultra-gen-3",
@@ -807,7 +817,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|gen\\s?2|\\bkit\\b|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208140/5/208140519/s11_produktbild_max/dreame-l10s-ultra-gen-3-set.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "moza-r9-v3-ks-srp2-bundle",
@@ -856,7 +867,8 @@
      "url": "https://computingforgeeks.com/?p=179408"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "moza-r9-v3-solo-base",
@@ -900,7 +912,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|bundle|volante|pedales|ks\\b|srp|rs\\d+"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206144/3/206144362/s11_produktbild_max/moza-racing-r9-v3-wheel-base.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "moza-r12-v2-solo-base",
@@ -942,7 +955,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|bundle|pedales|ks\\b|srp|rs\\d+|varilla|extension"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206144/2/206144282/s11_produktbild_max/moza-racing-r12-v2.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "moza-r5-pro-bundle",
@@ -985,7 +999,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|truck|camion|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/212941/0/212941014/s11_produktbild_max/moza-racing-r5-pro-racing-simulator.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "fanatec-csl-dd-5-nm",
@@ -1040,7 +1055,8 @@
      "checked_on": "2026-11-15",
      "note": "en stock"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "fanatec-clubsport-dd-15-nm",
@@ -1086,7 +1102,8 @@
      "checked_on": "2026-11-15",
      "note": "base ClubSport DD 15 Nm"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "simagic-alpha-evo-sport-9-nm",
@@ -1140,7 +1157,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|pro\\b|adaptador|volante|pedales"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311927/s11_produktbild_max/simagic-alpha-evo-sport.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "simagic-alpha-evo-12-nm",
@@ -1186,7 +1204,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sport|pro\\b|adaptador|volante|pedales"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311931/s11_produktbild_max/simagic-alpha-evo-direct-drive.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "logitech-rs50-bundle-pc-sin-pedales",
@@ -1228,7 +1247,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|mclaren|pedales rs|h-shifter|round wheel"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207967/9/207967958/s11_produktbild_max/logitech-g-rs50-system-xbox-pc.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "logitech-g923-bundle",
@@ -1262,7 +1282,8 @@
      "url": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "filamento-bambu-lab-por-volumen",
@@ -1298,7 +1319,8 @@
      "url": "https://all3dp.com/de/4/black-friday-bei-bambu-lab-gestartet-x2d-fuer-549-e-filament-bis-zu-47-guenstiger/"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-p2s-combo",
@@ -1342,7 +1364,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|sin ams|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208041/2/208041246/s11_produktbild_max/bambu-lab-p2s-combo.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "elegoo-centauri-carbon-2-combo",
@@ -1385,7 +1408,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|boquilla suelta"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209249/9/209249988/s11_produktbild_max/elegoo-centauri-carbon-2-combo.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-x2d-combo",
@@ -1431,7 +1455,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210248/1/210248128/s11_produktbild_max/bambu-lab-x2d-combo.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "snapmaker-u1-cambiador-de-herramientas",
@@ -1477,7 +1502,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|enclosure|filamento"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208466/6/208466677/s11_produktbild_max/snapmaker-u1.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-h2c-combo",
@@ -1522,7 +1548,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sin ams"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208669/6/208669695/s11_produktbild_max/bambu-lab-h2c-ams-combo.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-h2d-combo",
@@ -1565,7 +1592,8 @@
      "checked_on": "2026-11-15",
      "note": "distribuidor español de Bambu Lab"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-h3c-ams-combo",
@@ -1616,7 +1644,8 @@
      "checked_on": "2026-11-15",
      "note": "pedido pendiente (sin stock inmediato)"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bambu-lab-a1-mini-a1",
@@ -1658,7 +1687,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|combo|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203872/8/203872867/s11_produktbild_max/bambu-lab-a1-mini.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "meta-quest-3-512-gb",
@@ -1700,7 +1730,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|quest\\s*3s|128\\s?gb|accesorio|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203284/3/203284363/s11_produktbild_max/meta-quest-3-512gb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "meta-quest-3s-128-gb",
@@ -1741,7 +1772,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|256\\s?gb|accesorio|funda|interfaz"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204861/0/204861013/s11_produktbild_max/meta-quest-3s-128gb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "meta-quest-3-reacondicionada",
@@ -1774,7 +1806,8 @@
      "url": "https://www.backmarket.es/es-es/c/black-friday/meta-quest-deals"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "toshiba-mg07aca14te-14-tb-interno-nuevo",
@@ -1820,7 +1853,8 @@
      "checked_on": "2026-11-15",
      "note": "sin stock hoy"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "seagate-exos-28-tb-interno-nuevo",
@@ -1863,7 +1897,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|usad|ironwolf|expansion|externo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207079/6/207079638/s11_produktbild_max/seagate-exos-m-28tb-st28000nm003k.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "wd-elements-22-tb-externo-para-desmontar",
@@ -1905,7 +1940,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|portable|my book"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202329/4/202329491/s11_produktbild_max/western-digital-elements-desktop-22tb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "seagate-exos-x10-10-tb-interno-nuevo",
@@ -1948,7 +1984,8 @@
      "checked_on": "2026-11-15",
      "note": "sin stock hoy"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "seagate-exos-28-tb-usado",
@@ -1982,7 +2019,8 @@
      "url": "https://diskprices.com/?locale=es"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "toshiba-n300-18-tb-nas",
@@ -2025,7 +2063,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|hdwg51"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210641/8/210641854/s11_produktbild_max/toshiba-n300-18tb-bulk-mn11aca18ts.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "lexar-nm610pro-2-tb-nvme",
@@ -2070,7 +2109,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|1\\s?tb|500"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202700/4/202700444/s11_produktbild_max/lexar-nm610-pro-2tb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "netac-nv3000-2-tb-nvme",
@@ -2104,7 +2144,8 @@
      "url": "https://diskprices.com/?locale=ie"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "netac-2-tb-nvme",
@@ -2138,7 +2179,8 @@
      "url": "https://diskprices.com/?locale=es"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "kioxia-exceria-plus-g3-2-tb-gen4",
@@ -2180,7 +2222,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|g2|g4|portable|1\\s?tb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203495/9/203495994/s11_produktbild_max/kioxia-exceria-plus-g3-2tb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "wd-blue-sn5000-4-tb-nvme",
@@ -2223,7 +2266,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|2\\s?tb|1\\s?tb|sn5100"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204448/9/204448904/s11_produktbild_max/western-digital-blue-sn5000-nvme-4tb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "ddr5-32-gb-2-16-6000-cl40-lexar-thor-z",
@@ -2261,7 +2305,8 @@
      "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "ddr5-64-gb-2-32-5600-6000-corsair-vengeance-rs",
@@ -2295,7 +2340,8 @@
      "url": "https://diskprices.com/?locale=es"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "ddr5-128-gb-2-64-6000-corsair-vengeance-rgb",
@@ -2338,7 +2384,8 @@
      "checked_on": "2026-11-15",
      "note": "sin stock hoy"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "sodimm-ddr5-64-gb-2-32-4800-corsair",
@@ -2380,7 +2427,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|32gb kit|16gb|1x"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/201926/7/201926749/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-4800-cl40-cmsx64gx5m2a4800c40.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "ddr4-32-gb-2-16-3200-cl16-netac",
@@ -2414,7 +2462,8 @@
      "url": "https://diskprices.com/?locale=es"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-rtx-3090-24-gb-segunda-mano",
@@ -2454,7 +2503,8 @@
      "url": "https://www.javadex.es/blog/mejores-gpus-tarjetas-graficas-ia-2026-nvidia-amd"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "intel-arc-pro-b60-24-gb",
@@ -2493,7 +2543,8 @@
      "url": "https://www.pccomponentes.com/tarjeta-grafica-asrock-intel-arc-pro-b60-creator-24gb-gddr6-cuatro-displayport-pcie-4-0"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-rtx-4090-24-gb-segunda-mano",
@@ -2527,7 +2578,8 @@
      "url": "https://www.javadex.es/blog/mejores-gpus-tarjetas-graficas-ia-2026-nvidia-amd"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "amd-radeon-rx-9070-xt-16-gb",
@@ -2573,7 +2625,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|dark|9060|9070\\s+steel"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206012/1/206012166/s11_produktbild_max/asrock-radeon-rx-9070-xt-steel-legend.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "amd-radeon-rx-9070-16-gb",
@@ -2618,7 +2671,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|xt\\b|9060"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206012/2/206012298/s11_produktbild_max/asrock-radeon-rx-9070-challenger.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "amd-radeon-rx-9060-xt-16-gb",
@@ -2663,7 +2717,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|8\\s?gb|steel"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206592/4/206592455/s11_produktbild_max/asrock-radeon-rx-9060-xt-challenger-16g.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-rtx-5070-ti-16-gb",
@@ -2709,7 +2764,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|ice|gaming|5070(?!\\s*ti)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205942/1/205942152/s11_produktbild_max/gigabyte-geforce-rtx-5070-ti-eagle-oc.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-rtx-5060-ti-16-gb",
@@ -2750,7 +2806,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|8\\s?g|ventus\\s*3x"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206266/5/206266533/s11_produktbild_max/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-rtx-5090-32-gb",
@@ -2787,7 +2844,8 @@
      "url": "https://www.geeknetic.es/Noticia/39932/El-precio-medio-de-las-RTX-5090-ya-supera-los-6200-euros-en-Espana.html"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "amd-ryzen-7-7800x3d",
@@ -2830,7 +2888,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|tray|bandeja|pc\\b|vist|gaming pc|rtx|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s11_produktbild_max/amd-ryzen-7-7800x3d.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "amd-ryzen-7-9800x3d",
@@ -2884,7 +2943,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|tray|bandeja|delid|pc\\b|rtx|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205072/2/205072279/s11_produktbild_max/amd-ryzen-7-9800x3d.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "beelink-gtr9-pro-ai-max-395-128-gb",
@@ -2923,7 +2983,8 @@
      "url": "https://macmyths.com/there-are-37-amd-ryzen-ai-max-395-mini-pcs-in-the-world-right-now-heres-where-you-can-buy-them-from-1500/"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bosgame-m5-ai-max-395-128-gb",
@@ -2970,7 +3031,8 @@
      "checked_on": "2026-11-15",
      "note": "128 GB + 2 TB, envío Amazon"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "gmktec-evo-x2-128-gb",
@@ -3012,7 +3074,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|96\\s?gb|x1"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206554/2/206554273/s11_produktbild_max/gmktec-evo-x2-ryzen-ai-max-395-128gb-2tb.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "framework-desktop-ai-max-395-128-gb",
@@ -3047,7 +3110,8 @@
      "url": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/"
     }
    ],
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "minisforum-ms-s1-max-128-gb",
@@ -3091,7 +3155,8 @@
      "checked_on": "2026-11-15",
      "note": "128 GB + 2 TB, stock en Alemania; antes 5.399 €"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "mac-mini-m5-pro",
@@ -3138,7 +3203,8 @@
      "checked_on": "2026-11-15",
      "note": "M5 Pro 24 GB / 512 GB, vendido por Amazon"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "id": "nvidia-dgx-spark-128-gb",
@@ -3180,7 +3246,8 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|asus|gx10|msi|lenovo|dell|hp\\b"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208146/3/208146353/s11_produktbild_max/nvidia-dgx-spark-founders-edition-940-54242-0005-000.jpg",
-   "options": []
+   "options": [],
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3227,7 +3294,8 @@
     "include_regex": "d30\\s+ultra",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|staubbeutel|negro|black"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3278,7 +3346,8 @@
     "include_regex": "l40\\s+ultra\\s+ae",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|negro|black"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206606/2/206606273/s11_produktbild_max/dreame-l40-ultra-ae.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206606/2/206606273/s11_produktbild_max/dreame-l40-ultra-ae.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3325,7 +3394,8 @@
     "include_regex": "115\\s+combo|y414240",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|autoempty|y454|repuesto"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/210209/4/210209427/s11_produktbild_max/irobot-y414240.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/210209/4/210209427/s11_produktbild_max/irobot-y414240.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3392,7 +3462,8 @@
     "include_regex": "crp2|rs066",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|clutch|embrague|rubber|goma|kit"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/205854/1/205854110/s11_produktbild_max/moza-racing-crp2-pedals.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/205854/1/205854110/s11_produktbild_max/moza-racing-crp2-pedals.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3438,7 +3509,8 @@
     "include_regex": "srp2|rs098",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3498,7 +3570,8 @@
     "include_regex": "r3|rs074",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3544,7 +3617,8 @@
     "include_regex": "t-?lcm",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3604,7 +3678,8 @@
     "include_regex": "p1s",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|combo|ams|placa|boquilla|hotend|filtro|repuesto"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/203480/1/203480108/s11_produktbild_max/bambu-lab-p1s.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/203480/1/203480108/s11_produktbild_max/bambu-lab-p1s.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3664,7 +3739,8 @@
     "include_regex": "s1.{0,15}ace\\s*2\\s*pro|ks2cbk",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|hotend|kit|boquilla"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/213343/0/213343026/s11_produktbild_max/anycubic-kobra-s1-ace-2-pro-combo.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/213343/0/213343026/s11_produktbild_max/anycubic-kobra-s1-ace-2-pro-combo.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3699,7 +3775,8 @@
      "title": "Elegoo EU · PLA RFID 10 kg",
      "url": "https://eu.elegoo.com/es-es/products/pla-rfid-filament-10-kg"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3746,7 +3823,8 @@
     "include_regex": "vr\\s?2",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sense|adaptador|funda|soporte|cable|juego"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/202259/6/202259655/s11_produktbild_max/sony-playstation-vr2.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/202259/6/202259655/s11_produktbild_max/sony-playstation-vr2.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3785,7 +3863,8 @@
      "title": "idealo · Meta Quest 3S 128GB",
      "url": "https://www.idealo.es/precios/204861013/meta-quest-3s-128gb.html"
     }
-   ]
+   ],
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3836,7 +3915,8 @@
     "include_regex": "sn5100",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\s?tb|4\\s?tb|heatsink|disipador"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207399/5/207399531/s11_produktbild_max/western-digital-blue-sn5100-2tb.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207399/5/207399531/s11_produktbild_max/western-digital-blue-sn5100-2tb.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3892,7 +3972,8 @@
     "include_regex": "ryzen\\s*7\\s*9700x\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|tray|bandeja|\\(t\\)"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3948,7 +4029,8 @@
     "include_regex": "ryzen\\s*5\\s*9600x\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|9600x3d|tray|bandeja|\\(t\\)"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -3995,7 +4077,8 @@
     "include_regex": "245k\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|245kf"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911341/s11_produktbild_max/intel-core-ultra-5-245k.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911341/s11_produktbild_max/intel-core-ultra-5-245k.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4041,7 +4124,8 @@
     "include_regex": "265k\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|265kf|tray|bandeja|oem|\\bpc\\b"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911340/s11_produktbild_max/intel-core-ultra-7-265k.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911340/s11_produktbild_max/intel-core-ultra-7-265k.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4088,7 +4172,8 @@
     "include_regex": "9950x3d\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|x3d2|tray|bandeja|\\(t\\)"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206095/2/206095266/s11_produktbild_max/amd-ryzen-9-9950x3d.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206095/2/206095266/s11_produktbild_max/amd-ryzen-9-9950x3d.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4134,7 +4219,8 @@
     "include_regex": "dual.*5070|5070.*dual",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|5070\\s*ti|white|blanc"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206535/9/206535919/s11_produktbild_max/asus-geforce-rtx-5070-dual-oc.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206535/9/206535919/s11_produktbild_max/asus-geforce-rtx-5070-dual-oc.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4180,7 +4266,8 @@
     "include_regex": "dual.*5060\\s*ti|5060\\s*ti.*dual",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|white|blanc|\\b8\\s?gb"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206264/2/206264275/s11_produktbild_max/asus-geforce-rtx-5060-ti-16gb-dual-oc.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206264/2/206264275/s11_produktbild_max/asus-geforce-rtx-5060-ti-16gb-dual-oc.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4228,7 +4315,8 @@
     "include_regex": "fury\\s*beast.*rgb.*(2\\s?x\\s?16|32\\s?gb)|rgb.*fury\\s*beast",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|cl36|cl40|64\\s?gb|5200|5600"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204101/9/204101930/s11_produktbild_max/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204101/9/204101930/s11_produktbild_max/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4275,7 +4363,8 @@
     "include_regex": "(6000.*cl30|cl30.*6000|vengeance)",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rgb|cl36|cl40|32\\s?gb\\s*\\("
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/203080/0/203080042/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/203080/0/203080042/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4331,7 +4420,8 @@
     "include_regex": "mac\\s*mini.*(24\\s?gb)",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|16\\s?gb\\s*ram|m4|m5"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/213906/0/213906037/s11_produktbild_max/apple-mac-mini-m6-2026-mhqm4ty-a.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/213906/0/213906037/s11_produktbild_max/apple-mac-mini-m6-2026-mhqm4ty-a.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4378,7 +4468,8 @@
     "include_regex": "r9700",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/208322/8/208322827/s11_produktbild_max/powercolor-radeon-ai-pro-r9700.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/208322/8/208322827/s11_produktbild_max/powercolor-radeon-ai-pro-r9700.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4425,7 +4516,8 @@
     "include_regex": "gx10",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|gg0026|gg0027"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/208466/3/208466308/s11_produktbild_max/asus-ascent-gx10-gg0003bn.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/208466/3/208466308/s11_produktbild_max/asus-ascent-gx10-gg0003bn.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4472,7 +4564,8 @@
     "include_regex": "15arp11",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4519,7 +4612,8 @@
     "include_regex": "m1502xa-bq012",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/202630/7/202630737/s11_produktbild_max/asus-vivobook-15-m1502.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/202630/7/202630737/s11_produktbild_max/asus-vivobook-15-m1502.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4583,7 +4677,8 @@
     "include_regex": "macbook\\s*air.*(m5).*512",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|1\\s?tb|15[.,]?3|funda"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209562/4/209562407/s11_produktbild_max/apple-macbook-air-13-m5-2026.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209562/4/209562407/s11_produktbild_max/apple-macbook-air-13-m5-2026.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4630,7 +4725,8 @@
     "include_regex": "fa2001ns",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209055/0/209055038/s11_produktbild_max/hp-victus-15-fa2001ns.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209055/0/209055038/s11_produktbild_max/hp-victus-15-fa2001ns.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "price_text": null,
@@ -4677,7 +4773,8 @@
     "include_regex": "15amn8.*7520u",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "samsung-odyssey-g5-g50f-27",
@@ -4725,7 +4822,8 @@
     "include_regex": "(g50f|fg506|27fg50)",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo|oled"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "aoc-q27g4xf",
@@ -4786,7 +4884,8 @@
     "include_regex": "q27g4xf",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204856/8/204856817/s11_produktbild_max/aoc-q27g4xf.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204856/8/204856817/s11_produktbild_max/aoc-q27g4xf.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "dell-s2725dsm",
@@ -4834,7 +4933,8 @@
     "include_regex": "s2725dsm?",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/208391/5/208391544/s11_produktbild_max/dell-s2725dsm.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/208391/5/208391544/s11_produktbild_max/dell-s2725dsm.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "asus-rog-xg27aqdmg-oled",
@@ -4882,7 +4982,8 @@
     "include_regex": "xg27aqdmg\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xg27aqdmg[rz]|soporte|lightbar"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204427/5/204427524/s11_produktbild_max/asus-rog-strix-oled-xg27aqdmg.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204427/5/204427524/s11_produktbild_max/asus-rog-strix-oled-xg27aqdmg.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "samsung-odyssey-oled-g60sf",
@@ -4937,7 +5038,8 @@
     "include_regex": "(g60sf|fg602su)",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207270/5/207270530/s11_produktbild_max/samsung-odyssey-oled-g60sf-s27fg602su.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207270/5/207270530/s11_produktbild_max/samsung-odyssey-oled-g60sf-s27fg602su.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "google-pixel-10-128",
@@ -4997,7 +5099,8 @@
     "include_regex": "pixel\\s*10\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|xl|256|funda|protector|10a"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207317/5/207317589/s11_produktbild_max/google-pixel-10-128gb-obsidian.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207317/5/207317589/s11_produktbild_max/google-pixel-10-128gb-obsidian.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "xiaomi-15t-256",
@@ -5045,7 +5148,8 @@
     "include_regex": "xiaomi\\s*15t\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|512|funda|protector|cargador"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207831/1/207831193/s11_produktbild_max/xiaomi-15t.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207831/1/207831193/s11_produktbild_max/xiaomi-15t.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "samsung-galaxy-a56-128",
@@ -5093,7 +5197,8 @@
     "include_regex": "a56.*128|128.*a56",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "google-pixel-10a-128",
@@ -5141,7 +5246,8 @@
     "include_regex": "pixel\\s*10a",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/209471/9/209471909/s11_produktbild_max/google-pixel-10a.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/209471/9/209471909/s11_produktbild_max/google-pixel-10a.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "apple-iphone-17-256",
@@ -5209,7 +5315,8 @@
     "include_regex": "iphone\\s*17\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "apple-iphone-16-128",
@@ -5264,7 +5371,8 @@
     "include_regex": "iphone\\s*16\\b",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "sony-wh-1000xm5",
@@ -5323,7 +5431,8 @@
     "include_regex": "wh-?1000xm5",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/201949/7/201949755/s11_produktbild_max/sony-wh-1000xm5.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/201949/7/201949755/s11_produktbild_max/sony-wh-1000xm5.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "soundcore-space-one",
@@ -5370,7 +5479,8 @@
     "include_regex": "space\\s*one",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|almohadilla|funda"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/203229/4/203229407/s11_produktbild_max/soundcore-space-one.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/203229/4/203229407/s11_produktbild_max/soundcore-space-one.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "sony-wh-1000xm6",
@@ -5429,7 +5539,8 @@
     "include_regex": "wh-?1000xm6",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206509/4/206509477/s11_produktbild_max/sony-wh-1000xm6.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206509/4/206509477/s11_produktbild_max/sony-wh-1000xm6.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "apple-airpods-pro-3",
@@ -5476,7 +5587,8 @@
     "include_regex": "airpods\\s*pro\\s*(3|\\(3)",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|puntas|almohadilla"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "bose-qc-ultra-earbuds-2",
@@ -5523,7 +5635,8 @@
     "include_regex": "(qc|quiet\\s?comfort)\\s*ultra",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\.?\\s?ª?\\s?gen\\b|funda|almohadilla|diadema|headphones"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/206785/9/206785992/s11_produktbild_max/bose-quietcomfort-ultra-earbuds-2-gen.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/206785/9/206785992/s11_produktbild_max/bose-quietcomfort-ultra-earbuds-2-gen.jpg",
+   "checked_on": "2026-11-15"
   },
   {
    "id": "apple-airpods-4",
@@ -5570,7 +5683,8 @@
     "include_regex": "airpods\\s*4",
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|anc|cancelaci"
    },
-   "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg"
+   "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg",
+   "checked_on": "2026-11-15"
   }
  ]
 }

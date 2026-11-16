@@ -53,7 +53,18 @@ class JsonSeedRepository:
             sources=tuple(Source(**s) for s in o.get("sources") or ()),
             tracking=self._tracking(o),
             options=self._options(o),
+            checked_on=self._date(o, "checked_on"),
         )
+
+    @staticmethod
+    def _date(o: Mapping[str, Any], key: str) -> date | None:
+        v = o.get(key)
+        if v is None:
+            return None
+        try:
+            return date.fromisoformat(v)
+        except (TypeError, ValueError) as exc:
+            raise SeedError(f"{o['id']}: {key} debe ser una fecha ISO") from exc
 
     MAX_OPTIONS = 8
 
