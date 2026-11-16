@@ -102,6 +102,46 @@
    "group": "informatica"
   },
   {
+   "id": "cajas",
+   "group": "informatica",
+   "title": "Cajas, fuentes y refrigeración",
+   "intro": "Lo que no se ve pero decide ruido, temperaturas y averías. En fuentes, mejor una marca conocida con buena garantía que más vatios.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
+  },
+  {
+   "id": "perifericos",
+   "group": "informatica",
+   "title": "Teclados y ratones",
+   "intro": "Periféricos que se usan a diario. En BF bajan mucho los modelos del año anterior.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "conexion",
+     "label": "Conexión"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
+  },
+  {
    "id": "pcs",
    "title": "PCs completos",
    "intro": "Torres gaming, mini PCs y todo en uno ya montados. Comparamos el precio con lo que costaría montarlo por piezas y con lo que cuesta el mismo modelo en otras tiendas.",
@@ -200,6 +240,26 @@
     }
    ],
    "group": "simracing"
+  },
+  {
+   "id": "cockpits",
+   "group": "simracing",
+   "title": "Cockpits y soportes",
+   "intro": "Dónde sujetar base y pedales. Un soporte de mesa vale para empezar; con bases de 9 Nm o más hace falta un cockpit de perfil de aluminio.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "material",
+     "label": "Material"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
   },
   {
    "id": "ia",
@@ -336,6 +396,26 @@
     }
    ],
    "group": "ocio"
+  },
+  {
+   "id": "tablets",
+   "group": "ocio",
+   "title": "Tablets y e-readers",
+   "intro": "Tablets para casa y estudio, y lectores de tinta electrónica.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "sistema",
+     "label": "Sistema"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
   },
   {
    "id": "audio",
@@ -1338,7 +1418,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 8,
    "tags": [
     "6 Nm",
     "base + volante + pedales",
@@ -1399,7 +1479,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 9,
    "tags": [
     "5 Nm (8 Nm con Boost Kit)",
     "sin driver en kernel"
@@ -1460,7 +1540,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 7,
+   "rank": 10,
    "tags": [
     "15 Nm"
    ],
@@ -1512,7 +1592,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 11,
    "tags": [
     "9 Nm",
     "driver externo en Linux"
@@ -1576,7 +1656,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 12,
    "tags": [
     "12 Nm",
     "driver externo en Linux"
@@ -1632,7 +1712,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 13,
    "tags": [
     "8 Nm",
     "sin pedales"
@@ -1684,7 +1764,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 11,
+   "rank": 15,
    "tags": [
     "2,3 Nm",
     "engranajes"
@@ -4007,7 +4087,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 1,
+   "rank": 2,
    "tags": [
     "celda de carga 200 kg",
     "acelerador + freno"
@@ -4063,7 +4143,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "celda de carga 100 kg",
     "acelerador + freno"
@@ -4181,7 +4261,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 5,
    "tags": [
     "celda de carga 100 kg",
     "3 pedales"
@@ -8062,7 +8142,7 @@
    "store": "PcComponentes",
    "price": 122.0,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 7,
    "tags": [
     "Zigbee",
     "Thread",
@@ -8116,7 +8196,7 @@
    "store": "IKEA España",
    "price": 79.99,
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 8,
    "tags": [
     "Zigbee",
     "Thread",
@@ -8157,7 +8237,7 @@
    "store": "PcComponentes",
    "price": 464.89,
    "verdict": "no",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "Celeron J4125",
     "2 GB",
@@ -8195,6 +8275,1748 @@
     "marca": "Synology"
    },
    "checked_on": "2026-11-16"
+  },
+  {
+   "id": "simagic-p500-pedales",
+   "section": "pedales",
+   "illustration": "wheel",
+   "image_query": "Simagic P500 load cell pedals",
+   "name": "Simagic P500 (2 pedales)",
+   "store": "Simufy",
+   "price": 109.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 144.8,
+   "reference_label": "otras tiendas (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "celda de carga 100 kg",
+    "acelerador + freno",
+    "ampliable"
+   ],
+   "highlights": [],
+   "note": "Simufy la tiene a 109,99 €, unos 35 € menos que las otras tiendas que aparecen en idealo (~144 €). Celda de carga de 100 kg por muy poco dinero; es la compra de entrada con más sentido de la lista.",
+   "info": "Pedalera modular con freno de celda de carga de 100 kg, acelerador y posibilidad de añadir embrague y módulos de vibración. Sin histórico fiable: la comparación es contra otras tiendas de hoy.",
+   "link": "https://simufy.com/products/pedales-p500-simagic",
+   "sources": [
+    {
+     "title": "Simufy · Simagic P500",
+     "url": "https://simufy.com/products/pedales-p500-simagic"
+    },
+    {
+     "title": "idealo · Simagic P500",
+     "url": "https://www.idealo.es/precios/206096355/simagic-p500-load-cell-pedals.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Simagic",
+    "freno": "Celda de carga",
+    "pedales": "2 pedales"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206096355",
+    "url": "https://www.idealo.es/precios/206096355/simagic-p500-load-cell-pedals.html",
+    "include_regex": "p500",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|clutch|embrague|hpr|s301|kit|placa"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206096/3/206096355/s11_produktbild_max/simagic-p500-load-cell-pedals.jpg"
+  },
+  {
+   "id": "fanatec-csl-pedals-load-cell-kit",
+   "section": "pedales",
+   "illustration": "wheel",
+   "image_query": "Fanatec CSL Pedals Load Cell Kit",
+   "name": "Fanatec CSL Pedals + Load Cell Kit",
+   "store": "Simufy",
+   "price": 174.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "celda de carga",
+    "acelerador + freno",
+    "modular"
+   ],
+   "highlights": [],
+   "note": "Configuración de Simufy: pedalera CSL de dos pedales más kit de celda de carga por 174,99 €. Fanatec anuncia sus precios de Black Friday el 19/11: espera a verlos antes de comprar.",
+   "info": "Los CSL Pedals son de acero con sensores Hall; el kit sustituye el freno por uno de presión (celda de carga). Se pueden añadir embrague y kit de tuning.",
+   "link": "https://simufy.com/products/pedales-fanatec-csl",
+   "sources": [
+    {
+     "title": "Simufy · Fanatec CSL Pedals (variante con Load Cell Kit)",
+     "url": "https://simufy.com/products/pedales-fanatec-csl"
+    },
+    {
+     "title": "Simufy · CSL Load Cell Kit",
+     "url": "https://simufy.com/products/load-cell-kit-para-pedales-fanatec-csl"
+    },
+    {
+     "title": "Sim Racing Nerd · Fanatec BF 2026",
+     "url": "https://simracingnerd.net/black-friday-fanatec/"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Fanatec",
+    "freno": "Celda de carga",
+    "pedales": "2 pedales"
+   }
+  },
+  {
+   "id": "simagic-p1000-pedales",
+   "section": "pedales",
+   "illustration": "wheel",
+   "image_query": "Simagic P1000 pedals",
+   "name": "Simagic P1000 (3 pedales, mecánico)",
+   "store": "Simufy",
+   "price": 419.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 450.8,
+   "reference_label": "otras tiendas (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "celda de carga 100 kg",
+    "3 pedales",
+    "mecánico"
+   ],
+   "highlights": [],
+   "note": "419,99 € en Simufy, 31 € menos que Neobyte, pero muy por encima del P500 (109,99 €) con la misma celda de 100 kg. Solo compensa si quieres el pedal de embrague y la construcción más rígida.",
+   "info": "Versión mecánica de tres pedales con celda de carga de 100 kg. La hidráulica cuesta 489,99 € en la misma tienda.",
+   "link": "https://simufy.com/products/pedales-p1000-simagic",
+   "sources": [
+    {
+     "title": "Simufy · Simagic P1000",
+     "url": "https://simufy.com/products/pedales-p1000-simagic"
+    },
+    {
+     "title": "idealo · Simagic P1000",
+     "url": "https://www.idealo.es/precios/204535035/simagic-p1000.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Simagic",
+    "freno": "Celda de carga",
+    "pedales": "3 pedales"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204535035",
+    "url": "https://www.idealo.es/precios/204535035/simagic-p1000.html",
+    "include_regex": "p1000",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|hidr|clutch|tercer|p1000i|p1000-f"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204535/0/204535035/s11_produktbild_max/simagic-p1000.jpg"
+  },
+  {
+   "id": "heusinkveld-sprint-pedales",
+   "section": "pedales",
+   "illustration": "wheel",
+   "image_query": "Heusinkveld Sim Pedals Sprint",
+   "name": "Heusinkveld Sprint (2 pedales)",
+   "store": "Simufy",
+   "price": 549.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "celda de carga",
+    "acelerador + freno",
+    "alta gama"
+   ],
+   "highlights": [],
+   "note": "Pedales muy bien considerados, pero Simufy es la única tienda que los vende en idealo y no hay histórico para hablar de chollo. Su tachado (569,99 €) no cuenta como referencia.",
+   "info": "Pedalera de celda de carga con freno ajustable por elastómeros. Precio sin plataforma de montaje; con plataforma, 659,99 €.",
+   "link": "https://simufy.com/products/pedales-sprint-heusinkveld",
+   "sources": [
+    {
+     "title": "Simufy · Heusinkveld Sprint",
+     "url": "https://simufy.com/products/pedales-sprint-heusinkveld"
+    },
+    {
+     "title": "idealo · Heusinkveld Sprint",
+     "url": "https://www.idealo.es/precios/202735158/heusinkveld-sim-pedals-sprint.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Heusinkveld",
+    "freno": "Celda de carga",
+    "pedales": "2 pedales"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202735158",
+    "url": "https://www.idealo.es/precios/202735158/heusinkveld-sim-pedals-sprint.html",
+    "include_regex": "sim pedals sprint",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|clutch|embrague|elastomer|kit"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202735/1/202735158/s11_produktbild_max/heusinkveld-sim-pedals-sprint.jpg"
+  },
+  {
+   "id": "playseat-challenge-actifit",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Playseat Challenge ActiFit",
+   "name": "Playseat Challenge ActiFit",
+   "store": "PcComponentes",
+   "price": 169.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 229.99,
+   "reference_label": "precio en Simufy",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "plegable",
+    "acero",
+    "asiento incluido"
+   ],
+   "highlights": [],
+   "note": "PcComponentes lo vende y envía a 169,99 €; Simufy lo pide a 229,99 € y otras tiendas rondan 205–245 €. Es un cockpit plegable de entrada: vale para volantes de engranajes, no para direct drive potentes.",
+   "info": "Asiento con estructura de acero plegable, con soportes para volante y pedales. Pensado para volantes de entrada (Logitech, Thrustmaster).",
+   "link": "https://www.pccomponentes.com/playseat-challenge-actifit-asiento-cockpit",
+   "sources": [
+    {
+     "title": "PcComponentes · Playseat Challenge ActiFit",
+     "url": "https://www.pccomponentes.com/playseat-challenge-actifit-asiento-cockpit"
+    },
+    {
+     "title": "idealo · Playseat Challenge ActiFit",
+     "url": "https://www.idealo.es/precios/202035372/playseat-challenge-actifit.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 229.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/playseat-challenge-actifit",
+     "checked_on": "2026-11-16",
+     "note": "versión negra"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Cockpit",
+    "material": "Tubo de acero",
+    "marca": "Playseat"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202035372",
+    "url": "https://www.idealo.es/precios/202035372/playseat-challenge-actifit.html",
+    "include_regex": "challenge",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|dd|edition|logitech|x\\b"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202035/3/202035372/s11_produktbild_max/playseat-challenge-actifit.jpg"
+  },
+  {
+   "id": "next-level-racing-f-gt-lite",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Next Level Racing F-GT Lite",
+   "name": "Next Level Racing F-GT Lite",
+   "store": "Simufy",
+   "price": 249.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 289.99,
+   "reference_label": "precio en PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "plegable",
+    "Fórmula y GT",
+    "hasta 130 kg"
+   ],
+   "highlights": [],
+   "note": "Simufy la tiene a 249,99 € y PcComponentes a 289,99 €: 40 € de diferencia. Cockpit plegable muy popular para espacios pequeños; con bases potentes se queda flojo.",
+   "info": "Cockpit plegable con dos posiciones (GT y Fórmula) y asiento de tela. Admite hasta 130 kg y mide 19 kg. Versión negra.",
+   "link": "https://simufy.com/products/cockpit-plegable-f-gt-lite",
+   "sources": [
+    {
+     "title": "Simufy · NLR F-GT Lite",
+     "url": "https://simufy.com/products/cockpit-plegable-f-gt-lite"
+    },
+    {
+     "title": "PcComponentes · NLR F-GT Lite",
+     "url": "https://www.pccomponentes.com/next-level-racing-f-gt-lite"
+    },
+    {
+     "title": "idealo · NLR F-GT Lite",
+     "url": "https://www.idealo.es/precios/200934249/next-level-racing-f-gt-lite-cockpit-black.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 289.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/next-level-racing-f-gt-lite",
+     "checked_on": "2026-11-16",
+     "note": "vendido y enviado por PcComponentes"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Cockpit",
+    "material": "Tubo de acero",
+    "marca": "Next Level Racing"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "200934249",
+    "url": "https://www.idealo.es/precios/200934249/next-level-racing-f-gt-lite-cockpit-black.html",
+    "include_regex": "f-gt lite",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|carbon|grey|gris"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/200934/2/200934249/s11_produktbild_max/next-level-racing-f-gt-lite-cockpit-black.jpg"
+  },
+  {
+   "id": "wheel-stand-pro-deluxe-v2-std",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Wheel Stand Pro Deluxe V2",
+   "name": "Wheel Stand Pro Deluxe V2 Std. (Logitech)",
+   "store": "Simufy",
+   "price": 129.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 159.99,
+   "reference_label": "precio sin oferta (Simufy)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "soporte plegable",
+    "volante + pedales",
+    "Logitech G25–G923"
+   ],
+   "highlights": [],
+   "note": "Soporte plegable económico, pero 129,99 € es mucho para lo que es y su tachado de 159,99 € no es referencia. Si solo necesitas apoyo para un volante pequeño, hay alternativas de 100–140 €.",
+   "info": "Estructura plegable de acero para volante y pedales; la variante de Simufy es la compatible con Logitech G25–G923. Hay versiones para Thrustmaster y Fanatec al mismo precio.",
+   "link": "https://simufy.com/products/wheel-stand-pro-deluxe-v2-std-soporte-para-volante-y-pedales",
+   "sources": [
+    {
+     "title": "Simufy · Wheel Stand Pro Deluxe V2 Std.",
+     "url": "https://simufy.com/products/wheel-stand-pro-deluxe-v2-std-soporte-para-volante-y-pedales"
+    },
+    {
+     "title": "idealo · Wheel Stand Pro Deluxe V2 Logitech",
+     "url": "https://www.idealo.es/precios/5704259/wheel-stand-pro-wheel-stand-pro-para-logitech-g29-g920-g27-g25-racing-wheel-deluxe-v2.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Soporte plegable",
+    "material": "Tubo de acero",
+    "marca": "Wheel Stand Pro"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "5704259",
+    "url": "https://www.idealo.es/precios/5704259/wheel-stand-pro-wheel-stand-pro-para-logitech-g29-g920-g27-g25-racing-wheel-deluxe-v2.html",
+    "include_regex": "deluxe\\s*v2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|thrustmaster|fanatec"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/5704/2/5704259/s11_produktbild_max/wheel-stand-pro-wheel-stand-pro-para-logitech-g29-g920-g27-g25-racing-wheel-deluxe-v2.jpg"
+  },
+  {
+   "id": "trak-racer-tr80s",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Trak Racer TR80S",
+   "name": "Trak Racer TR80S V6 (aluminio 80 mm)",
+   "store": "Simufy",
+   "price": 390.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 459.99,
+   "reference_label": "precio sin oferta (Simufy)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "perfil 80 mm",
+    "aluminio",
+    "para direct drive"
+   ],
+   "highlights": [],
+   "note": "Un cockpit de perfil de aluminio que aguanta direct drive de gama media. Simufy lo baja a 390,99 €, pero no hay otra tienda con la que contrastar ni histórico: el tachado no es referencia.",
+   "info": "Chasis de perfil de aluminio de 80 mm para base direct drive, volante y pedales; el asiento se compra aparte.",
+   "link": "https://simufy.com/products/cockpit-trak-racer-tr80s",
+   "sources": [
+    {
+     "title": "Simufy · Trak Racer TR80S",
+     "url": "https://simufy.com/products/cockpit-trak-racer-tr80s"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Cockpit",
+    "material": "Perfil de aluminio",
+    "marca": "Trak Racer"
+   }
+  },
+  {
+   "id": "thrustmaster-t248r",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Thrustmaster T248R PS5 PC",
+   "name": "Thrustmaster T248R (PS5/PC)",
+   "store": "Amazon.es",
+   "price": 234.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 282.55,
+   "reference_label": "PcComponentes (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "3,1 Nm",
+    "híbrido con correas",
+    "pedales magnéticos"
+   ],
+   "highlights": [],
+   "note": "Amazon.es lo vende y envía a 234,99 €, unos 47 € menos que PcComponentes y MediaMarkt. Buen volante de entrada con fuerza real, aunque no es direct drive.",
+   "info": "Volante de 3,1 Nm con levas magnéticas y pantalla LCD; pedales magnéticos de tres pedales. En Simufy cuesta 249,99 €.",
+   "link": "https://www.amazon.es/dp/B0FBMGPL61",
+   "sources": [
+    {
+     "title": "Amazon.es · Thrustmaster T248R",
+     "url": "https://www.amazon.es/dp/B0FBMGPL61"
+    },
+    {
+     "title": "idealo · Thrustmaster T248R",
+     "url": "https://www.idealo.es/precios/207652877/thrustmaster-t248r.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 249.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/pack-thrustmaster-t248r-para-ps5-ps4-pc",
+     "checked_on": "2026-11-16",
+     "note": "stock disponible"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Thrustmaster",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207652877",
+    "url": "https://www.idealo.es/precios/207652877/thrustmaster-t248r.html",
+    "include_regex": "t248r",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|t248x|shifter|th8"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207652/8/207652877/s11_produktbild_max/thrustmaster-t248r.jpg"
+  },
+  {
+   "id": "logitech-g29-driving-force",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Logitech G29 Driving Force",
+   "name": "Logitech G29 Driving Force (PS/PC)",
+   "store": "Amazon.es",
+   "price": 189.0,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 236.0,
+   "reference_label": "otras tiendas (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 6,
+   "tags": [
+    "2,2 Nm",
+    "engranajes",
+    "3 pedales"
+   ],
+   "highlights": [],
+   "note": "189 € en Amazon.es (vendido por Amazon), hasta 60 € menos que otras tiendas. Es el volante de entrada de siempre: sirve para empezar, pero el T248R o el Moza R5 dan más por poco más.",
+   "info": "Volante de engranajes con force feedback y tres pedales, para PlayStation y PC. Diseño antiguo, sin direct drive.",
+   "link": "https://www.amazon.es/dp/B00YUIM2J0",
+   "sources": [
+    {
+     "title": "Amazon.es · Logitech G29",
+     "url": "https://www.amazon.es/dp/B00YUIM2J0"
+    },
+    {
+     "title": "idealo · Logitech G29",
+     "url": "https://www.idealo.es/precios/4791762/logitech-g-g29-driving-force.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Logitech",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "4791762",
+    "url": "https://www.idealo.es/precios/4791762/logitech-g-g29-driving-force.html",
+    "include_regex": "g29",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|se\\b|a10|g435|shifter"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/4791/7/4791762/s11_produktbild_max/logitech-g-g29-driving-force.jpg"
+  },
+  {
+   "id": "moza-r5-bundle-rs20",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Moza R5 bundle RS20",
+   "name": "Moza R5 (bundle con volante ES y SR-P Lite)",
+   "store": "PcComponentes",
+   "price": 359.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 395.5,
+   "reference_label": "otras tiendas (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 7,
+   "tags": [
+    "5,5 Nm",
+    "base + volante + pedales",
+    "direct drive"
+   ],
+   "highlights": [],
+   "note": "PcComponentes lo vende y envía a 359,99 € (tachado: 509 €, que no es referencia). Es 16 € más barato que el bundle R5 Pro de la lista, que tiene 6 Nm y mejor volante.",
+   "info": "Base direct drive de 5,5 Nm con volante ES y pedales SR-P Lite. Es el R5 original; el R5 Pro sube a 6 Nm.",
+   "link": "https://www.pccomponentes.com/moza-bundle-base-para-volante-direct-drive-r5-plus-volante-es-plus-pedales-sr-p-lite",
+   "sources": [
+    {
+     "title": "PcComponentes · Moza R5 bundle",
+     "url": "https://www.pccomponentes.com/moza-bundle-base-para-volante-direct-drive-r5-plus-volante-es-plus-pedales-sr-p-lite"
+    },
+    {
+     "title": "idealo · Moza R5 bundle",
+     "url": "https://www.idealo.es/precios/202314857/moza-racing-r5-bundle.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202314857",
+    "url": "https://www.idealo.es/precios/202314857/moza-racing-r5-bundle.html",
+    "include_regex": "r5|rs20",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|truck|camion|trucking"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202314/8/202314857/s11_produktbild_max/moza-racing-r5-bundle.jpg"
+  },
+  {
+   "id": "thrustmaster-t598-ps5-pc",
+   "section": "volantes",
+   "illustration": "wheel",
+   "image_query": "Thrustmaster T598 PS5 PC",
+   "name": "Thrustmaster T598 (PS5/PC)",
+   "store": "Simufy",
+   "price": 399.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 453.99,
+   "reference_label": "Amazon.es (idealo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 14,
+   "tags": [
+    "5 Nm",
+    "direct drive",
+    "3 pedales"
+   ],
+   "highlights": [],
+   "note": "399,99 € en Simufy, 54 € menos que Amazon.es, pero por ese dinero el bundle Moza R9 o el R5 Pro dan más par o igual por menos. Solo si quieres ecosistema Thrustmaster.",
+   "info": "Base direct axial drive de 5 Nm con volante de 28 cm y pedales magnéticos, para PlayStation y PC.",
+   "link": "https://simufy.com/products/t598-playstation-pc",
+   "sources": [
+    {
+     "title": "Simufy · Thrustmaster T598",
+     "url": "https://simufy.com/products/t598-playstation-pc"
+    },
+    {
+     "title": "idealo · Thrustmaster T598",
+     "url": "https://www.idealo.es/precios/205005671/thrustmaster-t598.html"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Thrustmaster",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   },
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205005671",
+    "url": "https://www.idealo.es/precios/205005671/thrustmaster-t598.html",
+    "include_regex": "t598",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|t598-?x|xbox|kit|adaptador|quick"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205005/6/205005671/s11_produktbild_max/thrustmaster-t598.jpg"
+  },
+  {
+   "id": "logitech-g-pro-x-superlight-2",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Logitech G Pro X Superlight 2 ratón",
+   "name": "Logitech G Pro X Superlight 2",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 84.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 159.99,
+   "reference_label": "PVP de Logitech",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "60 g",
+    "HERO 2 44K DPI",
+    "8 kHz"
+   ],
+   "highlights": [],
+   "note": "Buen precio para el ratón gaming ligero de referencia, pero el PVP tachado no es el precio real del año. No hay histórico para decir que sea mínimo.",
+   "info": "Ratón inalámbrico de 60 g con sensor HERO 2 y respuesta de hasta 8 kHz. Funciona con adaptador LIGHTSPEED y carga por USB-C.",
+   "link": "https://www.amazon.es/dp/B07W5JKP66",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B07W5JKP66"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/203223403/logitech-g-pro-x-superlight-2.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 84.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/logitech-g-pro-x-superlight-2-lightspeed-raton-inalambrico-gaming-negro-44000-dpi",
+     "checked_on": "2026-11-16",
+     "note": "mismo precio"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203223403",
+    "url": "https://www.idealo.es/precios/203223403/logitech-g-pro-x-superlight-2.html",
+    "include_regex": "superlight\\s*2",
+    "exclude_regex": "dex|\\bse\\b|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203223/4/203223403/s11_produktbild_max/logitech-g-pro-x-superlight-2.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Ratón",
+    "conexion": "Inalámbrico",
+    "marca": "Logitech"
+   }
+  },
+  {
+   "id": "logitech-mx-master-3s",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Logitech MX Master 3S ratón",
+   "name": "Logitech MX Master 3S",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 69.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "8000 DPI",
+    "clics silenciosos",
+    "Bluetooth / Logi Bolt"
+   ],
+   "highlights": [],
+   "note": "Ratón de oficina muy recomendable y a buen precio, sin llegar a ser una oferta excepcional. Sin histórico fiable no lo marcamos como mínimo.",
+   "info": "Ratón ergonómico para trabajo con sensor de 8000 DPI, rueda magnética y clics silenciosos. Se conecta por Bluetooth o receptor Logi Bolt.",
+   "link": "https://www.amazon.es/dp/B0FHHV6YR5",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0FHHV6YR5"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/201968116/logitech-mx-master-3s.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "201968116",
+    "url": "https://www.idealo.es/precios/201968116/logitech-mx-master-3s.html",
+    "include_regex": "mx\\s*master\\s*3s",
+    "exclude_regex": "business|for mac|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/201968/1/201968116/s11_produktbild_max/logitech-mx-master-3s.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Ratón",
+    "conexion": "Inalámbrico",
+    "marca": "Logitech"
+   }
+  },
+  {
+   "id": "razer-deathadder-v3",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Razer DeathAdder V3 ratón",
+   "name": "Razer DeathAdder V3",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 43.89,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "59 g",
+    "sensor 30K",
+    "8000 Hz"
+   ],
+   "highlights": [],
+   "note": "Ratón con cable ligero y ergonómico a precio de entrada. Buena compra si juegas con agarre palma o garra y no necesitas inalámbrico.",
+   "info": "Ratón gaming con cable de 59 g, sensor óptico de 30 000 DPI y hasta 8000 Hz de polling.",
+   "link": "https://www.amazon.es/dp/B09ZLTV8B3",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B09ZLTV8B3"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/202341345/razer-deathadder-v3.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202341345",
+    "url": "https://www.idealo.es/precios/202341345/razer-deathadder-v3.html",
+    "include_regex": "deathadder\\s*v3",
+    "exclude_regex": "pro|hyperspeed|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202341/3/202341345/s11_produktbild_max/razer-deathadder-v3.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Ratón",
+    "conexion": "Con cable",
+    "marca": "Razer"
+   }
+  },
+  {
+   "id": "logitech-mx-keys-s",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Logitech MX Keys S teclado",
+   "name": "Logitech MX Keys S",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 79.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 119.99,
+   "reference_label": "PVP de Amazon",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "perfil bajo",
+    "Bluetooth / Logi Bolt",
+    "retroiluminado"
+   ],
+   "highlights": [],
+   "note": "Teclado de oficina cómodo y silencioso. 80 € es razonable frente a los 99 € que muestra idealo, pero no hay histórico para hablar de mínimo.",
+   "info": "Teclado inalámbrico de perfil bajo con teclas esféricas, retroiluminación y conexión multidispositivo. Distribución QWERTY español en esta ficha.",
+   "link": "https://www.amazon.es/dp/B07W6JPM9R",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B07W6JPM9R"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/202831589/logitech-mx-keys-s.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202831589",
+    "url": "https://www.idealo.es/precios/202831589/logitech-mx-keys-s.html",
+    "include_regex": "mx\\s*keys\\s*s",
+    "exclude_regex": "combo|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202831/5/202831589/s11_produktbild_max/logitech-mx-keys-s.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Teclado",
+    "conexion": "Inalámbrico",
+    "marca": "Logitech"
+   }
+  },
+  {
+   "id": "razer-blackwidow-v4-x",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Razer BlackWidow V4 X teclado",
+   "name": "Razer BlackWidow V4 X",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 112.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "switches amarillos",
+    "6 teclas macro",
+    "Chroma RGB"
+   ],
+   "highlights": [],
+   "note": "Teclado mecánico completo, pero 113 € es su precio habitual en tiendas y no hay rebaja real. Existen alternativas más baratas de otras marcas.",
+   "info": "Teclado mecánico con cable y switches Razer Yellow, seis teclas macro, reposamuñecas magnético y RGB por tecla. Distribución española.",
+   "link": "https://www.amazon.es/dp/B0C6MTPKQ1",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0C6MTPKQ1"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/203041355/razer-blackwidow-v4-x.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203041355",
+    "url": "https://www.idealo.es/precios/203041355/razer-blackwidow-v4-x.html",
+    "include_regex": "blackwidow\\s*v4\\s*x",
+    "exclude_regex": "reacondicionad|usad[oa]|b-stock|refurb|accesorio|pokémon|minecraft"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203041/3/203041355/s11_produktbild_max/razer-blackwidow-v4-x.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Teclado",
+    "conexion": "Con cable",
+    "marca": "Razer"
+   }
+  },
+  {
+   "id": "fractal-design-north-mesh",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "Fractal Design North caja",
+   "name": "Fractal Design North (malla, Charcoal Black)",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 110.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "ATX",
+    "frente de nogal",
+    "2 × 140 mm",
+    "USB-C"
+   ],
+   "highlights": [],
+   "note": "Una de las cajas más bonitas y con mejor flujo de aire. 111 € es un precio correcto, no una ganga documentada.",
+   "info": "Caja ATX con frontal de madera de nogal y paneles laterales de malla. Incluye dos ventiladores de 140 mm y puerto USB-C frontal.",
+   "link": "https://www.amazon.es/dp/B09V878FXQ",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B09V878FXQ"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/202240738/fractal-design-north.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202240738",
+    "url": "https://www.idealo.es/precios/202240738/fractal-design-north.html",
+    "include_regex": "fractal.*north",
+    "exclude_regex": "xl|momentum|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202240/7/202240738/s11_produktbild_max/fractal-design-north.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Caja",
+    "formato": "ATX",
+    "marca": "Fractal Design"
+   }
+  },
+  {
+   "id": "corsair-rm850x-2024",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "Corsair RM850x fuente",
+   "name": "Corsair RM850x (2024) 850 W",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 119.88,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "850 W",
+    "80+ Gold",
+    "ATX 3.1 / PCIe 5.1",
+    "12V-2x6"
+   ],
+   "highlights": [],
+   "note": "Fuente de gama alta con buena garantía y silenciosa. 120 € es un precio ajustado, pero sin histórico no podemos decir que sea el mejor del año.",
+   "info": "Fuente totalmente modular de 850 W con certificación Cybenetics Gold, compatible ATX 3.1 y conector 12V-2x6 nativo.",
+   "link": "https://www.amazon.es/dp/B0D9C1DT62",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0D9C1DT62"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/204812654/corsair-rm850x-2024-850w.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204812654",
+    "url": "https://www.idealo.es/precios/204812654/corsair-rm850x-2024-850w.html",
+    "include_regex": "rm850x",
+    "exclude_regex": "shift|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204812/6/204812654/s11_produktbild_max/corsair-rm850x-2024-850w.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Fuente",
+    "formato": "ATX",
+    "marca": "Corsair"
+   }
+  },
+  {
+   "id": "corsair-rm750e-2025",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "Corsair RM750e fuente",
+   "name": "Corsair RM750e (2025) 750 W",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 84.9,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "750 W",
+    "80+ Gold",
+    "ATX 3.1",
+    "12V-2x6"
+   ],
+   "highlights": [],
+   "note": "Fuente modular de una marca fiable con 750 W suficientes para una gráfica de gama media-alta. Precio correcto, sin histórico.",
+   "info": "Fuente totalmente modular de 750 W, Cybenetics Gold, compatible ATX 3.1 y PCIe 5.1, con cable 12V-2x6 incluido.",
+   "link": "https://www.amazon.es/dp/B0DMTMK2Q5",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0DMTMK2Q5"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/205662476/corsair-rm750e-2025-750w.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205662476",
+    "url": "https://www.idealo.es/precios/205662476/corsair-rm750e-2025-750w.html",
+    "include_regex": "rm750e",
+    "exclude_regex": "white|blanc|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205662/4/205662476/s11_produktbild_max/corsair-rm750e-2025-750w.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Fuente",
+    "formato": "ATX",
+    "marca": "Corsair"
+   }
+  },
+  {
+   "id": "msi-mag-a850gl-pcie5",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "MSI MAG A850GL fuente",
+   "name": "MSI MAG A850GL PCIE5 850 W",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 120.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "850 W",
+    "80+ Gold",
+    "ATX 3.0",
+    "modular"
+   ],
+   "highlights": [],
+   "note": "Fuente correcta, pero a este precio la Corsair RM850x cuesta lo mismo y es más reciente (ATX 3.1). Mejor la Corsair.",
+   "info": "Fuente modular de 850 W 80 Plus Gold con ATX 3.0 y conector PCIe 5.0 de 12VHPWR.",
+   "link": "https://www.amazon.es/dp/B0C3MC57D5",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0C3MC57D5"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/203040897/msi-mag-a850gl-850w.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203040897",
+    "url": "https://www.idealo.es/precios/203040897/msi-mag-a850gl-850w.html",
+    "include_regex": "a850gl",
+    "exclude_regex": "white|blanc|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203040/8/203040897/s11_produktbild_max/msi-mag-a850gl-850w.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Fuente",
+    "formato": "ATX",
+    "marca": "MSI"
+   }
+  },
+  {
+   "id": "arctic-liquid-freezer-iii-pro-360",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "Arctic Liquid Freezer III Pro 360",
+   "name": "Arctic Liquid Freezer III Pro 360",
+   "store": "Amazon.es (vendido por ARCTIC)",
+   "price": 79.49,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "360 mm",
+    "AM5 / LGA1851",
+    "ventilador VRM"
+   ],
+   "highlights": [],
+   "note": "Refrigeración líquida 360 mm muy bien valorada por rendimiento/ruido. 79 € es un buen precio; vende la propia ARCTIC en Amazon.es y no hay histórico para llamarlo mínimo.",
+   "info": "AIO de 360 mm con radiador de 38 mm, bomba PWM y ventilador para los VRM. Compatible con AM5/AM4 e Intel LGA1851/1700.",
+   "link": "https://www.amazon.es/dp/B0DLWGG85P",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha del producto",
+     "url": "https://www.amazon.es/dp/B0DLWGG85P"
+    },
+    {
+     "title": "idealo · comparativa de precios",
+     "url": "https://www.idealo.es/precios/206182027/arctic-liquid-freezer-iii-pro-360.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206182027",
+    "url": "https://www.idealo.es/precios/206182027/arctic-liquid-freezer-iii-pro-360.html",
+    "include_regex": "freezer\\s*iii\\s*pro\\s*360",
+    "exclude_regex": "reacondicionad|usad[oa]|b-stock|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206182/0/206182027/s11_produktbild_max/arctic-liquid-freezer-iii-pro-360.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Refrigeración líquida",
+    "formato": "360 mm",
+    "marca": "Arctic"
+   }
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 469.0,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/apple-ipad-2025-11-wifi-128gb-azul",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "id": "apple-ipad-11-a16-128gb-wifi",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Apple iPad 11 generación 128 GB Wi-Fi",
+   "name": "Apple iPad (11.ª gen, 2025) · 128 GB · Wi-Fi",
+   "store": "MediaMarkt",
+   "price": 459,
+   "verdict": "pasa",
+   "rank": 2,
+   "tags": [
+    "Chip A16",
+    "11\" Liquid Retina",
+    "128 GB",
+    "Wi-Fi"
+   ],
+   "note": "459 € en MediaMarkt, vendido por la propia tienda. Hay otras tiendas más baratas en idealo (desde unos 435 €) y no tenemos histórico para saber si es un mínimo, así que no es una compra urgente.",
+   "info": "Pantalla de 11\", chip A16 y 128 GB. Funciona con Apple Pencil USB-C, pero no con Apple Pencil Pro. Precio de la versión Wi-Fi en azul.",
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-azul-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595894.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · iPad 11.ª gen 128 GB Wi-Fi",
+     "url": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-azul-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595894.html"
+    },
+    {
+     "title": "idealo · Apple iPad 128 GB Wi-Fi azul 2025",
+     "url": "https://www.idealo.es/precios/206023475/apple-ipad-128gb-wifi-azul-2025.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206023475",
+    "url": "https://www.idealo.es/precios/206023475/apple-ipad-128gb-wifi-azul-2025.html",
+    "include_regex": "ipad",
+    "exclude_regex": "air|pro|mini|5g|cellular|lte|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "Tablet",
+    "sistema": "iPadOS",
+    "marca": "Apple"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/206023/4/206023475/s11_produktbild_max/apple-ipad-128gb-wifi-azul-2025.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 628,
+   "reference_label": "precio tachado MediaMarkt (no es mínimo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "samsung-galaxy-tab-s10-fe-128gb-wifi",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Samsung Galaxy Tab S10 FE 128 GB Wi-Fi",
+   "name": "Samsung Galaxy Tab S10 FE · 10,9\" · 8/128 GB · Wi-Fi",
+   "store": "MediaMarkt",
+   "price": 485,
+   "verdict": "no",
+   "rank": 4,
+   "tags": [
+    "10,9\"",
+    "8 GB RAM",
+    "S Pen incluido",
+    "Wi-Fi"
+   ],
+   "note": "485 € en MediaMarkt, pero idealo la lista desde unos 405 € en otras tiendas. El tachado de 628 € no refleja lo que se ha pagado de verdad: mira primero las otras tiendas.",
+   "info": "Tablet Android de gama alta-media con S Pen en la caja, pantalla de 10,9\" y 8 GB de RAM. Versión gris solo Wi-Fi.",
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s10-fe-109-wuxga-8-gb-ram-128-gb-gris-sin-adaptador-de-corriente-con-s-pen-1596717.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Galaxy Tab S10 FE 128 GB",
+     "url": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s10-fe-109-wuxga-8-gb-ram-128-gb-gris-sin-adaptador-de-corriente-con-s-pen-1596717.html"
+    },
+    {
+     "title": "idealo · Samsung Galaxy Tab S10 FE",
+     "url": "https://www.idealo.es/precios/206193285/samsung-galaxy-tab-s10-fe.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206193285",
+    "url": "https://www.idealo.es/precios/206193285/samsung-galaxy-tab-s10-fe.html",
+    "include_regex": "s10\\s?fe",
+    "exclude_regex": "plus|\\+|5g|256|lte|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "Tablet",
+    "sistema": "Android",
+    "marca": "Samsung"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/206193/2/206193285/s11_produktbild_max/samsung-galaxy-tab-s10-fe.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 144.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/kindle-paperwhite-libro-electronico-7-16gb-con-publicidad-negro",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "id": "amazon-kindle-paperwhite-2024-16gb",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Amazon Kindle Paperwhite 2024 16 GB",
+   "name": "Amazon Kindle Paperwhite (2024) · 7\" · 16 GB · con publicidad",
+   "store": "MediaMarkt",
+   "price": 144,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "7\" 300 ppp",
+    "16 GB",
+    "Resistente al agua",
+    "Semanas de batería"
+   ],
+   "note": "144 € en MediaMarkt y el mismo precio en Amazon.es según idealo. Es el precio al que se encuentra de forma estable; no hay histórico para llamarlo mínimo. Buen lector si lees en Kindle; la versión sin publicidad cuesta más.",
+   "info": "Pantalla de 7\" sin reflejos, luz regulable, resistencia al agua IPX8 y carga USB-C. Versión con publicidad en la pantalla de bloqueo.",
+   "link": "https://www.mediamarkt.es/es/product/_ebook-amazon-kindle-paperwhite-7-16-gb-300-ppi-con-publicidad-sin-reflejos-autonomia-de-semanas-negro-1583589.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Kindle Paperwhite 16 GB",
+     "url": "https://www.mediamarkt.es/es/product/_ebook-amazon-kindle-paperwhite-7-16-gb-300-ppi-con-publicidad-sin-reflejos-autonomia-de-semanas-negro-1583589.html"
+    },
+    {
+     "title": "idealo · Amazon Kindle Paperwhite 2024",
+     "url": "https://www.idealo.es/precios/204949888/amazon-kindle-paperwhite-2024.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204949888",
+    "url": "https://www.idealo.es/precios/204949888/amazon-kindle-paperwhite-2024.html",
+    "include_regex": "paperwhite",
+    "exclude_regex": "kids|signature|scribe|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "E-reader",
+    "sistema": "Kindle",
+    "marca": "Amazon"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/204949/8/204949888/s11_produktbild_max/amazon-kindle-paperwhite-2024.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 169.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/kobo-clara-b-y-w-libro-electronico-multimedia-6-16gb-negro",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "id": "kobo-clara-bw-16gb",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Kobo Clara BW e-reader 16 GB",
+   "name": "Kobo Clara BW · 6\" · 16 GB",
+   "store": "MediaMarkt",
+   "price": 169,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "6\" 300 ppp",
+    "16 GB",
+    "IPX8",
+    "Formato EPUB abierto"
+   ],
+   "note": "169 € en MediaMarkt, igual que en Amazon.es según idealo y 0,99 € menos que en PcComponentes. Sin histórico: no podemos decir que sea un mínimo. Es la alternativa a Kindle si quieres leer EPUB y usar bibliotecas públicas.",
+   "info": "Lector de 6\" con luz regulable ComfortLight Pro, modo oscuro y resistencia al agua IPX8. Admite EPUB y PDF sin conversión.",
+   "link": "https://www.mediamarkt.es/es/product/_ebook-kobo-clara-bw-e-ink-6-hd-16-gb-comfortlight-pro-ipx8-modo-oscuro-negro-1571220.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Kobo Clara BW",
+     "url": "https://www.mediamarkt.es/es/product/_ebook-kobo-clara-bw-e-ink-6-hd-16-gb-comfortlight-pro-ipx8-modo-oscuro-negro-1571220.html"
+    },
+    {
+     "title": "idealo · Kobo Clara BW",
+     "url": "https://www.idealo.es/precios/204168898/kobo-clara-bw.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204168898",
+    "url": "https://www.idealo.es/precios/204168898/kobo-clara-bw.html",
+    "include_regex": "clara",
+    "exclude_regex": "colou?r|sleepcover|funda|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "E-reader",
+    "sistema": "Kobo",
+    "marca": "Kobo"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/204168/8/204168898/s11_produktbild_max/kobo-clara-bw.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "qnap-ts-264-8g",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "QNAP TS-264-8G NAS",
+   "name": "QNAP TS-264-8G · 2 bahías · N5095 · 8 GB",
+   "store": "PcComponentes",
+   "price": 549,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "Celeron N5095",
+    "8 GB DDR4",
+    "2× 2,5 GbE",
+    "HDMI"
+   ],
+   "note": "549 € en PcComponentes, sin discos. idealo la lista desde unos 467 € en otras tiendas, así que aquí no es la mejor compra. Es un NAS de 2 bahías con hardware algo antiguo; QNAP funciona bien, pero el UGREEN DXP2800 de esta lista ofrece más por menos.",
+   "info": "Celeron N5095 de 4 núcleos, 8 GB de RAM, dos bahías de 3,5\"/2,5\", dos puertos de 2,5 GbE y salida HDMI. Se vende sin discos.",
+   "link": "https://www.pccomponentes.com/qnap-ts-264-8g-nas",
+   "sources": [
+    {
+     "title": "PcComponentes · QNAP TS-264-8G",
+     "url": "https://www.pccomponentes.com/qnap-ts-264-8g-nas"
+    },
+    {
+     "title": "idealo · QNAP TS-264-8G",
+     "url": "https://www.idealo.es/precios/202235667/qnap-ts-264-8g.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202235667",
+    "url": "https://www.idealo.es/precios/202235667/qnap-ts-264-8g.html",
+    "include_regex": "ts-264",
+    "exclude_regex": "bundle|paquete|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "2 bahías",
+    "marca": "QNAP"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/202235/6/202235667/s11_produktbild_max/qnap-ts-264-8g.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "qnap-ts-464-8g",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "QNAP TS-464-8G NAS",
+   "name": "QNAP TS-464-8G · 4 bahías · N5095 · 8 GB",
+   "store": "PcComponentes",
+   "price": 739,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "Celeron N5095",
+    "8 GB DDR4",
+    "2× 2,5 GbE",
+    "2× M.2"
+   ],
+   "note": "739 € en PcComponentes, sin discos. En idealo aparece desde unos 693 € en otras tiendas. Es un NAS de 4 bahías con M.2 y buen software, pero el precio es alto para el hardware; compara antes con el DXP4800 Plus de esta lista.",
+   "info": "Celeron N5095, 8 GB de RAM ampliables, cuatro bahías de 3,5\"/2,5\", dos ranuras M.2 NVMe y dos puertos de 2,5 GbE. Se vende sin discos.",
+   "link": "https://www.pccomponentes.com/qnap-ts-464-8g-nas",
+   "sources": [
+    {
+     "title": "PcComponentes · QNAP TS-464-8G",
+     "url": "https://www.pccomponentes.com/qnap-ts-464-8g-nas"
+    },
+    {
+     "title": "idealo · QNAP TS-464-8G",
+     "url": "https://www.idealo.es/precios/203139326/qnap-ts-464-8g.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203139326",
+    "url": "https://www.idealo.es/precios/203139326/qnap-ts-464-8g.html",
+    "include_regex": "ts-464",
+    "exclude_regex": "eu\\b|bundle|paquete|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "4 bahías",
+    "marca": "QNAP"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/203139/3/203139326/s11_produktbild_max/qnap-ts-464-8g.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 99.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/tado-kit-de-inicio-con-termostato-inteligente-x-con-cableado-y-bridge-para-internet",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "id": "tado-termostato-x-cableado-kit-inicio",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "tado Termostato Inteligente X cableado kit de inicio Bridge X",
+   "name": "tado° Termostato Inteligente X cableado · kit de inicio con Bridge X",
+   "store": "MediaMarkt",
+   "price": 99.99,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "Termostato",
+    "Matter",
+    "Cableado",
+    "Bridge X incluido"
+   ],
+   "note": "99,99 € y el mismo precio en MediaMarkt, PcComponentes y Amazon.es según idealo. Sin histórico no es un mínimo, pero es un precio estable y razonable. Comprueba antes que tu caldera es compatible.",
+   "info": "Termostato cableado con Bridge X para conectar a internet. Compatible con Matter y con la mayoría de calderas y bombas de calor. Las funciones avanzadas de tado° dependen de su suscripción.",
+   "link": "https://www.mediamarkt.es/es/product/_termostato-tado-inteligente-x-cableado-compatible-con-la-mayoria-de-calderas-y-bombas-de-calor-negroblanco-1586845.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · tado° Termostato X cableado",
+     "url": "https://www.mediamarkt.es/es/product/_termostato-tado-inteligente-x-cableado-compatible-con-la-mayoria-de-calderas-y-bombas-de-calor-negroblanco-1586845.html"
+    },
+    {
+     "title": "idealo · tado° Smart Thermostat X Starter Kit",
+     "url": "https://www.idealo.es/precios/204318198/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204318198",
+    "url": "https://www.idealo.es/precios/204318198/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.html",
+    "include_regex": "tado",
+    "exclude_regex": "2a gen|2ª gen|2nd|plus|inal[aá]mbric|radiador|cabezal|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "Termostato",
+    "protocolo": "Matter",
+    "marca": "tado°"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/204318/1/204318198/s11_produktbild_max/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.jpg"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "aqara-smart-lock-u200-kit",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Aqara Smart Lock U200 kit cerradura",
+   "name": "Aqara Smart Lock U200 · kit con etiqueta NFC",
+   "store": "PcComponentes",
+   "price": 232.61,
+   "verdict": "pasa",
+   "rank": 9,
+   "tags": [
+    "Cerradura",
+    "Matter sobre Thread",
+    "Huella y NFC",
+    "Apple Home"
+   ],
+   "note": "232,61 € vendida por PcComponentes. La versión de MediaMarkt la vende un tercero. Sin histórico no podemos decir si es buen precio; el Nuki Smart Lock Pro de esta lista cuesta 259,99 € y es una opción distinta (se monta sobre el cilindro actual).",
+   "info": "Cerradura con huella, PIN, NFC y llave, compatible con Matter sobre Thread. Sustituye el pomo y requiere puerta compatible.",
+   "link": "https://www.pccomponentes.com/aqara-smart-lock-u200-kit-cerradura-inteligente-matter-negra-con-etiqueta-nfc-y-accesorios",
+   "sources": [
+    {
+     "title": "PcComponentes · Aqara Smart Lock U200 kit",
+     "url": "https://www.pccomponentes.com/aqara-smart-lock-u200-kit-cerradura-inteligente-matter-negra-con-etiqueta-nfc-y-accesorios"
+    }
+   ],
+   "facets": {
+    "tipo": "Cerradura",
+    "protocolo": "Thread",
+    "marca": "Aqara"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 348.99,
+   "reference_label": "precio tachado PcComponentes (no es mínimo)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "nuki-smart-lock-pro-matter",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Nuki Smart Lock Pro Wi-Fi Matter cerradura",
+   "name": "Nuki Smart Lock Pro · Wi-Fi · Matter",
+   "store": "PcComponentes",
+   "price": 259.99,
+   "verdict": "ok",
+   "rank": 6,
+   "tags": [
+    "Cerradura",
+    "Wi-Fi y Bluetooth",
+    "Matter",
+    "Motor sin escobillas"
+   ],
+   "note": "259,99 € vendida por PcComponentes, frente a 348,99 € tachado (no es un mínimo anual documentado). Se instala sobre el cilindro actual, sin cambiar la cerradura. Precio razonable para el modelo Pro, sin histórico que lo confirme como mínimo.",
+   "info": "Motorizada, se monta por dentro de la puerta sobre el cilindro. Wi-Fi integrado, Bluetooth y Matter. No incluye teclado.",
+   "link": "https://www.pccomponentes.com/cerradura-electronica-nuki-smart-lock-pro-wifi-bluetooth-matter-motor-sin-escobillas",
+   "sources": [
+    {
+     "title": "PcComponentes · Nuki Smart Lock Pro",
+     "url": "https://www.pccomponentes.com/cerradura-electronica-nuki-smart-lock-pro-wifi-bluetooth-matter-motor-sin-escobillas"
+    }
+   ],
+   "facets": {
+    "tipo": "Cerradura",
+    "protocolo": "Matter",
+    "marca": "Nuki"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "aqara-sensor-puerta-ventana-p2",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Aqara Sensor de Puerta y Ventana P2",
+   "name": "Aqara Sensor de Puerta y Ventana P2 · Matter sobre Thread",
+   "store": "PcComponentes",
+   "price": 29.99,
+   "verdict": "pasa",
+   "rank": 10,
+   "tags": [
+    "Sensor",
+    "Thread",
+    "Matter",
+    "Pila CR1632"
+   ],
+   "note": "29,99 € en PcComponentes. En idealo hay tiendas que lo ofrecen por menos (desde unos 27 €, algunas de fuera de España). Sin histórico, no es un chollo; sirve solo si ya tienes un hub Thread/Matter.",
+   "info": "Sensor de apertura que funciona como sensor de Matter sobre Thread. Necesita un border router Thread (HomePod, Echo, hub compatible).",
+   "link": "https://www.pccomponentes.com/aqara-p2-sensor-de-puerta-y-ventana-inalambrico-blanco",
+   "sources": [
+    {
+     "title": "PcComponentes · Aqara P2",
+     "url": "https://www.pccomponentes.com/aqara-p2-sensor-de-puerta-y-ventana-inalambrico-blanco"
+    },
+    {
+     "title": "idealo · Aqara sensor de puerta y ventana P2",
+     "url": "https://www.idealo.es/precios/203096718/aqara-dw-s02d.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203096718",
+    "url": "https://www.idealo.es/precios/203096718/aqara-dw-s02d.html",
+    "include_regex": "dw-s02d|sensor p2|puerta y ventana",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "facets": {
+    "tipo": "Sensor",
+    "protocolo": "Thread",
+    "marca": "Aqara"
+   },
+   "checked_on": "2026-11-16",
+   "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   }
  ],
  "groups": [
