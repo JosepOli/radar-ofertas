@@ -245,15 +245,15 @@
    "id": "cockpits",
    "group": "simracing",
    "title": "Cockpits y soportes",
-   "intro": "Dónde sujetar base y pedales. Un soporte de mesa vale para empezar; con bases de 9 Nm o más hace falta un cockpit de perfil de aluminio.",
+   "intro": "Dónde sujetar base y pedales. Un soporte plegable vale para volantes de engranajes; con bases direct drive de 9 Nm o más hace falta un cockpit rígido, y el perfil de aluminio es lo que no flexa.",
    "filters": [
-    {
-     "key": "tipo",
-     "label": "Tipo"
-    },
     {
      "key": "material",
      "label": "Material"
+    },
+    {
+     "key": "color",
+     "label": "Color"
     },
     {
      "key": "marca",
@@ -8533,9 +8533,9 @@
    ],
    "checked_on": "2026-11-16",
    "facets": {
-    "tipo": "Cockpit",
     "material": "Tubo de acero",
-    "marca": "Playseat"
+    "marca": "Playseat",
+    "color": "Negro"
    },
    "tracking": {
     "source": "idealo",
@@ -8599,9 +8599,9 @@
    ],
    "checked_on": "2026-11-16",
    "facets": {
-    "tipo": "Cockpit",
     "material": "Tubo de acero",
-    "marca": "Next Level Racing"
+    "marca": "Next Level Racing",
+    "color": "Negro"
    },
    "tracking": {
     "source": "idealo",
@@ -8652,9 +8652,9 @@
    "options": [],
    "checked_on": "2026-11-16",
    "facets": {
-    "tipo": "Soporte plegable",
     "material": "Tubo de acero",
-    "marca": "Wheel Stand Pro"
+    "marca": "Wheel Stand Pro",
+    "color": "Negro"
    },
    "tracking": {
     "source": "idealo",
@@ -8701,7 +8701,6 @@
    "options": [],
    "checked_on": "2026-11-16",
    "facets": {
-    "tipo": "Cockpit",
     "material": "Perfil de aluminio",
     "marca": "Trak Racer"
    }
