@@ -65,11 +65,6 @@
    "id": "audio",
    "title": "Auriculares y audio",
    "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas."
-  },
-  {
-   "id": "auriculares-gaming",
-   "title": "Auriculares para jugar y cine",
-   "intro": "Los inalámbricos con dongle 2,4 GHz van mejor para jugar que el Bluetooth, que añade retardo. Para cine en casa, los abiertos con cable suenan más amplios, pero fugan sonido y no llevan micrófono."
   }
  ],
  "fx_to_eur": {
@@ -638,7 +633,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 10,
    "tags": [
     "gama media",
     "HA oficial"
@@ -680,7 +675,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 11,
    "tags": [
     "rodillo de fregado",
     "agua 40–75 °C"
@@ -727,7 +722,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 12,
    "tags": [
     "28.000 Pa",
     "gama media"
@@ -774,7 +769,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 13,
    "tags": [
     "25.000 Pa",
     "sin agua caliente"
@@ -3305,7 +3300,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 12,
+   "rank": 14,
    "tags": [
     "11.000 Pa",
     "194 min",
@@ -5420,7 +5415,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "ANC adaptativa",
     "LDAC",
@@ -5468,7 +5463,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 7,
    "tags": [
     "cancelación de ruido",
     "30 h",
@@ -5528,7 +5523,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 8,
    "tags": [
     "ANC",
     "pulsómetro",
@@ -5576,7 +5571,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 9,
    "tags": [
     "ANC",
     "in-ear",
@@ -5624,7 +5619,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 11,
    "tags": [
     "sin cancelación",
     "H2",
@@ -5657,7 +5652,7 @@
   },
   {
    "id": "hyperx-cloud-iii-s-wireless",
-   "section": "auriculares-gaming",
+   "section": "audio",
    "illustration": "headphones",
    "image_query": "HyperX Cloud III S Wireless auriculares gaming",
    "name": "HyperX Cloud III S Wireless",
@@ -5672,7 +5667,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 1,
+   "rank": 2,
    "tags": [
     "2,4 GHz + Bluetooth",
     "hasta 200 h",
@@ -5729,7 +5724,7 @@
   },
   {
    "id": "sennheiser-hd-560s",
-   "section": "auriculares-gaming",
+   "section": "audio",
    "illustration": "headphones",
    "image_query": "Sennheiser HD 560S auriculares abiertos",
    "name": "Sennheiser HD 560S",
@@ -5744,7 +5739,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 4,
    "tags": [
     "abiertos",
     "con cable",
@@ -5781,7 +5776,7 @@
   },
   {
    "id": "razer-blackshark-v3-x-hyperspeed",
-   "section": "auriculares-gaming",
+   "section": "audio",
    "illustration": "headphones",
    "image_query": "Razer BlackShark V3 X HyperSpeed auriculares",
    "name": "Razer BlackShark V3 X HyperSpeed",
@@ -5796,7 +5791,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 3,
+   "rank": 5,
    "tags": [
     "2,4 GHz + Bluetooth",
     "70 h",
@@ -5833,7 +5828,7 @@
   },
   {
    "id": "razer-blackshark-v2-pro-2023",
-   "section": "auriculares-gaming",
+   "section": "audio",
    "illustration": "headphones",
    "image_query": "Razer BlackShark V2 Pro 2023 auriculares",
    "name": "Razer BlackShark V2 Pro (2023)",
@@ -5848,7 +5843,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "2,4 GHz + Bluetooth",
     "TriForce 50 mm",
@@ -5881,7 +5876,7 @@
   },
   {
    "id": "logitech-g-pro-x-2-lightspeed",
-   "section": "auriculares-gaming",
+   "section": "audio",
    "illustration": "headphones",
    "image_query": "Logitech G Pro X 2 Lightspeed auriculares",
    "name": "Logitech G Pro X 2 Lightspeed",
@@ -5896,7 +5891,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 10,
    "tags": [
     "2,4 GHz + Bluetooth",
     "grafeno 50 mm",
@@ -5925,6 +5920,273 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "irobot-roomba-115-combo",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "iRobot Roomba 115 Combo robot",
+   "name": "iRobot Roomba 115 Combo",
+   "store": "iRobot ES (tienda oficial)",
+   "price": 129,
+   "reference_price": 249,
+   "reference_label": "precio tienda oficial",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "verdict": "ok",
+   "rank": 8,
+   "tags": [
+    "15.000 Pa",
+    "LiDAR",
+    "aspira y friega"
+   ],
+   "note": "129 € en iRobot, Amazon, MediaMarkt, PcComponentes y Fnac: precio muy bajo para un robot con LiDAR que también friega. Los 249 € son el PVP de la marca, no un precio pagado; sin histórico, buena opción pero no «Comprar».",
+   "info": "Roomba 115 Combo blanco con base de carga, 15.000 Pa y 250 min. La variante con base AutoEmpty es otro modelo y cuesta más.",
+   "link": "https://www.irobot.es/es_ES/roomba-115-combo/Y414240.html",
+   "sources": [
+    {
+     "title": "iRobot ES · Roomba 115 Combo",
+     "url": "https://www.irobot.es/es_ES/roomba-115-combo/Y414240.html"
+    },
+    {
+     "title": "idealo · iRobot Y414240",
+     "url": "https://www.idealo.es/precios/210209427/irobot-y414240.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210209427",
+    "url": "https://www.idealo.es/precios/210209427/irobot-y414240.html",
+    "include_regex": "115\\s+combo|y414240",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|autoempty|y454|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210209/4/210209427/s11_produktbild_max/irobot-y414240.jpg",
+   "checked_on": "2026-11-15"
+  },
+  {
+   "id": "roborock-q7-tf",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Q7 TF+",
+   "name": "Roborock Q7 TF+",
+   "store": "El Corte Inglés",
+   "price": 129,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 299,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": "2026-11-30",
+   "verdict": "pasa",
+   "rank": 15,
+   "tags": [
+    "entrada",
+    "autovaciado",
+    "HA oficial"
+   ],
+   "highlights": [
+    "−56 %"
+   ],
+   "note": "Solo aspira bien; friega poco. Para un trastero o un taller sobra.",
+   "info": "Base de autovaciado incluida.",
+   "link": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/",
+   "sources": [
+    {
+     "title": "El Grupo Informático · Roborock",
+     "url": "https://www.elgrupoinformatico.com/n/black-friday-roborock-2026-ofertas/"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "214569089",
+    "url": "https://www.idealo.es/precios/214569089/roborock-q7tf.html",
+    "include_regex": "q7\\s*tf\\+?",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|q7tfp02|blanco|white|accesorio|filtro|cepillo"
+   },
+   "image_url": "https://cdn.idealo.com/images/product/214569089/es_ES/0/max.jpg",
+   "options": [],
+   "checked_on": "2026-11-15"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-h40",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum H40 robot",
+   "name": "Xiaomi Robot Vacuum H40",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 199.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 229.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 229,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 9,
+   "tags": [
+    "10.000 Pa",
+    "autovaciado 4 L",
+    "hasta 90 días",
+    "sube umbrales de 20 mm"
+   ],
+   "highlights": [],
+   "note": "Opción barata con autovaciado y 10.000 Pa. Mejor para suelo duro: con alfombra de pelo medio o largo deja residuo.",
+   "info": "Estación compacta con bolsa de 4 L que vacía el depósito. Mopa sin base de lavado. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-h40/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha H40 (199,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-h40/buy/"
+    },
+    {
+     "title": "idealo · Xiaomi H40",
+     "url": "https://www.idealo.es/precios/207322281/xiaomi-robot-vacuum-h40.html"
+    },
+    {
+     "title": "donaspirador · opinión H40",
+     "url": "https://donaspirador.es/xiaomi-h40/"
+    }
+   ],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 199.99,
+     "currency": "€",
+     "url": "https://www.amazon.es/XIAOMI-Robot-Aspirador-Auto-Vaciado-Aspiraci%C3%B3n/dp/B0F4JZNGT8",
+     "checked_on": "2026-11-16",
+     "note": "mismo precio"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207322281",
+    "url": "https://www.idealo.es/precios/207322281/xiaomi-robot-vacuum-h40.html",
+    "include_regex": "\\bh40\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207322/2/207322281/s11_produktbild_max/xiaomi-robot-vacuum-h40.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-pro",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum X20 Pro robot",
+   "name": "Xiaomi Robot Vacuum X20 Pro",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 269.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 349.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 349,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 16,
+   "tags": [
+    "7.000 Pa",
+    "160 min",
+    "lavado y secado de mopa",
+    "mopa que se eleva 10 mm"
+   ],
+   "highlights": [],
+   "note": "Precio razonable, pero por 20 € más tienes el Dreame D30 Ultra con 25.000 Pa y 230 min. Solo merece la pena si lo prefieres de Xiaomi.",
+   "info": "Base con lavado de mopa, secado con aire caliente y recogida de polvo. Sube la mopa hasta 10 mm al detectar alfombra. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-pro/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha X20 Pro (269,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-pro/buy/"
+    },
+    {
+     "title": "idealo · Xiaomi X20 Pro",
+     "url": "https://www.idealo.es/precios/205087897/xiaomi-x20-pro.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 269.99,
+     "currency": "€",
+     "url": "https://www.amazon.es/Xiaomi-Aspirador-fregasuelos-Inteligente-navegaci%C3%B3n/dp/B0DFJGKW2L",
+     "checked_on": "2026-11-16",
+     "note": "mismo precio"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205087897",
+    "url": "https://www.idealo.es/precios/205087897/xiaomi-x20-pro.html",
+    "include_regex": "x20\\s+pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087897/s11_produktbild_max/xiaomi-x20-pro.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-max",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum X20 Max robot",
+   "name": "Xiaomi Robot Vacuum X20 Max",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 349.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 399.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 399,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 17,
+   "tags": [
+    "8.000 Pa",
+    "lavado de mopa a 55 °C",
+    "secado con aire caliente",
+    "brazo de mopa extensible"
+   ],
+   "highlights": [],
+   "note": "Buen robot, pero a 349,99 € hay mejor por menos. El Dreame D30 Ultra (289 €) y el Roborock Qrevo 2 Pro (299 €) tienen más succión y base completa.",
+   "info": "Base todo en uno que lava la mopa con agua a 55 °C y la seca con aire caliente. La mopa se extiende unos 40 mm para limpiar bordes y patas de mesa. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-max/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha X20 Max (349,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-max/buy/"
+    },
+    {
+     "title": "Xiaomi ES · serie X20",
+     "url": "https://www.mi.com/es/event/robot-vacuum-x20-series/"
+    },
+    {
+     "title": "idealo · Xiaomi X20 Max",
+     "url": "https://www.idealo.es/precios/205087871/xiaomi-x20-max.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205087871",
+    "url": "https://www.idealo.es/precios/205087871/xiaomi-x20-max.html",
+    "include_regex": "x20\\s+max",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087871/s11_produktbild_max/xiaomi-x20-max.jpg",
    "checked_on": "2026-11-16"
   }
  ]
