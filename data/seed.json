@@ -65,6 +65,11 @@
    "id": "audio",
    "title": "Auriculares y audio",
    "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas."
+  },
+  {
+   "id": "auriculares-gaming",
+   "title": "Auriculares para jugar y cine",
+   "intro": "Los inalámbricos con dongle 2,4 GHz van mejor para jugar que el Bluetooth, que añade retardo. Para cine en casa, los abiertos con cable suenan más amplios, pero fugan sonido y no llevan micrófono."
   }
  ],
  "fx_to_eur": {
@@ -5691,6 +5696,278 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg",
    "checked_on": "2026-11-15"
+  },
+  {
+   "id": "hyperx-cloud-iii-s-wireless",
+   "section": "auriculares-gaming",
+   "illustration": "headphones",
+   "image_query": "HyperX Cloud III S Wireless auriculares gaming",
+   "name": "HyperX Cloud III S Wireless",
+   "store": "Amazon.es",
+   "price": 92.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 134,
+   "reference_label": "precio habitual 12 meses (PcComponentes)",
+   "annual_low": 97.99,
+   "annual_low_note": "97,99 € PcComponentes (30 oct. 2026, PCComTracker)",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "2,4 GHz + Bluetooth",
+    "hasta 200 h",
+    "DTS espacial"
+   ],
+   "highlights": [],
+   "note": "92,99 € en Amazon.es (vendido por Amazon) y 99,99 € en PcComponentes. Está por debajo de lo que costaba en todo el año en PcComponentes, pero el histórico de Amazon no lo tenemos. Buena opción si quieres inalámbrico sin gastar mucho.",
+   "info": "Cerrados, con dongle USB 2,4 GHz y Bluetooth 5.3 para PC, PS5 y móvil. Micrófono desmontable y batería de hasta 200 h.",
+   "link": "https://www.amazon.es/dp/B0F6NYQTJP",
+   "sources": [
+    {
+     "title": "Amazon.es · Cloud III S Wireless",
+     "url": "https://www.amazon.es/dp/B0F6NYQTJP"
+    },
+    {
+     "title": "PcComponentes · Cloud III S Wireless",
+     "url": "https://www.pccomponentes.com/auriculares-hyperx-cloud-iii-s-wireless-2-4ghz-bluetooth-con-microfono-y-audio-espacial-negro-rojo"
+    },
+    {
+     "title": "PCComTracker · histórico",
+     "url": "https://pccomtracker.com/producto/auriculares-hyperx-cloud-iii-s-wireless-24ghzbluetooth-con-microfono-y-audio-espacial-negrorojo-27661"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/206722569/hyperx-cloud-iii-s-wireless.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 99.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/auriculares-hyperx-cloud-iii-s-wireless-2-4ghz-bluetooth-con-microfono-y-audio-espacial-negro-rojo",
+     "checked_on": "2026-11-16",
+     "note": "vendido por PcComponentes"
+    },
+    {
+     "store": "MediaMarkt",
+     "price": 109.99,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-hyperx-cloud-iii-s-audio-espacial-dtsr-microfono-extraible-compatible-pc-ps5-ps4-nintendo-switch-mac-y-moviles-negro-rojo-1603310.html",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206722569",
+    "url": "https://www.idealo.es/precios/206722569/hyperx-cloud-iii-s-wireless.html",
+    "include_regex": "cloud\\s*iii\\s*s",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "sennheiser-hd-560s",
+   "section": "auriculares-gaming",
+   "illustration": "headphones",
+   "image_query": "Sennheiser HD 560S auriculares abiertos",
+   "name": "Sennheiser HD 560S",
+   "store": "Thomann",
+   "price": 138,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 183.48,
+   "reference_label": "precio habitual 12 meses (PcComponentes)",
+   "annual_low": 172.77,
+   "annual_low_note": "172,77 € PcComponentes (15 sep. 2026, PCComTracker)",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "abiertos",
+    "con cable",
+    "120 Ω"
+   ],
+   "highlights": [],
+   "note": "138 € en Thomann, en stock, frente a unos 173-183 € que costaban en PcComponentes durante el año. Para cine y música en casa son muy buenos. Sin micrófono y sin cancelación de ruido.",
+   "info": "Abiertos y de cable (jack 3,5 mm con adaptador a 6,3 mm). Escenario sonoro amplio y sonido neutro. Fugan sonido hacia fuera: pensados para escuchar en casa.",
+   "link": "https://www.thomann.es/sennheiser_hd_560s.htm",
+   "sources": [
+    {
+     "title": "Thomann · HD 560S",
+     "url": "https://www.thomann.es/sennheiser_hd_560s.htm"
+    },
+    {
+     "title": "PCComTracker · histórico PcComponentes",
+     "url": "https://pccomtracker.com/producto/auriculares-sennheiser-hd-560s-con-cable-abiertos-para-musica-y-gaming-negros-18638529"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/200711292/sennheiser-hd-560s.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "200711292",
+    "url": "https://www.idealo.es/precios/200711292/sennheiser-hd-560s.html",
+    "include_regex": "hd\\s*-?560\\s*s",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/200711/2/200711292/s11_produktbild_max/sennheiser-hd-560s.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "razer-blackshark-v3-x-hyperspeed",
+   "section": "auriculares-gaming",
+   "illustration": "headphones",
+   "image_query": "Razer BlackShark V3 X HyperSpeed auriculares",
+   "name": "Razer BlackShark V3 X HyperSpeed",
+   "store": "MediaMarkt",
+   "price": 89.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 109,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "2,4 GHz + Bluetooth",
+    "70 h",
+    "270 g"
+   ],
+   "highlights": [],
+   "note": "89,99 € en MediaMarkt (versión negro y azul), unos 20 € menos que su precio habitual de unos 109 €. Idealo lo muestra al mismo precio en Amazon.es. Sin cancelación de ruido. No hay histórico para saber si ha estado más barato.",
+   "info": "Cerrados y ligeros (270 g), con dongle USB 2,4 GHz y Bluetooth. Micrófono desmontable y 70 h de batería. Versión para PC y PlayStation.",
+   "link": "https://www.mediamarkt.es/es/product/_auriculares-gaming-razer-blackshark-v3-x-hyperspeed-70-h-de-autonomia-con-conexion-24ghz-en-pc-para-playstation-negro-y-azul-1670699.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · BlackShark V3 X HyperSpeed",
+     "url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-razer-blackshark-v3-x-hyperspeed-70-h-de-autonomia-con-conexion-24ghz-en-pc-para-playstation-negro-y-azul-1670699.html"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/207121523/razer-blackshark-v3-x-hyperspeed.html"
+    },
+    {
+     "title": "Compra Smartphone · análisis y precio",
+     "url": "https://comprasmartphone.com/auriculares/razer-blackshark-v3-x-hyperspeed"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207121523",
+    "url": "https://www.idealo.es/precios/207121523/razer-blackshark-v3-x-hyperspeed.html",
+    "include_regex": "blackshark\\s*v3\\s*x",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|xbox"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207121/5/207121523/s11_produktbild_max/razer-blackshark-v3-x-hyperspeed.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "razer-blackshark-v2-pro-2023",
+   "section": "auriculares-gaming",
+   "illustration": "headphones",
+   "image_query": "Razer BlackShark V2 Pro 2023 auriculares",
+   "name": "Razer BlackShark V2 Pro (2023)",
+   "store": "Amazon.es",
+   "price": 119.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "2,4 GHz + Bluetooth",
+    "TriForce 50 mm",
+    "micro HyperClear"
+   ],
+   "highlights": [],
+   "note": "119,99 € en Amazon.es (vendido por Amazon). Es la tienda más barata hoy: el resto de tiendas de idealo está entre 136 y 160 €. Amazon marca un -60 % sobre 229,99 €, pero ese PVP no cuenta. Sin histórico fiable.",
+   "info": "Cerrados, inalámbricos por dongle 2,4 GHz y Bluetooth. Micrófono desmontable y buen aislamiento. Muy usados en PC y consola.",
+   "link": "https://www.amazon.es/dp/B0BXLWCLZN",
+   "sources": [
+    {
+     "title": "Amazon.es · BlackShark V2 Pro (2023)",
+     "url": "https://www.amazon.es/dp/B0BXLWCLZN"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/202715525/razer-blackshark-v2-pro-2023.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202715525",
+    "url": "https://www.idealo.es/precios/202715525/razer-blackshark-v2-pro-2023.html",
+    "include_regex": "blackshark\\s*v2\\s*pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202715/5/202715525/s11_produktbild_max/razer-blackshark-v2-pro-2023.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "logitech-g-pro-x-2-lightspeed",
+   "section": "auriculares-gaming",
+   "illustration": "headphones",
+   "image_query": "Logitech G Pro X 2 Lightspeed auriculares",
+   "name": "Logitech G Pro X 2 Lightspeed",
+   "store": "Amazon.es",
+   "price": 154.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 169.99,
+   "reference_label": "precio tachado en Amazon",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "2,4 GHz + Bluetooth",
+    "grafeno 50 mm",
+    "DTS:X 7.1"
+   ],
+   "highlights": [],
+   "note": "154,99 € en Amazon.es (vendido por Amazon), solo 15 € menos que el precio tachado en la ficha. En idealo hay tiendas a 159 €. Es buen auricular, pero esta rebaja es corta y hay opciones más baratas en la lista.",
+   "info": "Cerrados, con dongle USB Lightspeed, Bluetooth y cable de 3,5 mm. Transductores de grafeno de 50 mm y micrófono desmontable.",
+   "link": "https://www.amazon.es/dp/B07W6H7PY2",
+   "sources": [
+    {
+     "title": "Amazon.es · G Pro X 2 Lightspeed",
+     "url": "https://www.amazon.es/dp/B07W6H7PY2"
+    },
+    {
+     "title": "idealo · ficha",
+     "url": "https://www.idealo.es/precios/202801715/logitech-g-pro-x-2-lightspeed.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202801715",
+    "url": "https://www.idealo.es/precios/202801715/logitech-g-pro-x-2-lightspeed.html",
+    "include_regex": "g\\s*pro\\s*x\\s*2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
+   "checked_on": "2026-11-16"
   }
  ]
 }
