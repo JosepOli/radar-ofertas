@@ -206,6 +206,7 @@
     if (!allowed) throw new Error("Grupo de veredicto desconocido: " + state.verdict);
     const ts = terms(state.q), sel = state.facets;
     const out = offers.filter((d) => {
+      if (state.group && state.group !== "all" && (ctx.sectionGroups || {})[d.section] !== state.group) return false;
       if (state.sec && state.sec !== "all" && d.section !== state.sec) return false;
       if (!allowed.includes(d.verdict)) return false;
       if (ts.length && !matchesAll(haystack(d, titles[d.section]), ts)) return false;

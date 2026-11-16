@@ -45,6 +45,13 @@ header p{color:var(--muted);margin:6px 0 0;max-width:72ch}
 
 .filters{position:sticky;top:0;z-index:5;background:rgba(13,15,31,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);margin:22px -20px 0;padding:12px 20px;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips.subs{width:100%;margin-top:-4px}.chips.subs .chip{font-size:12px;padding:4px 11px;background:transparent}
+.chips.subs .chip[aria-pressed="true"]{background:var(--cyan);color:var(--bg);border-color:var(--cyan)}
+.chips.subs:empty{display:none}
+@media (max-width:560px){.chips.subs .chip{font-size:13px;padding:5px 12px}}
+.chip .n{font:500 11px var(--mono);margin-left:6px;opacity:.7}
+.grp{font:700 13px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);margin:34px 0 14px;padding-bottom:6px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:10px}
+.grp:first-child{margin-top:8px}.grp em{font:500 12px var(--mono);letter-spacing:0;text-transform:none;color:var(--muted);font-style:normal}
 .chip{font:600 13px var(--display);letter-spacing:.05em;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
 .chip[aria-pressed="true"]{border-color:var(--cyan);color:var(--bg);background:var(--cyan)}
 .chip:hover{border-color:var(--cyan)}
@@ -60,8 +67,8 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 .linkbtn:hover{color:var(--ink);border-color:var(--cyan)}
 
 section.sec{margin-top:34px}
-.sec h2{font-family:var(--display);font-size:22px;margin:0 0 4px;display:flex;align-items:baseline;gap:10px}
-.sec h2 em{font-style:normal;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.sec h3{font-family:var(--display);font-size:22px;margin:0 0 4px;display:flex;align-items:baseline;gap:10px}
+.sec h3 em{font-style:normal;font-family:var(--mono);font-size:13px;color:var(--muted)}
 .sec .intro{color:var(--muted);margin:0 0 14px;max-width:80ch}
 .sec .intro:has(+.ffilters){margin-bottom:8px}
 .ffilters{display:flex;flex-direction:column;gap:4px;margin:0 0 14px;min-width:0}
@@ -172,7 +179,8 @@ dialog::backdrop{background:rgba(5,6,15,.75);backdrop-filter:blur(3px)}
 </header>
 
 <div class="filters" role="search">
-  <div class="chips" id="chips"></div>
+  <div class="chips" id="groups" aria-label="Categorías"></div>
+  <div class="chips subs" id="chips" aria-label="Secciones"></div>
   <label class="ctl" for="q">Buscar <input type="search" id="q" placeholder="matrix rodillo, 14 tb, linux…" autocomplete="off"></label>
   <label class="ctl" for="verdict">Veredicto
     <select id="verdict"><option value="all">Todos</option><option value="buy">Comprar o buena opción</option><option value="top">Solo «Comprar»</option><option value="skip">Pasa / no comprar</option></select>
@@ -207,10 +215,10 @@ dialog::backdrop{background:rgba(5,6,15,.75);backdrop-filter:blur(3px)}
 const C=window.RadarCore, ART=window.RADAR_ART;
 const VCOL={top:"#3ddc97",ok:"#3de0ff",pasa:"#ffc04d",no:"#ff5f6d"};
 const VLBL={top:"Comprar",ok:"Buena opción",pasa:"Pasa",no:"No comprar"};
-const DEF={sec:"all",q:"",verdict:"all",sort:"rec",max:7000,real:false};
+const DEF={g:"all",sec:"all",q:"",verdict:"all",sort:"rec",max:7000,real:false};
 const state={...DEF,f:{}};
 const mstate={sort:"hdd",eu:false};
-let DATA=null,SECTIONS=[],TITLES={},ALL=[],ITEMS=[],ITEMS_NF=[];
+let DATA=null,GROUPS=[],SGROUP={},SECTIONS=[],TITLES={},ALL=[],ITEMS=[],ITEMS_NF=[];
 const TODAY=new Date();
 
 // Estado: primero el enlace compartido; si no trae nada, lo último que usó esta persona.
@@ -310,8 +318,16 @@ function marketTable(){
 }
 
 function renderControls(){
-  document.getElementById("chips").innerHTML=[{id:"all",title:"Todas"},...SECTIONS].map(s=>`<button class="chip" type="button" data-sec="${esc(s.id)}" aria-pressed="${state.sec===s.id}">${esc(s.title)}</button>`).join("");
-  {const on=document.querySelector('#chips .chip[aria-pressed="true"]');if(on&&on.scrollIntoView&&document.getElementById("chips").scrollWidth>document.getElementById("chips").clientWidth)on.scrollIntoView({block:"nearest",inline:"center"});}
+  const gEl=document.getElementById("groups"),sEl=document.getElementById("chips");
+  if(GROUPS.length){
+    gEl.innerHTML=[{id:"all",title:"Todo",count:ALL.length},...GROUPS].map(g=>`<button class="chip" type="button" data-grp="${esc(g.id)}" aria-pressed="${state.g===g.id}">${esc(g.title)}<span class="n">${g.count}</span></button>`).join("");
+    const subs=state.g==="all"?[]:SECTIONS.filter(s=>SGROUP[s.id]===state.g);
+    sEl.innerHTML=subs.length>1?[{id:"all",title:"Todas"},...subs].map(s=>`<button class="chip" type="button" data-sec="${esc(s.id)}" aria-pressed="${state.sec===s.id}">${esc(s.title)}</button>`).join(""):"";
+  }else{
+    gEl.innerHTML="";
+    sEl.innerHTML=[{id:"all",title:"Todas"},...SECTIONS].map(s=>`<button class="chip" type="button" data-sec="${esc(s.id)}" aria-pressed="${state.sec===s.id}">${esc(s.title)}</button>`).join("");
+  }
+  for(const el of[gEl,sEl]){const on=el.querySelector('.chip[aria-pressed="true"]');if(on&&on.scrollIntoView&&el.scrollWidth>el.clientWidth)on.scrollIntoView({block:"nearest",inline:"center"});}
   for(const k of["verdict","sort"])document.getElementById(k).value=state[k];
   const q=document.getElementById("q");if(q.value!==state.q)q.value=state.q;
   document.getElementById("max").value=state.max;document.getElementById("real").checked=state.real;
@@ -331,12 +347,15 @@ function filterRows(s,itemsNF){
 }
 function renderList(){
   const main=document.getElementById("main");
-  const secs=SECTIONS.filter(s=>state.sec==="all"||state.sec===s.id);
+  const secs=SECTIONS.filter(s=>(state.g==="all"||SGROUP[s.id]===state.g)&&(state.sec==="all"||state.sec===s.id));
+  const heads=GROUPS.length&&state.g==="all"&&state.sec==="all";let lastG=null;
   const searching=!!C.terms(state.q).length;
   const fk=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.fsec?{...document.activeElement.dataset}:null;
   main.innerHTML=secs.map(s=>{const items=ITEMS.filter(d=>d.section===s.id);
     if(searching&&!ITEMS_NF.some(d=>d.section===s.id))return"";
-    return `<section class="sec" id="sec-${esc(s.id)}"><h2>${esc(s.title)}<em>${items.length} de ${s.count}</em></h2><p class="intro">${esc(s.intro)}</p>${filterRows(s,ITEMS_NF)}${s.id==="discos"&&!searching?marketTable():""}${items.length?`<div class="grid">${items.map(card).join("")}</div>`:`<div class="empty">Ninguna oferta de esta sección pasa los filtros actuales.</div>`}</section>`;}).join("")
+    let head="";
+    if(heads&&SGROUP[s.id]!==lastG){lastG=SGROUP[s.id];const g=GROUPS.find(x=>x.id===lastG);const n=ITEMS.filter(d=>SGROUP[d.section]===lastG).length;head=`<h2 class="grp" id="grp-${esc(lastG)}">${esc(g?g.title:"")}<em>${n} de ${g?g.count:0}</em></h2>`;}
+    return `${head}<section class="sec" id="sec-${esc(s.id)}"><h3>${esc(s.title)}<em>${items.length} de ${s.count}</em></h3><p class="intro">${esc(s.intro)}</p>${filterRows(s,ITEMS_NF)}${s.id==="discos"&&!searching?marketTable():""}${items.length?`<div class="grid">${items.map(card).join("")}</div>`:`<div class="empty">Ninguna oferta de esta sección pasa los filtros actuales.</div>`}</section>`;}).join("")
     ||`<p class="empty">Nada coincide con «${esc(state.q)}». Prueba con menos palabras o quita filtros.</p>`;
   document.getElementById("count").textContent=`${ITEMS.length} de ${ALL.length} ofertas`;
   if(fk){const b=[...main.querySelectorAll(".fchip")].find(x=>x.dataset.fsec===fk.fsec&&x.dataset.fkey===fk.fkey&&x.dataset.fval===fk.fval);if(b)b.focus();}
@@ -345,7 +364,7 @@ function renderList(){
 
 function refresh(){
   saveState();renderControls();
-  const base={...state,max:state.max>=7000?null:state.max},cx={today:TODAY,fx:DATA.meta.fx_to_eur,sectionTitles:TITLES};
+  const base={...state,max:state.max>=7000?null:state.max},cx={today:TODAY,fx:DATA.meta.fx_to_eur,sectionTitles:TITLES,sectionGroups:SGROUP};
   ITEMS=C.query(ALL,{...base,facets:state.f},cx);
   ITEMS_NF=C.query(ALL,{...base,facets:{}},cx); // sin filtros de sección: base de los conteos de cada chip
   renderList();
@@ -357,7 +376,7 @@ function kpis(){
   const lives=ALL.filter(d=>d.live),tracked=ALL.filter(d=>d.tracking).length;
   const last=lives.map(d=>d.live.at).sort().pop();
   document.getElementById("kpis").innerHTML=`
-   <div class="kpi"><b>${ALL.length}</b><small>productos en ${SECTIONS.length} secciones</small></div>
+   <div class="kpi"><b>${ALL.length}</b><small>productos en ${GROUPS.length?`${GROUPS.length} categorías y `:""}${SECTIONS.length} secciones</small></div>
    <div class="kpi"><b style="color:var(--cyan)">${lives.length}<span style="font-size:15px;color:var(--muted)">/${tracked}</span></b><small>precios vigilados en otras tiendas${last?` · ${ago(last)}`:""}</small></div>
    <div class="kpi"><b style="color:var(--good)">${real}</b><small>por debajo de su mínimo del año</small></div>
    <div class="kpi"><b style="color:var(--warn)">${ends.length?Math.min(...ends):"—"} d</b><small>hasta que acaba la primera campaña</small></div>`;
@@ -404,7 +423,7 @@ document.addEventListener("click",e=>{
     if(Object.keys(cur).length)state.f[sec]=cur;else delete state.f[sec];
     refresh();return;}
   const b=e.target.closest(".chip");
-  if(b){if(b.dataset.msort){mstate.sort=b.dataset.msort;renderList();return;}if(b.dataset.meu){mstate.eu=!mstate.eu;renderList();return;}if(b.dataset.sec){state.sec=b.dataset.sec;refresh();}return;}
+  if(b){if(b.dataset.msort){mstate.sort=b.dataset.msort;renderList();return;}if(b.dataset.meu){mstate.eu=!mstate.eu;renderList();return;}if(b.dataset.grp){state.g=b.dataset.grp;state.sec="all";refresh();window.scrollTo({top:Math.min(window.scrollY,document.getElementById("main").offsetTop-120)});return;}if(b.dataset.sec){state.sec=b.dataset.sec;refresh();}return;}
   if(e.target.closest("a"))return;
   const c=e.target.closest(".card,.pick");if(c)openDetail(c.dataset.id);
 });
@@ -423,10 +442,15 @@ document.getElementById("share").addEventListener("click",async e=>{
 (async()=>{
   try{
     const r=await fetch("data.json",{cache:"no-cache"});if(!r.ok)throw new Error("HTTP "+r.status);
-    DATA=await r.json();SECTIONS=DATA.sections;ALL=DATA.offers;
+    DATA=await r.json();SECTIONS=DATA.sections;ALL=DATA.offers;GROUPS=DATA.groups||[];
+    SGROUP=Object.fromEntries(SECTIONS.filter(s=>s.group).map(s=>[s.id,s.group]));
+    // Las secciones se muestran en el orden de su categoría madre.
+    if(GROUPS.length){const gi=Object.fromEntries(GROUPS.map((g,i)=>[g.id,i]));SECTIONS=[...SECTIONS].map((s,i)=>[s,i]).sort((a,b)=>(gi[a[0].group]??99)-(gi[b[0].group]??99)||a[1]-b[1]).map(x=>x[0]);}
     TITLES=Object.fromEntries(SECTIONS.map(s=>[s.id,s.title]));
     state.f=C.pruneFacets(state.f,SECTIONS,ALL);
     if(state.sec!=="all"&&!SECTIONS.some(s=>s.id===state.sec))state.sec="all";
+    if(state.g!=="all"&&!GROUPS.some(g=>g.id===state.g))state.g="all";
+    if(state.sec!=="all"&&SGROUP[state.sec])state.g=SGROUP[state.sec]; // enlaces antiguos con solo #sec=…
     if(!C.VERDICT_GROUPS[state.verdict])state.verdict="all";
     if(![...document.getElementById("sort").options].some(o=>o.value===state.sort))state.sort="rec";
     kpis();footer();refresh();

@@ -35,6 +35,16 @@ class CatalogService:
             for s in self._repo.sections()
         ]
 
+    def groups(self) -> list[dict[str, Any]]:
+        groups = getattr(self._repo, "groups", lambda: ())()
+        offers = self._repo.offers()
+        out = []
+        for g in groups:
+            secs = [s.id for s in self._repo.sections() if s.group == g.id]
+            out.append({"id": g.id, "title": g.title, "sections": secs,
+                        "count": sum(1 for o in offers if o.section in secs)})
+        return out
+
     def search(self, query: OfferQuery) -> list[dict[str, Any]]:
         today = self._clock.today()
         found = run_query(self._repo.offers(), query, today, self._repo.fx_to_eur())
@@ -72,7 +82,7 @@ class CatalogService:
 
     def payload(self) -> dict[str, Any]:
         """Todo lo que necesita el frontend en un único documento (sitio estático o /data.json)."""
-        return {"meta": self.meta(), "sections": self.sections(), "markets": self.markets(), "offers": self.all()}
+        return {"meta": self.meta(), "groups": self.groups(), "sections": self.sections(), "markets": self.markets(), "offers": self.all()}
 
     def _now(self) -> datetime:
         now = getattr(self._clock, "now", None)

@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Mapping
 
-from radar.domain.models import Market, MarketQuote, Offer, Section, SectionFilter, Source, StoreOption, TrackingSpec, Verdict
+from radar.domain.models import Group, Market, MarketQuote, Offer, Section, SectionFilter, Source, StoreOption, TrackingSpec, Verdict
 
 
 class SeedError(ValueError):
@@ -20,6 +20,7 @@ class JsonSeedRepository:
         self._checked_on = date.fromisoformat(raw["checked_on"])
         self._fx: dict[str, float] = dict(raw["fx_to_eur"])
         self._sections = tuple(self._section(s) for s in raw["sections"])
+        self._groups = self._parse_groups(raw.get("groups"), self._sections)
         sections = {s.id: s for s in self._sections}
         self._offers = tuple(self._offer(o, sections) for o in raw["offers"])
         ids = [o.id for o in self._offers]
@@ -32,6 +33,39 @@ class JsonSeedRepository:
     def markets(self): return self._markets
     def fx_to_eur(self) -> Mapping[str, float]: return self._fx
     def checked_on(self) -> date: return self._checked_on
+    def groups(self) -> tuple[Group, ...]: return self._groups
+
+    _GROUP_ID = re.compile(r"[a-z][a-z0-9-]*")
+
+    @classmethod
+    def _parse_groups(cls, raw: Any, sections: tuple[Section, ...]) -> tuple[Group, ...]:
+        if raw is None:
+            stray = [s.id for s in sections if s.group is not None]
+            if stray:
+                raise SeedError(f"{stray[0]}: grupo desconocido (el seed no declara groups)")
+            return ()
+        if not isinstance(raw, list):
+            raise SeedError("groups debe ser una lista")
+        out: list[Group] = []
+        for g in raw:
+            gid, title = g.get("id"), g.get("title")
+            if not isinstance(gid, str) or not cls._GROUP_ID.fullmatch(gid):
+                raise SeedError(f"id de grupo no válido: {gid!r}")
+            if any(x.id == gid for x in out):
+                raise SeedError(f"grupo duplicado: {gid}")
+            if not isinstance(title, str) or not title.strip() or any(ord(c) < 32 for c in title):
+                raise SeedError(f"{gid}: título de grupo vacío o no válido")
+            out.append(Group(id=gid, title=title.strip()))
+        ids = {g.id for g in out}
+        for s in sections:
+            if s.group is None:
+                raise SeedError(f"{s.id}: sección sin grupo")
+            if s.group not in ids:
+                raise SeedError(f"{s.id}: grupo desconocido {s.group}")
+        empty = [g.id for g in out if not any(s.group == g.id for s in sections)]
+        if empty:
+            raise SeedError(f"{empty[0]}: grupo sin secciones")
+        return tuple(out)
 
     MAX_FILTERS = 3
     MAX_FACET_LEN = 32
@@ -39,7 +73,7 @@ class JsonSeedRepository:
 
     @classmethod
     def _section(cls, s: Mapping[str, Any]) -> Section:
-        extra = set(s) - {"id", "title", "intro", "filters"}
+        extra = set(s) - {"id", "title", "intro", "filters", "group"}
         if extra:
             raise SeedError(f"{s.get('id')}: campos de sección desconocidos {sorted(extra)}")
         sid = s["id"]
@@ -63,7 +97,10 @@ class JsonSeedRepository:
             if any(key == x.key for x in out):
                 raise SeedError(f"{where}: clave duplicada {key}")
             out.append(SectionFilter(key=key, label=label.strip()))
-        return Section(id=sid, title=s["title"], intro=s["intro"], filters=tuple(out))
+        group = s.get("group")
+        if group is not None and not isinstance(group, str):
+            raise SeedError(f"{sid}: group debe ser texto")
+        return Section(id=sid, title=s["title"], intro=s["intro"], filters=tuple(out), group=group)
 
     @classmethod
     def _facets(cls, o: Mapping[str, Any], section: Section) -> tuple[tuple[str, str], ...]:

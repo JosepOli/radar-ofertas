@@ -35,12 +35,14 @@ def make_offer(**kw) -> Offer:
 
 
 class FakeRepo:
-    def __init__(self, offers, sections=(), markets=(), fx=None):
+    def __init__(self, offers, sections=(), markets=(), fx=None, groups=()):
         self._o, self._s, self._m = tuple(offers), tuple(sections), tuple(markets)
+        self._g = tuple(groups)
         self._fx = fx or {"€": 1.0, "$": 0.86}
 
     def offers(self): return self._o
     def sections(self): return self._s
+    def groups(self): return self._g
     def markets(self): return self._m
     def fx_to_eur(self): return self._fx
     def checked_on(self): return TODAY

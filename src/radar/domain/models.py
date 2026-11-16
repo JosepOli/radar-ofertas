@@ -48,6 +48,15 @@ class Section:
     title: str
     intro: str
     filters: tuple[SectionFilter, ...] = ()
+    group: str | None = None
+
+
+@dataclass(frozen=True)
+class Group:
+    """Categoría madre (Simracing, Informática…) que agrupa secciones."""
+
+    id: str
+    title: str
 
 
 @dataclass(frozen=True)

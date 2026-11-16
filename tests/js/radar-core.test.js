@@ -176,3 +176,16 @@ test("pruneFacets descarta secciones, claves y valores que ya no existen", () =>
   const f = { robots: { marca: "Dreame", zzz: "x", fregado: "Inventado" }, print: { marca: "x" }, fantasma: { a: "b" } };
   assert.deepEqual(C.pruneFacets(f, secs, FACETED), { robots: { marca: "Dreame" } });
 });
+
+test("query filtra por categoría madre usando ctx.sectionGroups", () => {
+  const offers = [
+    mk({ id: "a", section: "volantes", rank: 1 }),
+    mk({ id: "b", section: "pedales", rank: 2 }),
+    mk({ id: "c", section: "cpu", rank: 3 }),
+  ];
+  const ctx = { today, fx, sectionGroups: { volantes: "simracing", pedales: "simracing", cpu: "informatica" } };
+  assert.deepEqual(C.query(offers, { group: "simracing" }, ctx).map((d) => d.id), ["a", "b"]);
+  assert.deepEqual(C.query(offers, { group: "all" }, ctx).map((d) => d.id), ["a", "b", "c"]);
+  assert.deepEqual(C.query(offers, { group: "simracing", sec: "pedales" }, ctx).map((d) => d.id), ["b"]);
+  assert.deepEqual(C.query(offers, { group: "informatica" }, { today, fx }).map((d) => d.id), []);
+});
