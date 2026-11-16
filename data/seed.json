@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-15",
+ "checked_on": "2026-11-16",
  "sections": [
   {
    "id": "robots",
@@ -348,8 +348,8 @@
    "illustration": "robot",
    "image_query": "Dreame X50 Ultra Complete robot",
    "name": "Dreame X50 Ultra Complete",
-   "store": "Dreame ES (tienda oficial)",
-   "price": 599,
+   "store": "Electro Depot",
+   "price": 549.98,
    "price_text": null,
    "currency": "€",
    "reference_price": 999,
@@ -357,7 +357,7 @@
    "annual_low": 699,
    "annual_low_note": "699 € MediaMarkt DE (oct.); 784 € en ES",
    "discount_override": null,
-   "ends_on": "2026-11-30",
+   "ends_on": null,
    "verdict": "ok",
    "rank": 3,
    "tags": [
@@ -369,9 +369,9 @@
    "highlights": [
     "mín. histórico"
    ],
-   "note": "Chollo real, pero el Matrix10 por 50 € más es mejor máquina.",
+   "note": "Chollo real: 549,98 € en Electro Depot, por debajo del mínimo anual. Dreame ES lo tiene agotado hoy. El Matrix10 por unos 100 € más es mejor máquina.",
    "info": "Patas ProLeap para pasar umbrales de 6 cm, mopas extensibles, lavado de mopas con agua caliente y vaciado automático.",
-   "link": "https://es.dreametech.com/pages/black-friday",
+   "link": "https://www.electrodepot.es/robot-aspirador-dreame-x50-ultra-complete-noir.html",
    "sources": [
     {
      "title": "Dreame España · Black Friday",
@@ -384,6 +384,10 @@
     {
      "title": "smarthomeassistent.de · precios DE",
      "url": "https://www.smarthomeassistent.de/deal-dreame-startet-black-friday-pre-sale/"
+    },
+    {
+     "title": "Electro Depot · X50 Ultra Complete",
+     "url": "https://www.electrodepot.es/robot-aspirador-dreame-x50-ultra-complete-noir.html"
     }
    ],
    "tracking": {
@@ -394,8 +398,17 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|mopa|x50 ultra\\b(?!\\s+complete)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205569/2/205569273/s11_produktbild_max/dreame-x50-ultra-complete.jpg",
-   "options": [],
-   "checked_on": "2026-11-15"
+   "options": [
+    {
+     "store": "Dreame ES (tienda oficial)",
+     "price": 599.0,
+     "currency": "€",
+     "url": "https://es.dreametech.com/products/dreame-x50-ultra-complete",
+     "checked_on": "2026-11-16",
+     "note": "agotado hoy"
+    }
+   ],
+   "checked_on": "2026-11-16"
   },
   {
    "id": "roborock-saros-20-set",
@@ -868,7 +881,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "moza-r9-v3-solo-base",
@@ -913,7 +926,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206144/3/206144362/s11_produktbild_max/moza-racing-r9-v3-wheel-base.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "moza-r12-v2-solo-base",
@@ -921,8 +934,8 @@
    "illustration": "wheel",
    "image_query": "MOZA R12 V2 wheelbase",
    "name": "Moza R12 V2 (solo base)",
-   "store": "Moza Racing EU",
-   "price": 379,
+   "store": "PcComponentes",
+   "price": 361.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 529,
@@ -930,7 +943,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable en EU",
    "discount_override": null,
-   "ends_on": "2026-11-30",
+   "ends_on": null,
    "verdict": "ok",
    "rank": 3,
    "tags": [
@@ -938,13 +951,17 @@
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "Si quieres margen de par a futuro. Mismo ecosistema y mismo driver que la R9.",
+   "note": "Si quieres margen de par a futuro. Mismo ecosistema y mismo driver que la R9. PcComponentes la vende y envía, 17 € por debajo de Moza EU y de su mínimo de 30 días (378,99 €).",
    "info": "El bundle R12 V2 + volante + SRP2 también baja un 28 %.",
-   "link": "https://simracingnerd.net/black-friday-moza-racing/",
+   "link": "https://www.pccomponentes.com/base-para-volante-moza-racing-r12-v2-direct-drive-12nm-aluminio-negro",
    "sources": [
     {
      "title": "Sim Racing Nerd · Moza BF 2026",
      "url": "https://simracingnerd.net/black-friday-moza-racing/"
+    },
+    {
+     "title": "PcComponentes · Moza R12 V2",
+     "url": "https://www.pccomponentes.com/base-para-volante-moza-racing-r12-v2-direct-drive-12nm-aluminio-negro"
     }
    ],
    "tracking": {
@@ -955,8 +972,16 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|bundle|pedales|ks\\b|srp|rs\\d+|varilla|extension"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206144/2/206144282/s11_produktbild_max/moza-racing-r12-v2.jpg",
-   "options": [],
-   "checked_on": "2026-11-15"
+   "options": [
+    {
+     "store": "Moza Racing EU (tienda oficial)",
+     "price": 379.0,
+     "currency": "€",
+     "url": "https://eu.mozaracing.com/es/products/r12-wheelbase",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "checked_on": "2026-11-16"
   },
   {
    "id": "moza-r5-pro-bundle",
@@ -984,7 +1009,7 @@
    "highlights": [],
    "note": "Solo 30 € de descuento. Por 210 € más el bundle R9 es otro nivel.",
    "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
-   "link": "https://simufy.com/en/collections/moza-black-friday?page=2",
+   "link": "https://simufy.com/products/moza-r5-pro-bundle",
    "sources": [
     {
      "title": "Simufy · Moza BF",
@@ -1000,7 +1025,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/212941/0/212941014/s11_produktbild_max/moza-racing-r5-pro-racing-simulator.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "fanatec-csl-dd-5-nm",
@@ -1111,8 +1136,8 @@
    "illustration": "wheel",
    "image_query": "Simagic Alpha EVO Sport wheelbase",
    "name": "Simagic Alpha EVO Sport 9 Nm",
-   "store": "GPerformance",
-   "price": 459.4,
+   "store": "Simufy",
+   "price": 399.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 482.79,
@@ -1120,7 +1145,7 @@
    "annual_low": 399.9,
    "annual_low_note": "399,90 € RueDuCommerce (jul.)",
    "discount_override": null,
-   "ends_on": "2026-12-31",
+   "ends_on": null,
    "verdict": "pasa",
    "rank": 8,
    "tags": [
@@ -1128,9 +1153,9 @@
     "driver externo en Linux"
    ],
    "highlights": [],
-   "note": "Mejor motor, pero más caro que en julio y en Linux depende de un módulo DKMS.",
+   "note": "Simufy la tiene a 399,99 €, igual que el mínimo de julio: no es un chollo. Mejor motor, pero en Linux depende de un módulo DKMS.",
    "info": "Simagic aplica un 10 % en carrito a las bases en su web hasta el 31/12.",
-   "link": "https://gperformance.eu/es-es/collections/special-offers",
+   "link": "https://simufy.com/products/base-simagic-alpha-evo-sport-9nm",
    "sources": [
     {
      "title": "GPerformance · Simagic",
@@ -1147,6 +1172,10 @@
     {
      "title": "Linux steering wheels (compatibilidad)",
      "url": "https://awesome.ecosyste.ms/projects/github.com%2FJacKeTUs%2Flinux-steering-wheels"
+    },
+    {
+     "title": "Simufy · Simagic Alpha EVO Sport 9 Nm",
+     "url": "https://simufy.com/products/base-simagic-alpha-evo-sport-9nm"
     }
    ],
    "tracking": {
@@ -1158,7 +1187,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311927/s11_produktbild_max/simagic-alpha-evo-sport.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "simagic-alpha-evo-12-nm",
@@ -1166,8 +1195,8 @@
    "illustration": "wheel",
    "image_query": "Simagic Alpha EVO 12Nm",
    "name": "Simagic Alpha EVO 12 Nm",
-   "store": "GPerformance",
-   "price": 651,
+   "store": "Simufy",
+   "price": 549.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 664.29,
@@ -1183,9 +1212,9 @@
     "driver externo en Linux"
    ],
    "highlights": [],
-   "note": "Un 2 % de descuento no es Black Friday.",
+   "note": "Simufy la vende 100 € por debajo de GPerformance, pero sin histórico fiable no se puede hablar de chollo.",
    "info": "La Alpha EVO Pro de 18 Nm sale a 802,23 € en la misma tienda.",
-   "link": "https://gperformance.eu/es-es/collections/special-offers",
+   "link": "https://simufy.com/products/base-simagic-alpha-evo-12nm",
    "sources": [
     {
      "title": "GPerformance · Simagic",
@@ -1194,6 +1223,10 @@
     {
      "title": "Sim Racing Nerd · Simagic BF 2026",
      "url": "https://simracingnerd.net/black-friday-simagic/"
+    },
+    {
+     "title": "Simufy · Simagic Alpha EVO 12 Nm",
+     "url": "https://simufy.com/products/base-simagic-alpha-evo-12nm"
     }
    ],
    "tracking": {
@@ -1205,7 +1238,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311931/s11_produktbild_max/simagic-alpha-evo-direct-drive.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "logitech-rs50-bundle-pc-sin-pedales",
@@ -1214,29 +1247,33 @@
    "image_query": "Logitech RS50 direct drive",
    "name": "Logitech RS50 (bundle PC, sin pedales)",
    "store": "Logitech",
-   "price": 849.99,
+   "price": 579.99,
    "price_text": null,
    "currency": "€",
-   "reference_price": 949.99,
+   "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "no",
+   "verdict": "pasa",
    "rank": 13,
    "tags": [
     "8 Nm",
     "sin pedales"
    ],
    "highlights": [],
-   "note": "Caro para 8 Nm y sin pedales. Pierde contra Moza en todo.",
+   "note": "Hoy cuesta 579,99 € en la tienda oficial, mucho menos que antes. Aun así, sin pedales y con 8 Nm: el Moza R5 Pro con volante y pedales cuesta 390 €.",
    "info": "El bundle no incluye pedalera.",
-   "link": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/",
+   "link": "https://www.logitechg.com/es-es/shop/p/rs50-system",
    "sources": [
     {
      "title": "SimRacerPro · Logitech BF 2026",
      "url": "https://simracerpro.net/black-friday-logitech-sim-racing-year-up-to-40-off/"
+    },
+    {
+     "title": "Logitech G · RS50 System",
+     "url": "https://www.logitechg.com/es-es/shop/p/rs50-system"
     }
    ],
    "tracking": {
@@ -1248,7 +1285,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207967/9/207967958/s11_produktbild_max/logitech-g-rs50-system-xbox-pc.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "logitech-g923-bundle",
@@ -1739,29 +1776,33 @@
    "illustration": "vr",
    "image_query": "Meta Quest 3S headset",
    "name": "Meta Quest 3S 128 GB",
-   "store": "Amazon.es",
-   "price": 249.99,
+   "store": "Meta Store",
+   "price": 359.99,
    "price_text": null,
    "currency": "€",
-   "reference_price": 299.99,
+   "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": 249.99,
    "annual_low_note": "mínimo del BF 2025",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "pasa",
-   "rank": 2,
+   "verdict": "no",
+   "rank": 3,
    "tags": [
     "lentes Fresnel"
    ],
    "highlights": [],
-   "note": "Mismas lentes Fresnel que la Quest 2. No es una mejora real para PC VR.",
+   "note": "La oferta de 249,99 € se acabó: hoy cuesta 359,99 € en Meta y unos 359 € en otras tiendas. Mismas lentes Fresnel que la Quest 2, no es una mejora real para PC VR.",
    "info": "",
-   "link": "https://www.profesionalreview.com/?p=587608",
+   "link": "https://www.meta.com/es/quest/quest-3s/",
    "sources": [
     {
      "title": "Profesional Review · Quest 3S",
      "url": "https://www.profesionalreview.com/?p=587608"
+    },
+    {
+     "title": "Meta · Quest 3S",
+     "url": "https://www.meta.com/es/quest/quest-3s/"
     }
    ],
    "tracking": {
@@ -1773,7 +1814,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204861/0/204861013/s11_produktbild_max/meta-quest-3s-128gb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "meta-quest-3-reacondicionada",
@@ -1781,33 +1822,42 @@
    "illustration": "vr",
    "image_query": "Meta Quest 3 refurbished",
    "name": "Meta Quest 3 reacondicionada",
-   "store": "Back Market",
-   "price": null,
+   "store": "Meta (reacondicionados oficiales)",
+   "price": 569.99,
    "price_text": null,
    "currency": "€",
-   "reference_price": null,
-   "reference_label": "precio habitual",
+   "reference_price": 619.99,
+   "reference_label": "precio de la nueva en Meta",
    "annual_low": null,
-   "annual_low_note": "descuentos extra desde el 17/11",
+   "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "pasa",
-   "rank": 3,
+   "verdict": "no",
+   "rank": 4,
    "tags": [
-    "reacondicionada"
+    "reacondicionada oficial",
+    "1 año de garantía"
    ],
    "highlights": [],
-   "note": "Mira el precio el 17/11: si baja de 350 €, compensa frente a nueva.",
-   "info": "",
-   "link": "https://www.backmarket.es/es-es/c/black-friday/meta-quest-deals",
+   "note": "Solo 50 € menos que la nueva en Meta (619,99 €). No compensa.",
+   "info": "Reacondicionada por Meta con un año de garantía limitada.",
+   "link": "https://www.meta.com/es/refurbished/quest-3/",
    "sources": [
     {
      "title": "Back Market · Quest reacondicionadas",
      "url": "https://www.backmarket.es/es-es/c/black-friday/meta-quest-deals"
+    },
+    {
+     "title": "Meta · Quest 3 reacondicionadas",
+     "url": "https://www.meta.com/es/refurbished/quest-3/"
+    },
+    {
+     "title": "Meta · Quest 3",
+     "url": "https://www.meta.com/es/quest/quest-3/"
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "toshiba-mg07aca14te-14-tb-interno-nuevo",
@@ -2004,7 +2054,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 5,
    "tags": [
     "usado",
     "27,55 €/TB"
@@ -2039,7 +2089,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 7,
+   "rank": 6,
    "tags": [
     "NAS",
     "37,56 €/TB",
@@ -2067,52 +2117,6 @@
    "checked_on": "2026-11-15"
   },
   {
-   "id": "lexar-nm610pro-2-tb-nvme",
-   "section": "discos",
-   "illustration": "ssd",
-   "image_query": "Lexar NM610PRO 2TB NVMe",
-   "name": "Lexar NM610PRO 2 TB NVMe",
-   "store": "Amazon.ie",
-   "price": 158,
-   "price_text": null,
-   "currency": "€",
-   "reference_price": null,
-   "reference_label": "precio habitual",
-   "annual_low": null,
-   "annual_low_note": "79,18 €/TB · el NVMe más barato de la UE",
-   "discount_override": null,
-   "ends_on": null,
-   "verdict": "ok",
-   "rank": 5,
-   "tags": [
-    "79 €/TB",
-    "PCIe 3.0",
-    "envío UE"
-   ],
-   "highlights": [
-    "mejor €/TB SSD"
-   ],
-   "note": "Suficiente para LXC, VMs o una biblioteca de juegos. No es para cargas de escritura intensivas.",
-   "info": "Tres años de garantía.",
-   "link": "https://diskprices.com/?locale=ie",
-   "sources": [
-    {
-     "title": "diskprices.com (IE)",
-     "url": "https://diskprices.com/?locale=ie"
-    }
-   ],
-   "tracking": {
-    "source": "idealo",
-    "product_id": "202700444",
-    "url": "https://www.idealo.es/precios/202700444/lexar-nm610-pro-2tb.html",
-    "include_regex": "nm610\\s?pro",
-    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|1\\s?tb|500"
-   },
-   "image_url": "https://cdn.idealo.com/folder/Product/202700/4/202700444/s11_produktbild_max/lexar-nm610-pro-2tb.jpg",
-   "options": [],
-   "checked_on": "2026-11-15"
-  },
-  {
    "id": "netac-nv3000-2-tb-nvme",
    "section": "discos",
    "illustration": "ssd",
@@ -2129,7 +2133,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 7,
    "tags": [
     "98 €/TB",
     "5 años de garantía"
@@ -2164,7 +2168,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 8,
    "tags": [
     "105 €/TB",
     "PCIe 3.0"
@@ -2199,7 +2203,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 9,
    "tags": [
     "PCIe 4.0",
     "marca fiable"
@@ -2242,7 +2246,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 10,
    "tags": [
     "136 €/TB",
     "PCIe 4.0",
@@ -2854,13 +2858,13 @@
    "image_query": "AMD Ryzen 7 7800X3D",
    "name": "AMD Ryzen 7 7800X3D",
    "store": "Amazon.es",
-   "price": 368,
+   "price": 289.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": 368,
-   "annual_low_note": "en su mínimo registrado (12/11) · objetivo ≤ 320 €",
+   "annual_low_note": "368 € en Amazon.es el 12/11 · hoy 289,99 €",
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
@@ -2871,13 +2875,17 @@
     "3D V-Cache"
    ],
    "highlights": [],
-   "note": "Solo si vas a montar o renovar un equipo AM5. Para juego rinde casi como el 9800X3D.",
+   "note": "Baja unos 78 € desde el 12/11 en Amazon.es (vende y envía Amazon). Solo si vas a montar o renovar un equipo AM5. Para juego rinde casi como el 9800X3D.",
    "info": "",
-   "link": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/",
+   "link": "https://www.amazon.es/AMD-Ryzen-7800X3D-desenfrenados-Arquitectura/dp/B0BTZB7F88",
    "sources": [
     {
      "title": "ArmaPCgamer · BF Amazon España",
      "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    },
+    {
+     "title": "Amazon.es · Ryzen 7 7800X3D",
+     "url": "https://www.amazon.es/AMD-Ryzen-7800X3D-desenfrenados-Arquitectura/dp/B0BTZB7F88"
     }
    ],
    "tracking": {
@@ -2889,7 +2897,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s11_produktbild_max/amd-ryzen-7-7800x3d.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "amd-ryzen-7-9800x3d",
@@ -2953,7 +2961,7 @@
    "image_query": "Beelink GTR9 Pro mini PC",
    "name": "Beelink GTR9 Pro · AI Max+ 395 128 GB",
    "store": "Beelink EU",
-   "price": 4619,
+   "price": 4599,
    "price_text": null,
    "currency": "€",
    "reference_price": 5199,
@@ -2984,7 +2992,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "bosgame-m5-ai-max-395-128-gb",
@@ -2992,14 +3000,14 @@
    "illustration": "minipc",
    "image_query": "Bosgame M5 AI mini PC",
    "name": "Bosgame M5 · AI Max+ 395 128 GB",
-   "store": "Amazon EE. UU.",
-   "price": 3599,
+   "store": "Amazon.es (vendido por BOSGAME oficial)",
+   "price": 3399,
    "price_text": null,
-   "currency": "$",
+   "currency": "€",
    "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": null,
-   "annual_low_note": "sin cambios desde septiembre",
+   "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
@@ -3009,9 +3017,9 @@
     "Strix Halo"
    ],
    "highlights": [],
-   "note": "El 128 GB más barato en stock y aun así carísimo frente a 2025.",
-   "info": "",
-   "link": "https://computingforgeeks.com/ryzen-ai-max-395-mini-pc-comparison/",
+   "note": "El 128 GB más barato de esta lista, y aun así carísimo frente a 2025. Amazon.es lo vende y envía la tienda oficial de Bosgame.",
+   "info": "128 GB de memoria unificada y SSD de 2 TB.",
+   "link": "https://www.amazon.es/BOSGAME-M5-Ordenador-Pantallas-Bluetooth/dp/B0H6XG8VTZ",
    "sources": [
     {
      "title": "ComputingForGeeks · Strix Halo",
@@ -3020,19 +3028,14 @@
     {
      "title": "ComputingForGeeks · precios mini PC",
      "url": "https://computingforgeeks.com/mini-pc-prices/"
-    }
-   ],
-   "options": [
+    },
     {
-     "store": "Amazon.es (vendido por BOSGAME oficial)",
-     "price": 3399.0,
-     "currency": "€",
-     "url": "https://www.amazon.es/BOSGAME-M5-Ordenador-Pantallas-Bluetooth/dp/B0H6XG8VTZ",
-     "checked_on": "2026-11-15",
-     "note": "128 GB + 2 TB, envío Amazon"
+     "title": "Amazon.es · Bosgame M5",
+     "url": "https://www.amazon.es/BOSGAME-M5-Ordenador-Pantallas-Bluetooth/dp/B0H6XG8VTZ"
     }
    ],
-   "checked_on": "2026-11-15"
+   "options": [],
+   "checked_on": "2026-11-16"
   },
   {
    "id": "gmktec-evo-x2-128-gb",
@@ -3119,14 +3122,14 @@
    "illustration": "minipc",
    "image_query": "Minisforum MS-S1 Max",
    "name": "Minisforum MS-S1 Max 128 GB",
-   "store": "Amazon EE. UU.",
-   "price": 3919,
+   "store": "Minisforum EU (tienda oficial)",
+   "price": 4319,
    "price_text": null,
-   "currency": "$",
-   "reference_price": null,
+   "currency": "€",
+   "reference_price": 5399,
    "reference_label": "precio habitual",
    "annual_low": null,
-   "annual_low_note": "subió 40 $ en noviembre",
+   "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
@@ -3137,26 +3140,21 @@
     "formato rack"
    ],
    "highlights": [],
-   "note": "El más ampliable para un servidor doméstico, y el más caro de los Strix Halo.",
-   "info": "",
-   "link": "https://computingforgeeks.com/mini-pc-prices/",
+   "note": "El más ampliable para un servidor doméstico. Rebajado de 5.399 a 4.319 €, sigue siendo carísimo.",
+   "info": "128 GB y 2 TB. Envío desde la tienda oficial de la UE.",
+   "link": "https://minisforumpc.eu/products/minisforum-ms-s1-max-mini-pc",
    "sources": [
     {
      "title": "ComputingForGeeks · precios mini PC",
      "url": "https://computingforgeeks.com/mini-pc-prices/"
-    }
-   ],
-   "options": [
+    },
     {
-     "store": "Minisforum EU (tienda oficial)",
-     "price": 4319.0,
-     "currency": "€",
-     "url": "https://minisforumpc.eu/products/minisforum-ms-s1-max-mini-pc",
-     "checked_on": "2026-11-15",
-     "note": "128 GB + 2 TB, stock en Alemania; antes 5.399 €"
+     "title": "Minisforum EU · MS-S1 Max",
+     "url": "https://minisforumpc.eu/products/minisforum-ms-s1-max-mini-pc"
     }
    ],
-   "checked_on": "2026-11-15"
+   "options": [],
+   "checked_on": "2026-11-16"
   },
   {
    "id": "mac-mini-m5-pro",
@@ -3164,14 +3162,14 @@
    "illustration": "minipc",
    "image_query": "Mac mini M5 Pro",
    "name": "Mac mini M5 Pro",
-   "store": "Apple ES",
-   "price": 1999,
-   "price_text": "desde 1.999",
+   "store": "Amazon.es",
+   "price": 1959,
+   "price_text": "desde 1.959",
    "currency": "€",
-   "reference_price": null,
-   "reference_label": "precio habitual",
+   "reference_price": 2019,
+   "reference_label": "precio en Apple",
    "annual_low": null,
-   "annual_low_note": "sin descuentos",
+   "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
@@ -3181,9 +3179,9 @@
     "sin CUDA"
    ],
    "highlights": [],
-   "note": "Se queda en 64 GB como máximo. Insuficiente para modelos grandes y sin rebaja.",
-   "info": "El M6 base arranca en 1.049 € pero se queda en 32 GB.",
-   "link": "https://www.bleap.finance/es-mx/blog/new-mac-mini-m6-m5-pro",
+   "note": "Se queda en 64 GB como máximo. Insuficiente para modelos grandes y casi sin rebaja: 60 € menos que en Apple.",
+   "info": "M5 Pro con 24 GB y 512 GB, vendido por Amazon. El M6 base arranca en 1.069 € pero se queda en 32 GB.",
+   "link": "https://www.amazon.es/Apple-Mac-mini-Chip-Pro/dp/B0HGGL3M5N",
    "sources": [
     {
      "title": "Bleap · Mac mini M6 / M5 Pro",
@@ -3192,19 +3190,27 @@
     {
      "title": "Wavect · Mac mini vs Mac Studio",
      "url": "https://wavect.io/es/blog/mac-mini-m6-vs-mac-studio-m5-local-ai/"
+    },
+    {
+     "title": "Amazon.es · Mac mini M5 Pro",
+     "url": "https://www.amazon.es/Apple-Mac-mini-Chip-Pro/dp/B0HGGL3M5N"
+    },
+    {
+     "title": "Apple ES · Mac mini",
+     "url": "https://www.apple.com/es/shop/buy-mac/mac-mini"
     }
    ],
    "options": [
     {
-     "store": "Amazon.es",
-     "price": 1959.0,
+     "store": "Apple ES",
+     "price": 2019.0,
      "currency": "€",
-     "url": "https://www.amazon.es/Apple-Mac-mini-Chip-Pro/dp/B0HGGL3M5N",
-     "checked_on": "2026-11-15",
-     "note": "M5 Pro 24 GB / 512 GB, vendido por Amazon"
+     "url": "https://www.apple.com/es/shop/buy-mac/mac-mini",
+     "checked_on": "2026-11-16",
+     "note": "M5 Pro de 15 núcleos de CPU y 16 de GPU"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "nvidia-dgx-spark-128-gb",
@@ -3571,7 +3577,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -3618,7 +3624,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -3797,7 +3803,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 2,
    "tags": [
     "OLED 4K",
     "seguimiento interior",
@@ -3864,7 +3870,7 @@
      "url": "https://www.idealo.es/precios/204861013/meta-quest-3s-128gb.html"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -3885,7 +3891,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "no",
-   "rank": 12,
+   "rank": 11,
    "tags": [
     "128 €/TB",
     "PCIe 4.0",
@@ -5198,7 +5204,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "google-pixel-10a-128",
@@ -5316,7 +5322,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "apple-iphone-16-128",
@@ -5372,7 +5378,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "sony-wh-1000xm5",
