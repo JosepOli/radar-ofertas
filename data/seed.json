@@ -8563,7 +8563,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "plegable",
     "Fórmula y GT",
@@ -8629,7 +8629,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 10,
    "tags": [
     "soporte plegable",
     "volante + pedales",
@@ -8671,8 +8671,8 @@
    "illustration": "wheel",
    "image_query": "Trak Racer TR80S",
    "name": "Trak Racer TR80S V6 (aluminio 80 mm)",
-   "store": "Simufy",
-   "price": 390.99,
+   "store": "Trak Racer EU (tienda oficial)",
+   "price": 381.65,
    "price_text": null,
    "currency": "€",
    "reference_price": 459.99,
@@ -8682,27 +8682,40 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 11,
    "tags": [
     "perfil 80 mm",
     "aluminio",
     "para direct drive"
    ],
    "highlights": [],
-   "note": "Un cockpit de perfil de aluminio que aguanta direct drive de gama media. Simufy lo baja a 390,99 €, pero no hay otra tienda con la que contrastar ni histórico: el tachado no es referencia.",
+   "note": "Perfil de aluminio de 80 mm en negro anodizado, que aguanta direct drive de gama media. La tienda oficial europea lo deja a 381,65 €, algo menos que Simufy. Sin histórico: no sabemos si bajará más.",
    "info": "Chasis de perfil de aluminio de 80 mm para base direct drive, volante y pedales; el asiento se compra aparte.",
-   "link": "https://simufy.com/products/cockpit-trak-racer-tr80s",
+   "link": "https://trakracer.eu/products/tr80s-racing-simulator",
    "sources": [
     {
      "title": "Simufy · Trak Racer TR80S",
      "url": "https://simufy.com/products/cockpit-trak-racer-tr80s"
+    },
+    {
+     "title": "Trak Racer EU · TR80S (381,65 €)",
+     "url": "https://trakracer.eu/products/tr80s-racing-simulator"
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 390.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/cockpit-trak-racer-tr80s",
+     "checked_on": "2026-11-16"
+    }
+   ],
    "checked_on": "2026-11-16",
    "facets": {
     "material": "Perfil de aluminio",
-    "marca": "Trak Racer"
+    "marca": "Trak Racer",
+    "color": "Negro"
    }
   },
   {
@@ -10016,6 +10029,493 @@
    },
    "checked_on": "2026-11-16",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
+  },
+  {
+   "id": "sim-lab-gt1-evo-chasis",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Sim-Lab GT1 Evo cockpit",
+   "name": "Sim-Lab GT1 Evo (chasis solo, negro)",
+   "store": "Sim-Lab (tienda oficial UE)",
+   "price": 379.0,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 449.99,
+   "reference_label": "precio en Simufy",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 7,
+   "tags": [
+    "perfil de aluminio",
+    "negro",
+    "chasis solo"
+   ],
+   "highlights": [],
+   "note": "379 € en la tienda oficial frente a 449,99 € en Simufy: 70 € menos por el mismo chasis. No hay histórico fiable, así que no es un mínimo probado. Es la entrada seria al aluminio.",
+   "info": "Chasis de perfil de aluminio con bandeja de pedales y soporte lateral. Va sin asiento, sin soportes de asiento y sin soporte de monitor; con ellos el precio sube (con soportes y raíl, 457 €). Para direct drive potente, mejoras aparte.",
+   "link": "https://sim-lab.eu/es-es/products/gt1-evo-sim-racing-cockpit",
+   "sources": [
+    {
+     "title": "Sim-Lab · GT1 Evo",
+     "url": "https://sim-lab.eu/es-es/products/gt1-evo-sim-racing-cockpit"
+    },
+    {
+     "title": "Simufy · GT1 Evo",
+     "url": "https://simufy.com/products/gt1-evo-sim-racing-cockpit"
+    }
+   ],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 449.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/gt1-evo-sim-racing-cockpit",
+     "checked_on": "2026-11-16",
+     "note": "chasis solo; distribuidor oficial"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Sim-Lab"
+   }
+  },
+  {
+   "id": "sim-lab-p1x-pro-chasis",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Sim-Lab P1X Pro cockpit",
+   "name": "Sim-Lab P1X Pro (chasis solo, negro)",
+   "store": "Sim-Lab (tienda oficial UE)",
+   "price": 789.0,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 879.99,
+   "reference_label": "precio en Simufy",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 8,
+   "tags": [
+    "perfil de aluminio",
+    "negro",
+    "chasis solo"
+   ],
+   "highlights": [],
+   "note": "789 € en la tienda oficial y 879,99 € en Simufy: 90 € de diferencia. Sin histórico fiable no se puede hablar de mínimo. Buen chasis rígido para direct drive potente, pero caro.",
+   "info": "Chasis de aluminio de gama alta con montaje frontal, de plataforma o lateral según variante. El precio es sin asiento ni soporte de monitor; con ellos supera los 1.000 €.",
+   "link": "https://sim-lab.eu/es-es/products/p1x-pro-sim-racing-cockpit",
+   "sources": [
+    {
+     "title": "Sim-Lab · P1X Pro",
+     "url": "https://sim-lab.eu/es-es/products/p1x-pro-sim-racing-cockpit"
+    },
+    {
+     "title": "Simufy · P1X Pro",
+     "url": "https://simufy.com/products/p1x-pro-sim-racing-cockpit"
+    }
+   ],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 879.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/p1x-pro-sim-racing-cockpit",
+     "checked_on": "2026-11-16",
+     "note": "chasis solo, variante plana"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Sim-Lab"
+   }
+  },
+  {
+   "id": "next-level-racing-f-gt-elite-lite-front-side",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Next Level Racing F-GT Elite Lite",
+   "name": "Next Level Racing F-GT Elite Lite Front & Side Mount (solo estructura)",
+   "store": "Simufy",
+   "price": 749.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 799.0,
+   "reference_label": "precio en nextlevelracing.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 9,
+   "tags": [
+    "aluminio 4080",
+    "multiposición",
+    "solo estructura"
+   ],
+   "highlights": [],
+   "note": "Simufy la tiene a 749,99 € y la tienda oficial de NLR a 799 €: 49 € menos. Sin histórico fiable, el descuento es solo contra otra tienda. Rígido y multiposición.",
+   "info": "Estructura de aluminio 4080 con piezas de acero, montaje de base frontal y lateral. Va sin asiento. La versión con bandeja multi-volante cuesta 699 € en la tienda oficial.",
+   "link": "https://simufy.com/products/cockpit-f-gt-elite-lite",
+   "sources": [
+    {
+     "title": "Simufy · F-GT Elite Lite",
+     "url": "https://simufy.com/products/cockpit-f-gt-elite-lite"
+    },
+    {
+     "title": "NLR · F-GT Elite Lite Front & Side",
+     "url": "https://nextlevelracing.com/es-es/products/f-gt-elite-lite-front-side-mount-edition/"
+    },
+    {
+     "title": "idealo · F-GT Elite",
+     "url": "https://www.idealo.es/precios/201728984/next-level-racing-f-gt-elite.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "Next Level Racing (tienda oficial)",
+     "price": 799.0,
+     "currency": "€",
+     "url": "https://nextlevelracing.com/es-es/products/f-gt-elite-lite-front-side-mount-edition/",
+     "checked_on": "2026-11-16",
+     "note": "solo estructura"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Next Level Racing"
+   }
+  },
+  {
+   "id": "trak-racer-tr8-pro-v2",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Trak Racer TR8 Pro V2",
+   "name": "Trak Racer TR8 Pro V2 (chasis, tubo de acero)",
+   "store": "Trak Racer EU (tienda oficial)",
+   "price": 509.15,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 509.99,
+   "reference_label": "precio en Simufy",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 13,
+   "tags": [
+    "tubo de acero",
+    "negro mate",
+    "30 Nm"
+   ],
+   "highlights": [],
+   "note": "509,15 € en la tienda oficial y 509,99 € en Simufy: prácticamente igual. Es de tubo de acero, no de aluminio, y cuesta más que el GT1 Evo de aluminio. Solo si prefieres este formato compacto.",
+   "info": "Chasis de tubo de acero de 51 mm con soporte de monitor integrado opcional, para direct drive hasta 30 Nm. Sin asiento. También en gris satinado.",
+   "link": "https://trakracer.eu/products/tr8-pro-racing-simulator-1",
+   "sources": [
+    {
+     "title": "Trak Racer EU · TR8 Pro V2",
+     "url": "https://trakracer.eu/products/tr8-pro-racing-simulator-1"
+    },
+    {
+     "title": "Simufy · TR8 Pro V2",
+     "url": "https://simufy.com/products/cockpit-trak-racer-tr8-pro-v2"
+    }
+   ],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 509.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/cockpit-trak-racer-tr8-pro-v2",
+     "checked_on": "2026-11-16",
+     "note": "negro mate o gris satinado"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "material": "Tubo de acero",
+    "color": "Negro",
+    "marca": "Trak Racer"
+   }
+  },
+  {
+   "id": "advanced-simracing-asr-4-flat-face",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Advanced SimRacing ASR 4",
+   "name": "Advanced SimRacing ASR 4 Flat Face (chasis, negro mate)",
+   "store": "Advanced SimRacing (tienda oficial)",
+   "price": 960.0,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 14,
+   "tags": [
+    "perfil de aluminio",
+    "negro mate",
+    "chasis solo"
+   ],
+   "highlights": [],
+   "note": "960 € por un chasis solo, más que un P1X Pro de Sim-Lab (789 €). No hay otra tienda en la UE ni histórico fiable que lo respalden. Solo si quieres específicamente este diseño.",
+   "info": "Chasis de perfil de aluminio extruido, segunda generación, con bandeja de pedales de aluminio. Precio de la variante estándar en negro mate sin asiento. Envío gratis a la UE según la tienda.",
+   "link": "https://www.advancedsimracing.com/products/asr-4-flat-face",
+   "sources": [
+    {
+     "title": "Advanced SimRacing · ASR 4 Flat Face",
+     "url": "https://www.advancedsimracing.com/products/asr-4-flat-face"
+    }
+   ],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Advanced SimRacing"
+   }
+  },
+  {
+   "id": "simxpro-r80-negro",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "SimXPro R80 cockpit negro",
+   "name": "SimXPro R80 negro (chasis solo, sin asiento)",
+   "store": "Simufy",
+   "price": 389.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable (el tachado es PVP)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "Perfil 40x80",
+    "Soporte de shifter incluido",
+    "Pedalera estándar"
+   ],
+   "highlights": [],
+   "note": "Buen precio de entrada para un perfil 40x80 en negro. La tienda oficial lo vende a 366,18 €, pero su ficha no indica color: comprueba que sea el negro. Si tu base pasa de 9 Nm, mira el X80.",
+   "info": "Precio del chasis solo: no incluye asiento ni soporte de asiento. Compacto (1250 x 580 x 680 mm), con soporte de volante y de shifter incluidos.",
+   "link": "https://simufy.com/products/cockpit-simxpro-r80",
+   "sources": [
+    {
+     "title": "Simufy · SimXPro R80 (negro 389,99 €, gris 359,99 €)",
+     "url": "https://simufy.com/products/cockpit-simxpro-r80"
+    },
+    {
+     "title": "SimXPro · ficha R80 (366,18 €)",
+     "url": "https://simxpro.com/es/products/simxpro-r80"
+    }
+   ],
+   "options": [
+    {
+     "store": "SimXPro (tienda oficial)",
+     "price": 366.18,
+     "currency": "€",
+     "url": "https://simxpro.com/es/products/simxpro-r80",
+     "checked_on": "2026-11-16",
+     "note": "variante única; color sin indicar en la ficha"
+    }
+   ],
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "SimXPro"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "simxpro-x80-negro",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "SimXPro X80 cockpit negro",
+   "name": "SimXPro X80 negro (chasis solo, pedalera estándar)",
+   "store": "Simufy",
+   "price": 409.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable (el tachado es PVP)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "Perfil 40x80 alta densidad",
+    "Para Direct Drive",
+    "Negro o plata"
+   ],
+   "highlights": [],
+   "note": "Más sólido que el R80 para direct drive. En la tienda oficial el negro con bandeja estándar está agotado; Simufy lo tiene a 409,99 €. El gris sale 20 € más barato.",
+   "info": "Precio del chasis solo con bandeja de pedales estándar (Profile Pedal Deck, aparte). Sin asiento. El soporte de shifter no va incluido.",
+   "link": "https://simufy.com/products/cockpit-simxpro-x80",
+   "sources": [
+    {
+     "title": "Simufy · SimXPro X80 (negro estándar 409,99 €)",
+     "url": "https://simufy.com/products/cockpit-simxpro-x80"
+    },
+    {
+     "title": "SimXPro · ficha X80 (negro estándar agotado)",
+     "url": "https://simxpro.com/es/products/simxpro-x80"
+    }
+   ],
+   "options": [],
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "SimXPro"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "trak-racer-tr120s-v2-negro",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Trak Racer TR120S V2 cockpit",
+   "name": "Trak Racer TR120S V2 negro anodizado (con carriles de asiento)",
+   "store": "Simufy",
+   "price": 509.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable (el tachado es PVP)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "Perfil 120x40",
+    "Wide-body",
+    "Seat Slider Kit incluido"
+   ],
+   "highlights": [],
+   "note": "Chasis muy rígido y de marca consolidada; el descuento es frente al PVP, no frente a un mínimo real. Es más caro que un 40x80, pero más estable.",
+   "info": "Precio del chasis con Seat Slider Kit, sin asiento ni soporte de asiento. Perfil de 120 x 40 mm anodizado, no es el típico 40x80.",
+   "link": "https://simufy.com/products/cockpit-trak-racer-tr120s-v2",
+   "sources": [
+    {
+     "title": "Simufy · Trak Racer TR120S V2",
+     "url": "https://simufy.com/products/cockpit-trak-racer-tr120s-v2"
+    }
+   ],
+   "options": [],
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Trak Racer"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "sim-lab-gt1-pro",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "Sim-Lab GT1 Pro cockpit",
+   "name": "Sim-Lab GT1 Pro (chasis solo, sin asiento)",
+   "store": "Simufy",
+   "price": 649.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 12,
+   "tags": [
+    "Aluminio anodizado negro",
+    "Wheel deck incluido",
+    "Soporte lateral"
+   ],
+   "highlights": [],
+   "note": "Sin descuento hoy. Por menos tienes el X80 o el TR120S, y Sim-Lab ya tiene el GT1 Evo más barato. Solo si quieres este diseño concreto.",
+   "info": "Precio del chasis solo: asiento y soporte de asiento aparte (+50 € con soporte de asiento). Con wheel deck y soportes frontales incluidos.",
+   "link": "https://simufy.com/products/gt1-pro-sim-racing-cockpit",
+   "sources": [
+    {
+     "title": "Simufy · Sim-Lab GT1 Pro",
+     "url": "https://simufy.com/products/gt1-pro-sim-racing-cockpit"
+    },
+    {
+     "title": "Sim-Lab · GT1 Pro",
+     "url": "https://sim-lab.eu/es-es/products/gt1-pro-sim-racing-cockpit"
+    }
+   ],
+   "options": [],
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Negro",
+    "marca": "Sim-Lab"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "simxpro-xt160",
+   "section": "cockpits",
+   "illustration": "wheel",
+   "image_query": "SimXPro XT160 cockpit",
+   "name": "SimXPro XT160 (chasis solo, perfil 160x40)",
+   "store": "Simufy",
+   "price": 799.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "sin referencia fiable (el tachado es PVP)",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 6,
+   "tags": [
+    "Perfil 160x40",
+    "Preparado para motion",
+    "Pedalera extendida incluida"
+   ],
+   "highlights": [],
+   "note": "Es el chasis más rígido de esta lista a menos de 800 €, pero el descuento es frente al PVP y no hay histórico. Solo compensa con bases muy potentes o motion.",
+   "info": "Precio del chasis solo, sin asiento (soportes de asiento opcionales). Incluye soporte de shifter. Acabado plata y negro.",
+   "link": "https://simufy.com/products/cockpit-simxpro-xt160",
+   "sources": [
+    {
+     "title": "Simufy · SimXPro XT160",
+     "url": "https://simufy.com/products/cockpit-simxpro-xt160"
+    }
+   ],
+   "options": [],
+   "facets": {
+    "material": "Perfil de aluminio",
+    "color": "Otro",
+    "marca": "SimXPro"
+   },
+   "checked_on": "2026-11-16"
   }
  ],
  "groups": [
