@@ -2,139 +2,6 @@
  "checked_on": "2026-11-16",
  "sections": [
   {
-   "id": "robots",
-   "title": "Robots aspiradores",
-   "intro": "Para renovar un robot viejo. Dreame no tiene integración oficial en Home Assistant (va con dreame_vacuum por HACS); Roborock sí la tiene en el núcleo. Ninguno sube escaleras.",
-   "filters": [
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "base",
-     "label": "Base"
-    },
-    {
-     "key": "fregado",
-     "label": "Fregado"
-    }
-   ]
-  },
-  {
-   "id": "volantes",
-   "title": "Volantes direct drive",
-   "intro": "Para dar el salto desde un volante de entrada con engranajes (tipo Logitech). En Linux manda el driver: Moza va con hid-universal-pidff dentro del kernel; Simagic Evo necesita el módulo externo simagic-ff. Fanatec empieza su Black Friday el 19/11 a las 9:00.",
-   "filters": [
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "tipo",
-     "label": "Qué incluye"
-    },
-    {
-     "key": "par",
-     "label": "Fuerza"
-    }
-   ]
-  },
-  {
-   "id": "print",
-   "title": "Impresión 3D",
-   "intro": "Si ya tienes una Bambu P2S o similar, lo que más rinde aquí es el filamento por volumen, sobre todo si imprimes mucho o llevas un pequeño negocio de impresión. Las máquinas, solo si buscas una segunda o un cambiador de herramientas.",
-   "filters": [
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "tipo",
-     "label": "Tipo"
-    },
-    {
-     "key": "color",
-     "label": "Colores"
-    }
-   ]
-  },
-  {
-   "id": "vr",
-   "title": "Realidad virtual",
-   "intro": "Para jugar PC VR en el sobremesa. Si vienes de una Quest 2, el salto a Quest 3 es en nitidez (lentes pancake) y en realidad mixta.",
-   "filters": [
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "estado",
-     "label": "Estado"
-    },
-    {
-     "key": "plataforma",
-     "label": "Plataforma"
-    }
-   ]
-  },
-  {
-   "id": "discos",
-   "title": "Discos duros y SSD",
-   "intro": "Datos de diskprices.com (Amazon) en sus 11 mercados, actualizados el 14/11. Amazon .de, .fr, .it y .ie envían a España sin aduanas; Reino Unido y fuera de la UE suman aduana e IVA.",
-   "filters": [
-    {
-     "key": "tipo",
-     "label": "Tipo"
-    },
-    {
-     "key": "capacidad",
-     "label": "Capacidad"
-    },
-    {
-     "key": "estado",
-     "label": "Estado"
-    }
-   ]
-  },
-  {
-   "id": "ram",
-   "title": "Memoria RAM",
-   "intro": "Precios de diskprices.com para Amazon.es. La crisis de la DRAM ha multiplicado los precios: un kit DDR5 de 32 GB cuesta lo que una gráfica de gama media.",
-   "filters": [
-    {
-     "key": "tipo",
-     "label": "Tipo"
-    },
-    {
-     "key": "capacidad",
-     "label": "Capacidad"
-    },
-    {
-     "key": "marca",
-     "label": "Marca"
-    }
-   ]
-  },
-  {
-   "id": "gpu",
-   "title": "Tarjetas gráficas",
-   "intro": "Las GPU con mucha memoria son las más castigadas. Para IA local cuenta la VRAM por euro, no los FPS.",
-   "filters": [
-    {
-     "key": "chip",
-     "label": "Chip"
-    },
-    {
-     "key": "vram",
-     "label": "VRAM"
-    },
-    {
-     "key": "estado",
-     "label": "Estado"
-    }
-   ]
-  },
-  {
    "id": "cpu",
    "title": "Procesadores",
    "intro": "Los procesadores son de lo poco que no ha subido. Precios objetivo según el histórico de 2026 en España.",
@@ -151,102 +18,8 @@
      "key": "nucleos",
      "label": "Núcleos"
     }
-   ]
-  },
-  {
-   "id": "ia",
-   "title": "Equipos para IA local",
-   "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar.",
-   "filters": [
-    {
-     "key": "tipo",
-     "label": "Tipo"
-    },
-    {
-     "key": "chip",
-     "label": "Chip"
-    },
-    {
-     "key": "memoria",
-     "label": "Memoria"
-    }
-   ]
-  },
-  {
-   "id": "portatiles",
-   "title": "Portátiles",
-   "intro": "Portátiles con precio comprobado en tiendas españolas. Compara RAM, gráfica y si incluyen sistema operativo o cargador antes de decidir solo por precio.",
-   "filters": [
-    {
-     "key": "uso",
-     "label": "Uso"
-    },
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "grafica",
-     "label": "Gráfica"
-    }
-   ]
-  },
-  {
-   "id": "monitores",
-   "title": "Monitores",
-   "intro": "Mira resolución, frecuencia y tipo de panel antes que la marca: un QHD de 180 Hz por unos 160 € cubre casi todo el uso, y un OLED ronda los 500 €.",
-   "filters": [
-    {
-     "key": "panel",
-     "label": "Panel"
-    },
-    {
-     "key": "hz",
-     "label": "Refresco"
-    },
-    {
-     "key": "marca",
-     "label": "Marca"
-    }
-   ]
-  },
-  {
-   "id": "moviles",
-   "title": "Móviles",
-   "intro": "Compara siempre con el precio oficial del fabricante y mira cuántos años de actualizaciones te dan. En iPhone, las grandes tiendas suelen quedar por debajo de Apple.",
-   "filters": [
-    {
-     "key": "marca",
-     "label": "Marca"
-    },
-    {
-     "key": "sistema",
-     "label": "Sistema"
-    },
-    {
-     "key": "almacenamiento",
-     "label": "Almacenamiento"
-    }
-   ]
-  },
-  {
-   "id": "audio",
-   "title": "Auriculares y audio",
-   "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas.",
-   "filters": [
-    {
-     "key": "uso",
-     "label": "Uso"
-    },
-    {
-     "key": "formato",
-     "label": "Formato"
-    },
-    {
-     "key": "conexion",
-     "label": "Conexión"
-    }
-   ]
+   ],
+   "group": "informatica"
   },
   {
    "id": "placas",
@@ -265,7 +38,68 @@
      "key": "chipset",
      "label": "Chipset"
     }
-   ]
+   ],
+   "group": "informatica"
+  },
+  {
+   "id": "ram",
+   "title": "Memoria RAM",
+   "intro": "Precios de diskprices.com para Amazon.es. La crisis de la DRAM ha multiplicado los precios: un kit DDR5 de 32 GB cuesta lo que una gráfica de gama media.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "capacidad",
+     "label": "Capacidad"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ],
+   "group": "informatica"
+  },
+  {
+   "id": "gpu",
+   "title": "Tarjetas gráficas",
+   "intro": "Las GPU con mucha memoria son las más castigadas. Para IA local cuenta la VRAM por euro, no los FPS.",
+   "filters": [
+    {
+     "key": "chip",
+     "label": "Chip"
+    },
+    {
+     "key": "vram",
+     "label": "VRAM"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    }
+   ],
+   "group": "informatica"
+  },
+  {
+   "id": "discos",
+   "title": "Discos duros y SSD",
+   "intro": "Datos de diskprices.com (Amazon) en sus 11 mercados, actualizados el 14/11. Amazon .de, .fr, .it y .ie envían a España sin aduanas; Reino Unido y fuera de la UE suman aduana e IVA.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "capacidad",
+     "label": "Capacidad"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    }
+   ],
+   "group": "informatica"
   },
   {
    "id": "pcs",
@@ -284,26 +118,164 @@
      "key": "grafica",
      "label": "Gráfica"
     }
-   ]
+   ],
+   "group": "informatica"
   },
   {
-   "id": "servidores",
-   "title": "Servidores y NAS para casa",
-   "intro": "NAS y servidores para guardar copias, fotos y vídeo en casa. Todos los precios son sin discos. Compara con lo que costaban en octubre: en los NAS, Black Friday no siempre baja el precio.",
+   "id": "portatiles",
+   "title": "Portátiles",
+   "intro": "Portátiles con precio comprobado en tiendas españolas. Compara RAM, gráfica y si incluyen sistema operativo o cargador antes de decidir solo por precio.",
+   "filters": [
+    {
+     "key": "uso",
+     "label": "Uso"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "grafica",
+     "label": "Gráfica"
+    }
+   ],
+   "group": "informatica"
+  },
+  {
+   "id": "monitores",
+   "title": "Monitores",
+   "intro": "Mira resolución, frecuencia y tipo de panel antes que la marca: un QHD de 180 Hz por unos 160 € cubre casi todo el uso, y un OLED ronda los 500 €.",
+   "filters": [
+    {
+     "key": "panel",
+     "label": "Panel"
+    },
+    {
+     "key": "hz",
+     "label": "Refresco"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ],
+   "group": "informatica"
+  },
+  {
+   "id": "volantes",
+   "title": "Volantes y bases",
+   "intro": "Para dar el salto desde un volante de entrada con engranajes (tipo Logitech). En Linux manda el driver: Moza va con hid-universal-pidff dentro del kernel; Simagic Evo necesita el módulo externo simagic-ff. Fanatec empieza su Black Friday el 19/11 a las 9:00.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "tipo",
+     "label": "Qué incluye"
+    },
+    {
+     "key": "par",
+     "label": "Fuerza"
+    }
+   ],
+   "group": "simracing"
+  },
+  {
+   "id": "pedales",
+   "title": "Pedales",
+   "intro": "Pedaleras para simracing. La celda de carga en el freno es lo que más mejora la conducción; el resto es comodidad.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "freno",
+     "label": "Freno"
+    },
+    {
+     "key": "pedales",
+     "label": "Pedales"
+    }
+   ],
+   "group": "simracing"
+  },
+  {
+   "id": "ia",
+   "title": "Equipos para IA local",
+   "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar.",
    "filters": [
     {
      "key": "tipo",
      "label": "Tipo"
     },
     {
-     "key": "bahias",
-     "label": "Bahías"
+     "key": "chip",
+     "label": "Chip"
+    },
+    {
+     "key": "memoria",
+     "label": "Memoria"
+    }
+   ],
+   "group": "ia"
+  },
+  {
+   "id": "print",
+   "title": "Impresoras 3D",
+   "intro": "Si ya tienes una Bambu P2S o similar, lo que más rinde aquí es el filamento por volumen, sobre todo si imprimes mucho o llevas un pequeño negocio de impresión. Las máquinas, solo si buscas una segunda o un cambiador de herramientas.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "color",
+     "label": "Colores"
+    }
+   ],
+   "group": "impresion"
+  },
+  {
+   "id": "filamento",
+   "title": "Filamento",
+   "intro": "Precio por kilo, que es lo que importa. Las marcas con RFID se integran con su sistema multicolor.",
+   "filters": [
+    {
+     "key": "material",
+     "label": "Material"
     },
     {
      "key": "marca",
      "label": "Marca"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
     }
-   ]
+   ],
+   "group": "impresion"
+  },
+  {
+   "id": "robots",
+   "title": "Robots aspiradores",
+   "intro": "Para renovar un robot viejo. Dreame no tiene integración oficial en Home Assistant (va con dreame_vacuum por HACS); Roborock sí la tiene en el núcleo. Ninguno sube escaleras.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "base",
+     "label": "Base"
+    },
+    {
+     "key": "fregado",
+     "label": "Fregado"
+    }
+   ],
+   "group": "hogar"
   },
   {
    "id": "domotica",
@@ -322,7 +294,88 @@
      "key": "marca",
      "label": "Marca"
     }
-   ]
+   ],
+   "group": "hogar"
+  },
+  {
+   "id": "servidores",
+   "title": "Servidores y NAS para casa",
+   "intro": "NAS y servidores para guardar copias, fotos y vídeo en casa. Todos los precios son sin discos. Compara con lo que costaban en octubre: en los NAS, Black Friday no siempre baja el precio.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "bahias",
+     "label": "Bahías"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ],
+   "group": "hogar"
+  },
+  {
+   "id": "moviles",
+   "title": "Móviles",
+   "intro": "Compara siempre con el precio oficial del fabricante y mira cuántos años de actualizaciones te dan. En iPhone, las grandes tiendas suelen quedar por debajo de Apple.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "sistema",
+     "label": "Sistema"
+    },
+    {
+     "key": "almacenamiento",
+     "label": "Almacenamiento"
+    }
+   ],
+   "group": "ocio"
+  },
+  {
+   "id": "audio",
+   "title": "Auriculares y audio",
+   "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas.",
+   "filters": [
+    {
+     "key": "uso",
+     "label": "Uso"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
+    },
+    {
+     "key": "conexion",
+     "label": "Conexión"
+    }
+   ],
+   "group": "ocio"
+  },
+  {
+   "id": "vr",
+   "title": "Realidad virtual",
+   "intro": "Para jugar PC VR en el sobremesa. Si vienes de una Quest 2, el salto a Quest 3 es en nitidez (lentes pancake) y en realidad mixta.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    },
+    {
+     "key": "plataforma",
+     "label": "Plataforma"
+    }
+   ],
+   "group": "ocio"
   }
  ],
  "fx_to_eur": {
@@ -1579,7 +1632,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 13,
+   "rank": 10,
    "tags": [
     "8 Nm",
     "sin pedales"
@@ -1631,7 +1684,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 14,
+   "rank": 11,
    "tags": [
     "2,3 Nm",
     "engranajes"
@@ -1656,7 +1709,7 @@
   },
   {
    "id": "filamento-bambu-lab-por-volumen",
-   "section": "print",
+   "section": "filamento",
    "illustration": "spool",
    "image_query": "Bambu Lab PLA filament spools",
    "name": "Filamento Bambu Lab por volumen",
@@ -1691,8 +1744,9 @@
    "options": [],
    "checked_on": "2026-11-15",
    "facets": {
+    "material": "PLA",
     "marca": "Bambu Lab",
-    "tipo": "Filamento"
+    "formato": "Pack"
    }
   },
   {
@@ -1712,7 +1766,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "ok",
-   "rank": 2,
+   "rank": 1,
    "tags": [
     "AMS 2 Pro",
     "segunda máquina"
@@ -1741,7 +1795,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -1762,7 +1815,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 3,
+   "rank": 2,
    "tags": [
     "cerrada",
     "multicolor",
@@ -1790,7 +1843,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Elegoo",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -1811,7 +1863,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 4,
    "tags": [
     "doble boquilla",
     "cámara calefactada"
@@ -1842,7 +1894,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -1863,7 +1914,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 5,
    "tags": [
     "4 cabezales",
     "multicolor sin purga"
@@ -1894,7 +1945,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Snapmaker",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -1915,7 +1965,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 7,
+   "rank": 6,
    "tags": [
     "Vortek, 7 boquillas"
    ],
@@ -1945,7 +1995,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -1966,7 +2015,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "pasa",
-   "rank": 8,
+   "rank": 7,
    "tags": [
     "doble extrusor",
     "gran volumen"
@@ -1994,7 +2043,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -2015,7 +2063,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 8,
    "tags": [
     "9 cabezales",
     "novedad"
@@ -2051,7 +2099,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -2072,7 +2119,7 @@
    "discount_override": null,
    "ends_on": "2026-12-01",
    "verdict": "no",
-   "rank": 12,
+   "rank": 10,
    "tags": [
     "abierta",
     "entrada"
@@ -2099,7 +2146,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Un color"
    }
   },
@@ -3950,7 +3996,7 @@
     }
    ],
    "id": "moza-crp2-pedales",
-   "section": "volantes",
+   "section": "pedales",
    "illustration": "wheel",
    "image_query": "Moza CRP2 load cell pedals",
    "name": "Moza CRP2 (pedales)",
@@ -3961,7 +4007,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 1,
    "tags": [
     "celda de carga 200 kg",
     "acelerador + freno"
@@ -3994,7 +4040,8 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Moza",
-    "tipo": "Pedales"
+    "freno": "Celda de carga",
+    "pedales": "2 pedales"
    }
   },
   {
@@ -4005,7 +4052,7 @@
    "highlights": [],
    "options": [],
    "id": "moza-srp2-pedales",
-   "section": "volantes",
+   "section": "pedales",
    "illustration": "wheel",
    "image_query": "Moza SRP2 pedals",
    "name": "Moza SRP2 (pedales)",
@@ -4016,7 +4063,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 2,
    "tags": [
     "celda de carga 100 kg",
     "acelerador + freno"
@@ -4045,7 +4092,8 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Moza",
-    "tipo": "Pedales"
+    "freno": "Celda de carga",
+    "pedales": "2 pedales"
    }
   },
   {
@@ -4122,7 +4170,7 @@
    "highlights": [],
    "options": [],
    "id": "thrustmaster-t-lcm-pedales",
-   "section": "volantes",
+   "section": "pedales",
    "illustration": "wheel",
    "image_query": "Thrustmaster T-LCM pedals",
    "name": "Thrustmaster T-LCM (pedales)",
@@ -4133,10 +4181,10 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 12,
+   "rank": 3,
    "tags": [
     "celda de carga 100 kg",
-    "acelerador + freno"
+    "3 pedales"
    ],
    "note": "Casi no hay competencia de precio: solo Simufy lo vende a 229,99 €. Solo compensa si necesitas pedales Thrustmaster; los Moza SRP2 (celda de carga de 100 kg) cuestan 159 €.",
    "info": "Pedales de celda de carga de 100 kg para el ecosistema Thrustmaster.",
@@ -4162,7 +4210,8 @@
    "checked_on": "2026-11-16",
    "facets": {
     "marca": "Thrustmaster",
-    "tipo": "Pedales"
+    "freno": "Celda de carga",
+    "pedales": "3 pedales"
    }
   },
   {
@@ -4193,7 +4242,7 @@
    "annual_low": 379,
    "annual_low_note": "379 € en la tienda oficial el 7/10 (Criterio Tech)",
    "verdict": "ok",
-   "rank": 4,
+   "rank": 3,
    "tags": [
     "cerrada",
     "CoreXY",
@@ -4227,7 +4276,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Bambu Lab",
-    "tipo": "Impresora",
     "color": "Un color"
    }
   },
@@ -4259,7 +4307,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 9,
    "tags": [
     "cerrada",
     "multicolor",
@@ -4293,7 +4341,6 @@
    "checked_on": "2026-11-15",
    "facets": {
     "marca": "Anycubic",
-    "tipo": "Impresora",
     "color": "Multicolor"
    }
   },
@@ -4305,7 +4352,7 @@
    "highlights": [],
    "options": [],
    "id": "pla-elegoo-rfid-10-kg",
-   "section": "print",
+   "section": "filamento",
    "illustration": "spool",
    "image_query": "Elegoo PLA RFID 10 kg filament",
    "name": "Elegoo PLA (RFID) 10 kg",
@@ -4316,7 +4363,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 2,
    "tags": [
     "PLA",
     "10 kg",
@@ -4333,8 +4380,9 @@
    ],
    "checked_on": "2026-11-15",
    "facets": {
+    "material": "PLA",
     "marca": "Elegoo",
-    "tipo": "Filamento"
+    "formato": "Pack"
    }
   },
   {
@@ -8147,6 +8195,32 @@
     "marca": "Synology"
    },
    "checked_on": "2026-11-16"
+  }
+ ],
+ "groups": [
+  {
+   "id": "informatica",
+   "title": "Informática"
+  },
+  {
+   "id": "simracing",
+   "title": "Simracing"
+  },
+  {
+   "id": "ia",
+   "title": "IA local"
+  },
+  {
+   "id": "impresion",
+   "title": "Impresión 3D"
+  },
+  {
+   "id": "hogar",
+   "title": "Hogar inteligente"
+  },
+  {
+   "id": "ocio",
+   "title": "Móvil, audio y ocio"
   }
  ]
 }
