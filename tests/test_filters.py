@@ -20,6 +20,11 @@ def test_domain_defaults_and_searchable_text():
 
 def _seed(tmp_path, mutate):
     raw = json.loads(SEED.read_text(encoding="utf-8"))
+    # Cada caso parte de un seed sin filtros ni facets, para no depender del contenido real.
+    for s in raw["sections"]:
+        s.pop("filters", None)
+    for o in raw["offers"]:
+        o.pop("facets", None)
     mutate(raw)
     p = tmp_path / "seed.json"
     p.write_text(json.dumps(raw), encoding="utf-8")

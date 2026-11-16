@@ -4,67 +4,325 @@
   {
    "id": "robots",
    "title": "Robots aspiradores",
-   "intro": "Para renovar un robot viejo. Dreame no tiene integración oficial en Home Assistant (va con dreame_vacuum por HACS); Roborock sí la tiene en el núcleo. Ninguno sube escaleras."
+   "intro": "Para renovar un robot viejo. Dreame no tiene integración oficial en Home Assistant (va con dreame_vacuum por HACS); Roborock sí la tiene en el núcleo. Ninguno sube escaleras.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "base",
+     "label": "Base"
+    },
+    {
+     "key": "fregado",
+     "label": "Fregado"
+    }
+   ]
   },
   {
    "id": "volantes",
    "title": "Volantes direct drive",
-   "intro": "Para dar el salto desde un volante de entrada con engranajes (tipo Logitech). En Linux manda el driver: Moza va con hid-universal-pidff dentro del kernel; Simagic Evo necesita el módulo externo simagic-ff. Fanatec empieza su Black Friday el 19/11 a las 9:00."
+   "intro": "Para dar el salto desde un volante de entrada con engranajes (tipo Logitech). En Linux manda el driver: Moza va con hid-universal-pidff dentro del kernel; Simagic Evo necesita el módulo externo simagic-ff. Fanatec empieza su Black Friday el 19/11 a las 9:00.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "tipo",
+     "label": "Qué incluye"
+    },
+    {
+     "key": "par",
+     "label": "Fuerza"
+    }
+   ]
   },
   {
    "id": "print",
    "title": "Impresión 3D",
-   "intro": "Si ya tienes una Bambu P2S o similar, lo que más rinde aquí es el filamento por volumen, sobre todo si imprimes mucho o llevas un pequeño negocio de impresión. Las máquinas, solo si buscas una segunda o un cambiador de herramientas."
+   "intro": "Si ya tienes una Bambu P2S o similar, lo que más rinde aquí es el filamento por volumen, sobre todo si imprimes mucho o llevas un pequeño negocio de impresión. Las máquinas, solo si buscas una segunda o un cambiador de herramientas.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "color",
+     "label": "Colores"
+    }
+   ]
   },
   {
    "id": "vr",
    "title": "Realidad virtual",
-   "intro": "Para jugar PC VR en el sobremesa. Si vienes de una Quest 2, el salto a Quest 3 es en nitidez (lentes pancake) y en realidad mixta."
+   "intro": "Para jugar PC VR en el sobremesa. Si vienes de una Quest 2, el salto a Quest 3 es en nitidez (lentes pancake) y en realidad mixta.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    },
+    {
+     "key": "plataforma",
+     "label": "Plataforma"
+    }
+   ]
   },
   {
    "id": "discos",
    "title": "Discos duros y SSD",
-   "intro": "Datos de diskprices.com (Amazon) en sus 11 mercados, actualizados el 14/11. Amazon .de, .fr, .it y .ie envían a España sin aduanas; Reino Unido y fuera de la UE suman aduana e IVA."
+   "intro": "Datos de diskprices.com (Amazon) en sus 11 mercados, actualizados el 14/11. Amazon .de, .fr, .it y .ie envían a España sin aduanas; Reino Unido y fuera de la UE suman aduana e IVA.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "capacidad",
+     "label": "Capacidad"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    }
+   ]
   },
   {
    "id": "ram",
    "title": "Memoria RAM",
-   "intro": "Precios de diskprices.com para Amazon.es. La crisis de la DRAM ha multiplicado los precios: un kit DDR5 de 32 GB cuesta lo que una gráfica de gama media."
+   "intro": "Precios de diskprices.com para Amazon.es. La crisis de la DRAM ha multiplicado los precios: un kit DDR5 de 32 GB cuesta lo que una gráfica de gama media.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "capacidad",
+     "label": "Capacidad"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
   },
   {
    "id": "gpu",
    "title": "Tarjetas gráficas",
-   "intro": "Las GPU con mucha memoria son las más castigadas. Para IA local cuenta la VRAM por euro, no los FPS."
+   "intro": "Las GPU con mucha memoria son las más castigadas. Para IA local cuenta la VRAM por euro, no los FPS.",
+   "filters": [
+    {
+     "key": "chip",
+     "label": "Chip"
+    },
+    {
+     "key": "vram",
+     "label": "VRAM"
+    },
+    {
+     "key": "estado",
+     "label": "Estado"
+    }
+   ]
   },
   {
    "id": "cpu",
    "title": "Procesadores",
-   "intro": "Los procesadores son de lo poco que no ha subido. Precios objetivo según el histórico de 2026 en España."
+   "intro": "Los procesadores son de lo poco que no ha subido. Precios objetivo según el histórico de 2026 en España.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "plataforma",
+     "label": "Plataforma"
+    },
+    {
+     "key": "nucleos",
+     "label": "Núcleos"
+    }
+   ]
   },
   {
    "id": "ia",
    "title": "Equipos para IA local",
-   "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar."
+   "intro": "Mini PC y estaciones con memoria unificada. La escasez de RAM ha disparado los precios: aquí no hay chollos, la tabla sirve para ver por qué conviene esperar.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "chip",
+     "label": "Chip"
+    },
+    {
+     "key": "memoria",
+     "label": "Memoria"
+    }
+   ]
   },
   {
    "id": "portatiles",
    "title": "Portátiles",
-   "intro": "Portátiles con precio comprobado en tiendas españolas. Compara RAM, gráfica y si incluyen sistema operativo o cargador antes de decidir solo por precio."
+   "intro": "Portátiles con precio comprobado en tiendas españolas. Compara RAM, gráfica y si incluyen sistema operativo o cargador antes de decidir solo por precio.",
+   "filters": [
+    {
+     "key": "uso",
+     "label": "Uso"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "grafica",
+     "label": "Gráfica"
+    }
+   ]
   },
   {
    "id": "monitores",
    "title": "Monitores",
-   "intro": "Mira resolución, frecuencia y tipo de panel antes que la marca: un QHD de 180 Hz por unos 160 € cubre casi todo el uso, y un OLED ronda los 500 €."
+   "intro": "Mira resolución, frecuencia y tipo de panel antes que la marca: un QHD de 180 Hz por unos 160 € cubre casi todo el uso, y un OLED ronda los 500 €.",
+   "filters": [
+    {
+     "key": "panel",
+     "label": "Panel"
+    },
+    {
+     "key": "hz",
+     "label": "Refresco"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
   },
   {
    "id": "moviles",
    "title": "Móviles",
-   "intro": "Compara siempre con el precio oficial del fabricante y mira cuántos años de actualizaciones te dan. En iPhone, las grandes tiendas suelen quedar por debajo de Apple."
+   "intro": "Compara siempre con el precio oficial del fabricante y mira cuántos años de actualizaciones te dan. En iPhone, las grandes tiendas suelen quedar por debajo de Apple.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "sistema",
+     "label": "Sistema"
+    },
+    {
+     "key": "almacenamiento",
+     "label": "Almacenamiento"
+    }
+   ]
   },
   {
    "id": "audio",
    "title": "Auriculares y audio",
-   "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas."
+   "intro": "Los modelos de la generación anterior son los que más bajan: el Sony XM5 cuesta unos 110 € menos que el XM6. En los Apple, el precio apenas se mueve entre tiendas.",
+   "filters": [
+    {
+     "key": "uso",
+     "label": "Uso"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
+    },
+    {
+     "key": "conexion",
+     "label": "Conexión"
+    }
+   ]
+  },
+  {
+   "id": "placas",
+   "title": "Placas base",
+   "intro": "Placas para AM5 e Intel LGA1851 con precio real en tiendas españolas. Fíjate en el chipset: una B550 o una B850 sin WiFi no cuestan lo mismo que su versión completa. Los precios se comparan con lo que cuestan hoy en varias tiendas, no con el PVP.",
+   "filters": [
+    {
+     "key": "plataforma",
+     "label": "Plataforma"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
+    },
+    {
+     "key": "chipset",
+     "label": "Chipset"
+    }
+   ]
+  },
+  {
+   "id": "pcs",
+   "title": "PCs completos",
+   "intro": "Torres gaming, mini PCs y todo en uno ya montados. Comparamos el precio con lo que costaría montarlo por piezas y con lo que cuesta el mismo modelo en otras tiendas.",
+   "filters": [
+    {
+     "key": "uso",
+     "label": "Uso"
+    },
+    {
+     "key": "formato",
+     "label": "Formato"
+    },
+    {
+     "key": "grafica",
+     "label": "Gráfica"
+    }
+   ]
+  },
+  {
+   "id": "servidores",
+   "title": "Servidores y NAS para casa",
+   "intro": "NAS y servidores para guardar copias, fotos y vídeo en casa. Todos los precios son sin discos. Compara con lo que costaban en octubre: en los NAS, Black Friday no siempre baja el precio.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "bahias",
+     "label": "Bahías"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
+  },
+  {
+   "id": "domotica",
+   "title": "Domótica",
+   "intro": "Dispositivos para la casa conectada. Indicamos el protocolo y si funciona en local o con Home Assistant, según la ficha del fabricante. Los precios bajos habituales no son una oferta por sí mismos.",
+   "filters": [
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "protocolo",
+     "label": "Protocolo"
+    },
+    {
+     "key": "marca",
+     "label": "Marca"
+    }
+   ]
   }
  ],
  "fx_to_eur": {
@@ -340,7 +598,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207829/8/207829835/s11_produktbild_max/dreame-matrix-10-ultra.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "dreame-x50-ultra-complete",
@@ -408,7 +671,12 @@
      "note": "agotado hoy"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "roborock-saros-20-set",
@@ -457,7 +725,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210683/9/210683941/s11_produktbild_max/roborock-saros-20.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "dreame-aqua10-ultra-roller-complete",
@@ -507,7 +780,12 @@
    },
    "image_url": "https://cdn.idealo.com/images/product/207702195/es_ES/0/max.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Rodillo"
+   }
   },
   {
    "id": "roborock-qrevo-edge-2-pro",
@@ -564,7 +842,12 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "roborock-qrevo-2-pro-set-2-prox",
@@ -614,7 +897,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213561/3/213561371/s11_produktbild_max/roborock-qrevo-2-pro-set-robot-aspirador-y-friegasuelos-25-000pa-anti-enredos-negro.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "roborock-qrevo-s-pro-negro",
@@ -656,7 +944,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|white|blanco|accesorio|filtro|cepillo"
    },
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "ecovacs-deebot-x9-pro-omni",
@@ -703,7 +996,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206325/1/206325142/s11_produktbild_max/ecovacs-x9-pro-omni.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Ecovacs",
+    "base": "Vacía y lava mopas",
+    "fregado": "Rodillo"
+   }
   },
   {
    "id": "dreame-l50-ultra-ae",
@@ -750,7 +1048,12 @@
    },
    "image_url": "https://cdn.idealo.com/images/product/211704561/es_ES/0/max.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "dreame-l10s-ultra-gen-3",
@@ -793,7 +1096,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208140/5/208140519/s11_produktbild_max/dreame-l10s-ultra-gen-3-set.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "moza-r9-v3-ks-srp2-bundle",
@@ -843,7 +1151,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Kit completo",
+    "par": "8–9 Nm"
+   }
   },
   {
    "id": "moza-r9-v3-solo-base",
@@ -888,7 +1201,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206144/3/206144362/s11_produktbild_max/moza-racing-r9-v3-wheel-base.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Solo base",
+    "par": "8–9 Nm"
+   }
   },
   {
    "id": "moza-r12-v2-solo-base",
@@ -943,7 +1261,12 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Solo base",
+    "par": "12 Nm o más"
+   }
   },
   {
    "id": "moza-r5-pro-bundle",
@@ -999,7 +1322,12 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   }
   },
   {
    "id": "fanatec-csl-dd-5-nm",
@@ -1055,7 +1383,12 @@
      "note": "en stock"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Fanatec",
+    "tipo": "Solo base",
+    "par": "Hasta 6 Nm"
+   }
   },
   {
    "id": "fanatec-clubsport-dd-15-nm",
@@ -1102,7 +1435,12 @@
      "note": "base ClubSport DD 15 Nm"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Fanatec",
+    "tipo": "Solo base",
+    "par": "12 Nm o más"
+   }
   },
   {
    "id": "simagic-alpha-evo-sport-9-nm",
@@ -1161,7 +1499,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311927/s11_produktbild_max/simagic-alpha-evo-sport.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Simagic",
+    "tipo": "Solo base",
+    "par": "8–9 Nm"
+   }
   },
   {
    "id": "simagic-alpha-evo-12-nm",
@@ -1212,7 +1555,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311931/s11_produktbild_max/simagic-alpha-evo-direct-drive.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Simagic",
+    "tipo": "Solo base",
+    "par": "12 Nm o más"
+   }
   },
   {
    "id": "logitech-rs50-bundle-pc-sin-pedales",
@@ -1259,7 +1607,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207967/9/207967958/s11_produktbild_max/logitech-g-rs50-system-xbox-pc.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Logitech",
+    "tipo": "Base y volante",
+    "par": "8–9 Nm"
+   }
   },
   {
    "id": "logitech-g923-bundle",
@@ -1294,7 +1647,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Logitech",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   }
   },
   {
    "id": "filamento-bambu-lab-por-volumen",
@@ -1331,7 +1689,11 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Filamento"
+   }
   },
   {
    "id": "bambu-lab-p2s-combo",
@@ -1376,7 +1738,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208041/2/208041246/s11_produktbild_max/bambu-lab-p2s-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "elegoo-centauri-carbon-2-combo",
@@ -1420,7 +1787,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209249/9/209249988/s11_produktbild_max/elegoo-centauri-carbon-2-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Elegoo",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "bambu-lab-x2d-combo",
@@ -1467,7 +1839,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210248/1/210248128/s11_produktbild_max/bambu-lab-x2d-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "snapmaker-u1-cambiador-de-herramientas",
@@ -1514,7 +1891,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208466/6/208466677/s11_produktbild_max/snapmaker-u1.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Snapmaker",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "bambu-lab-h2c-combo",
@@ -1560,7 +1942,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208669/6/208669695/s11_produktbild_max/bambu-lab-h2c-ams-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "bambu-lab-h2d-combo",
@@ -1604,7 +1991,12 @@
      "note": "distribuidor español de Bambu Lab"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "bambu-lab-h3c-ams-combo",
@@ -1656,7 +2048,12 @@
      "note": "pedido pendiente (sin stock inmediato)"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "id": "bambu-lab-a1-mini-a1",
@@ -1699,7 +2096,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203872/8/203872867/s11_produktbild_max/bambu-lab-a1-mini.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Un color"
+   }
   },
   {
    "id": "meta-quest-3-512-gb",
@@ -1742,7 +2144,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203284/3/203284363/s11_produktbild_max/meta-quest-3-512gb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Meta",
+    "estado": "Nueva",
+    "plataforma": "Autónoma y PC"
+   }
   },
   {
    "id": "meta-quest-3s-128-gb",
@@ -1788,7 +2195,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204861/0/204861013/s11_produktbild_max/meta-quest-3s-128gb.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Meta",
+    "estado": "Nueva",
+    "plataforma": "Autónoma y PC"
+   }
   },
   {
    "id": "meta-quest-3-reacondicionada",
@@ -1831,7 +2243,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Meta",
+    "estado": "Reacondicionada",
+    "plataforma": "Autónoma y PC"
+   }
   },
   {
    "id": "toshiba-mg07aca14te-14-tb-interno-nuevo",
@@ -1878,7 +2295,12 @@
      "note": "sin stock hoy"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco duro",
+    "capacidad": "14 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "seagate-exos-28-tb-interno-nuevo",
@@ -1922,7 +2344,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207079/6/207079638/s11_produktbild_max/seagate-exos-m-28tb-st28000nm003k.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco duro",
+    "capacidad": "28 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "wd-elements-22-tb-externo-para-desmontar",
@@ -1965,7 +2392,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202329/4/202329491/s11_produktbild_max/western-digital-elements-desktop-22tb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco USB",
+    "capacidad": "22 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "seagate-exos-x10-10-tb-interno-nuevo",
@@ -2009,7 +2441,12 @@
      "note": "sin stock hoy"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco duro",
+    "capacidad": "10 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "seagate-exos-28-tb-usado",
@@ -2044,7 +2481,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco duro",
+    "capacidad": "28 TB",
+    "estado": "Usado"
+   }
   },
   {
    "id": "toshiba-n300-18-tb-nas",
@@ -2088,7 +2530,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210641/8/210641854/s11_produktbild_max/toshiba-n300-18tb-bulk-mn11aca18ts.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Disco duro",
+    "capacidad": "18 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "netac-nv3000-2-tb-nvme",
@@ -2123,7 +2570,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SSD NVMe",
+    "capacidad": "2 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "netac-2-tb-nvme",
@@ -2158,7 +2610,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SSD NVMe",
+    "capacidad": "2 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "kioxia-exceria-plus-g3-2-tb-gen4",
@@ -2201,7 +2658,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203495/9/203495994/s11_produktbild_max/kioxia-exceria-plus-g3-2tb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SSD NVMe",
+    "capacidad": "2 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "wd-blue-sn5000-4-tb-nvme",
@@ -2245,7 +2707,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204448/9/204448904/s11_produktbild_max/western-digital-blue-sn5000-nvme-4tb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SSD NVMe",
+    "capacidad": "4 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "id": "ddr5-32-gb-2-16-6000-cl40-lexar-thor-z",
@@ -2284,7 +2751,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "DDR5",
+    "capacidad": "32 GB",
+    "marca": "Lexar"
+   }
   },
   {
    "id": "ddr5-64-gb-2-32-5600-6000-corsair-vengeance-rs",
@@ -2319,7 +2791,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "DDR5",
+    "capacidad": "64 GB",
+    "marca": "Corsair"
+   }
   },
   {
    "id": "ddr5-128-gb-2-64-6000-corsair-vengeance-rgb",
@@ -2363,7 +2840,12 @@
      "note": "sin stock hoy"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "DDR5",
+    "capacidad": "128 GB",
+    "marca": "Corsair"
+   }
   },
   {
    "id": "sodimm-ddr5-64-gb-2-32-4800-corsair",
@@ -2406,7 +2888,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/201926/7/201926749/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-4800-cl40-cmsx64gx5m2a4800c40.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SODIMM DDR5",
+    "capacidad": "64 GB",
+    "marca": "Corsair"
+   }
   },
   {
    "id": "ddr4-32-gb-2-16-3200-cl16-netac",
@@ -2441,7 +2928,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "DDR4",
+    "capacidad": "32 GB",
+    "marca": "Netac"
+   }
   },
   {
    "id": "nvidia-rtx-3090-24-gb-segunda-mano",
@@ -2482,7 +2974,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "24 GB",
+    "estado": "Segunda mano"
+   }
   },
   {
    "id": "intel-arc-pro-b60-24-gb",
@@ -2522,7 +3019,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "Intel",
+    "vram": "24 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "nvidia-rtx-4090-24-gb-segunda-mano",
@@ -2557,7 +3059,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "24 GB",
+    "estado": "Segunda mano"
+   }
   },
   {
    "id": "amd-radeon-rx-9070-xt-16-gb",
@@ -2604,7 +3111,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206012/1/206012166/s11_produktbild_max/asrock-radeon-rx-9070-xt-steel-legend.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "AMD",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "amd-radeon-rx-9070-16-gb",
@@ -2650,7 +3162,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206012/2/206012298/s11_produktbild_max/asrock-radeon-rx-9070-challenger.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "AMD",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "amd-radeon-rx-9060-xt-16-gb",
@@ -2696,7 +3213,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206592/4/206592455/s11_produktbild_max/asrock-radeon-rx-9060-xt-challenger-16g.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "AMD",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "nvidia-rtx-5070-ti-16-gb",
@@ -2743,7 +3265,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205942/1/205942152/s11_produktbild_max/gigabyte-geforce-rtx-5070-ti-eagle-oc.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "nvidia-rtx-5060-ti-16-gb",
@@ -2785,7 +3312,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206266/5/206266533/s11_produktbild_max/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "nvidia-rtx-5090-32-gb",
@@ -2823,7 +3355,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "32 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "id": "amd-ryzen-7-7800x3d",
@@ -2871,7 +3408,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s11_produktbild_max/amd-ryzen-7-7800x3d.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "AMD",
+    "plataforma": "AMD AM5",
+    "nucleos": "8 núcleos"
+   }
   },
   {
    "id": "amd-ryzen-7-9800x3d",
@@ -2930,7 +3472,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205072/2/205072279/s11_produktbild_max/amd-ryzen-7-9800x3d.jpg",
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "AMD",
+    "plataforma": "AMD AM5",
+    "nucleos": "8 núcleos"
+   }
   },
   {
    "id": "beelink-gtr9-pro-ai-max-395-128-gb",
@@ -2970,7 +3517,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "AMD Strix Halo",
+    "memoria": "128 GB"
+   }
   },
   {
    "id": "bosgame-m5-ai-max-395-128-gb",
@@ -3013,7 +3565,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "AMD Strix Halo",
+    "memoria": "128 GB"
+   }
   },
   {
    "id": "gmktec-evo-x2-128-gb",
@@ -3056,7 +3613,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206554/2/206554273/s11_produktbild_max/gmktec-evo-x2-ryzen-ai-max-395-128gb-2tb.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "AMD Strix Halo",
+    "memoria": "128 GB"
+   }
   },
   {
    "id": "framework-desktop-ai-max-395-128-gb",
@@ -3092,7 +3654,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "AMD Strix Halo",
+    "memoria": "128 GB"
+   }
   },
   {
    "id": "minisforum-ms-s1-max-128-gb",
@@ -3132,7 +3699,12 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "AMD Radeon",
+    "memoria": "128 GB"
+   }
   },
   {
    "id": "mac-mini-m5-pro",
@@ -3188,7 +3760,12 @@
      "note": "M5 Pro de 15 núcleos de CPU y 16 de GPU"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "Mac",
+    "chip": "Apple M5 Pro",
+    "memoria": "24 GB"
+   }
   },
   {
    "id": "nvidia-dgx-spark-128-gb",
@@ -3231,7 +3808,12 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208146/3/208146353/s11_produktbild_max/nvidia-dgx-spark-founders-edition-940-54242-0005-000.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "NVIDIA GB10",
+    "memoria": "128 GB"
+   }
   },
   {
    "price_text": null,
@@ -3279,7 +3861,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|staubbeutel|negro|black"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "price_text": null,
@@ -3331,7 +3918,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|negro|black"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206606/2/206606273/s11_produktbild_max/dreame-l40-ultra-ae.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Dreame",
+    "base": "Solo vaciado",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "price_text": null,
@@ -3399,7 +3991,11 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|clutch|embrague|rubber|goma|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205854/1/205854110/s11_produktbild_max/moza-racing-crp2-pedals.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Pedales"
+   }
   },
   {
    "price_text": null,
@@ -3446,7 +4042,11 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Pedales"
+   }
   },
   {
    "price_text": null,
@@ -3507,7 +4107,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Moza",
+    "tipo": "Kit completo",
+    "par": "Hasta 6 Nm"
+   }
   },
   {
    "price_text": null,
@@ -3554,7 +4159,11 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Thrustmaster",
+    "tipo": "Pedales"
+   }
   },
   {
    "price_text": null,
@@ -3615,7 +4224,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|combo|ams|placa|boquilla|hotend|filtro|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203480/1/203480108/s11_produktbild_max/bambu-lab-p1s.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Bambu Lab",
+    "tipo": "Impresora",
+    "color": "Un color"
+   }
   },
   {
    "price_text": null,
@@ -3676,7 +4290,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|hotend|kit|boquilla"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213343/0/213343026/s11_produktbild_max/anycubic-kobra-s1-ace-2-pro-combo.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Anycubic",
+    "tipo": "Impresora",
+    "color": "Multicolor"
+   }
   },
   {
    "price_text": null,
@@ -3712,7 +4331,11 @@
      "url": "https://eu.elegoo.com/es-es/products/pla-rfid-filament-10-kg"
     }
    ],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Elegoo",
+    "tipo": "Filamento"
+   }
   },
   {
    "price_text": null,
@@ -3772,7 +4395,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sense|adaptador|funda|soporte|cable|juego"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202259/6/202259655/s11_produktbild_max/sony-playstation-vr2.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Sony",
+    "estado": "Nueva",
+    "plataforma": "PS5 y PC"
+   }
   },
   {
    "price_text": null,
@@ -3812,7 +4440,12 @@
      "url": "https://www.idealo.es/precios/204861013/meta-quest-3s-128gb.html"
     }
    ],
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Meta",
+    "estado": "Reacondicionada",
+    "plataforma": "Autónoma y PC"
+   }
   },
   {
    "price_text": null,
@@ -3864,7 +4497,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\s?tb|4\\s?tb|heatsink|disipador"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207399/5/207399531/s11_produktbild_max/western-digital-blue-sn5100-2tb.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "SSD NVMe",
+    "capacidad": "2 TB",
+    "estado": "Nuevo"
+   }
   },
   {
    "price_text": null,
@@ -3925,7 +4563,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "AMD",
+    "plataforma": "AMD AM5",
+    "nucleos": "8 núcleos"
+   }
   },
   {
    "price_text": null,
@@ -3982,7 +4625,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|9600x3d|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "AMD",
+    "plataforma": "AMD AM5",
+    "nucleos": "6 núcleos"
+   }
   },
   {
    "price_text": null,
@@ -4030,7 +4678,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|245kf"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911341/s11_produktbild_max/intel-core-ultra-5-245k.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Intel",
+    "plataforma": "Intel LGA1851",
+    "nucleos": "14 núcleos"
+   }
   },
   {
    "price_text": null,
@@ -4077,7 +4730,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|265kf|tray|bandeja|oem|\\bpc\\b"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911340/s11_produktbild_max/intel-core-ultra-7-265k.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Intel",
+    "plataforma": "Intel LGA1851",
+    "nucleos": "20 núcleos"
+   }
   },
   {
    "price_text": null,
@@ -4125,7 +4783,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|x3d2|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/2/206095266/s11_produktbild_max/amd-ryzen-9-9950x3d.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "AMD",
+    "plataforma": "AMD AM5",
+    "nucleos": "16 núcleos"
+   }
   },
   {
    "price_text": null,
@@ -4172,7 +4835,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|5070\\s*ti|white|blanc"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206535/9/206535919/s11_produktbild_max/asus-geforce-rtx-5070-dual-oc.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "12 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "price_text": null,
@@ -4219,7 +4887,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|white|blanc|\\b8\\s?gb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206264/2/206264275/s11_produktbild_max/asus-geforce-rtx-5060-ti-16gb-dual-oc.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "chip": "NVIDIA",
+    "vram": "16 GB",
+    "estado": "Nueva"
+   }
   },
   {
    "price_text": null,
@@ -4268,7 +4941,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|cl36|cl40|64\\s?gb|5200|5600"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204101/9/204101930/s11_produktbild_max/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "DDR5",
+    "capacidad": "32 GB",
+    "marca": "Kingston"
+   }
   },
   {
    "price_text": null,
@@ -4316,7 +4994,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rgb|cl36|cl40|32\\s?gb\\s*\\("
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203080/0/203080042/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "tipo": "DDR5",
+    "capacidad": "64 GB",
+    "marca": "Corsair"
+   }
   },
   {
    "price_text": null,
@@ -4373,7 +5056,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|16\\s?gb\\s*ram|m4|m5"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213906/0/213906037/s11_produktbild_max/apple-mac-mini-m6-2026-mhqm4ty-a.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Mac",
+    "chip": "Apple M6",
+    "memoria": "24 GB"
+   }
   },
   {
    "price_text": null,
@@ -4421,7 +5109,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208322/8/208322827/s11_produktbild_max/powercolor-radeon-ai-pro-r9700.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Tarjeta gráfica",
+    "chip": "AMD Radeon",
+    "memoria": "32 GB"
+   }
   },
   {
    "price_text": null,
@@ -4469,7 +5162,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|gg0026|gg0027"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208466/3/208466308/s11_produktbild_max/asus-ascent-gx10-gg0003bn.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "tipo": "Mini PC",
+    "chip": "NVIDIA GB10",
+    "memoria": "128 GB"
+   }
   },
   {
    "price_text": null,
@@ -4517,7 +5215,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Gaming",
+    "marca": "Lenovo",
+    "grafica": "RTX 5050"
+   }
   },
   {
    "price_text": null,
@@ -4565,7 +5268,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202630/7/202630737/s11_produktbild_max/asus-vivobook-15-m1502.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Diario",
+    "marca": "ASUS",
+    "grafica": "Integrada"
+   }
   },
   {
    "price_text": null,
@@ -4630,7 +5338,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|1\\s?tb|15[.,]?3|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209562/4/209562407/s11_produktbild_max/apple-macbook-air-13-m5-2026.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Diario",
+    "marca": "Apple",
+    "grafica": "Integrada"
+   }
   },
   {
    "price_text": null,
@@ -4678,7 +5391,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209055/0/209055038/s11_produktbild_max/hp-victus-15-fa2001ns.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Gaming",
+    "marca": "HP",
+    "grafica": "RTX 5050"
+   }
   },
   {
    "price_text": null,
@@ -4726,7 +5444,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Diario",
+    "marca": "Lenovo",
+    "grafica": "Integrada"
+   }
   },
   {
    "id": "samsung-odyssey-g5-g50f-27",
@@ -4775,7 +5498,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo|oled"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "panel": "IPS",
+    "hz": "180 Hz",
+    "marca": "Samsung"
+   }
   },
   {
    "id": "aoc-q27g4xf",
@@ -4837,7 +5565,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204856/8/204856817/s11_produktbild_max/aoc-q27g4xf.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "panel": "IPS",
+    "hz": "180 Hz",
+    "marca": "AOC"
+   }
   },
   {
    "id": "dell-s2725dsm",
@@ -4886,7 +5619,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208391/5/208391544/s11_produktbild_max/dell-s2725dsm.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "panel": "IPS",
+    "hz": "144 Hz",
+    "marca": "Dell"
+   }
   },
   {
    "id": "asus-rog-xg27aqdmg-oled",
@@ -4935,7 +5673,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xg27aqdmg[rz]|soporte|lightbar"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204427/5/204427524/s11_produktbild_max/asus-rog-strix-oled-xg27aqdmg.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "panel": "OLED",
+    "hz": "240 Hz",
+    "marca": "ASUS"
+   }
   },
   {
    "id": "samsung-odyssey-oled-g60sf",
@@ -4991,7 +5734,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207270/5/207270530/s11_produktbild_max/samsung-odyssey-oled-g60sf-s27fg602su.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "panel": "OLED",
+    "hz": "500 Hz",
+    "marca": "Samsung"
+   }
   },
   {
    "id": "google-pixel-10-128",
@@ -5052,7 +5800,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|xl|256|funda|protector|10a"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207317/5/207317589/s11_produktbild_max/google-pixel-10-128gb-obsidian.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Google",
+    "sistema": "Android",
+    "almacenamiento": "128 GB"
+   }
   },
   {
    "id": "xiaomi-15t-256",
@@ -5101,7 +5854,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|512|funda|protector|cargador"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207831/1/207831193/s11_produktbild_max/xiaomi-15t.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Xiaomi",
+    "sistema": "Android",
+    "almacenamiento": "256 GB"
+   }
   },
   {
    "id": "samsung-galaxy-a56-128",
@@ -5150,7 +5908,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Samsung",
+    "sistema": "Android",
+    "almacenamiento": "128 GB"
+   }
   },
   {
    "id": "google-pixel-10a-128",
@@ -5211,7 +5974,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209471/9/209471909/s11_produktbild_max/google-pixel-10a.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Google",
+    "sistema": "Android",
+    "almacenamiento": "128 GB"
+   }
   },
   {
    "id": "apple-iphone-17-256",
@@ -5280,7 +6048,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Apple",
+    "sistema": "iOS",
+    "almacenamiento": "256 GB"
+   }
   },
   {
    "id": "apple-iphone-16-128",
@@ -5336,7 +6109,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Apple",
+    "sistema": "iOS",
+    "almacenamiento": "128 GB"
+   }
   },
   {
    "id": "sony-wh-1000xm5",
@@ -5396,7 +6174,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/201949/7/201949755/s11_produktbild_max/sony-wh-1000xm5.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Cancelación de ruido",
+    "formato": "Diadema",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "soundcore-space-one",
@@ -5444,7 +6227,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|almohadilla|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203229/4/203229407/s11_produktbild_max/soundcore-space-one.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Cancelación de ruido",
+    "formato": "Diadema",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "sony-wh-1000xm6",
@@ -5504,7 +6292,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206509/4/206509477/s11_produktbild_max/sony-wh-1000xm6.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Cancelación de ruido",
+    "formato": "Diadema",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "apple-airpods-pro-3",
@@ -5552,7 +6345,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|puntas|almohadilla"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Cancelación de ruido",
+    "formato": "Intrauditivos",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "bose-qc-ultra-earbuds-2",
@@ -5600,7 +6398,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|1\\.?\\s?ª?\\s?gen\\b|funda|almohadilla|diadema|headphones"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206785/9/206785992/s11_produktbild_max/bose-quietcomfort-ultra-earbuds-2-gen.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Cancelación de ruido",
+    "formato": "Intrauditivos",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "apple-airpods-4",
@@ -5648,7 +6451,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|anc|cancelaci"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "uso": "Diario",
+    "formato": "Intrauditivos",
+    "conexion": "Bluetooth"
+   }
   },
   {
    "id": "hyperx-cloud-iii-s-wireless",
@@ -5720,7 +6528,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Diadema",
+    "conexion": "2,4 GHz y Bluetooth"
+   }
   },
   {
    "id": "sennheiser-hd-560s",
@@ -5772,7 +6585,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200711/2/200711292/s11_produktbild_max/sennheiser-hd-560s.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "uso": "Hi-Fi en casa",
+    "formato": "Diadema",
+    "conexion": "Cable"
+   }
   },
   {
    "id": "razer-blackshark-v3-x-hyperspeed",
@@ -5824,7 +6642,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|xbox"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207121/5/207121523/s11_produktbild_max/razer-blackshark-v3-x-hyperspeed.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Diadema",
+    "conexion": "2,4 GHz y Bluetooth"
+   }
   },
   {
    "id": "razer-blackshark-v2-pro-2023",
@@ -5872,7 +6695,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202715/5/202715525/s11_produktbild_max/razer-blackshark-v2-pro-2023.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Diadema",
+    "conexion": "2,4 GHz y Bluetooth"
+   }
   },
   {
    "id": "logitech-g-pro-x-2-lightspeed",
@@ -5920,7 +6748,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Diadema",
+    "conexion": "2,4 GHz y Bluetooth"
+   }
   },
   {
    "price_text": null,
@@ -5968,7 +6801,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|autoempty|y454|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210209/4/210209427/s11_produktbild_max/irobot-y414240.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "iRobot",
+    "base": "Solo carga",
+    "fregado": "Mopa simple"
+   }
   },
   {
    "id": "roborock-q7-tf",
@@ -6014,7 +6852,12 @@
    },
    "image_url": "https://cdn.idealo.com/images/product/214569089/es_ES/0/max.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-15",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Solo vaciado",
+    "fregado": "Mopa simple"
+   }
   },
   {
    "id": "xiaomi-robot-vacuum-h40",
@@ -6076,7 +6919,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207322/2/207322281/s11_produktbild_max/xiaomi-robot-vacuum-h40.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Xiaomi",
+    "base": "Solo vaciado",
+    "fregado": "Mopa simple"
+   }
   },
   {
    "id": "xiaomi-robot-vacuum-x20-pro",
@@ -6134,7 +6982,12 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087897/s11_produktbild_max/xiaomi-x20-pro.jpg",
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Xiaomi",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
   },
   {
    "id": "xiaomi-robot-vacuum-x20-max",
@@ -6187,6 +7040,1112 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087871/s11_produktbild_max/xiaomi-x20-max.jpg",
+   "checked_on": "2026-11-16",
+   "facets": {
+    "marca": "Xiaomi",
+    "base": "Vacía y lava mopas",
+    "fregado": "Mopas giratorias"
+   }
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 163.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/placa-base-gigabyte-b850-atx-am5-b850-eagle-ice-8-plus-2-plus-2-fases-ddr5-pcie-5-0-lan-2-5gbe",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "id": "gigabyte-b850-eagle-ice",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "Gigabyte B850 Eagle Ice placa base",
+   "name": "Gigabyte B850 Eagle Ice",
+   "store": "Amazon.es",
+   "price": 153.75,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "AM5",
+    "ATX",
+    "DDR5",
+    "PCIe 5.0"
+   ],
+   "note": "La B850 ATX más barata de esta lista y con VRM de 8+2+2 fases. No trae WiFi: si lo necesitas, mira la versión WiFi7 (unos 30 € más). Sin histórico anual fiable, por eso no es «Comprar».",
+   "info": "Placa blanca para Ryzen 9000 con un M.2 PCIe 5.0 y dos PCIe 4.0, LAN de 2,5 GbE y DDR5 hasta 8200 MHz (O.C.).",
+   "link": "https://www.amazon.es/dp/B0F72S2VJV",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha vendida por Amazon",
+     "url": "https://www.amazon.es/dp/B0F72S2VJV"
+    },
+    {
+     "title": "idealo · Gigabyte B850 Eagle Ice",
+     "url": "https://www.idealo.es/precios/206591761/gigabyte-b850-eagle-ice.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206591761",
+    "url": "https://www.idealo.es/precios/206591761/gigabyte-b850-eagle-ice.html",
+    "include_regex": "b850.{0,3}eagle.{0,6}ice",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206591/7/206591761/s11_produktbild_max/gigabyte-b850-eagle-ice.jpg",
+   "facets": {
+    "plataforma": "AMD AM5",
+    "formato": "ATX",
+    "chipset": "B850"
+   }
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "asus-prime-b850-plus-wifi",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "ASUS Prime B850-Plus WiFi placa base",
+   "name": "ASUS Prime B850-Plus WiFi",
+   "store": "PcComponentes",
+   "price": 169.99,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "AM5",
+    "ATX",
+    "WiFi 6E",
+    "3x M.2"
+   ],
+   "note": "Buena relación precio/prestaciones para un Ryzen 7000/9000 con WiFi incluido. Es la ATX con WiFi más barata de las que hemos mirado; sin histórico anual no llega a «Comprar».",
+   "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
+   "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi"
+    },
+    {
+     "title": "idealo · ASUS Prime B850-Plus WiFi",
+     "url": "https://www.idealo.es/precios/206037932/asus-prime-b850-plus-wifi.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206037932",
+    "url": "https://www.idealo.es/precios/206037932/asus-prime-b850-plus-wifi.html",
+    "include_regex": "prime.{0,5}b850-plus\\s+wifi",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206037/9/206037932/s11_produktbild_max/asus-prime-b850-plus-wifi.jpg",
+   "facets": {
+    "plataforma": "AMD AM5",
+    "formato": "ATX",
+    "chipset": "B850"
+   }
+  },
+  {
+   "reference_price": 236.95,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "PVP tachado PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 200.99,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b850-plus-wifi",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "id": "asus-tuf-gaming-b850-plus-wifi",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "ASUS TUF Gaming B850-Plus WiFi placa base",
+   "name": "ASUS TUF Gaming B850-Plus WiFi",
+   "store": "Amazon.es",
+   "price": 173.99,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "AM5",
+    "ATX",
+    "WiFi 7",
+    "14+2+1 fases"
+   ],
+   "note": "En Amazon sale 27 € más barata que en PcComponentes (200,99 €). El «236,95 €» tachado es un PVP, no un precio real: compárala con la Prime B850-Plus, 4 € más barata y con WiFi 6E.",
+   "info": "Mejor VRM (14+2+1, 80 A) y WiFi 7 que la Prime; mismas tres ranuras M.2 y PCIe 5.0.",
+   "link": "https://www.amazon.es/dp/B0DP5DQPRC",
+   "sources": [
+    {
+     "title": "Amazon.es · ficha vendida por Amazon",
+     "url": "https://www.amazon.es/dp/B0DP5DQPRC"
+    },
+    {
+     "title": "idealo · TUF Gaming B850-Plus WiFi",
+     "url": "https://www.idealo.es/precios/205562175/asus-tuf-gaming-b850-plus-wifi.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205562175",
+    "url": "https://www.idealo.es/precios/205562175/asus-tuf-gaming-b850-plus-wifi.html",
+    "include_regex": "tuf.{0,10}b850-plus",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205562/1/205562175/s11_produktbild_max/asus-tuf-gaming-b850-plus-wifi.jpg",
+   "facets": {
+    "plataforma": "AMD AM5",
+    "formato": "ATX",
+    "chipset": "B850"
+   }
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "asus-prime-b860m-a-wifi",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "ASUS Prime B860M-A WiFi placa base",
+   "name": "ASUS Prime B860M-A WiFi",
+   "store": "PcComponentes",
+   "price": 154.95,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "LGA1851",
+    "Micro-ATX",
+    "WiFi 6E",
+    "DDR5"
+   ],
+   "note": "Opción sensata para un Core Ultra en formato micro-ATX. Solo tiene dos M.2; si quieres más ranuras, sube a una ATX.",
+   "info": "B860 micro-ATX con DDR5, PCIe 5.0, WiFi 6E, LAN 2,5 GbE y salidas de vídeo DisplayPort/HDMI.",
+   "link": "https://www.pccomponentes.com/placa-base-asus-prime-b860m-a-wifi-intel-b860-lga1851-ddr5-micro-atx-wifi-6e-2-5gbe-m-2-raid",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/placa-base-asus-prime-b860m-a-wifi-intel-b860-lga1851-ddr5-micro-atx-wifi-6e-2-5gbe-m-2-raid"
+    },
+    {
+     "title": "idealo · ASUS Prime B860M-A WiFi",
+     "url": "https://www.idealo.es/precios/205580545/asus-prime-b860m-a-wifi.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205580545",
+    "url": "https://www.idealo.es/precios/205580545/asus-prime-b860m-a-wifi.html",
+    "include_regex": "prime\\s+b860m-a\\s+wifi",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205580/5/205580545/s11_produktbild_max/asus-prime-b860m-a-wifi.jpg",
+   "facets": {
+    "plataforma": "Intel LGA1851",
+    "formato": "Micro-ATX",
+    "chipset": "B860"
+   }
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 264.95,
+     "currency": "€",
+     "url": "https://www.amazon.es/dp/B0DGB8Q19Y",
+     "checked_on": "2026-11-16",
+     "note": "vendido por Amazon"
+    }
+   ],
+   "checked_on": "2026-11-16",
+   "id": "asus-tuf-gaming-x870-plus-wifi",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "ASUS TUF Gaming X870-Plus WiFi placa base",
+   "name": "ASUS TUF Gaming X870-Plus WiFi",
+   "store": "PcComponentes",
+   "price": 264.95,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "AM5",
+    "ATX",
+    "WiFi 7",
+    "USB4"
+   ],
+   "note": "Precio igual en PcComponentes y Amazon, sin rebaja visible. El salto frente a una B850 (unos 95 €) solo merece la pena si quieres USB4 y más líneas PCIe.",
+   "info": "X870 ATX con USB4 de 40 Gbps, cuatro M.2, WiFi 7 y LAN 2,5 GbE.",
+   "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-x870-plus-wifi",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-x870-plus-wifi"
+    },
+    {
+     "title": "idealo · TUF Gaming X870-Plus WiFi",
+     "url": "https://www.idealo.es/precios/204860089/asus-tuf-gaming-x870-plus-wifi.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204860089",
+    "url": "https://www.idealo.es/precios/204860089/asus-tuf-gaming-x870-plus-wifi.html",
+    "include_regex": "tuf.{0,10}x870-plus",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204860/0/204860089/s11_produktbild_max/asus-tuf-gaming-x870-plus-wifi.jpg",
+   "facets": {
+    "plataforma": "AMD AM5",
+    "formato": "ATX",
+    "chipset": "X870"
+   }
+  },
+  {
+   "reference_price": 149.83,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "PVP tachado PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "asus-tuf-gaming-b550-plus-wifi-ii",
+   "section": "placas",
+   "illustration": "motherboard",
+   "image_query": "ASUS TUF Gaming B550-Plus WiFi II placa base",
+   "name": "ASUS TUF Gaming B550-Plus WiFi II",
+   "store": "PcComponentes",
+   "price": 138.5,
+   "verdict": "no",
+   "rank": 6,
+   "tags": [
+    "AM4",
+    "ATX",
+    "DDR4",
+    "WiFi 6"
+   ],
+   "note": "Chipset de 2020 a precio de placa actual: por 30 € más tienes una B850 de AM5 con DDR5 y futuro. Solo tiene sentido para actualizar un Ryzen 5000 con DDR4 que ya tengas.",
+   "info": "B550 ATX para AM4 con DDR4, PCIe 4.0, dos M.2, WiFi 6 y LAN 2,5 GbE.",
+   "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb"
+    },
+    {
+     "title": "idealo · TUF Gaming B550-Plus WiFi II",
+     "url": "https://www.idealo.es/precios/201799808/asus-tuf-gaming-b550-plus-wifi-ii.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "201799808",
+    "url": "https://www.idealo.es/precios/201799808/asus-tuf-gaming-b550-plus-wifi-ii.html",
+    "include_regex": "tuf.{0,10}b550-plus.{0,5}wifi.{0,3}ii",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/201799/8/201799808/s11_produktbild_max/asus-tuf-gaming-b550-plus-wifi-ii.jpg",
+   "facets": {
+    "plataforma": "AMD AM4",
+    "formato": "ATX",
+    "chipset": "B550"
+   }
+  },
+  {
+   "reference_price": 1271,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "PVP tachado PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "pccom-lite-ryzen-5-8400f-rtx-5060-v2",
+   "illustration": "pc",
+   "image_query": "PcCom Lite Ryzen 5 8400F RTX 5060",
+   "name": "PcCom Lite Ryzen 5 8400F / 16 GB / 1 TB / RTX 5060",
+   "store": "PcComponentes",
+   "price": 1239,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "Ryzen 5 8400F",
+    "RTX 5060 8 GB",
+    "16 GB DDR5",
+    "1 TB SSD",
+    "Windows 11"
+   ],
+   "note": "Torre para jugar a 1080p con plataforma AM5 y Windows incluido. El descuento tachado es mínimo (32 €); vale la pena por tener AM5 y 1 TB frente a las PcCom Lite con AM4 y 500 GB. Sin histórico anual: no es «Comprar».",
+   "info": "PC montado por PcComponentes con Ryzen 5 8400F, RTX 5060 8 GB, 16 GB de RAM y 1 TB de SSD. Existe una variante sin Windows por 1.199 €.",
+   "link": "https://www.pccomponentes.com/pccom-lite-amd-ryzen-5-8400f-16gb-1tb-ssd-rtx-5060-8gb-v2-windows-11-home",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/pccom-lite-amd-ryzen-5-8400f-16gb-1tb-ssd-rtx-5060-8gb-v2-windows-11-home"
+    }
+   ],
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Torre",
+    "grafica": "RTX 5060"
+   },
+   "section": "pcs"
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "pccom-imperial-5800x3d-rtx-5070",
+   "illustration": "pc",
+   "image_query": "PcCom Imperial Ryzen 7 5800X3D RTX 5070",
+   "name": "PcCom Imperial Ryzen 7 5800X3D / 32 GB / 1 TB / RTX 5070",
+   "store": "PcComponentes",
+   "price": 2099,
+   "verdict": "no",
+   "rank": 5,
+   "tags": [
+    "Ryzen 7 5800X3D",
+    "RTX 5070 12 GB",
+    "32 GB DDR4",
+    "Líquida 240 mm"
+   ],
+   "note": "Trampa: plataforma AM4 y DDR4, sin ruta de actualización, por 2.099 €. Por 200 € más PcComponentes vende la Imperial con Ryzen 7 7800X3D (AM5, DDR5) y la misma RTX 5070. Elige esa.",
+   "info": "Torre gaming con CPU de 2022, RTX 5070 de 12 GB y refrigeración líquida de 240 mm.",
+   "link": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-5800x3d-32gb-1tb-ssd-rtx-5070-windows-11-home",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-5800x3d-32gb-1tb-ssd-rtx-5070-windows-11-home"
+    },
+    {
+     "title": "idealo · PcCom Imperial 5800X3D RTX 5070",
+     "url": "https://www.idealo.es/precios/214618278/pccom-pc-imperial-ryzen-7-5800x3d-32gb-1tb-ssd-rtx-5070-windows-11-home.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "214618278",
+    "url": "https://www.idealo.es/precios/214618278/pccom-pc-imperial-ryzen-7-5800x3d-32gb-1tb-ssd-rtx-5070-windows-11-home.html",
+    "include_regex": "imperial.{0,15}5800x3d.{0,40}5070",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/images/product/214618278/es_ES/0/max.jpg",
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Torre",
+    "grafica": "RTX 5070"
+   },
+   "section": "pcs"
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "pccom-imperial-7800x3d-rtx-5070-v2",
+   "illustration": "pc",
+   "image_query": "PcCom Imperial Ryzen 7 7800X3D RTX 5070 V2",
+   "name": "PcCom Imperial Ryzen 7 7800X3D / 32 GB / 1 TB / RTX 5070 V2",
+   "store": "PcComponentes",
+   "price": 2299,
+   "verdict": "pasa",
+   "rank": 4,
+   "tags": [
+    "Ryzen 7 7800X3D",
+    "RTX 5070 12 GB",
+    "32 GB",
+    "1 TB SSD"
+   ],
+   "note": "La mejor de las Imperial en plataforma (AM5 + X3D), pero 2.299 € es precio de configuración normal, sin rebaja visible. Solo compensa si no quieres montarlo tú.",
+   "info": "Torre gaming con la CPU para juegos más equilibrada de AMD y una RTX 5070 de 12 GB, lista con Windows 11.",
+   "link": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-7800x3d-32gb-1tb-ssd-rtx-5070-v2-windows-11-home",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-7800x3d-32gb-1tb-ssd-rtx-5070-v2-windows-11-home"
+    }
+   ],
+   "facets": {
+    "uso": "Gaming",
+    "formato": "Torre",
+    "grafica": "RTX 5070"
+   },
+   "section": "pcs"
+  },
+  {
+   "reference_price": 651,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "PVP tachado PcComponentes",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "pccom-work-ryzen-5-8500g-16gb-1tb",
+   "illustration": "pc",
+   "image_query": "PcCom Work Ryzen 5 8500G",
+   "name": "PcCom Work Ryzen 5 8500G / 16 GB / 1 TB",
+   "store": "PcComponentes",
+   "price": 619,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "Ryzen 5 8500G",
+    "16 GB",
+    "1 TB SSD",
+    "Windows 11 Home"
+   ],
+   "note": "Sobremesa de oficina y estudio con gráficos integrados, sin tarjeta dedicada que añada ruido o consumo. Rebaja pequeña (32 €), pero precio razonable por AM5, 1 TB y Windows.",
+   "info": "Torre compacta de PcCom con APU Ryzen 5 8500G; sirve para ofimática, navegación y juegos ligeros.",
+   "link": "https://www.pccomponentes.com/pccom-work-amd-ryzen-5-8500g-16gb-1tb-ssd-windows-11-home",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/pccom-work-amd-ryzen-5-8500g-16gb-1tb-ssd-windows-11-home"
+    }
+   ],
+   "facets": {
+    "uso": "Oficina y estudio",
+    "formato": "Torre",
+    "grafica": "Integrada"
+   },
+   "section": "pcs"
+  },
+  {
+   "reference_price": null,
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-16",
+   "id": "gmktec-m3-i5-12450h-32gb-1tb",
+   "illustration": "minipc",
+   "image_query": "GMKtec M3 Intel Core i5-12450H 32GB 1TB mini PC",
+   "name": "GMKtec M3 Core i5-12450H / 32 GB / 1 TB",
+   "store": "PcComponentes",
+   "price": 609.01,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "Core i5-12450H",
+    "32 GB",
+    "1 TB SSD",
+    "Windows 11 Pro"
+   ],
+   "note": "32 GB y 1 TB de serie por 609 € es lo que lo hace interesante; la CPU es de 2022, correcta para oficina y multitarea. Sin ficha idealo ni segunda tienda verificada, así que no podemos confirmar que sea el mejor precio.",
+   "info": "Mini PC con CPU de 8 núcleos, WiFi 6 y Windows 11 Pro preinstalado.",
+   "link": "https://www.pccomponentes.com/mini-pc-gmktec-m3-intel-core-i5-12450h-32gb-1tb-ssd-uhd-windows-11-pro-wifi-6",
+   "sources": [
+    {
+     "title": "PcComponentes · ficha del producto",
+     "url": "https://www.pccomponentes.com/mini-pc-gmktec-m3-intel-core-i5-12450h-32gb-1tb-ssd-uhd-windows-11-pro-wifi-6"
+    }
+   ],
+   "facets": {
+    "uso": "Oficina y estudio",
+    "formato": "Mini PC",
+    "grafica": "Integrada"
+   },
+   "section": "pcs"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 389,
+   "reference_label": "precio anterior MediaMarkt",
+   "annual_low": 359.99,
+   "annual_low_note": "359,99 € PcComponentes (14/10/2026, sin discos)",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "ugreen-nasync-dxp2800",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "UGREEN NASync DXP2800 NAS",
+   "name": "UGREEN NASync DXP2800 · 2 bahías · N100 · 8 GB",
+   "store": "MediaMarkt",
+   "price": 359.99,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "Intel N100",
+    "8 GB DDR5",
+    "2,5 GbE",
+    "2× M.2"
+   ],
+   "note": "Iguala el mínimo de octubre (359,99 €), no lo mejora. Es el NAS de 2 bahías con más hardware por el precio, pero el software (UGOS) es más joven que DSM. Precio sin discos.",
+   "info": "Intel N100, 8 GB DDR5 ampliable a 16 GB, un puerto de 2,5 GbE, HDMI 4K y dos ranuras M.2 NVMe. Admite Docker.",
+   "link": "https://www.mediamarkt.es/es/product/_servidor-nas-ugreen-dxp2800-hdd-capacidad-64tb-memoria-8gb-2-bahias-procesador-intel-n100-negro-1611538.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · UGREEN DXP2800",
+     "url": "https://www.mediamarkt.es/es/product/_servidor-nas-ugreen-dxp2800-hdd-capacidad-64tb-memoria-8gb-2-bahias-procesador-intel-n100-negro-1611538.html"
+    },
+    {
+     "title": "Criterio Tech · comparador de NAS (octubre 2026)",
+     "url": "https://criteriotech.es/comparador/nas/"
+    },
+    {
+     "title": "idealo · UGREEN NASync DXP2800",
+     "url": "https://www.idealo.es/precios/205479003/ugreen-nasync-dxp2800.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205479003",
+    "url": "https://www.idealo.es/precios/205479003/ugreen-nasync-dxp2800.html",
+    "include_regex": "dxp2800",
+    "exclude_regex": "ironwolf|seagate|bundle|paquete|pack de|2x\\s?\\d|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205479/0/205479003/s11_produktbild_max/ugreen-nasync-dxp2800.jpg",
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "2 bahías",
+    "marca": "UGREEN"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 399.95,
+   "annual_low_note": "399,95 € LDLC.es (14/10/2026, sin discos)",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "synology-diskstation-ds225-plus",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "Synology DiskStation DS225+ NAS",
+   "name": "Synology DiskStation DS225+ · 2 bahías",
+   "store": "PcComponentes",
+   "price": 400.95,
+   "verdict": "pasa",
+   "rank": 2,
+   "tags": [
+    "Celeron J4125",
+    "2 GB",
+    "2,5 GbE + 1 GbE",
+    "DSM"
+   ],
+   "note": "Cuesta lo mismo que en octubre (399,95 €). Es el NAS más cómodo de usar, pero con un procesador de 2019 y 2 GB de RAM. En idealo hay tiendas pequeñas desde ~354 €: si te fías, ahí está el ahorro. Sin discos.",
+   "info": "Celeron J4125 de 4 núcleos, 2 GB DDR4 ampliable, 2,5 GbE y 1 GbE. Con DSM 7.3 admite discos de otras marcas, con matices.",
+   "link": "https://www.pccomponentes.com/nas-de-escritorio-synology-ds225-2-bahias-intel-celeron-j4125-2gb-ddr4-dual-lan-backup-nube",
+   "sources": [
+    {
+     "title": "PcComponentes · Synology DS225+",
+     "url": "https://www.pccomponentes.com/nas-de-escritorio-synology-ds225-2-bahias-intel-celeron-j4125-2gb-ddr4-dual-lan-backup-nube"
+    },
+    {
+     "title": "Criterio Tech · comparador de NAS (octubre 2026)",
+     "url": "https://criteriotech.es/comparador/nas/"
+    },
+    {
+     "title": "idealo · Synology DS225+",
+     "url": "https://www.idealo.es/precios/207241446/synology-diskstation-ds225.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207241446",
+    "url": "https://www.idealo.es/precios/207241446/synology-diskstation-ds225.html",
+    "include_regex": "ds225\\+",
+    "exclude_regex": "8\\s?tb|2x\\s?\\d|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207241/4/207241446/s11_produktbild_max/synology-diskstation-ds225.jpg",
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "2 bahías",
+    "marca": "Synology"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 599,
+   "annual_low_note": "599 € PcComponentes (14/10/2026, sin discos)",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "ugreen-nasync-dxp4800-plus",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "UGREEN NASync DXP4800 Plus NAS",
+   "name": "UGREEN NASync DXP4800 Plus · 4 bahías",
+   "store": "PcComponentes",
+   "price": 619.95,
+   "verdict": "pasa",
+   "rank": 3,
+   "tags": [
+    "Pentium Gold 8505",
+    "8 GB DDR5",
+    "10 GbE + 2,5 GbE",
+    "4 bahías"
+   ],
+   "note": "20 € más caro que en octubre. El hardware es de lo mejor para 4 bahías (10 GbE, M.2), pero espera a verlo por debajo de 600 €. Sin discos.",
+   "info": "Pentium Gold 8505, 8 GB DDR5, puertos de 10 GbE y 2,5 GbE, 4 bahías SATA y 2 ranuras M.2.",
+   "link": "https://www.pccomponentes.com/nas-ugreen-nasync-dxp4800-plus-8gb-ddr5-intel-pentium-gold-112tb-sata-nvme-ethernet-escritorio",
+   "sources": [
+    {
+     "title": "PcComponentes · UGREEN DXP4800 Plus",
+     "url": "https://www.pccomponentes.com/nas-ugreen-nasync-dxp4800-plus-8gb-ddr5-intel-pentium-gold-112tb-sata-nvme-ethernet-escritorio"
+    },
+    {
+     "title": "Criterio Tech · comparador de NAS (octubre 2026)",
+     "url": "https://criteriotech.es/comparador/nas/"
+    },
+    {
+     "title": "idealo · UGREEN DXP4800 Plus",
+     "url": "https://www.idealo.es/precios/205479293/ugreen-nasync-dxp4800-plus.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205479293",
+    "url": "https://www.idealo.es/precios/205479293/ugreen-nasync-dxp4800-plus.html",
+    "include_regex": "dxp4800\\s*\\+|dxp4800\\s*plus",
+    "exclude_regex": "ironwolf|seagate|bundle|paquete|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205479/2/205479293/s11_produktbild_max/ugreen-nasync-dxp4800-plus.jpg",
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "4 bahías",
+    "marca": "UGREEN"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "tapo-c200",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "TP-Link Tapo C200 cámara",
+   "name": "TP-Link Tapo C200 · cámara Wi-Fi 360°",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 19.99,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "1080p",
+    "360°",
+    "microSD",
+    "RTSP/ONVIF"
+   ],
+   "note": "Precio muy bajo, y coincide con el mínimo que muestra idealo hoy. Sin histórico anual para compararlo. Grabación en microSD y compatible en local con Home Assistant por RTSP/ONVIF (hay que activarlo en la app).",
+   "info": "Cámara interior giratoria con visión nocturna, audio bidireccional y detección de personas. Funciona con la app Tapo.",
+   "link": "https://www.amazon.es/TP-Link-Vigilancia-Movimiento-Tapo-C200/dp/B07XLML2YS",
+   "sources": [
+    {
+     "title": "Amazon.es · Tapo C200",
+     "url": "https://www.amazon.es/TP-Link-Vigilancia-Movimiento-Tapo-C200/dp/B07XLML2YS"
+    },
+    {
+     "title": "idealo · Tapo C200",
+     "url": "https://www.idealo.es/precios/200119795/tp-link-tapo-c200.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "200119795",
+    "url": "https://www.idealo.es/precios/200119795/tp-link-tapo-c200.html",
+    "include_regex": "tapo\\s*c200\\b",
+    "exclude_regex": "c200p|c200c|pack|2x\\s?|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/200119/7/200119795/s11_produktbild_max/tp-link-tapo-c200.jpg",
+   "facets": {
+    "tipo": "Cámara",
+    "protocolo": "Wi-Fi",
+    "marca": "TP-Link Tapo"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "sonoff-zbdongle-e",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "SONOFF ZBDongle-E Zigbee",
+   "name": "SONOFF Zigbee USB Dongle Plus (ZBDongle-E)",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 21.99,
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "Zigbee 3.0",
+    "EFR32MG21",
+    "USB"
+   ],
+   "note": "Precio habitual de este adaptador, sin rebaja especial. Sirve de coordinador Zigbee local para Home Assistant (ZHA) o Zigbee2MQTT, sin nube. Necesita un equipo con puerto USB donde ejecutar Home Assistant.",
+   "info": "Coordinador Zigbee 3.0 USB basado en Silicon Labs EFR32MG21. Se usa con Home Assistant o Zigbee2MQTT.",
+   "link": "https://www.amazon.es/SONOFF-Dongle-USB-Zigbee-ZBDongle/dp/B0B6P22YJC",
+   "sources": [
+    {
+     "title": "Amazon.es · SONOFF ZBDongle-E",
+     "url": "https://www.amazon.es/SONOFF-Dongle-USB-Zigbee-ZBDongle/dp/B0B6P22YJC"
+    },
+    {
+     "title": "idealo · SONOFF Zigbee Dongle",
+     "url": "https://www.idealo.es/precios/202107754/sonoff-zigbee-3-0-usb-dongle.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202107754",
+    "url": "https://www.idealo.es/precios/202107754/sonoff-zigbee-3-0-usb-dongle.html",
+    "include_regex": "zbdongle-e|dongle\\s+plus",
+    "exclude_regex": "zbdongle-p|mg24|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202107/7/202107754/s11_produktbild_max/sonoff-zigbee-3-0-usb-dongle.jpg",
+   "facets": {
+    "tipo": "Hub",
+    "protocolo": "Zigbee",
+    "marca": "SONOFF"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "shelly-1pm-gen4",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Shelly 1PM Gen4 relé",
+   "name": "Shelly 1PM Gen4 · relé con medición",
+   "store": "Shelly Europe (tienda oficial)",
+   "price": 21.9,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "Wi-Fi",
+    "Zigbee",
+    "Matter",
+    "16 A"
+   ],
+   "note": "Precio de la tienda oficial, más barato que en las demás tiendas de idealo. Funciona en local (API propia, MQTT, integración de Home Assistant) y es compatible con Matter. Necesita instalarse tras el interruptor: si no sabes de electricidad, llama a un instalador.",
+   "info": "Relé de 1 canal y 16 A con medición de consumo, Wi-Fi, Bluetooth, Zigbee y Matter.",
+   "link": "https://www.shelly.com/es/products/shelly-1pm-gen4",
+   "sources": [
+    {
+     "title": "Shelly Europe · 1PM Gen4",
+     "url": "https://www.shelly.com/es/products/shelly-1pm-gen4"
+    },
+    {
+     "title": "idealo · Shelly 1PM Gen4",
+     "url": "https://www.idealo.es/precios/206841514/shelly-1pm-gen4.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "206841514",
+    "url": "https://www.idealo.es/precios/206841514/shelly-1pm-gen4.html",
+    "include_regex": "1pm.{0,6}gen\\s?4",
+    "exclude_regex": "pack|2x\\s?|mini|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/206841/5/206841514/s11_produktbild_max/shelly-1pm-gen4.jpg",
+   "facets": {
+    "tipo": "Relé",
+    "protocolo": "Matter",
+    "marca": "Shelly"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "tapo-p110m",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Tapo P110M enchufe Matter",
+   "name": "TP-Link Tapo P110M · mini enchufe Matter",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 12.99,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "Matter",
+    "Wi-Fi",
+    "Medición de consumo"
+   ],
+   "note": "Barato para un enchufe con Matter y medición de consumo. Sin histórico fiable para compararlo. Con Matter se integra en Home Assistant en local, sin pasar por la nube de TP-Link.",
+   "info": "Mini enchufe Wi-Fi con Matter, medición de energía, horarios y control por voz.",
+   "link": "https://www.amazon.es/TP-Link-Tapo-P110M-Inteligente-Energ%C3%A9tico/dp/B0CJ9R466Z",
+   "sources": [
+    {
+     "title": "Amazon.es · Tapo P110M",
+     "url": "https://www.amazon.es/TP-Link-Tapo-P110M-Inteligente-Energ%C3%A9tico/dp/B0CJ9R466Z"
+    }
+   ],
+   "facets": {
+    "tipo": "Enchufe",
+    "protocolo": "Matter",
+    "marca": "TP-Link Tapo"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "aqara-hub-m3",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "Aqara Hub M3",
+   "name": "Aqara Hub M3",
+   "store": "PcComponentes",
+   "price": 122.0,
+   "verdict": "pasa",
+   "rank": 5,
+   "tags": [
+    "Zigbee",
+    "Thread",
+    "Matter",
+    "HomeKit"
+   ],
+   "note": "Es el precio más bajo en idealo, pero no hay rebaja verificable. Es un hub muy completo (Zigbee, Thread, Matter). Con Home Assistant lo usarás sobre todo como puente Matter: no sustituye a un coordinador Zigbee propio.",
+   "info": "Hub con Zigbee 3.0, Thread border router, Matter, Wi-Fi y altavoz. Controla dispositivos Aqara en local.",
+   "link": "https://www.pccomponentes.com/aqara-hub-m3-puente-matter-compatible-con-alexa-google-assistant-apple-homekit-smartthings-ifttt",
+   "sources": [
+    {
+     "title": "PcComponentes · Aqara Hub M3",
+     "url": "https://www.pccomponentes.com/aqara-hub-m3-puente-matter-compatible-con-alexa-google-assistant-apple-homekit-smartthings-ifttt"
+    },
+    {
+     "title": "idealo · Aqara Hub M3",
+     "url": "https://www.idealo.es/precios/204274052/aqara-smart-home-hub-m3-hm-g01d.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204274052",
+    "url": "https://www.idealo.es/precios/204274052/aqara-smart-home-hub-m3-hm-g01d.html",
+    "include_regex": "hub\\s?m3|hm-g01d",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204274/0/204274052/s11_produktbild_max/aqara-smart-home-hub-m3-hm-g01d.jpg",
+   "facets": {
+    "tipo": "Hub",
+    "protocolo": "Matter",
+    "marca": "Aqara"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "ikea-dirigera",
+   "section": "domotica",
+   "illustration": "smarthome",
+   "image_query": "IKEA DIRIGERA hub",
+   "name": "IKEA DIRIGERA · hub",
+   "store": "IKEA España",
+   "price": 79.99,
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "Zigbee",
+    "Thread",
+    "Matter"
+   ],
+   "note": "Es su precio de tienda, sin rebaja. Funciona bien con el ecosistema IKEA y tiene Matter; con Home Assistant se añade por Matter o su integración. Solo merece la pena si ya usas dispositivos IKEA.",
+   "info": "Hub con Zigbee, Thread y Matter para bombillas, enchufes y mandos IKEA. Se maneja desde la app IKEA Home smart.",
+   "link": "https://www.ikea.com/es/es/p/dirigera-base-productos-inteligentes-blanco-inteligente-10503406/",
+   "sources": [
+    {
+     "title": "IKEA España · DIRIGERA",
+     "url": "https://www.ikea.com/es/es/p/dirigera-base-productos-inteligentes-blanco-inteligente-10503406/"
+    }
+   ],
+   "facets": {
+    "tipo": "Hub",
+    "protocolo": "Matter",
+    "marca": "IKEA"
+   },
+   "checked_on": "2026-11-16"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": 448.99,
+   "annual_low_note": "448,99 € PcComponentes (25/10/2026, sin discos)",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "synology-diskstation-ds224-plus",
+   "section": "servidores",
+   "illustration": "server",
+   "image_query": "Synology DiskStation DS224+ NAS",
+   "name": "Synology DiskStation DS224+ · 2 bahías",
+   "store": "PcComponentes",
+   "price": 464.89,
+   "verdict": "no",
+   "rank": 4,
+   "tags": [
+    "Celeron J4125",
+    "2 GB",
+    "2× 1 GbE",
+    "DSM"
+   ],
+   "note": "16 € más caro que en octubre y más caro que su sucesor, el DS225+, que añade 2,5 GbE. No tiene sentido pagar más por el modelo antiguo. Sin discos.",
+   "info": "Celeron J4125 de 4 núcleos, 2 GB DDR4 ampliable y dos puertos de 1 GbE. Lo sustituye el DS225+.",
+   "link": "https://www.pccomponentes.com/synology-diskstation-ds224-plus-nas",
+   "sources": [
+    {
+     "title": "PcComponentes · Synology DS224+",
+     "url": "https://www.pccomponentes.com/synology-diskstation-ds224-plus-nas"
+    },
+    {
+     "title": "Criterio Tech · comparador de NAS (octubre 2026)",
+     "url": "https://criteriotech.es/comparador/nas/"
+    },
+    {
+     "title": "idealo · Synology DS224+",
+     "url": "https://www.idealo.es/precios/203130698/synology-diskstation-ds224.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "203130698",
+    "url": "https://www.idealo.es/precios/203130698/synology-diskstation-ds224.html",
+    "include_regex": "ds224\\+|ds224\\s+plus",
+    "exclude_regex": "pack|2x\\s?\\d|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/203130/6/203130698/s11_produktbild_max/synology-diskstation-ds224.jpg",
+   "facets": {
+    "tipo": "NAS",
+    "bahias": "2 bahías",
+    "marca": "Synology"
+   },
    "checked_on": "2026-11-16"
   }
  ]

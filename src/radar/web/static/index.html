@@ -76,6 +76,7 @@ section.sec{margin-top:34px}
 .fchip[aria-pressed="true"] b{opacity:.9}
 .fchip.clr{border-style:dashed}
 .fchip.zero:not([aria-pressed="true"]){opacity:.55}
+@media (max-width:560px){.filters{position:static}.chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -20px;padding:0 20px 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-padding-inline:20px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 20px,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(90deg,transparent 0,#000 20px,#000 calc(100% - 32px),transparent)}.chips::-webkit-scrollbar{display:none}.chip{flex:0 0 auto;white-space:nowrap}}
 @media (max-width:560px){.frow{gap:6px}.fchip{min-height:28px;font-size:13px;padding:3px 10px}.ffilters{gap:8px}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:14px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;position:relative;cursor:pointer}
@@ -310,6 +311,7 @@ function marketTable(){
 
 function renderControls(){
   document.getElementById("chips").innerHTML=[{id:"all",title:"Todas"},...SECTIONS].map(s=>`<button class="chip" type="button" data-sec="${esc(s.id)}" aria-pressed="${state.sec===s.id}">${esc(s.title)}</button>`).join("");
+  {const on=document.querySelector('#chips .chip[aria-pressed="true"]');if(on&&on.scrollIntoView&&document.getElementById("chips").scrollWidth>document.getElementById("chips").clientWidth)on.scrollIntoView({block:"nearest",inline:"center"});}
   for(const k of["verdict","sort"])document.getElementById(k).value=state[k];
   const q=document.getElementById("q");if(q.value!==state.q)q.value=state.q;
   document.getElementById("max").value=state.max;document.getElementById("real").checked=state.real;
