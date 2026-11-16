@@ -104,3 +104,75 @@ test("storeRows marca como pequeñas solo las filas de idealo de tiendas no cono
   const rows = C.storeRows(d, { "€": 1 });
   assert.deepEqual(rows.map((r) => [r.store, r.small]), [["zomvy.com", true], ["amazon.es", false], ["Tienda Rara", false]]);
 });
+
+// ---------- filtros por sección (facets) ----------
+const F = (sec, id, facets, extra) => mk({ id, section: sec, name: id, facets, ...extra });
+const R1 = F("robots", "r1", { marca: "Dreame", fregado: "Rodillo" });
+const R2 = F("robots", "r2", { marca: "Dreame", fregado: "Mopas" });
+const R3 = F("robots", "r3", { marca: "Roborock", fregado: "Mopas" });
+const R4 = F("robots", "r4", { marca: "Eufy" });
+const P1 = F("print", "p1", { marca: "Bambu" });
+const RF = [{ key: "marca", label: "Marca" }, { key: "fregado", label: "Fregado" }];
+const FACETED = [R1, R2, R3, R4, P1];
+
+test("facetCounts cuenta valores por filtro, ordenados por nº desc y luego alfabético", () => {
+  const r = C.facetCounts([R1, R2, R3, R4], RF);
+  assert.deepEqual(r.map((f) => f.key), ["marca", "fregado"]);
+  assert.deepEqual(r[0].values, [{ value: "Dreame", count: 2 }, { value: "Eufy", count: 1 }, { value: "Roborock", count: 1 }]);
+  assert.deepEqual(r[1].values, [{ value: "Mopas", count: 2 }, { value: "Rodillo", count: 1 }]);
+  assert.equal(r[0].label, "Marca");
+});
+
+test("facetCounts omite filtros con un solo valor y tolera facets ausentes", () => {
+  const r = C.facetCounts([R1, R2, mk({ id: "z", section: "robots" })], [{ key: "marca", label: "Marca" }, { key: "fregado", label: "F" }]);
+  assert.deepEqual(r.map((f) => f.key), ["fregado"]);
+  assert.deepEqual(C.facetCounts([R1], RF), []);
+  assert.deepEqual(C.facetCounts([R1], []), []);
+  assert.deepEqual(C.facetCounts([R1], undefined), []);
+});
+
+test("facetCounts: la selección de otros filtros acota los conteos y la propia no", () => {
+  const r = C.facetCounts([R1, R2, R3, R4], RF, { fregado: "Mopas" });
+  const marca = r.find((f) => f.key === "marca").values;
+  assert.deepEqual(marca, [{ value: "Dreame", count: 1 }, { value: "Roborock", count: 1 }, { value: "Eufy", count: 0 }]);
+  const freg = r.find((f) => f.key === "fregado").values;
+  assert.deepEqual(freg, [{ value: "Mopas", count: 2 }, { value: "Rodillo", count: 1 }]);
+});
+
+test("facetCounts: el universo fija los valores aunque los items estén filtrados", () => {
+  const r = C.facetCounts([R1], RF, {}, [R1, R2, R3, R4]);
+  assert.deepEqual(r[0].values, [{ value: "Dreame", count: 1 }, { value: "Eufy", count: 0 }, { value: "Roborock", count: 0 }]);
+});
+
+test("query aplica facets solo a su sección y combina filtros", () => {
+  const q = (facets, extra) => ids(C.query(FACETED, { facets, ...extra }, ctx)).sort();
+  assert.deepEqual(q({ robots: { marca: "Dreame" } }), ["p1", "r1", "r2"]);
+  assert.deepEqual(q({ robots: { marca: "Dreame", fregado: "Mopas" } }), ["p1", "r2"]);
+  assert.deepEqual(q({ robots: { fregado: "Mopas" }, print: { marca: "Nada" } }), ["r2", "r3"]);
+  assert.deepEqual(q({ robots: { marca: "Dreame" } }, { sec: "robots" }), ["r1", "r2"]);
+  assert.deepEqual(q({}), ["p1", "r1", "r2", "r3", "r4"]);
+  assert.deepEqual(q(undefined), ["p1", "r1", "r2", "r3", "r4"]);
+});
+
+test("la búsqueda de texto también encuentra por valor de facet", () => {
+  assert.deepEqual(ids(C.query(FACETED, { q: "roborock" }, ctx)), ["r3"]);
+});
+
+test("parseFacets/formatFacets: ida y vuelta con caracteres especiales y descarte de basura", () => {
+  const f = { robots: { marca: "Dreame", fregado: "A~B: C%D" }, print: { marca: "Ñu & Co" } };
+  const s = C.formatFacets(f);
+  assert.ok(!/[\s]/.test(s));
+  assert.deepEqual(C.parseFacets(s), f);
+  assert.equal(C.formatFacets({}), "");
+  assert.equal(C.formatFacets({ robots: {} }), "");
+  assert.equal(C.formatFacets({ robots: { marca: "Dreame" } }), "robots.marca:Dreame");
+  assert.deepEqual(C.parseFacets("robots.marca:Dreame~robots.fregado:Rodillo"), { robots: { marca: "Dreame", fregado: "Rodillo" } });
+  assert.deepEqual(C.parseFacets("basura~..:~X.y:z~__proto__.a:b~a.__proto__:b~robots.marca:%E0%A4%A"), {});
+  assert.deepEqual(C.parseFacets(null), {});
+});
+
+test("pruneFacets descarta secciones, claves y valores que ya no existen", () => {
+  const secs = [{ id: "robots", filters: RF }, { id: "print", filters: [] }];
+  const f = { robots: { marca: "Dreame", zzz: "x", fregado: "Inventado" }, print: { marca: "x" }, fantasma: { a: "b" } };
+  assert.deepEqual(C.pruneFacets(f, secs, FACETED), { robots: { marca: "Dreame" } });
+});

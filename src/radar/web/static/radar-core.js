@@ -29,7 +29,7 @@
   }
 
   function haystack(d, sectionTitle) {
-    return normalize([d.name, d.store, d.note, d.info, sectionTitle || "", ...(d.tags || []), ...(d.highlights || []), ...(d.options || []).map((o) => o.store)].join(" "));
+    return normalize([d.name, d.store, d.note, d.info, sectionTitle || "", ...(d.tags || []), ...(d.highlights || []), ...(d.options || []).map((o) => o.store), ...Object.values(d.facets || {})].join(" "));
   }
 
   function matchesAll(hay, ts) {
@@ -117,21 +117,101 @@
 
   function storeCount(d) { return storeRows(d, null).length; }
 
+  function matchesFacets(d, selected, skipKey) {
+    if (!selected) return true;
+    const f = d.facets || {};
+    for (const k of Object.keys(selected)) {
+      if (k !== skipKey && f[k] !== selected[k]) return false;
+    }
+    return true;
+  }
+
   /**
-   * Filtra y ordena. state: {sec, q, verdict, sort, max (null = sin límite), real}.
+   * Conteos para los chips de filtro de una sección. filters = [{key,label}], selected = {clave: valor},
+   * universe = ofertas que definen qué valores existen (por defecto items). Para cada filtro el conteo ignora su
+   * propia selección (así se ve cuánto daría cada alternativa) pero respeta la de los demás filtros.
+   * Los filtros con menos de 2 valores distintos en el universo se omiten. Orden: nº desc, luego alfabético.
+   */
+  function facetCounts(items, filters, selected, universe) {
+    const uni = universe || items, out = [];
+    for (const f of filters || []) {
+      const seen = new Set();
+      for (const d of uni) { const v = (d.facets || {})[f.key]; if (v != null && v !== "") seen.add(v); }
+      if (seen.size < 2) continue;
+      const counts = new Map([...seen].map((v) => [v, 0]));
+      for (const d of items) {
+        const v = (d.facets || {})[f.key];
+        if (counts.has(v) && matchesFacets(d, selected, f.key)) counts.set(v, counts.get(v) + 1);
+      }
+      const values = [...counts].map(([value, count]) => ({ value, count }))
+        .sort((a, b) => (b.count - a.count) || a.value.localeCompare(b.value, "es"));
+      out.push({ key: f.key, label: f.label, values });
+    }
+    return out;
+  }
+
+  const SEC_RE = /^[a-z0-9][a-z0-9_-]*$/, KEY_RE = /^[a-z][a-z0-9_]*$/;
+
+  /** {sec:{k:v}} → «sec.k:valor~sec.k2:valor2» (valores con encodeURIComponent y «~» escapado). */
+  function formatFacets(f) {
+    const parts = [];
+    for (const sec of Object.keys(f || {})) {
+      for (const k of Object.keys(f[sec] || {})) {
+        parts.push(sec + "." + k + ":" + encodeURIComponent(f[sec][k]).replace(/~/g, "%7E"));
+      }
+    }
+    return parts.join("~");
+  }
+
+  /** Inverso tolerante de formatFacets: ignora cualquier trozo mal formado. */
+  function parseFacets(s) {
+    const out = {};
+    if (typeof s !== "string" || !s) return out;
+    for (const part of s.split("~")) {
+      const m = /^([^.:~]+)\.([^.:~]+):(.+)$/.exec(part);
+      if (!m || !SEC_RE.test(m[1]) || !KEY_RE.test(m[2])) continue;
+      let v;
+      try { v = decodeURIComponent(m[3]); } catch (e) { continue; }
+      if (!v || v.length > 64) continue;
+      if (!Object.prototype.hasOwnProperty.call(out, m[1])) out[m[1]] = {};
+      out[m[1]][m[2]] = v;
+    }
+    return out;
+  }
+
+  /** Quita de una selección lo que ya no existe (sección, filtro o valor), p. ej. un enlace antiguo. */
+  function pruneFacets(f, sections, offers) {
+    const out = {};
+    for (const s of sections || []) {
+      const sel = f && Object.prototype.hasOwnProperty.call(f, s.id) ? f[s.id] : null;
+      if (!sel) continue;
+      for (const flt of s.filters || []) {
+        const v = Object.prototype.hasOwnProperty.call(sel, flt.key) ? sel[flt.key] : null;
+        if (v != null && offers.some((d) => d.section === s.id && (d.facets || {})[flt.key] === v)) {
+          (out[s.id] = out[s.id] || {})[flt.key] = v;
+        }
+      }
+    }
+    return out;
+  }
+
+  /**
+   * Filtra y ordena. state: {sec, q, verdict, sort, max (null = sin límite), real, facets}.
+   * facets = {sección: {clave: valor}}: cada selección solo afecta a las ofertas de su sección.
    * Devuelve las ofertas ordenadas dentro de su sección (el orden de secciones lo decide quien pinta).
    */
   function query(offers, state, ctx) {
     const today = ctx.today, fx = ctx.fx || {}, titles = ctx.sectionTitles || {};
     const allowed = VERDICT_GROUPS[state.verdict || "all"];
     if (!allowed) throw new Error("Grupo de veredicto desconocido: " + state.verdict);
-    const ts = terms(state.q);
+    const ts = terms(state.q), sel = state.facets;
     const out = offers.filter((d) => {
       if (state.sec && state.sec !== "all" && d.section !== state.sec) return false;
       if (!allowed.includes(d.verdict)) return false;
       if (ts.length && !matchesAll(haystack(d, titles[d.section]), ts)) return false;
       if (state.max != null) { const p = priceEur(d, fx); if (p != null && p > state.max) return false; }
       if (state.real && !d.below_annual_low) return false;
+      if (!matchesFacets(d, sel && sel[d.section])) return false;
       return true;
     });
     const sort = state.sort || "rec";
@@ -142,5 +222,5 @@
       .map((x) => x.d);
   }
 
-  return { isMajorShop, storeKey, storeRows, storeCount, normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
+  return { isMajorShop, storeKey, storeRows, storeCount, facetCounts, formatFacets, parseFacets, pruneFacets, normalize, terms, haystack, matchesAll, priceEur, daysLeft, query, VERDICT_GROUPS };
 });

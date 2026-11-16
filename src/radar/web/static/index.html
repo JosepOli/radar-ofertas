@@ -63,6 +63,20 @@ section.sec{margin-top:34px}
 .sec h2{font-family:var(--display);font-size:22px;margin:0 0 4px;display:flex;align-items:baseline;gap:10px}
 .sec h2 em{font-style:normal;font-family:var(--mono);font-size:13px;color:var(--muted)}
 .sec .intro{color:var(--muted);margin:0 0 14px;max-width:80ch}
+.sec .intro:has(+.ffilters){margin-bottom:8px}
+.ffilters{display:flex;flex-direction:column;gap:4px;margin:0 0 14px;min-width:0}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 5px;min-width:0}
+.frow .flbl{font:600 11px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:3px;min-width:0;flex:0 0 auto}
+@media (min-width:561px){.frow .flbl{width:84px}}
+.frow+.frow{margin-top:2px}
+.fchip{font:500 12px var(--body);border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:2px 9px;cursor:pointer;max-width:100%;overflow-wrap:anywhere;text-align:left}
+.fchip b{font:500 11px var(--mono);margin-left:4px;opacity:.75}
+.fchip:hover{border-color:var(--cyan);color:var(--ink)}
+.fchip[aria-pressed="true"]{border-color:var(--cyan);background:var(--cyan);color:var(--bg)}
+.fchip[aria-pressed="true"] b{opacity:.9}
+.fchip.clr{border-style:dashed}
+.fchip.zero:not([aria-pressed="true"]){opacity:.55}
+@media (max-width:560px){.frow{gap:6px}.fchip{min-height:28px;font-size:13px;padding:3px 10px}.ffilters{gap:8px}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:14px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;position:relative;cursor:pointer}
 .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--v);z-index:1}
@@ -193,9 +207,9 @@ const C=window.RadarCore, ART=window.RADAR_ART;
 const VCOL={top:"#3ddc97",ok:"#3de0ff",pasa:"#ffc04d",no:"#ff5f6d"};
 const VLBL={top:"Comprar",ok:"Buena opción",pasa:"Pasa",no:"No comprar"};
 const DEF={sec:"all",q:"",verdict:"all",sort:"rec",max:7000,real:false};
-const state={...DEF};
+const state={...DEF,f:{}};
 const mstate={sort:"hdd",eu:false};
-let DATA=null,SECTIONS=[],TITLES={},ALL=[],ITEMS=[];
+let DATA=null,SECTIONS=[],TITLES={},ALL=[],ITEMS=[],ITEMS_NF=[];
 const TODAY=new Date();
 
 // Estado: primero el enlace compartido; si no trae nada, lo último que usó esta persona.
@@ -203,12 +217,14 @@ const TODAY=new Date();
   const p=new URLSearchParams(location.hash.slice(1));
   if([...p.keys()].length){
     for(const k of Object.keys(DEF)){if(p.has(k)){const v=p.get(k);state[k]=k==="max"?+v||DEF.max:k==="real"?v==="1":v;}}
-  }else{try{const s=JSON.parse(localStorage.getItem("radarbf"));if(s)Object.assign(state,s)}catch(e){}}
+    state.f=C.parseFacets(p.get("f"));
+  }else{try{const s=JSON.parse(localStorage.getItem("radarbf"));if(s){Object.assign(state,s);state.f=C.parseFacets(C.formatFacets(s.f));}}catch(e){}}
 })();
 function saveState(){
   try{localStorage.setItem("radarbf",JSON.stringify(state))}catch(e){}
   const p=new URLSearchParams();
   for(const k of Object.keys(DEF))if(state[k]!==DEF[k])p.set(k,k==="real"?"1":state[k]);
+  const fs=C.formatFacets(state.f);if(fs)p.set("f",fs);
   const h=p.toString();history.replaceState(null,"",h?"#"+h:location.pathname+location.search);
 }
 
@@ -300,21 +316,36 @@ function renderControls(){
   document.getElementById("maxv").textContent=state.max>=7000?"sin límite":fmt(state.max,"€");
 }
 
+function filterRows(s,itemsNF){
+  if(!(s.filters||[]).length)return"";
+  const all=ALL.filter(d=>d.section===s.id),sel=state.f[s.id]||{};
+  const rows=C.facetCounts(itemsNF.filter(d=>d.section===s.id),s.filters,sel,all);
+  if(!rows.length)return"";
+  const a=(k,v)=>`data-fsec="${esc(s.id)}" data-fkey="${esc(k)}" data-fval="${esc(v)}"`;
+  return`<div class="ffilters" role="group" aria-label="Filtros de ${esc(s.title)}">${rows.map(r=>{
+    const cur=sel[r.key];
+    return`<div class="frow" role="group" aria-label="${esc(r.label)}"><span class="flbl">${esc(r.label)}</span>
+     <button type="button" class="fchip clr" ${a(r.key,"")} aria-pressed="${cur==null}">Todos</button>${r.values.map(v=>`<button type="button" class="fchip${v.count?"":" zero"}" ${a(r.key,v.value)} aria-pressed="${cur===v.value}">${esc(v.value)}<b>${v.count}</b></button>`).join("")}</div>`;}).join("")}</div>`;
+}
 function renderList(){
   const main=document.getElementById("main");
   const secs=SECTIONS.filter(s=>state.sec==="all"||state.sec===s.id);
   const searching=!!C.terms(state.q).length;
+  const fk=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.fsec?{...document.activeElement.dataset}:null;
   main.innerHTML=secs.map(s=>{const items=ITEMS.filter(d=>d.section===s.id);
-    if(searching&&!items.length)return"";
-    return `<section class="sec" id="sec-${esc(s.id)}"><h2>${esc(s.title)}<em>${items.length} de ${s.count}</em></h2><p class="intro">${esc(s.intro)}</p>${s.id==="discos"&&!searching?marketTable():""}${items.length?`<div class="grid">${items.map(card).join("")}</div>`:`<div class="empty">Ninguna oferta de esta sección pasa los filtros actuales.</div>`}</section>`;}).join("")
+    if(searching&&!ITEMS_NF.some(d=>d.section===s.id))return"";
+    return `<section class="sec" id="sec-${esc(s.id)}"><h2>${esc(s.title)}<em>${items.length} de ${s.count}</em></h2><p class="intro">${esc(s.intro)}</p>${filterRows(s,ITEMS_NF)}${s.id==="discos"&&!searching?marketTable():""}${items.length?`<div class="grid">${items.map(card).join("")}</div>`:`<div class="empty">Ninguna oferta de esta sección pasa los filtros actuales.</div>`}</section>`;}).join("")
     ||`<p class="empty">Nada coincide con «${esc(state.q)}». Prueba con menos palabras o quita filtros.</p>`;
   document.getElementById("count").textContent=`${ITEMS.length} de ${ALL.length} ofertas`;
+  if(fk){const b=[...main.querySelectorAll(".fchip")].find(x=>x.dataset.fsec===fk.fsec&&x.dataset.fkey===fk.fkey&&x.dataset.fval===fk.fval);if(b)b.focus();}
   main.querySelectorAll("img[data-fallback]").forEach(img=>{img.onerror=()=>{const d=ALL.find(x=>x.id===img.dataset.fallback);if(d)img.outerHTML=art(d);};});
 }
 
 function refresh(){
   saveState();renderControls();
-  ITEMS=C.query(ALL,{...state,max:state.max>=7000?null:state.max},{today:TODAY,fx:DATA.meta.fx_to_eur,sectionTitles:TITLES});
+  const base={...state,max:state.max>=7000?null:state.max},cx={today:TODAY,fx:DATA.meta.fx_to_eur,sectionTitles:TITLES};
+  ITEMS=C.query(ALL,{...base,facets:state.f},cx);
+  ITEMS_NF=C.query(ALL,{...base,facets:{}},cx); // sin filtros de sección: base de los conteos de cada chip
   renderList();
 }
 
@@ -365,6 +396,11 @@ const dlg=document.getElementById("dlg");
 dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close();});
 
 document.addEventListener("click",e=>{
+  const fb=e.target.closest(".fchip");
+  if(fb){const{fsec:sec,fkey:k,fval:v}=fb.dataset,cur=state.f[sec]||{};
+    if(v===""||cur[k]===v)delete cur[k];else cur[k]=v;
+    if(Object.keys(cur).length)state.f[sec]=cur;else delete state.f[sec];
+    refresh();return;}
   const b=e.target.closest(".chip");
   if(b){if(b.dataset.msort){mstate.sort=b.dataset.msort;renderList();return;}if(b.dataset.meu){mstate.eu=!mstate.eu;renderList();return;}if(b.dataset.sec){state.sec=b.dataset.sec;refresh();}return;}
   if(e.target.closest("a"))return;
@@ -387,6 +423,7 @@ document.getElementById("share").addEventListener("click",async e=>{
     const r=await fetch("data.json",{cache:"no-cache"});if(!r.ok)throw new Error("HTTP "+r.status);
     DATA=await r.json();SECTIONS=DATA.sections;ALL=DATA.offers;
     TITLES=Object.fromEntries(SECTIONS.map(s=>[s.id,s.title]));
+    state.f=C.pruneFacets(state.f,SECTIONS,ALL);
     if(state.sec!=="all"&&!SECTIONS.some(s=>s.id===state.sec))state.sec="all";
     if(!C.VERDICT_GROUPS[state.verdict])state.verdict="all";
     if(![...document.getElementById("sort").options].some(o=>o.value===state.sort))state.sort="rec";
