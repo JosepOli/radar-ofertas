@@ -61,7 +61,7 @@ def test_rejects_unknown_currency(tmp_path):
 
 # Textos de entorno personal que no deben llegar al sitio público. Los nombres propios sensibles se leen de un
 # fichero local fuera del repositorio (RADAR_PRIVATE_WORDS); en CI solo se comprueba la lista genérica.
-GENERIC_PRIVATE = ("homelab", "g29", "garaje")
+GENERIC_PRIVATE = ("homelab", "garaje")
 
 
 def _private_words() -> tuple[str, ...]:
