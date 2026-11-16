@@ -638,7 +638,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 9,
+   "rank": 10,
    "tags": [
     "gama media",
     "HA oficial"
@@ -680,7 +680,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 12,
    "tags": [
     "entrada",
     "autovaciado",
@@ -726,7 +726,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 11,
    "tags": [
     "rodillo de fregado",
     "agua 40–75 °C"
@@ -773,7 +773,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 12,
+   "rank": 13,
    "tags": [
     "28.000 Pa",
     "gama media"
@@ -820,7 +820,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 13,
+   "rank": 15,
    "tags": [
     "25.000 Pa",
     "sin agua caliente"
@@ -3351,7 +3351,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 14,
+   "rank": 17,
    "tags": [
     "11.000 Pa",
     "194 min",
@@ -6019,6 +6019,179 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-max",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum X20 Max robot",
+   "name": "Xiaomi Robot Vacuum X20 Max",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 349.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 399.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 399,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 16,
+   "tags": [
+    "8.000 Pa",
+    "lavado de mopa a 55 °C",
+    "secado con aire caliente",
+    "brazo de mopa extensible"
+   ],
+   "highlights": [],
+   "note": "Buen robot, pero a 349,99 € hay mejor por menos. El Dreame D30 Ultra (289 €) y el Roborock Qrevo 2 Pro (299 €) tienen más succión y base completa.",
+   "info": "Base todo en uno que lava la mopa con agua a 55 °C y la seca con aire caliente. La mopa se extiende unos 40 mm para limpiar bordes y patas de mesa. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-max/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha X20 Max (349,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-max/buy/"
+    },
+    {
+     "title": "Xiaomi ES · serie X20",
+     "url": "https://www.mi.com/es/event/robot-vacuum-x20-series/"
+    },
+    {
+     "title": "idealo · Xiaomi X20 Max",
+     "url": "https://www.idealo.es/precios/205087871/xiaomi-x20-max.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205087871",
+    "url": "https://www.idealo.es/precios/205087871/xiaomi-x20-max.html",
+    "include_regex": "x20\\s+max",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087871/s11_produktbild_max/xiaomi-x20-max.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-pro",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum X20 Pro robot",
+   "name": "Xiaomi Robot Vacuum X20 Pro",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 269.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 349.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 349,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "pasa",
+   "rank": 14,
+   "tags": [
+    "7.000 Pa",
+    "160 min",
+    "lavado y secado de mopa",
+    "mopa que se eleva 10 mm"
+   ],
+   "highlights": [],
+   "note": "Precio razonable, pero por 20 € más tienes el Dreame D30 Ultra con 25.000 Pa y 230 min. Solo merece la pena si lo prefieres de Xiaomi.",
+   "info": "Base con lavado de mopa, secado con aire caliente y recogida de polvo. Sube la mopa hasta 10 mm al detectar alfombra. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-pro/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha X20 Pro (269,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-x20-pro/buy/"
+    },
+    {
+     "title": "idealo · Xiaomi X20 Pro",
+     "url": "https://www.idealo.es/precios/205087897/xiaomi-x20-pro.html"
+    }
+   ],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 269.99,
+     "currency": "€",
+     "url": "https://www.amazon.es/Xiaomi-Aspirador-fregasuelos-Inteligente-navegaci%C3%B3n/dp/B0DFJGKW2L",
+     "checked_on": "2026-11-16",
+     "note": "mismo precio"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "205087897",
+    "url": "https://www.idealo.es/precios/205087897/xiaomi-x20-pro.html",
+    "include_regex": "x20\\s+pro",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/205087/8/205087897/s11_produktbild_max/xiaomi-x20-pro.jpg",
+   "checked_on": "2026-11-16"
+  },
+  {
+   "id": "xiaomi-robot-vacuum-h40",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Xiaomi Robot Vacuum H40 robot",
+   "name": "Xiaomi Robot Vacuum H40",
+   "store": "Xiaomi ES (tienda oficial)",
+   "price": 199.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 229.99,
+   "reference_label": "mín. anterior en mi.com",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable; mi.com da 229,99 € como último mínimo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 9,
+   "tags": [
+    "10.000 Pa",
+    "autovaciado 4 L",
+    "hasta 90 días",
+    "sube umbrales de 20 mm"
+   ],
+   "highlights": [],
+   "note": "Opción barata con autovaciado y 10.000 Pa. Mejor para suelo duro: con alfombra de pelo medio o largo deja residuo.",
+   "info": "Estación compacta con bolsa de 4 L que vacía el depósito. Mopa sin base de lavado. Se maneja con la app Xiaomi Home.",
+   "link": "https://www.mi.com/es/product/xiaomi-robot-vacuum-h40/buy/",
+   "sources": [
+    {
+     "title": "Xiaomi ES · ficha H40 (199,99 €)",
+     "url": "https://www.mi.com/es/product/xiaomi-robot-vacuum-h40/buy/"
+    },
+    {
+     "title": "idealo · Xiaomi H40",
+     "url": "https://www.idealo.es/precios/207322281/xiaomi-robot-vacuum-h40.html"
+    },
+    {
+     "title": "donaspirador · opinión H40",
+     "url": "https://donaspirador.es/xiaomi-h40/"
+    }
+   ],
+   "options": [
+    {
+     "store": "Amazon.es",
+     "price": 199.99,
+     "currency": "€",
+     "url": "https://www.amazon.es/XIAOMI-Robot-Aspirador-Auto-Vaciado-Aspiraci%C3%B3n/dp/B0F4JZNGT8",
+     "checked_on": "2026-11-16",
+     "note": "mismo precio"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207322281",
+    "url": "https://www.idealo.es/precios/207322281/xiaomi-robot-vacuum-h40.html",
+    "include_regex": "\\bh40\\b",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|pack de"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207322/2/207322281/s11_produktbild_max/xiaomi-robot-vacuum-h40.jpg",
    "checked_on": "2026-11-16"
   }
  ]
