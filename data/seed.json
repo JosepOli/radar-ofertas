@@ -345,7 +345,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207829/8/207829835/s11_produktbild_max/dreame-matrix-10-ultra.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "dreame-x50-ultra-complete",
@@ -462,7 +462,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210683/9/210683941/s11_produktbild_max/roborock-saros-20.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "dreame-aqua10-ultra-roller-complete",
@@ -560,8 +560,16 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209853/6/209853675/s11_produktbild_max/roborock-qe2p02-00.jpg",
-   "options": [],
-   "checked_on": "2026-11-15"
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 499,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/robot-aspirador-y-fregasuelos-roborock-qrevo-edge-2-pro-con-autovaciado-navegacion-lidar-25000-pa-control-por-voz-ia",
+     "checked_on": "2026-11-16"
+    }
+   ],
+   "checked_on": "2026-11-16"
   },
   {
    "id": "roborock-qrevo-2-pro-set-2-prox",
@@ -611,7 +619,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213561/3/213561371/s11_produktbild_max/roborock-qrevo-2-pro-set-robot-aspirador-y-friegasuelos-25-000pa-anti-enredos-negro.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "roborock-qrevo-s-pro-negro",
@@ -653,7 +661,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|prox|white|blanco|accesorio|filtro|cepillo"
    },
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "roborock-q7-tf",
@@ -793,7 +801,7 @@
    },
    "image_url": "https://cdn.idealo.com/images/product/211704561/es_ES/0/max.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "dreame-l10s-ultra-gen-3",
@@ -836,7 +844,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208140/5/208140519/s11_produktbild_max/dreame-l10s-ultra-gen-3-set.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "moza-r9-v3-ks-srp2-bundle",
@@ -994,8 +1002,8 @@
    "illustration": "wheel",
    "image_query": "MOZA R5 Pro bundle",
    "name": "Moza R5 Pro (bundle)",
-   "store": "Simufy",
-   "price": 389.99,
+   "store": "PcComponentes",
+   "price": 375.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 419.99,
@@ -1012,13 +1020,17 @@
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "Solo 30 € de descuento. Por 210 € más el bundle R9 es otro nivel.",
+   "note": "PcComponentes lo tiene a 375,99 €, 14 € menos que Simufy. Son 44 € menos que el precio habitual: descuento moderado. Por unos 225 € más, el bundle R9 es otro nivel.",
    "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
-   "link": "https://simufy.com/products/moza-r5-pro-bundle",
+   "link": "https://www.pccomponentes.com/simulador-de-carreras-moza-racing-r5-pro-rs105-6-nm-direct-drive-usb-pc",
    "sources": [
     {
      "title": "Simufy · Moza BF",
      "url": "https://simufy.com/en/collections/moza-black-friday?page=2"
+    },
+    {
+     "title": "PcComponentes · Moza R5 Pro Bundle",
+     "url": "https://www.pccomponentes.com/simulador-de-carreras-moza-racing-r5-pro-rs105-6-nm-direct-drive-usb-pc"
     }
    ],
    "tracking": {
@@ -1029,7 +1041,15 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|truck|camion|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/212941/0/212941014/s11_produktbild_max/moza-racing-r5-pro-racing-simulator.jpg",
-   "options": [],
+   "options": [
+    {
+     "store": "Simufy",
+     "price": 389.99,
+     "currency": "€",
+     "url": "https://simufy.com/products/moza-r5-pro-bundle",
+     "checked_on": "2026-11-16"
+    }
+   ],
    "checked_on": "2026-11-16"
   },
   {
@@ -2910,8 +2930,8 @@
    "illustration": "cpu",
    "image_query": "AMD Ryzen 7 9800X3D",
    "name": "AMD Ryzen 7 9800X3D",
-   "store": "Neobyte / Coolmod",
-   "price": 409.9,
+   "store": "Amazon.es",
+   "price": 375.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -2921,15 +2941,15 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 5,
    "tags": [
     "AM5",
     "mejor CPU gaming"
    ],
    "highlights": [],
-   "note": "Espera a que baje de 370 €; ya ha estado en 330 €. El «−45 %» de Neobyte es sobre un PVP inventado de 749,90 €.",
-   "info": "Coolmod lo tiene a 409,95 €.",
-   "link": "https://www.neobyte.es/black-friday-258",
+   "note": "Amazon.es lo vende a 375,99 €, 34 € menos que Neobyte y Coolmod (409,90 €). Sigue por encima de los 330 € de septiembre: espera a que baje de 370 €. El «−45 %» de Neobyte es sobre un PVP inventado de 749,90 €.",
+   "info": "Vendido por Amazon. Neobyte y Coolmod lo tienen a unos 410 €.",
+   "link": "https://www.amazon.es/dp/B0DKFMSMYK",
    "sources": [
     {
      "title": "Neobyte · Black Friday",
@@ -2946,6 +2966,10 @@
     {
      "title": "ArmaPCgamer · BF Amazon España",
      "url": "https://armapcgamer.net/black-friday-amazon-espana-pc-gaming/"
+    },
+    {
+     "title": "Amazon.es · Ryzen 7 9800X3D",
+     "url": "https://www.amazon.es/dp/B0DKFMSMYK"
     }
    ],
    "tracking": {
@@ -2957,7 +2981,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/205072/2/205072279/s11_produktbild_max/amd-ryzen-7-9800x3d.jpg",
    "options": [],
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "beelink-gtr9-pro-ai-max-395-128-gb",
@@ -3795,28 +3819,36 @@
    "discount_override": null,
    "ends_on": null,
    "highlights": [],
-   "options": [],
+   "options": [
+    {
+     "store": "Carrefour",
+     "price": 424.99,
+     "currency": "€",
+     "url": "https://www.carrefour.es/gafas-de-realidad-virtual-playstation-vr2/VC4A-20565977/p",
+     "checked_on": "2026-11-16"
+    }
+   ],
    "id": "sony-playstation-vr2",
    "section": "vr",
    "illustration": "vr",
    "image_query": "Sony PlayStation VR2 headset",
    "name": "Sony PlayStation VR2",
-   "store": "Carrefour",
-   "price": 424.99,
-   "reference_price": null,
-   "reference_label": "precio habitual",
+   "store": "PcComponentes",
+   "price": 349.99,
+   "reference_price": 449,
+   "reference_label": "mín. 30 días PcComponentes",
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
-   "verdict": "pasa",
+   "verdict": "ok",
    "rank": 2,
    "tags": [
     "OLED 4K",
     "seguimiento interior",
     "PS5"
    ],
-   "note": "Desde 399,90 € en idealo (una tienda pequeña); las grandes piden 425–450 € (Carrefour y Amazon 424,99 €). Es el precio normal. Pensada para PS5: en PC necesita adaptador y pierde funciones.",
+   "note": "PcComponentes lo baja a 349,99 €: 99 € menos que su mínimo de 30 días (449 €) y 75 € menos que Carrefour (424,99 €). Buen precio para un visor OLED 4K. Pensada para PS5: en PC necesita adaptador y pierde funciones.",
    "info": "Visor OLED 4K con mandos Sense. Una PS5 es imprescindible.",
-   "link": "https://www.carrefour.es/gafas-de-realidad-virtual-playstation-vr2/VC4A-20565977/p",
+   "link": "https://www.pccomponentes.com/sony-playstation-vr2",
    "sources": [
     {
      "title": "Carrefour · PlayStation VR2",
@@ -3825,6 +3857,10 @@
     {
      "title": "idealo · Sony PlayStation VR2",
      "url": "https://www.idealo.es/precios/202259655/sony-playstation-vr2.html"
+    },
+    {
+     "title": "PcComponentes · PlayStation VR2",
+     "url": "https://www.pccomponentes.com/sony-playstation-vr2"
     }
    ],
    "tracking": {
@@ -3835,7 +3871,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|sense|adaptador|funda|soporte|cable|juego"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202259/6/202259655/s11_produktbild_max/sony-playstation-vr2.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -3942,10 +3978,10 @@
    "options": [
     {
      "store": "Amazon.es",
-     "price": 269.95,
+     "price": 248.99,
      "currency": "€",
      "url": "https://www.amazon.es/dp/B0D6NMDNNX",
-     "checked_on": "2026-11-15",
+     "checked_on": "2026-11-16",
      "note": "vendido por Amazon"
     }
    ],
@@ -3955,7 +3991,7 @@
    "image_query": "AMD Ryzen 7 9700X",
    "name": "AMD Ryzen 7 9700X",
    "store": "PcComponentes",
-   "price": 269.95,
+   "price": 248.99,
    "verdict": "ok",
    "rank": 2,
    "tags": [
@@ -3963,7 +3999,7 @@
     "8 núcleos",
     "65 W"
    ],
-   "note": "Está 17 € por debajo del mínimo de 30 días de PcComponentes (286,66 €) y entre las ofertas más bajas de tiendas con caja y garantía. Buena compra si montas un AM5 sin 3D V-Cache.",
+   "note": "Está 38 € por debajo del mínimo de 30 días que marcaba PcComponentes (286,66 €) y es el precio más bajo que hemos visto en tiendas con caja y garantía. Buena compra si montas un AM5 sin 3D V-Cache.",
    "info": "Zen 5 de 8 núcleos y 65 W de TDP, con gráfica integrada básica. Amazon.es lo tiene al mismo precio.",
    "link": "https://www.pccomponentes.com/procesador-amd-ryzen-7-9700x-3-8-5-5ghz",
    "sources": [
@@ -3974,6 +4010,10 @@
     {
      "title": "idealo · Ryzen 7 9700X",
      "url": "https://www.idealo.es/precios/204581803/amd-ryzen-7-9700x.html"
+    },
+    {
+     "title": "Amazon.es · Ryzen 7 9700X",
+     "url": "https://www.amazon.es/dp/B0D6NMDNNX"
     }
    ],
    "tracking": {
@@ -3984,7 +4024,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -4012,16 +4052,16 @@
    "image_query": "AMD Ryzen 5 9600X",
    "name": "AMD Ryzen 5 9600X",
    "store": "PcComponentes",
-   "price": 176.95,
-   "verdict": "pasa",
-   "rank": 4,
+   "price": 167.99,
+   "verdict": "ok",
+   "rank": 3,
    "tags": [
     "AM5",
     "6 núcleos",
     "65 W"
    ],
-   "note": "Precio correcto pero casi igual al de las últimas semanas (solo 4 € menos que su mínimo de 30 días). Si no tienes prisa, no hay motivo para comprar ya.",
-   "info": "Zen 5 de 6 núcleos, buena base para un equipo de juego de gama media. Amazon.es y PcComponentes cuestan lo mismo.",
+   "note": "13 € por debajo del mínimo de 30 días que marcaba PcComponentes (181,05 €). Rebaja pequeña pero real: buen momento para una base AM5 de gama media.",
+   "info": "Zen 5 de 6 núcleos, buena base para un equipo de juego de gama media.",
    "link": "https://www.pccomponentes.com/procesador-amd-ryzen-5-9600x-3-9-5-4ghz",
    "sources": [
     {
@@ -4041,7 +4081,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|9600x3d|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -4060,15 +4100,15 @@
    "image_query": "Intel Core Ultra 5 245K",
    "name": "Intel Core Ultra 5 245K",
    "store": "Amazon.es",
-   "price": 207.8,
-   "verdict": "pasa",
-   "rank": 5,
+   "price": 184.99,
+   "verdict": "ok",
+   "rank": 4,
    "tags": [
     "LGA1851",
     "14 núcleos",
     "sin gráfica potente"
    ],
-   "note": "Precio normal, sin descuento verificable. Las tiendas están entre 204 y 218 €. Para juego, un Ryzen de precio similar rinde igual o más.",
+   "note": "Amazon.es lo vende a 184,99 €: unos 23 € menos que ayer (207,80 €) y casi 19 € menos que el resto de tiendas. Para juego, un Ryzen de precio similar rinde igual o más.",
    "info": "Arrow Lake de 6 núcleos P y 8 E. Exige placa con socket 1851 y memoria DDR5.",
    "link": "https://www.amazon.es/dp/B0DFK2P311",
    "sources": [
@@ -4089,7 +4129,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|245kf"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204911/3/204911341/s11_produktbild_max/intel-core-ultra-5-245k.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -4346,7 +4386,7 @@
    "image_query": "Corsair Vengeance DDR5 64GB 6000 CL30",
    "name": "Corsair Vengeance 64 GB (2×32) DDR5-6000 CL30",
    "store": "Amazon.es",
-   "price": 1406.99,
+   "price": 1299.99,
    "verdict": "no",
    "rank": 7,
    "tags": [
@@ -4354,7 +4394,7 @@
     "DDR5-6000",
     "CL30"
    ],
-   "note": "1.407 € por 64 GB es un precio de escasez. La Vengeance RS de 64 GB de la lista cuesta unos 330 € menos. Compra solo si no puedes esperar.",
+   "note": "1.300 € por 64 GB es un precio de escasez. La Vengeance RS de 64 GB de la lista cuesta unos 220 € menos. Compra solo si no puedes esperar.",
    "info": "Kit de 2×32 GB con latencia CL30, la variante más rápida de la gama Vengeance sin RGB.",
    "link": "https://www.amazon.es/dp/B0C5M7J967",
    "sources": [
@@ -4375,7 +4415,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rgb|cl36|cl40|32\\s?gb\\s*\\("
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203080/0/203080042/s11_produktbild_max/corsair-vengeance-64gb-kit-ddr5-6000-cl30-cmk64gx5m2b6000z30.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "price_text": null,
@@ -5217,8 +5257,8 @@
    "illustration": "phone",
    "image_query": "Google Pixel 10a 128GB",
    "name": "Google Pixel 10a 128 GB",
-   "store": "MediaMarkt",
-   "price": 429,
+   "store": "Amazon.es",
+   "price": 399,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -5227,7 +5267,7 @@
    "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "pasa",
+   "verdict": "ok",
    "rank": 5,
    "tags": [
     "6,3\" pOLED",
@@ -5236,9 +5276,9 @@
     "5.100 mAh"
    ],
    "highlights": [],
-   "note": "429 € es el precio normal en Amazon.es y MediaMarkt. Por 70 € más tienes el Pixel 10, que es mejor compra si puedes estirar.",
+   "note": "Amazon.es lo vende a 399 € (oferta flash): 30 € menos que ayer (429 €) y 50 € menos que MediaMarkt (449 €). Si puedes estirar el presupuesto, mira también el Pixel 10.",
    "info": "Pixel de gama media-alta con pantalla pOLED de 6,3\" y Tensor G4.",
-   "link": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10a-frambuesa-128gb-8gb-ram-63-poled-a-4222-ppp-google-tensor-g4-5100-mah-1619530.html",
+   "link": "https://www.amazon.es/dp/B0GGBVQR16",
    "sources": [
     {
      "title": "MediaMarkt · Pixel 10a",
@@ -5247,9 +5287,21 @@
     {
      "title": "idealo · ficha",
      "url": "https://www.idealo.es/precios/209471909/google-pixel-10a.html"
+    },
+    {
+     "title": "Amazon.es · Pixel 10a 128 GB",
+     "url": "https://www.amazon.es/dp/B0GGBVQR16"
     }
    ],
-   "options": [],
+   "options": [
+    {
+     "store": "MediaMarkt",
+     "price": 449,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-10a-frambuesa-128gb-8gb-ram-63poled-a-4222-ppp-google-tensor-g4-5100-mah-1619530.html",
+     "checked_on": "2026-11-16"
+    }
+   ],
    "tracking": {
     "source": "idealo",
     "product_id": "209471909",
@@ -5258,7 +5310,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209471/9/209471909/s11_produktbild_max/google-pixel-10a.jpg",
-   "checked_on": "2026-11-15"
+   "checked_on": "2026-11-16"
   },
   {
    "id": "apple-iphone-17-256",
