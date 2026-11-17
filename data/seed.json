@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-16",
+ "checked_on": "2026-11-17",
  "sections": [
   {
    "id": "cpu",
@@ -1516,7 +1516,7 @@
      "note": "en stock"
     }
    ],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Fanatec",
     "tipo": "Solo base",
@@ -1568,7 +1568,7 @@
      "note": "base ClubSport DD 15 Nm"
     }
    ],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Fanatec",
     "tipo": "Solo base",
@@ -1872,7 +1872,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208041/2/208041246/s11_produktbild_max/bambu-lab-p2s-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Multicolor"
@@ -1971,7 +1971,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210248/1/210248128/s11_produktbild_max/bambu-lab-x2d-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Multicolor"
@@ -2072,7 +2072,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208669/6/208669695/s11_produktbild_max/bambu-lab-h2c-ams-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Multicolor"
@@ -2120,7 +2120,7 @@
      "note": "distribuidor español de Bambu Lab"
     }
    ],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Multicolor"
@@ -2176,7 +2176,7 @@
      "note": "pedido pendiente (sin stock inmediato)"
     }
    ],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Multicolor"
@@ -2223,7 +2223,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203872/8/203872867/s11_produktbild_max/bambu-lab-a1-mini.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Bambu Lab",
     "color": "Un color"
@@ -4130,7 +4130,16 @@
    "discount_override": null,
    "ends_on": null,
    "highlights": [],
-   "options": [],
+   "options": [
+    {
+     "store": "Neobyte",
+     "price": 144.9,
+     "currency": "€",
+     "url": "https://www.neobyte.es/moza-racing-srp2-pedal-39285.html",
+     "checked_on": "2026-11-17",
+     "note": "más 5,90 € de envío"
+    }
+   ],
    "id": "moza-srp2-pedales",
    "section": "pedales",
    "illustration": "wheel",
@@ -4169,7 +4178,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Moza",
     "freno": "Celda de carga",
@@ -4235,7 +4244,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -4287,7 +4296,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Thrustmaster",
     "freno": "Celda de carga",
@@ -4875,14 +4884,23 @@
    "discount_override": null,
    "ends_on": null,
    "highlights": [],
-   "options": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 681.04,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/procesador-amd-ryzen-9-9950x3d-4-3-5-7ghz-box",
+     "checked_on": "2026-11-17",
+     "note": "envío gratis"
+    }
+   ],
    "id": "amd-ryzen-9-9950x3d",
    "section": "cpu",
    "illustration": "cpu",
    "image_query": "AMD Ryzen 9 9950X3D",
    "name": "AMD Ryzen 9 9950X3D",
-   "store": "PcComponentes",
-   "price": 680.68,
+   "store": "Neobyte",
+   "price": 629.89,
    "verdict": "pasa",
    "rank": 7,
    "tags": [
@@ -4890,9 +4908,9 @@
     "16 núcleos",
     "3D V-Cache"
    ],
-   "note": "Hay tiendas españolas más baratas: idealo muestra ofertas desde unos 620 €. Solo compensa si necesitas 16 núcleos y juego a la vez.",
+   "note": "Neobyte la tiene a 629,89 € (más 5,90 € de envío), unos 50 € por debajo de PcComponentes (681,04 €). Sin rebaja respecto a su precio del año: solo compensa si necesitas 16 núcleos y juego a la vez.",
    "info": "El tope de gama de AMD con 3D V-Cache. Para solo jugar, un 9800X3D rinde casi igual por mucho menos.",
-   "link": "https://www.pccomponentes.com/procesador-amd-ryzen-9-9950x3d-4-3-5-7ghz-box",
+   "link": "https://www.neobyte.es/amd-ryzen-9-9950x3d-procesador-am5-27720.html",
    "sources": [
     {
      "title": "PcComponentes · Ryzen 9 9950X3D",
@@ -4911,7 +4929,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|x3d2|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/2/206095266/s11_produktbild_max/amd-ryzen-9-9950x3d.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "AMD",
     "plataforma": "AMD AM5",
@@ -6036,7 +6054,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Samsung",
     "sistema": "Android",
@@ -6115,8 +6133,8 @@
    "illustration": "phone",
    "image_query": "Apple iPhone 17 256GB",
    "name": "Apple iPhone 17 256 GB",
-   "store": "MediaMarkt",
-   "price": 1029,
+   "store": "Carrefour",
+   "price": 959,
    "price_text": null,
    "currency": "€",
    "reference_price": 1109,
@@ -6133,9 +6151,9 @@
     "256 GB"
    ],
    "highlights": [],
-   "note": "80 € menos que en la tienda de Apple (1.109 €), igual en MediaMarkt y PcComponentes. Rebaja habitual de tienda, no de Black Friday, pero es mejor comprarlo aquí que en Apple.",
+   "note": "Carrefour lo vende él mismo a 959 €: 150 € menos que en Apple (1.109 €) y 70 € menos que en PcComponentes. MediaMarkt ha subido a 1.075 €. Rebaja de tienda, no de Black Friday, pero es el mejor precio con venta directa.",
    "info": "iPhone con pantalla OLED de 6,3\" y chip A19.",
-   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-17-negro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-ios-1606125.html",
+   "link": "https://www.carrefour.es/apple-iphone-17-256-gb-63-pantalla-super-retina-xdr-chip-a19-negro/VC4A-31500615/p",
    "sources": [
     {
      "title": "Apple Store ES · iPhone 17",
@@ -6156,16 +6174,23 @@
      "price": 1029,
      "currency": "€",
      "url": "https://www.pccomponentes.com/apple-iphone-17-256gb-lavanda",
-     "checked_on": "2026-11-15",
-     "note": ""
+     "checked_on": "2026-11-17",
+     "note": "color lavanda"
+    },
+    {
+     "store": "MediaMarkt",
+     "price": 1075,
+     "currency": "€",
+     "url": "https://www.mediamarkt.es/es/product/_apple-iphone-17-negro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-ios-1606125.html",
+     "checked_on": "2026-11-17",
+     "note": "negro"
     },
     {
      "store": "Apple Store ES",
      "price": 1109,
      "currency": "€",
      "url": "https://www.apple.com/es/shop/buy-iphone/iphone-17",
-     "checked_on": "2026-11-15",
-     "note": "precio oficial"
+     "checked_on": "2026-11-15"
     }
    ],
    "tracking": {
@@ -6176,7 +6201,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -6190,7 +6215,7 @@
    "image_query": "Apple iPhone 16 128GB",
    "name": "Apple iPhone 16 128 GB",
    "store": "MediaMarkt",
-   "price": 899,
+   "price": 929,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -6207,7 +6232,7 @@
     "128 GB"
    ],
    "highlights": [],
-   "note": "899 € es caro para un modelo de la generación anterior: en idealo hay tiendas de móviles a 719–779 €, y PcComponentes lo pide 929 €. Por 130 € más tienes el iPhone 17 de 256 GB en MediaMarkt; o espera.",
+   "note": "929 € en MediaMarkt y PcComponentes, y 949 € en Carrefour: caro para un modelo de la generación anterior. Por 30 € más tienes el iPhone 17 de 256 GB en Carrefour; o espera.",
    "info": "iPhone de 2024 con pantalla OLED de 6,1\" y chip A18.",
    "link": "https://www.mediamarkt.es/es/product/_apple-iphone-16-negro-128-gb-5g-61-oled-super-retina-xdr-chip-a18-bionic-ios-1582150.html",
    "sources": [
@@ -6226,7 +6251,15 @@
      "price": 929,
      "currency": "€",
      "url": "https://www.pccomponentes.com/apple-iphone-16-128-gb-negro",
-     "checked_on": "2026-11-15"
+     "checked_on": "2026-11-17"
+    },
+    {
+     "store": "Carrefour",
+     "price": 949,
+     "currency": "€",
+     "url": "https://www.carrefour.es/apple-iphone-16-128gb-5g-negro/VC4A-28490767/p",
+     "checked_on": "2026-11-17",
+     "note": "vendido por Carrefour"
     }
    ],
    "tracking": {
@@ -6237,7 +6270,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -6302,7 +6335,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/201949/7/201949755/s11_produktbild_max/sony-wh-1000xm5.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-17",
    "facets": {
     "uso": "Cancelación de ruido",
     "formato": "Diadema",
@@ -6656,7 +6689,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -7203,7 +7236,7 @@
    "store": "Amazon.es",
    "price": 153.75,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 1,
    "tags": [
     "AM5",
     "ATX",
@@ -7248,23 +7281,23 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B850-Plus WiFi placa base",
    "name": "ASUS Prime B850-Plus WiFi",
    "store": "PcComponentes",
-   "price": 169.99,
-   "verdict": "ok",
-   "rank": 1,
+   "price": 202.95,
+   "verdict": "pasa",
+   "rank": 4,
    "tags": [
     "AM5",
     "ATX",
     "WiFi 6E",
     "3x M.2"
    ],
-   "note": "Buena relación precio/prestaciones para un Ryzen 7000/9000 con WiFi incluido. Es la ATX con WiFi más barata de las que hemos mirado; sin histórico anual no llega a «Comprar».",
+   "note": "Ha subido: PcComponentes pide hoy 202,95 € (la semana pasada estaba a 169,99 €). Sigue siendo una ATX con Wi-Fi sólida para Ryzen 7000/9000, pero ya no hay rebaja que la justifique. Espera a ver si baja.",
    "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
    "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
    "sources": [
@@ -7319,7 +7352,7 @@
    "store": "Amazon.es",
    "price": 173.99,
    "verdict": "ok",
-   "rank": 3,
+   "rank": 2,
    "tags": [
     "AM5",
     "ATX",
@@ -7373,7 +7406,7 @@
    "store": "PcComponentes",
    "price": 154.95,
    "verdict": "ok",
-   "rank": 4,
+   "rank": 3,
    "tags": [
     "LGA1851",
     "Micro-ATX",
@@ -7815,15 +7848,24 @@
    "discount_override": null,
    "ends_on": null,
    "highlights": [],
-   "options": [],
+   "options": [
+    {
+     "store": "PcComponentes",
+     "price": 400.95,
+     "currency": "€",
+     "url": "https://www.pccomponentes.com/nas-de-escritorio-synology-ds225-2-bahias-intel-celeron-j4125-2gb-ddr4-dual-lan-backup-nube",
+     "checked_on": "2026-11-17",
+     "note": "envío gratis"
+    }
+   ],
    "id": "synology-diskstation-ds225-plus",
    "section": "servidores",
    "illustration": "server",
    "image_query": "Synology DiskStation DS225+ NAS",
    "name": "Synology DiskStation DS225+ · 2 bahías",
-   "store": "PcComponentes",
-   "price": 400.95,
-   "verdict": "pasa",
+   "store": "Neobyte",
+   "price": 348.89,
+   "verdict": "ok",
    "rank": 2,
    "tags": [
     "Celeron J4125",
@@ -7831,9 +7873,9 @@
     "2,5 GbE + 1 GbE",
     "DSM"
    ],
-   "note": "Cuesta lo mismo que en octubre (399,95 €). Es el NAS más cómodo de usar, pero con un procesador de 2019 y 2 GB de RAM. En idealo hay tiendas pequeñas desde ~354 €: si te fías, ahí está el ahorro. Sin discos.",
+   "note": "Neobyte lo tiene a 348,89 € (más 5,90 € de envío), unos 50 € menos que PcComponentes (400,95 €) y por debajo del mínimo de octubre (399,95 €). Sigue con un procesador de 2019 y 2 GB de RAM, pero a este precio es una buena opción. Sin discos.",
    "info": "Celeron J4125 de 4 núcleos, 2 GB DDR4 ampliable, 2,5 GbE y 1 GbE. Con DSM 7.3 admite discos de otras marcas, con matices.",
-   "link": "https://www.pccomponentes.com/nas-de-escritorio-synology-ds225-2-bahias-intel-celeron-j4125-2gb-ddr4-dual-lan-backup-nube",
+   "link": "https://www.neobyte.es/synology-diskstation-ds225-2-bahias-servidor-nas-30258.html",
    "sources": [
     {
      "title": "PcComponentes · Synology DS225+",
@@ -7861,7 +7903,7 @@
     "bahias": "2 bahías",
     "marca": "Synology"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-17"
   },
   {
    "price_text": null,
@@ -8080,7 +8122,7 @@
     "protocolo": "Matter",
     "marca": "Shelly"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-17"
   },
   {
    "price_text": null,
@@ -8274,7 +8316,7 @@
     "bahias": "2 bahías",
     "marca": "Synology"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-17"
   },
   {
    "id": "simagic-p500-pedales",
@@ -8597,7 +8639,7 @@
      "note": "vendido y enviado por PcComponentes"
     }
    ],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Next Level Racing",
@@ -8650,7 +8692,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Wheel Stand Pro",
@@ -9541,7 +9583,7 @@
     "sistema": "iPadOS",
     "marca": "Apple"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "image_url": "https://cdn.idealo.com/folder/Product/206023/4/206023475/s11_produktbild_max/apple-ipad-128gb-wifi-azul-2025.jpg"
   },
   {
@@ -9595,7 +9637,7 @@
     "sistema": "Android",
     "marca": "Samsung"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "image_url": "https://cdn.idealo.com/folder/Product/206193/2/206193285/s11_produktbild_max/samsung-galaxy-tab-s10-fe.jpg"
   },
   {
@@ -10027,7 +10069,7 @@
     "protocolo": "Thread",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-17",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   },
   {
