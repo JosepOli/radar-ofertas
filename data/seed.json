@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-17",
+ "checked_on": "2026-11-18",
  "sections": [
   {
    "id": "cpu",
@@ -871,8 +871,8 @@
    "illustration": "robot",
    "image_query": "Dreame Aqua10 Ultra Roller Complete",
    "name": "Dreame Aqua10 Ultra Roller Complete",
-   "store": "Mi Electro",
-   "price": 575,
+   "store": "Dreame ES (tienda oficial)",
+   "price": 649,
    "price_text": null,
    "currency": "€",
    "reference_price": 1099,
@@ -888,12 +888,10 @@
     "30.000 Pa",
     "HA vía HACS"
    ],
-   "highlights": [
-    "mín. histórico"
-   ],
-   "note": "Si prefieres fregado con rodillo en lugar de mopas giratorias. Oferta de tienda, puede acabarse sin aviso.",
-   "info": "Rodillo de fregado que se limpia con agua limpia en tiempo real. La campaña oficial de Dreame lo deja en 649 € hasta el 30/11; Mi Electro lo tenía a 575 €.",
-   "link": "https://www.chollometro.com/2013462",
+   "highlights": [],
+   "note": "Si prefieres fregado con rodillo en lugar de mopas giratorias. 649 € es un buen precio frente a los 799 € que costaba en verano, pero ya no es el mínimo de la semana pasada.",
+   "info": "Rodillo de fregado que se limpia con agua limpia en tiempo real. La campaña oficial de Dreame lo deja en 649 € (precio de lista 1.199 €). Mi Electro lo tuvo a 575 € y hoy ya lo vende a 649 €.",
+   "link": "https://es.dreametech.com/products/robot-aspirador-aqua10-ultra-roller-complete",
    "sources": [
     {
      "title": "Chollometro · Aqua10 a 575 €",
@@ -902,6 +900,10 @@
     {
      "title": "Droidpanic · Black Friday Dreame",
      "url": "https://droidpanic.com/ofertas-black-friday-dreame-2026/"
+    },
+    {
+     "title": "Dreame ES · Aqua10 Ultra Roller Complete",
+     "url": "https://es.dreametech.com/products/robot-aspirador-aqua10-ultra-roller-complete"
     }
    ],
    "tracking": {
@@ -913,7 +915,7 @@
    },
    "image_url": "https://cdn.idealo.com/images/product/207702195/es_ES/0/max.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Dreame",
     "base": "Vacía y lava mopas",
@@ -1885,30 +1887,34 @@
    "image_query": "Elegoo Centauri Carbon 2 Combo",
    "name": "Elegoo Centauri Carbon 2 Combo",
    "store": "Elegoo EU",
-   "price": 359,
+   "price": 399,
    "price_text": null,
    "currency": "€",
-   "reference_price": null,
-   "reference_label": "precio habitual",
+   "reference_price": 439,
+   "reference_label": "precio de lista Elegoo",
    "annual_low": null,
    "annual_low_note": "−18 % según Elegoo",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
-   "rank": 2,
+   "verdict": "pasa",
+   "rank": 3,
    "tags": [
     "cerrada",
     "multicolor",
     "350 °C"
    ],
    "highlights": [],
-   "note": "La segunda máquina barata para producción si no quieres otra Bambu.",
+   "note": "Elegoo EU lo tiene hoy a 399 € (lista 439 €), más que los 359 € que anotamos antes. Idealo lista tiendas más baratas (desde unos 326 €) que no hemos podido verificar. Sin mínimo anual, descuento corto: compara antes de comprar.",
    "info": "CoreXY cerrada con boquilla de 350 °C y sistema multicolor.",
-   "link": "https://3dprinting.com/black-friday-sale/",
+   "link": "https://eu.elegoo.com/products/centauri-carbon-2-combo",
    "sources": [
     {
      "title": "3DPrinting.com · BF impresoras",
      "url": "https://3dprinting.com/black-friday-sale/"
+    },
+    {
+     "title": "Elegoo EU · Centauri Carbon 2 Combo",
+     "url": "https://eu.elegoo.com/products/centauri-carbon-2-combo"
     }
    ],
    "tracking": {
@@ -1920,7 +1926,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209249/9/209249988/s11_produktbild_max/elegoo-centauri-carbon-2-combo.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Elegoo",
     "color": "Multicolor"
@@ -1983,14 +1989,14 @@
    "illustration": "printer",
    "image_query": "Snapmaker U1 3D printer",
    "name": "Snapmaker U1 (cambiador de herramientas)",
-   "store": "Snapmaker EE. UU.",
+   "store": "3DJake España",
    "price": 699,
    "price_text": null,
-   "currency": "$",
-   "reference_price": 999,
+   "currency": "€",
+   "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": null,
-   "annual_low_note": "−300 $",
+   "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
@@ -2000,9 +2006,9 @@
     "multicolor sin purga"
    ],
    "highlights": [],
-   "note": "Interesante para multicolor sin desperdicio. Precio de EE. UU.: verifica la tienda europea.",
+   "note": "699 € en 3DJake España, con envío a España y en stock. Cambia de herramienta en segundos para multicolor sin purga. Sin histórico de precio en Europa no se puede hablar de chollo.",
    "info": "Cambia de herramienta en unos 5 segundos.",
-   "link": "https://us.snapmaker.com/pages/snapmaker-black-friday-sale",
+   "link": "https://www.3djake.es/snapmaker/u1",
    "sources": [
     {
      "title": "Snapmaker · Black Friday",
@@ -2011,6 +2017,10 @@
     {
      "title": "3DPrinting.com · BF impresoras",
      "url": "https://3dprinting.com/black-friday-sale/"
+    },
+    {
+     "title": "3DJake España · Snapmaker U1",
+     "url": "https://www.3djake.es/snapmaker/u1"
     }
    ],
    "tracking": {
@@ -2022,7 +2032,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208466/6/208466677/s11_produktbild_max/snapmaker-u1.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Snapmaker",
     "color": "Multicolor"
@@ -2235,8 +2245,8 @@
    "illustration": "vr",
    "image_query": "Meta Quest 3 512GB headset",
    "name": "Meta Quest 3 512 GB",
-   "store": "AliExpress (envío desde España)",
-   "price": 418,
+   "store": "PcComponentes",
+   "price": 629.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 549.99,
@@ -2245,20 +2255,24 @@
    "annual_low_note": "418 € en mayo; BF 2026 aún sin precio",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
-   "rank": 1,
+   "verdict": "no",
+   "rank": 2,
    "tags": [
     "lentes pancake",
     "realidad mixta"
    ],
    "highlights": [],
-   "note": "El salto lógico desde una Quest 2 para PC VR. Espera a ver si Amazon iguala ese precio la semana del 27/11.",
-   "info": "En España ha estado varias veces sobre 418–430 € en AliExpress con envío desde España. Meta no anuncia sus precios de Black Friday por adelantado.",
-   "link": "https://www.chollometro.com/categorias/meta-quest-3",
+   "note": "Hoy está más caro que su precio habitual (549,99 €) y que el mínimo de mayo (418 €). No compres ahora: espera a ver si Amazon o Meta lo rebajan en la semana del 27/11.",
+   "info": "El 418 € de AliExpress fue de mayo y ya no está disponible. Hoy: 629,99 € en PcComponentes; idealo muestra 619 € en Amazon.es y MediaMarkt.",
+   "link": "https://www.pccomponentes.com/meta-quest-3-gafas-de-realidad-virtual-512gb",
    "sources": [
     {
      "title": "Chollometro · Meta Quest 3",
      "url": "https://www.chollometro.com/categorias/meta-quest-3"
+    },
+    {
+     "title": "PcComponentes · Meta Quest 3 512 GB",
+     "url": "https://www.pccomponentes.com/meta-quest-3-gafas-de-realidad-virtual-512gb"
     }
    ],
    "tracking": {
@@ -2270,7 +2284,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203284/3/203284363/s11_produktbild_max/meta-quest-3-512gb.jpg",
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Meta",
     "estado": "Nueva",
@@ -2417,7 +2431,7 @@
      "price": 261.64,
      "currency": "€",
      "url": "https://www.pccomponentes.com/toshiba-mg07aca14te-35-14tb-sata",
-     "checked_on": "2026-11-15",
+     "checked_on": "2026-11-18",
      "note": "sin stock hoy"
     }
    ],
@@ -2563,7 +2577,7 @@
      "price": 328.64,
      "currency": "€",
      "url": "https://www.pccomponentes.com/seagate-exos-x10-35-10tb-sata3",
-     "checked_on": "2026-11-15",
+     "checked_on": "2026-11-18",
      "note": "sin stock hoy"
     }
    ],
@@ -4136,8 +4150,8 @@
      "price": 144.9,
      "currency": "€",
      "url": "https://www.neobyte.es/moza-racing-srp2-pedal-39285.html",
-     "checked_on": "2026-11-17",
-     "note": "más 5,90 € de envío"
+     "checked_on": "2026-11-18",
+     "note": "más envío"
     }
    ],
    "id": "moza-srp2-pedales",
@@ -4244,7 +4258,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -4296,7 +4310,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Thrustmaster",
     "freno": "Celda de carga",
@@ -4331,7 +4345,7 @@
    "annual_low": 379,
    "annual_low_note": "379 € en la tienda oficial el 7/10 (Criterio Tech)",
    "verdict": "ok",
-   "rank": 3,
+   "rank": 2,
    "tags": [
     "cerrada",
     "CoreXY",
@@ -4501,7 +4515,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "ok",
-   "rank": 2,
+   "rank": 1,
    "tags": [
     "OLED 4K",
     "seguimiento interior",
@@ -6054,7 +6068,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Samsung",
     "sistema": "Android",
@@ -6270,7 +6284,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -6689,7 +6703,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -6909,7 +6923,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-18",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -7281,15 +7295,15 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B850-Plus WiFi placa base",
    "name": "ASUS Prime B850-Plus WiFi",
    "store": "PcComponentes",
-   "price": 202.95,
-   "verdict": "pasa",
+   "price": 169.99,
+   "verdict": "ok",
    "rank": 4,
    "tags": [
     "AM5",
@@ -7297,7 +7311,7 @@
     "WiFi 6E",
     "3x M.2"
    ],
-   "note": "Ha subido: PcComponentes pide hoy 202,95 € (la semana pasada estaba a 169,99 €). Sigue siendo una ATX con Wi-Fi sólida para Ryzen 7000/9000, pero ya no hay rebaja que la justifique. Espera a ver si baja.",
+   "note": "PcComponentes vuelve a 169,99 € (ayer marcaba 202,95 €) y Amazon.es aparece igual en idealo. El precio sube y baja de un día a otro, así que mira que siga así al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
    "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
    "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
    "sources": [
@@ -8122,7 +8136,7 @@
     "protocolo": "Matter",
     "marca": "Shelly"
    },
-   "checked_on": "2026-11-17"
+   "checked_on": "2026-11-18"
   },
   {
    "price_text": null,
@@ -8316,7 +8330,7 @@
     "bahias": "2 bahías",
     "marca": "Synology"
    },
-   "checked_on": "2026-11-17"
+   "checked_on": "2026-11-18"
   },
   {
    "id": "simagic-p500-pedales",
@@ -8639,7 +8653,7 @@
      "note": "vendido y enviado por PcComponentes"
     }
    ],
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Next Level Racing",
@@ -8692,7 +8706,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Wheel Stand Pro",
@@ -8935,7 +8949,7 @@
    "image_query": "Thrustmaster T598 PS5 PC",
    "name": "Thrustmaster T598 (PS5/PC)",
    "store": "Simufy",
-   "price": 399.99,
+   "price": 449.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 453.99,
@@ -8952,7 +8966,7 @@
     "3 pedales"
    ],
    "highlights": [],
-   "note": "399,99 € en Simufy, 54 € menos que Amazon.es, pero por ese dinero el bundle Moza R9 o el R5 Pro dan más par o igual por menos. Solo si quieres ecosistema Thrustmaster.",
+   "note": "Simufy ha subido a 449,99 € (ayer 399,99 €); idealo muestra Amazon.es a 453,99 €. Ya no hay ventaja de precio. Por ese dinero el bundle Moza R9 o el R5 Pro dan más par o igual por menos. Solo si quieres ecosistema Thrustmaster.",
    "info": "Base direct axial drive de 5 Nm con volante de 28 cm y pedales magnéticos, para PlayStation y PC.",
    "link": "https://simufy.com/products/t598-playstation-pc",
    "sources": [
@@ -8966,7 +8980,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-18",
    "facets": {
     "marca": "Thrustmaster",
     "tipo": "Kit completo",
@@ -9583,7 +9597,7 @@
     "sistema": "iPadOS",
     "marca": "Apple"
    },
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "image_url": "https://cdn.idealo.com/folder/Product/206023/4/206023475/s11_produktbild_max/apple-ipad-128gb-wifi-azul-2025.jpg"
   },
   {
@@ -9637,7 +9651,7 @@
     "sistema": "Android",
     "marca": "Samsung"
    },
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "image_url": "https://cdn.idealo.com/folder/Product/206193/2/206193285/s11_produktbild_max/samsung-galaxy-tab-s10-fe.jpg"
   },
   {
@@ -10035,7 +10049,7 @@
    "image_query": "Aqara Sensor de Puerta y Ventana P2",
    "name": "Aqara Sensor de Puerta y Ventana P2 · Matter sobre Thread",
    "store": "PcComponentes",
-   "price": 29.99,
+   "price": 28.09,
    "verdict": "pasa",
    "rank": 10,
    "tags": [
@@ -10044,7 +10058,7 @@
     "Matter",
     "Pila CR1632"
    ],
-   "note": "29,99 € en PcComponentes. En idealo hay tiendas que lo ofrecen por menos (desde unos 27 €, algunas de fuera de España). Sin histórico, no es un chollo; sirve solo si ya tienes un hub Thread/Matter.",
+   "note": "28,09 € en PcComponentes más 3,95 € de envío (32,04 € en total), el mejor precio que muestra idealo hoy. Sin histórico no es un chollo comprobado; sirve solo si ya tienes un hub Thread/Matter.",
    "info": "Sensor de apertura que funciona como sensor de Matter sobre Thread. Necesita un border router Thread (HomePod, Echo, hub compatible).",
    "link": "https://www.pccomponentes.com/aqara-p2-sensor-de-puerta-y-ventana-inalambrico-blanco",
    "sources": [
@@ -10069,7 +10083,7 @@
     "protocolo": "Thread",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-18",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   },
   {
