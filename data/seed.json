@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-18",
+ "checked_on": "2026-11-19",
  "sections": [
   {
    "id": "cpu",
@@ -3968,19 +3968,19 @@
    "image_query": "Dreame D30 Ultra robot",
    "name": "Dreame D30 Ultra",
    "store": "MediaMarkt",
-   "price": 289,
+   "price": 339,
    "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
-   "verdict": "ok",
-   "rank": 7,
+   "verdict": "pasa",
+   "rank": 9,
    "tags": [
     "25.000 Pa",
     "230 min",
     "base con autolimpieza"
    ],
-   "note": "289 € en MediaMarkt (PcComponentes lo anuncia igual en idealo, pero en su listado de marca aparece a 399 €); el resto, desde 454 €. Sin histórico no es «Comprar». Frente al Qrevo 2 Pro de la lista (299 €, también 25.000 Pa) la diferencia es mínima.",
+   "note": "MediaMarkt ha subido a 339 € (ayer 289 €). Dreame lo vende a 399 €. Idealo muestra PcComponentes a 289 €, pero no hemos podido verificarlo en su ficha. Sin histórico y con el Qrevo 2 Pro de la lista más barato, ya no destaca.",
    "info": "Robot aspirador y friegasuelos con 25.000 Pa, 230 min de autonomía y 37 dB(A). Versión blanca.",
    "link": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-d30-ultra-230-min-autonomia-37-dba-succion-25000-pa-blanco-1625532.html",
    "sources": [
@@ -4001,7 +4001,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|staubbeutel|negro|black"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Dreame",
     "base": "Vacía y lava mopas",
@@ -4192,7 +4192,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Moza",
     "freno": "Celda de carga",
@@ -4258,7 +4258,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -4441,7 +4441,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|hotend|kit|boquilla"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/213343/0/213343026/s11_produktbild_max/anycubic-kobra-s1-ace-2-pro-combo.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Anycubic",
     "color": "Multicolor"
@@ -5346,15 +5346,15 @@
    "image_query": "Lenovo LOQ Essential 15ARP11 RTX 5050",
    "name": "Lenovo LOQ Essential 15ARP11 · RTX 5050",
    "store": "MediaMarkt",
-   "price": 929,
-   "verdict": "ok",
-   "rank": 1,
+   "price": 1069,
+   "verdict": "pasa",
+   "rank": 2,
    "tags": [
     "RTX 5050",
     "Ryzen 7 170",
     "16 GB / 512 GB"
    ],
-   "note": "Es la mejor opción de gaming de la lista: 90 € menos que el HP Victus con la misma gráfica. Otras tiendas lo tienen más caro (desde unos 1.000 €). Viene sin sistema operativo.",
+   "note": "MediaMarkt ha subido a 1.069 € (ayer 929 €). Con ese precio ya no gana al HP Victus de la lista con la misma gráfica. Otras tiendas lo tienen desde unos 950 €. Viene sin sistema operativo.",
    "info": "Portátil gaming de 15,6\" Full HD con Ryzen 7 170, RTX 5050, 16 GB de RAM y 512 GB de SSD.",
    "link": "https://www.mediamarkt.es/es/product/_portatil-gaming-lenovo-loq-essential-15arp11-156-full-hd-amd-ryzentm-7-170-16gb-ram-512gb-ssd-geforce-rtxtm-5050-sin-sistema-operativo-gris-1625749.html",
    "sources": [
@@ -5375,7 +5375,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-19",
    "facets": {
     "uso": "Gaming",
     "marca": "Lenovo",
@@ -5401,7 +5401,7 @@
    "store": "MediaMarkt",
    "price": 479,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 1,
    "tags": [
     "Ryzen 7 7840HS",
     "Radeon 780M",
@@ -5575,7 +5575,7 @@
    "image_query": "Lenovo IdeaPad Slim 3 15AMN8",
    "name": "Lenovo IdeaPad Slim 3 15AMN8 · Ryzen 5 7520U",
    "store": "MediaMarkt",
-   "price": 529,
+   "price": 625,
    "verdict": "no",
    "rank": 5,
    "tags": [
@@ -5583,7 +5583,7 @@
     "16 GB / 512 GB",
     "sin cargador"
    ],
-   "note": "Se vende sin cargador y sin sistema operativo. Por 50 € menos, el ASUS Vivobook de la lista lleva un Ryzen 7 mucho más potente. Mejor otra opción.",
+   "note": "MediaMarkt lo ha subido a 625 € (ayer 529 €). Se vende sin cargador y sin sistema operativo. Hay portátiles con Ryzen 7 por menos de 600 €. Mejor otra opción.",
    "info": "Portátil básico de 15,6\" Full HD con Ryzen 5 7520U, 16 GB de RAM y 512 GB de SSD.",
    "link": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15amn8-156-full-hd-amd-ryzentm-5-7520u-16gb-ram-512gb-ssd-radeontm-610m-sin-sistema-operativo-sin-cargador-1625754.html",
    "sources": [
@@ -5604,7 +5604,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-19",
    "facets": {
     "uso": "Diario",
     "marca": "Lenovo",
@@ -6068,7 +6068,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|funda|protector|enterprise"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206014/2/206014246/s11_produktbild_max/samsung-galaxy-a56.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Samsung",
     "sistema": "Android",
@@ -6703,7 +6703,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -6923,7 +6923,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|stand|superstrike|teclado|rat[oó]n"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202801/7/202801715/s11_produktbild_max/logitech-g-pro-x-2-lightspeed.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -6949,7 +6949,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "ok",
-   "rank": 8,
+   "rank": 7,
    "tags": [
     "15.000 Pa",
     "LiDAR",
@@ -7051,7 +7051,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 9,
+   "rank": 8,
    "tags": [
     "10.000 Pa",
     "autovaciado 4 L",
@@ -8291,7 +8291,7 @@
    "image_query": "Synology DiskStation DS224+ NAS",
    "name": "Synology DiskStation DS224+ · 2 bahías",
    "store": "PcComponentes",
-   "price": 464.89,
+   "price": 464.64,
    "verdict": "no",
    "rank": 6,
    "tags": [
@@ -8330,7 +8330,7 @@
     "bahias": "2 bahías",
     "marca": "Synology"
    },
-   "checked_on": "2026-11-18"
+   "checked_on": "2026-11-19"
   },
   {
    "id": "simagic-p500-pedales",
@@ -8980,7 +8980,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "facets": {
     "marca": "Thrustmaster",
     "tipo": "Kit completo",
@@ -9170,7 +9170,7 @@
    "image_query": "Logitech MX Keys S teclado",
    "name": "Logitech MX Keys S",
    "store": "Amazon.es (vendido por Amazon)",
-   "price": 79.99,
+   "price": 93.9,
    "price_text": null,
    "currency": "€",
    "reference_price": 119.99,
@@ -9179,7 +9179,7 @@
    "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
+   "verdict": "pasa",
    "rank": 4,
    "tags": [
     "perfil bajo",
@@ -9187,7 +9187,7 @@
     "retroiluminado"
    ],
    "highlights": [],
-   "note": "Teclado de oficina cómodo y silencioso. 80 € es razonable frente a los 99 € que muestra idealo, pero no hay histórico para hablar de mínimo.",
+   "note": "Amazon.es lo vende hoy a 93,90 €, no a 80 €. Teclado de oficina cómodo y silencioso, pero a este precio no hay rebaja real y no hay histórico para hablar de mínimo.",
    "info": "Teclado inalámbrico de perfil bajo con teclas esféricas, retroiluminación y conexión multidispositivo. Distribución QWERTY español en esta ficha.",
    "link": "https://www.amazon.es/dp/B07W6JPM9R",
    "sources": [
@@ -9209,7 +9209,7 @@
     "exclude_regex": "combo|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202831/5/202831589/s11_produktbild_max/logitech-mx-keys-s.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-19",
    "facets": {
     "tipo": "Teclado",
     "conexion": "Inalámbrico",
@@ -9223,7 +9223,7 @@
    "image_query": "Razer BlackWidow V4 X teclado",
    "name": "Razer BlackWidow V4 X",
    "store": "Amazon.es (vendido por Amazon)",
-   "price": 112.99,
+   "price": 99.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -9240,7 +9240,7 @@
     "Chroma RGB"
    ],
    "highlights": [],
-   "note": "Teclado mecánico completo, pero 113 € es su precio habitual en tiendas y no hay rebaja real. Existen alternativas más baratas de otras marcas.",
+   "note": "Amazon.es lo tiene hoy a 99,99 €. Teclado mecánico completo, pero es su precio habitual y no hay rebaja real. Existen alternativas más baratas de otras marcas.",
    "info": "Teclado mecánico con cable y switches Razer Yellow, seis teclas macro, reposamuñecas magnético y RGB por tecla. Distribución española.",
    "link": "https://www.amazon.es/dp/B0C6MTPKQ1",
    "sources": [
@@ -9262,7 +9262,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|b-stock|refurb|accesorio|pokémon|minecraft"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203041/3/203041355/s11_produktbild_max/razer-blackwidow-v4-x.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-19",
    "facets": {
     "tipo": "Teclado",
     "conexion": "Con cable",
@@ -9617,7 +9617,7 @@
    "image_query": "Samsung Galaxy Tab S10 FE 128 GB Wi-Fi",
    "name": "Samsung Galaxy Tab S10 FE · 10,9\" · 8/128 GB · Wi-Fi",
    "store": "MediaMarkt",
-   "price": 485,
+   "price": 569,
    "verdict": "no",
    "rank": 4,
    "tags": [
@@ -9626,7 +9626,7 @@
     "S Pen incluido",
     "Wi-Fi"
    ],
-   "note": "485 € en MediaMarkt, pero idealo la lista desde unos 405 € en otras tiendas. El tachado de 628 € no refleja lo que se ha pagado de verdad: mira primero las otras tiendas.",
+   "note": "MediaMarkt lo tiene hoy a 569 €, bastante más que los 485 € anteriores. Idealo lo lista desde unos 405 € en otras tiendas. El tachado de 628 € no refleja lo que se ha pagado de verdad: mira primero las otras tiendas.",
    "info": "Tablet Android de gama alta-media con S Pen en la caja, pantalla de 10,9\" y 8 GB de RAM. Versión gris solo Wi-Fi.",
    "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s10-fe-109-wuxga-8-gb-ram-128-gb-gris-sin-adaptador-de-corriente-con-s-pen-1596717.html",
    "sources": [
@@ -9651,7 +9651,7 @@
     "sistema": "Android",
     "marca": "Samsung"
    },
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-19",
    "image_url": "https://cdn.idealo.com/folder/Product/206193/2/206193285/s11_produktbild_max/samsung-galaxy-tab-s10-fe.jpg"
   },
   {
@@ -9678,7 +9678,7 @@
    "illustration": "phone",
    "image_query": "Amazon Kindle Paperwhite 2024 16 GB",
    "name": "Amazon Kindle Paperwhite (2024) · 7\" · 16 GB · con publicidad",
-   "store": "MediaMarkt",
+   "store": "Amazon.es",
    "price": 144,
    "verdict": "ok",
    "rank": 1,
@@ -9688,9 +9688,9 @@
     "Resistente al agua",
     "Semanas de batería"
    ],
-   "note": "144 € en MediaMarkt y el mismo precio en Amazon.es según idealo. Es el precio al que se encuentra de forma estable; no hay histórico para llamarlo mínimo. Buen lector si lees en Kindle; la versión sin publicidad cuesta más.",
+   "note": "144 € en Amazon.es. MediaMarkt ha subido a 175 €, así que Amazon pasa a ser la referencia. Es el precio al que se encuentra de forma estable; sin histórico no se puede llamar mínimo. La versión sin publicidad cuesta más.",
    "info": "Pantalla de 7\" sin reflejos, luz regulable, resistencia al agua IPX8 y carga USB-C. Versión con publicidad en la pantalla de bloqueo.",
-   "link": "https://www.mediamarkt.es/es/product/_ebook-amazon-kindle-paperwhite-7-16-gb-300-ppi-con-publicidad-sin-reflejos-autonomia-de-semanas-negro-1583589.html",
+   "link": "https://www.amazon.es/dp/B0CFPR32B1",
    "sources": [
     {
      "title": "MediaMarkt · Kindle Paperwhite 16 GB",
@@ -9713,7 +9713,7 @@
     "sistema": "Kindle",
     "marca": "Amazon"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-19",
    "image_url": "https://cdn.idealo.com/folder/Product/204949/8/204949888/s11_produktbild_max/amazon-kindle-paperwhite-2024.jpg"
   },
   {
