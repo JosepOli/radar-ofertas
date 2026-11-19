@@ -456,6 +456,26 @@
     }
    ],
    "group": "ocio"
+  },
+  {
+   "id": "aspiradoras",
+   "group": "hogar",
+   "title": "Aspiradoras",
+   "intro": "Escobas sin cable, aspiradoras que también friegan y de mano. Dyson baja mucho en Black Friday, pero sus PVP no son referencia: compara con lo que han costado este año.",
+   "filters": [
+    {
+     "key": "marca",
+     "label": "Marca"
+    },
+    {
+     "key": "tipo",
+     "label": "Tipo"
+    },
+    {
+     "key": "autonomia",
+     "label": "Autonomía"
+    }
+   ]
   }
  ],
  "fx_to_eur": {
@@ -10572,6 +10592,375 @@
     "marca": "SimXPro"
    },
    "checked_on": "2026-11-16"
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-v8-cyclone-motorbar",
+   "image_query": "Dyson V8 Cyclone aspiradora sin cable",
+   "name": "Dyson V8 Cyclone (Negro/Verde, Motorbar)",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 249,
+   "reference_price": 399,
+   "annual_low": 245.65,
+   "annual_low_note": "245,65 € El Corte Inglés (ago.-sep.), chollo.es",
+   "ends_on": "2026-12-07",
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "150 AW",
+    "hasta 60 min",
+    "2,2 kg"
+   ],
+   "note": "Buen precio de entrada, pero en septiembre estuvo 4 € más barata en El Corte Inglés. Si no te corre prisa, vigila si baja a 245 €.",
+   "info": "Escoba sin cable con cabezal Motorbar. Cubo de 0,54 L y filtro lavable. Es la Dyson más básica de la sección.",
+   "link": "https://www.dyson.es/aspiradoras/sin-cable/v8-cyclone/motorbar",
+   "sources": [
+    {
+     "title": "Dyson ES · V8 Cyclone",
+     "url": "https://www.dyson.es/aspiradoras/sin-cable/v8-cyclone/motorbar"
+    },
+    {
+     "title": "Chollo.es · V8 Cyclone 245,65 € El Corte Inglés",
+     "url": "https://www.chollo.es/elcorteingles/aspirador-de-escoba-recargable-dyson-v8-cyclone-26-por-24565eur-1271918"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207771815",
+    "url": "https://www.idealo.es/precios/207771815/dyson-226587-01.html",
+    "include_regex": "v8\\s+cyclone",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207771/8/207771815/s11_produktbild_max/dyson-226587-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Escoba sin cable",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-v10-konical",
+   "image_query": "Dyson V10 Konical aspiradora sin cable",
+   "name": "Dyson V10 Konical (Negro/Cobre)",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 349,
+   "reference_price": 499,
+   "annual_low": 329.75,
+   "annual_low_note": "329,75 € MediaMarkt (ago.), chollo.es",
+   "ends_on": "2026-12-07",
+   "verdict": "pasa",
+   "rank": 6,
+   "tags": [
+    "150 AW",
+    "hasta 60 min",
+    "cabezal cónico"
+   ],
+   "note": "Descuento cosmético: en agosto costó 329,75 € en MediaMarkt. No hay prisa; hoy Carrefour la vende al mismo precio.",
+   "info": "Escoba con cabezal All Floor Cones que desenreda el pelo. Cubo de 0,54 L y pantalla de modo y autonomía.",
+   "link": "https://www.dyson.es/aspiradoras/sin-cable/v10-konical/negro-cobre",
+   "sources": [
+    {
+     "title": "Dyson ES · V10 Konical",
+     "url": "https://www.dyson.es/aspiradoras/sin-cable/v10-konical/negro-cobre"
+    },
+    {
+     "title": "Chollo.es · V10 Konical 329,75 € MediaMarkt",
+     "url": "https://www.chollo.es/mediamarkt/aspirador-escoba-dyson-v10-konical-por-32975eur-en-mediamarkt-1269899"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210296462",
+    "url": "https://www.idealo.es/precios/210296462/dyson-v10-konical-419634-01.html",
+    "include_regex": "v10\\s+konical",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210296/4/210296462/s11_produktbild_max/dyson-v10-konical-419634-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Escoba sin cable",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [
+    "base de carga de regalo"
+   ],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-v15-detect-absolute-2026",
+   "image_query": "Dyson V15 Detect Absolute aspiradora sin cable",
+   "name": "Dyson V15 Detect Absolute (amarillo/níquel) + base de carga",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 539,
+   "reference_price": 799,
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "ends_on": "2026-12-07",
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "240 AW",
+    "hasta 60 min",
+    "láser y sensor de polvo"
+   ],
+   "note": "La V15 Detect Absolute al mejor precio que hemos visto hoy, y con una base de carga de regalo hasta el 22/11. Sin histórico anual fiable, así que no la marcamos como mínimo.",
+   "info": "Escoba tope de la gama V15 con láser que ilumina el polvo y sensor de partículas. Cubo de 0,77 L y 3,1 kg.",
+   "link": "https://www.dyson.es/aspiradoras/sin-cable/v15/detect-amarillo-niquel",
+   "sources": [
+    {
+     "title": "Dyson ES · V15 Detect Absolute",
+     "url": "https://www.dyson.es/aspiradoras/sin-cable/v15/detect-amarillo-niquel"
+    },
+    {
+     "title": "Soydechollos · Black Friday Dyson (precios y fechas)",
+     "url": "https://soydechollos.com/eventos/black-friday/dyson"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "212246371",
+    "url": "https://www.idealo.es/precios/212246371/dyson-v15-detect-absolute-2026.html",
+    "include_regex": "v15\\s+detect.*absolute",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/212246/3/212246371/s11_produktbild_max/dyson-v15-detect-absolute-2026.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Escoba sin cable",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-v12s-detect-slim-submarine",
+   "image_query": "Dyson V12s Detect Slim Submarine aspiradora fregona",
+   "name": "Dyson V12s Detect Slim Submarine (amarillo/níquel)",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 448.99,
+   "reference_price": 719,
+   "annual_low": 426.55,
+   "annual_low_note": "426,55 € Dyson ES con cupón (oct.), chollo.es",
+   "ends_on": "2026-12-07",
+   "verdict": "pasa",
+   "rank": 7,
+   "tags": [
+    "aspira y friega",
+    "hasta 60 min",
+    "3,1 kg"
+   ],
+   "note": "Rebaja de 270 € sobre el PVP, pero en octubre estuvo a 426,55 € en la propia Dyson. Hoy no es el mejor precio del año.",
+   "info": "Escoba 3 en 1 con cabezal Submarine que friega suelos duros. Cubo de 0,35 L. Dyson añade un Probiotic de regalo.",
+   "link": "https://www.dyson.es/aspiradoras/aspiradora-fregona/v12s-detect-slim-submarine/amarillo-niquel-motorbar",
+   "sources": [
+    {
+     "title": "Dyson ES · V12s Detect Slim Submarine",
+     "url": "https://www.dyson.es/aspiradoras/aspiradora-fregona/v12s-detect-slim-submarine/amarillo-niquel-motorbar"
+    },
+    {
+     "title": "Chollo.es · V12s Slim Submarine 426,55 €",
+     "url": "https://www.chollo.es/dyson/aspiradora-sin-cable-dyson-v12s-slim-submarine-140aw-por-42655eur-1288739"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208051987",
+    "url": "https://www.idealo.es/precios/208051987/dyson-v12-detect-submarine-slim-485350-01.html",
+    "include_regex": "v12s?\\s+(detect\\s+)?(slim\\s+)?submarine",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208051/9/208051987/s11_produktbild_max/dyson-v12-detect-submarine-slim-485350-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Aspira y friega",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-v16-piston-animal-submarine",
+   "image_query": "Dyson V16 Piston Animal Submarine aspiradora fregona",
+   "name": "Dyson V16 Piston Animal Submarine (negro mate/cobre)",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 699,
+   "reference_price": 999,
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "315 AW",
+    "hasta 70 min",
+    "aspira y friega"
+   ],
+   "note": "La gama alta de Dyson con fregado. 699 € frente a 999 € de PVP, pero sin histórico fiable de esta variante; Carrefour pide 749 €.",
+   "info": "Escoba con motor de pistón, cubo de 1,3 L y cepillo húmedo Submarine 2.0. Pesa unos 3,4 kg. Incluye Probiotic de regalo.",
+   "link": "https://www.dyson.es/aspiradoras/aspiradora-fregona/v16-piston-submarine/mate-negro-cobre",
+   "sources": [
+    {
+     "title": "Dyson ES · V16 Piston Animal Submarine",
+     "url": "https://www.dyson.es/aspiradoras/aspiradora-fregona/v16-piston-submarine/mate-negro-cobre"
+    },
+    {
+     "title": "Chollo.es · V16 Piston Animal Submarine 664,05 € con cupón",
+     "url": "https://www.chollo.es/dyson/aspiradora-fregona-dyson-v16-piston-animal-submarine-por-66405eur-1309175"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207486506",
+    "url": "https://www.idealo.es/precios/207486506/dyson-v16-piston-animal-submarine.html",
+    "include_regex": "v16\\s+pist[oó]n?\\s+animal\\s+submarine",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207486/5/207486506/s11_produktbild_max/dyson-v16-piston-animal-submarine.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Aspira y friega",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dyson-pencilvac-fluffycones",
+   "image_query": "Dyson PencilVac Fluffycones aspiradora",
+   "name": "Dyson PencilVac Fluffycones (negro)",
+   "store": "Dyson ES (tienda oficial)",
+   "price": 299,
+   "reference_price": 499,
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "ends_on": "2026-11-29",
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "ultrafina",
+    "1,8 kg",
+    "hasta 30 min"
+   ],
+   "note": "Mismo precio en Dyson, Amazon y Carrefour. Es ligera y desenreda pelo, pero tiene 30 min y un cubo de 0,08 L: para repasos, no para casa grande.",
+   "info": "Escoba ultrafina de 1,8 kg con cuatro cepillos cónicos Fluffycones. Pensada para limpieza diaria.",
+   "link": "https://www.dyson.es/aspiradoras/sin-cable/pencilvac/fluffycones",
+   "sources": [
+    {
+     "title": "Dyson ES · PencilVac Fluffycones",
+     "url": "https://www.dyson.es/aspiradoras/sin-cable/pencilvac/fluffycones"
+    },
+    {
+     "title": "Soydechollos · Black Friday Dyson (precios y fechas)",
+     "url": "https://soydechollos.com/eventos/black-friday/dyson"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208140541",
+    "url": "https://www.idealo.es/precios/208140541/dyson-pencilvac-fluffycones-492689-01.html",
+    "include_regex": "pencilvac.*fluffycones",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208140/5/208140541/s11_produktbild_max/dyson-pencilvac-fluffycones-492689-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Escoba sin cable",
+    "autonomia": "Hasta 45 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "PVPR PcComponentes",
+   "discount_override": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-19",
+   "id": "dreame-r20",
+   "image_query": "Dreame R20 aspiradora escoba sin cable",
+   "name": "Dreame R20",
+   "store": "PcComponentes",
+   "price": 199,
+   "reference_price": 279,
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable (mínimo 30 días en PcComponentes: 219 €)",
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "190 AW",
+    "hasta 90 min",
+    "22.000 Pa"
+   ],
+   "note": "La mejor relación calidad-precio de la sección: 199 € por 90 min de autonomía. Baja 20 € sobre su mínimo de los últimos 30 días, pero sin histórico anual fiable.",
+   "info": "Escoba sin cable de gama media con cabezal antienredos y luz. Vendida y enviada por PcComponentes; Amazon.es la tiene al mismo precio.",
+   "link": "https://www.pccomponentes.com/dreame-r20-aspiradora-escoba-mano-sin-cables-570w-negra",
+   "sources": [
+    {
+     "title": "PcComponentes · Dreame R20",
+     "url": "https://www.pccomponentes.com/dreame-r20-aspiradora-escoba-mano-sin-cables-570w-negra"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "202925023",
+    "url": "https://www.idealo.es/precios/202925023/dreame-r20.html",
+    "include_regex": "dreame\\s+r20(?!\\s*slim)",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/202925/0/202925023/s11_produktbild_max/dreame-vtv97a.jpg",
+   "facets": {
+    "marca": "Dreame",
+    "tipo": "Escoba sin cable",
+    "autonomia": "Más de 70 min"
+   }
   }
  ],
  "groups": [
