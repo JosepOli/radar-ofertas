@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-19",
+ "checked_on": "2026-11-20",
  "sections": [
   {
    "id": "cpu",
@@ -3988,19 +3988,19 @@
    "image_query": "Dreame D30 Ultra robot",
    "name": "Dreame D30 Ultra",
    "store": "MediaMarkt",
-   "price": 339,
+   "price": 289,
    "reference_price": null,
    "reference_label": "precio habitual",
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
-   "verdict": "pasa",
+   "verdict": "ok",
    "rank": 9,
    "tags": [
     "25.000 Pa",
     "230 min",
     "base con autolimpieza"
    ],
-   "note": "MediaMarkt ha subido a 339 € (ayer 289 €). Dreame lo vende a 399 €. Idealo muestra PcComponentes a 289 €, pero no hemos podido verificarlo en su ficha. Sin histórico y con el Qrevo 2 Pro de la lista más barato, ya no destaca.",
+   "note": "MediaMarkt ha vuelto a 289 € (ayer 339 €). Dreame lo vende a 399 €. Sin histórico no es «Comprar», y frente al Qrevo 2 Pro de la lista la diferencia es mínima. Los precios de MediaMarkt cambian de un día a otro.",
    "info": "Robot aspirador y friegasuelos con 25.000 Pa, 230 min de autonomía y 37 dB(A). Versión blanca.",
    "link": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-dreame-d30-ultra-230-min-autonomia-37-dba-succion-25000-pa-blanco-1625532.html",
    "sources": [
@@ -4021,7 +4021,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bolsa|staubbeutel|negro|black"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209903/5/209903571/s11_produktbild_max/dreame-d30-ultra-white.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-20",
    "facets": {
     "marca": "Dreame",
     "base": "Vacía y lava mopas",
@@ -5366,15 +5366,15 @@
    "image_query": "Lenovo LOQ Essential 15ARP11 RTX 5050",
    "name": "Lenovo LOQ Essential 15ARP11 · RTX 5050",
    "store": "MediaMarkt",
-   "price": 1069,
-   "verdict": "pasa",
+   "price": 899,
+   "verdict": "ok",
    "rank": 2,
    "tags": [
     "RTX 5050",
     "Ryzen 7 170",
     "16 GB / 512 GB"
    ],
-   "note": "MediaMarkt ha subido a 1.069 € (ayer 929 €). Con ese precio ya no gana al HP Victus de la lista con la misma gráfica. Otras tiendas lo tienen desde unos 950 €. Viene sin sistema operativo.",
+   "note": "MediaMarkt ha vuelto a 899 € (ayer 1.069 €). Viene sin sistema operativo. El precio ha oscilado mucho esta semana.",
    "info": "Portátil gaming de 15,6\" Full HD con Ryzen 7 170, RTX 5050, 16 GB de RAM y 512 GB de SSD.",
    "link": "https://www.mediamarkt.es/es/product/_portatil-gaming-lenovo-loq-essential-15arp11-156-full-hd-amd-ryzentm-7-170-16gb-ram-512gb-ssd-geforce-rtxtm-5050-sin-sistema-operativo-gris-1625749.html",
    "sources": [
@@ -5395,7 +5395,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209328/6/209328638/s11_produktbild_max/lenovo-loq-essential-15-g11-2026.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-20",
    "facets": {
     "uso": "Gaming",
     "marca": "Lenovo",
@@ -5489,7 +5489,7 @@
    "image_query": "Apple MacBook Air 13 M5 16GB 512GB",
    "name": "Apple MacBook Air 13\" M5 · 16 GB / 512 GB",
    "store": "Amazon.es",
-   "price": 1329,
+   "price": 1279,
    "verdict": "pasa",
    "rank": 3,
    "tags": [
@@ -5497,7 +5497,7 @@
     "16 GB / 512 GB",
     "13,6\""
    ],
-   "note": "Mismo precio en Amazon.es y MediaMarkt, sin descuento sobre la tarifa. Neobyte lo tiene 23 € más barato. Buen portátil, pero no hay chollo.",
+   "note": "Amazon.es lo tiene hoy a 1.279 €, 50 € menos que ayer. Sin descuento sobre la tarifa y sin histórico, pero es el mejor precio de las tiendas grandes. Buen portátil, no un chollo.",
    "info": "MacBook Air de 13,6\" con chip M5 de 10 núcleos, 16 GB de memoria unificada y 512 GB de SSD.",
    "link": "https://www.amazon.es/dp/B0GR1SB84G",
    "sources": [
@@ -5518,7 +5518,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|256|1\\s?tb|15[.,]?3|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209562/4/209562407/s11_produktbild_max/apple-macbook-air-13-m5-2026.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-20",
    "facets": {
     "uso": "Diario",
     "marca": "Apple",
@@ -5595,7 +5595,7 @@
    "image_query": "Lenovo IdeaPad Slim 3 15AMN8",
    "name": "Lenovo IdeaPad Slim 3 15AMN8 · Ryzen 5 7520U",
    "store": "MediaMarkt",
-   "price": 625,
+   "price": 529,
    "verdict": "no",
    "rank": 5,
    "tags": [
@@ -5603,7 +5603,7 @@
     "16 GB / 512 GB",
     "sin cargador"
    ],
-   "note": "MediaMarkt lo ha subido a 625 € (ayer 529 €). Se vende sin cargador y sin sistema operativo. Hay portátiles con Ryzen 7 por menos de 600 €. Mejor otra opción.",
+   "note": "MediaMarkt lo tiene hoy a 529 € (ayer 625 €). Se vende sin cargador y sin sistema operativo. Hay portátiles con Ryzen 7 por un precio parecido. Mejor otra opción.",
    "info": "Portátil básico de 15,6\" Full HD con Ryzen 5 7520U, 16 GB de RAM y 512 GB de SSD.",
    "link": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15amn8-156-full-hd-amd-ryzentm-5-7520u-16gb-ram-512gb-ssd-radeontm-610m-sin-sistema-operativo-sin-cargador-1625754.html",
    "sources": [
@@ -5624,7 +5624,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-20",
    "facets": {
     "uso": "Diario",
     "marca": "Lenovo",
@@ -5638,7 +5638,7 @@
    "image_query": "Samsung Odyssey G5 G50F 27 QHD monitor",
    "name": "Samsung Odyssey G5 G50F 27\" QHD 180 Hz",
    "store": "MediaMarkt",
-   "price": 159,
+   "price": 149,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -5656,7 +5656,7 @@
     "altura ajustable"
    ],
    "highlights": [],
-   "note": "Es el QHD de 180 Hz más barato de la lista y el siguiente en idealo está a 163,90 €. Sin histórico, así que no es un «mínimo»: es una buena compra por precio, no un chollo demostrado.",
+   "note": "MediaMarkt lo ha bajado a 149 €. Es de los QHD de 180 Hz más baratos de la lista. Sin histórico, así que no es un «mínimo»: es una buena compra por precio, no un chollo demostrado.",
    "info": "Panel IPS plano de 27\" a 2560×1440 y 180 Hz, con peana regulable en altura.",
    "link": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27fg506euxen-27-qhd-180-hz-1-ms-ips-conmutacion-en-el-plano-altura-ajustable-negro-1614059.html",
    "sources": [
@@ -5678,7 +5678,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo|oled"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-20",
    "facets": {
     "panel": "IPS",
     "hz": "180 Hz",
@@ -6501,7 +6501,7 @@
    "image_query": "Apple AirPods Pro 3",
    "name": "Apple AirPods Pro 3",
    "store": "Amazon.es",
-   "price": 219,
+   "price": 209,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -6518,7 +6518,7 @@
     "USB-C"
    ],
    "highlights": [],
-   "note": "219 € igual en Amazon.es y MediaMarkt; idealo baja a 215 € en tiendas menores. Precio normal, sin urgencia.",
+   "note": "209 € en Amazon.es, 10 € menos que ayer. Precio normal, sin urgencia; idealo muestra tiendas menores algo por debajo.",
    "info": "Auriculares in-ear de Apple con cancelación de ruido y sensor de frecuencia cardíaca.",
    "link": "https://www.amazon.es/dp/B0FQF32239",
    "sources": [
@@ -6540,7 +6540,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|puntas|almohadilla"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-20",
    "facets": {
     "uso": "Cancelación de ruido",
     "formato": "Intrauditivos",
@@ -6794,7 +6794,7 @@
    "image_query": "Razer BlackShark V3 X HyperSpeed auriculares",
    "name": "Razer BlackShark V3 X HyperSpeed",
    "store": "MediaMarkt",
-   "price": 89.99,
+   "price": 84.49,
    "price_text": null,
    "currency": "€",
    "reference_price": 109,
@@ -6811,7 +6811,7 @@
     "270 g"
    ],
    "highlights": [],
-   "note": "89,99 € en MediaMarkt (versión negro y azul), unos 20 € menos que su precio habitual de unos 109 €. Idealo lo muestra al mismo precio en Amazon.es. Sin cancelación de ruido. No hay histórico para saber si ha estado más barato.",
+   "note": "84,49 € en MediaMarkt (versión negro y azul), unos 25 € menos que su precio habitual de unos 109 €. Sin cancelación de ruido. No hay histórico para saber si ha estado más barato.",
    "info": "Cerrados y ligeros (270 g), con dongle USB 2,4 GHz y Bluetooth. Micrófono desmontable y 70 h de batería. Versión para PC y PlayStation.",
    "link": "https://www.mediamarkt.es/es/product/_auriculares-gaming-razer-blackshark-v3-x-hyperspeed-70-h-de-autonomia-con-conexion-24ghz-en-pc-para-playstation-negro-y-azul-1670699.html",
    "sources": [
@@ -6837,7 +6837,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|xbox"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207121/5/207121523/s11_produktbild_max/razer-blackshark-v3-x-hyperspeed.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-20",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
