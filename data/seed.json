@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-20",
+ "checked_on": "2026-11-21",
  "sections": [
   {
    "id": "cpu",
@@ -5260,7 +5260,7 @@
    "image_query": "PowerColor Radeon AI PRO R9700 32GB",
    "name": "PowerColor Radeon AI PRO R9700 32 GB",
    "store": "Neobyte",
-   "price": 2198.99,
+   "price": 2389,
    "verdict": "pasa",
    "rank": 2,
    "tags": [
@@ -5268,7 +5268,7 @@
     "ROCm",
     "640 GB/s"
    ],
-   "note": "Es el precio más bajo de las tiendas españolas hoy, pero sale a unos 69 €/GB de VRAM. La Arc Pro B60 de la lista da 24 GB por 732 €. Solo compensa si necesitas 32 GB en una sola tarjeta.",
+   "note": "Neobyte la tiene hoy a 2.389 € (antes 2.198,99 €). Sale a unos 75 €/GB de VRAM. La Arc Pro B60 de la lista da 24 GB por 732 €. Solo compensa si necesitas 32 GB en una sola tarjeta.",
    "info": "Gráfica profesional de AMD con 32 GB para IA local. Requiere ROCm; el soporte es peor que con CUDA.",
    "link": "https://www.neobyte.es/powercolor-amd-radeon-ai-pro-r9700-32gb-gddr6-tarjeta-grafica-48462.html",
    "sources": [
@@ -5289,7 +5289,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208322/8/208322827/s11_produktbild_max/powercolor-radeon-ai-pro-r9700.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-21",
    "facets": {
     "tipo": "Tarjeta gráfica",
     "chip": "AMD Radeon",
@@ -7548,14 +7548,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-21",
    "id": "asus-tuf-gaming-b550-plus-wifi-ii",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS TUF Gaming B550-Plus WiFi II placa base",
    "name": "ASUS TUF Gaming B550-Plus WiFi II",
    "store": "PcComponentes",
-   "price": 138.5,
+   "price": 184.28,
    "verdict": "no",
    "rank": 6,
    "tags": [
@@ -7564,7 +7564,7 @@
     "DDR4",
     "WiFi 6"
    ],
-   "note": "Chipset de 2020 a precio de placa actual: por 30 € más tienes una B850 de AM5 con DDR5 y futuro. Solo tiene sentido para actualizar un Ryzen 5000 con DDR4 que ya tengas.",
+   "note": "PcComponentes la ha subido a 184,28 € (antes 138,50 €). Chipset de 2020 a precio de placa actual de AM5. Solo tiene sentido para actualizar un Ryzen 5000 con DDR4 que ya tengas.",
    "info": "B550 ATX para AM4 con DDR4, PCIe 4.0, dos M.2, WiFi 6 y LAN 2,5 GbE.",
    "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb",
    "sources": [
@@ -9965,7 +9965,7 @@
     "protocolo": "Matter",
     "marca": "tado°"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-21",
    "image_url": "https://cdn.idealo.com/folder/Product/204318/1/204318198/s11_produktbild_max/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.jpg"
   },
   {
