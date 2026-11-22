@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-21",
+ "checked_on": "2026-11-22",
  "sections": [
   {
    "id": "cpu",
@@ -6436,7 +6436,7 @@
    "image_query": "Sony WH-1000XM6 auriculares",
    "name": "Sony WH-1000XM6",
    "store": "Amazon.es",
-   "price": 349,
+   "price": 346.28,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -6453,7 +6453,7 @@
     "plegable"
    ],
    "highlights": [],
-   "note": "349 € igual en Amazon.es y MediaMarkt, sin descuento que lo distinga. Si no necesitas lo último, el XM5 cuesta 110 € menos.",
+   "note": "346,28 € en Amazon.es (vendido por Amazon), poco menos que ayer. Sin descuento que lo distinga. Si no necesitas lo último, el XM5 cuesta bastante menos.",
    "info": "Sucesor del XM5 con cancelación de ruido mejorada y diseño plegable.",
    "link": "https://www.amazon.es/dp/B0F2TSFXL7",
    "sources": [
@@ -6487,7 +6487,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206509/4/206509477/s11_produktbild_max/sony-wh-1000xm6.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-22",
    "facets": {
     "uso": "Cancelación de ruido",
     "formato": "Diadema",
@@ -6501,7 +6501,7 @@
    "image_query": "Apple AirPods Pro 3",
    "name": "Apple AirPods Pro 3",
    "store": "Amazon.es",
-   "price": 209,
+   "price": 198,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -6518,7 +6518,7 @@
     "USB-C"
    ],
    "highlights": [],
-   "note": "209 € en Amazon.es, 10 € menos que ayer. Precio normal, sin urgencia; idealo muestra tiendas menores algo por debajo.",
+   "note": "198 € en Amazon.es, 11 € menos que ayer. Precio normal, sin urgencia; idealo muestra otras tiendas en cifras parecidas.",
    "info": "Auriculares in-ear de Apple con cancelación de ruido y sensor de frecuencia cardíaca.",
    "link": "https://www.amazon.es/dp/B0FQF32239",
    "sources": [
@@ -6540,7 +6540,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|puntas|almohadilla"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207671/7/207671730/s11_produktbild_max/apple-airpods-pro-3.jpg",
-   "checked_on": "2026-11-20",
+   "checked_on": "2026-11-22",
    "facets": {
     "uso": "Cancelación de ruido",
     "formato": "Intrauditivos",
@@ -6660,7 +6660,7 @@
    "image_query": "HyperX Cloud III S Wireless auriculares gaming",
    "name": "HyperX Cloud III S Wireless",
    "store": "Amazon.es",
-   "price": 92.99,
+   "price": 91.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 134,
@@ -6677,7 +6677,7 @@
     "DTS espacial"
    ],
    "highlights": [],
-   "note": "92,99 € en Amazon.es (vendido por Amazon) y 99,99 € en PcComponentes. Está por debajo de lo que costaba en todo el año en PcComponentes, pero el histórico de Amazon no lo tenemos. Buena opción si quieres inalámbrico sin gastar mucho.",
+   "note": "91,99 € en Amazon.es (vendido por Amazon) y 99,99 € en PcComponentes. Está por debajo de lo que costaba en todo el año en PcComponentes, pero el histórico de Amazon no lo tenemos. Buena opción si quieres inalámbrico sin gastar mucho.",
    "info": "Cerrados, con dongle USB 2,4 GHz y Bluetooth 5.3 para PC, PS5 y móvil. Micrófono desmontable y batería de hasta 200 h.",
    "link": "https://www.amazon.es/dp/B0F6NYQTJP",
    "sources": [
@@ -6723,7 +6723,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206722/5/206722569/s11_produktbild_max/hyperx-cloud-iii-s-wireless.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-22",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -9190,7 +9190,7 @@
    "image_query": "Logitech MX Keys S teclado",
    "name": "Logitech MX Keys S",
    "store": "Amazon.es (vendido por Amazon)",
-   "price": 93.9,
+   "price": 79.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 119.99,
@@ -9207,7 +9207,7 @@
     "retroiluminado"
    ],
    "highlights": [],
-   "note": "Amazon.es lo vende hoy a 93,90 €, no a 80 €. Teclado de oficina cómodo y silencioso, pero a este precio no hay rebaja real y no hay histórico para hablar de mínimo.",
+   "note": "Amazon.es lo vende hoy a 79,99 € (ayer 93,90 €). Teclado de oficina cómodo y silencioso. Sin histórico fiable de mínimo, así que no sabemos si es el mejor precio del año.",
    "info": "Teclado inalámbrico de perfil bajo con teclas esféricas, retroiluminación y conexión multidispositivo. Distribución QWERTY español en esta ficha.",
    "link": "https://www.amazon.es/dp/B07W6JPM9R",
    "sources": [
@@ -9229,7 +9229,7 @@
     "exclude_regex": "combo|reacondicionad|usad[oa]|b-stock|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/202831/5/202831589/s11_produktbild_max/logitech-mx-keys-s.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-22",
    "facets": {
     "tipo": "Teclado",
     "conexion": "Inalámbrico",
