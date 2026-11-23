@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-22",
+ "checked_on": "2026-11-23",
  "sections": [
   {
    "id": "cpu",
@@ -7315,14 +7315,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-23",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B850-Plus WiFi placa base",
    "name": "ASUS Prime B850-Plus WiFi",
    "store": "PcComponentes",
-   "price": 169.99,
+   "price": 185.95,
    "verdict": "ok",
    "rank": 4,
    "tags": [
@@ -7331,7 +7331,7 @@
     "WiFi 6E",
     "3x M.2"
    ],
-   "note": "PcComponentes vuelve a 169,99 € (ayer marcaba 202,95 €) y Amazon.es aparece igual en idealo. El precio sube y baja de un día a otro, así que mira que siga así al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
+   "note": "PcComponentes la vende hoy a 185,95 € (ayer 169,99 €). El precio sube y baja de un día a otro, así que compáralo al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
    "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
    "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
    "sources": [
@@ -7645,13 +7645,13 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-23",
    "id": "pccom-imperial-5800x3d-rtx-5070",
    "illustration": "pc",
    "image_query": "PcCom Imperial Ryzen 7 5800X3D RTX 5070",
    "name": "PcCom Imperial Ryzen 7 5800X3D / 32 GB / 1 TB / RTX 5070",
    "store": "PcComponentes",
-   "price": 2099,
+   "price": 1959,
    "verdict": "no",
    "rank": 5,
    "tags": [
@@ -7660,7 +7660,7 @@
     "32 GB DDR4",
     "Líquida 240 mm"
    ],
-   "note": "Trampa: plataforma AM4 y DDR4, sin ruta de actualización, por 2.099 €. Por 200 € más PcComponentes vende la Imperial con Ryzen 7 7800X3D (AM5, DDR5) y la misma RTX 5070. Elige esa.",
+   "note": "Trampa: plataforma AM4 y DDR4, sin ruta de actualización, por 1.959 € (PVP 2.499 €). Aunque baje, una base AM5 con DDR5 aguanta mucho más años. Mira antes la versión con Ryzen 7 7800X3D de la misma tienda.",
    "info": "Torre gaming con CPU de 2022, RTX 5070 de 12 GB y refrigeración líquida de 240 mm.",
    "link": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-5800x3d-32gb-1tb-ssd-rtx-5070-windows-11-home",
    "sources": [
@@ -10613,7 +10613,7 @@
    "annual_low_note": "245,65 € El Corte Inglés (ago.-sep.), chollo.es",
    "ends_on": "2026-12-07",
    "verdict": "ok",
-   "rank": 4,
+   "rank": 3,
    "tags": [
     "150 AW",
     "hasta 60 min",
@@ -10721,7 +10721,7 @@
    "annual_low_note": "sin histórico fiable",
    "ends_on": "2026-12-07",
    "verdict": "ok",
-   "rank": 2,
+   "rank": 1,
    "tags": [
     "240 AW",
     "hasta 60 min",
@@ -10827,7 +10827,7 @@
    "annual_low_note": "sin histórico fiable",
    "ends_on": null,
    "verdict": "ok",
-   "rank": 3,
+   "rank": 2,
    "tags": [
     "315 AW",
     "hasta 70 min",
@@ -10880,7 +10880,7 @@
    "annual_low_note": "sin histórico fiable",
    "ends_on": "2026-11-29",
    "verdict": "ok",
-   "rank": 5,
+   "rank": 4,
    "tags": [
     "ultrafina",
     "1,8 kg",
@@ -10922,24 +10922,24 @@
    "discount_override": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-23",
    "id": "dreame-r20",
    "image_query": "Dreame R20 aspiradora escoba sin cable",
    "name": "Dreame R20",
    "store": "PcComponentes",
-   "price": 199,
+   "price": 229,
    "reference_price": 279,
    "annual_low": null,
    "annual_low_note": "sin histórico fiable (mínimo 30 días en PcComponentes: 219 €)",
    "ends_on": null,
-   "verdict": "ok",
-   "rank": 1,
+   "verdict": "pasa",
+   "rank": 5,
    "tags": [
     "190 AW",
     "hasta 90 min",
     "22.000 Pa"
    ],
-   "note": "La mejor relación calidad-precio de la sección: 199 € por 90 min de autonomía. Baja 20 € sobre su mínimo de los últimos 30 días, pero sin histórico anual fiable.",
+   "note": "Hoy está a 229 € en PcComponentes (ayer 199 €), el precio al que ya estaba antes de la subida puntual. Un 18 % bajo el PVP de 279 €, pero sin descuento claro frente a lo que cuesta de normal. Espera a que vuelva a bajar.",
    "info": "Escoba sin cable de gama media con cabezal antienredos y luz. Vendida y enviada por PcComponentes; Amazon.es la tiene al mismo precio.",
    "link": "https://www.pccomponentes.com/dreame-r20-aspiradora-escoba-mano-sin-cables-570w-negra",
    "sources": [
