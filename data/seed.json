@@ -5702,7 +5702,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 4,
    "tags": [
     "27\" QHD",
     "180 Hz",
@@ -5769,7 +5769,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "27\" QHD",
     "144 Hz",
@@ -5877,7 +5877,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "QD-OLED 27\"",
     "QHD",
@@ -9585,7 +9585,7 @@
    "store": "MediaMarkt",
    "price": 459,
    "verdict": "pasa",
-   "rank": 2,
+   "rank": 4,
    "tags": [
     "Chip A16",
     "11\" Liquid Retina",
@@ -9639,7 +9639,7 @@
    "store": "MediaMarkt",
    "price": 569,
    "verdict": "no",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "10,9\"",
     "8 GB RAM",
@@ -9701,7 +9701,7 @@
    "store": "Amazon.es",
    "price": 144,
    "verdict": "ok",
-   "rank": 1,
+   "rank": 2,
    "tags": [
     "7\" 300 ppp",
     "16 GB",
@@ -9763,7 +9763,7 @@
    "store": "MediaMarkt",
    "price": 169,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 5,
    "tags": [
     "6\" 300 ppp",
     "16 GB",
@@ -10961,6 +10961,182 @@
     "tipo": "Escoba sin cable",
     "autonomia": "Más de 70 min"
    }
+  },
+  {
+   "id": "amazon-kindle-colorsoft-2024-16gb",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Amazon Kindle Colorsoft 16 GB 2024",
+   "name": "Amazon Kindle Colorsoft (2024) · 7\" · 16 GB · sin publicidad",
+   "store": "Amazon.es",
+   "price": 164,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 299.99,
+   "reference_label": "precio de venta recomendado",
+   "annual_low": 164.46,
+   "annual_low_note": "164,46 € Amazon.es (mayo), Xataka",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "top",
+   "rank": 1,
+   "tags": [
+    "7\" color",
+    "16 GB",
+    "luz cálida",
+    "USB-C"
+   ],
+   "highlights": [
+    "mín. del año"
+   ],
+   "note": "Es la generación anterior, pero 164 € iguala el mínimo del año y la deja a mitad del PVP. Si quieres un e-reader en color, es la mejor entrada. MediaMarkt la tiene al mismo precio.",
+   "info": "Lector de 7\" con pantalla de tinta en color, luz cálida ajustable y batería de semanas. Sin publicidad en la pantalla de bloqueo.",
+   "link": "https://www.amazon.es/dp/B0CX8MQF7R",
+   "sources": [
+    {
+     "title": "Amazon.es · Kindle Colorsoft 16 GB",
+     "url": "https://www.amazon.es/dp/B0CX8MQF7R"
+    },
+    {
+     "title": "Xataka · Colorsoft a 164,46 € (mayo)",
+     "url": "https://www.xataka.com/seleccion/amazon-no-espera-al-prime-day-baja-precio-su-kindle-colorsoft-nuevo-minimo-historico"
+    },
+    {
+     "title": "idealo · Kindle Colorsoft",
+     "url": "https://www.idealo.es/precios/207096523/amazon-kindle-colorsoft.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207096523",
+    "url": "https://www.idealo.es/precios/207096523/amazon-kindle-colorsoft.html",
+    "include_regex": "colorsoft",
+    "exclude_regex": "2025|signature|scribe|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|protector|cargador"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207096/5/207096523/s11_produktbild_max/amazon-kindle-colorsoft.jpg",
+   "facets": {
+    "tipo": "E-reader",
+    "sistema": "Kindle",
+    "marca": "Amazon"
+   },
+   "checked_on": "2026-11-23"
+  },
+  {
+   "id": "amazon-kindle-2026-16gb-con-publicidad",
+   "section": "tablets",
+   "illustration": "phone",
+   "image_query": "Amazon Kindle 2026 16 GB",
+   "name": "Amazon Kindle (2026) · 6\" · 16 GB · con publicidad",
+   "store": "Amazon.es",
+   "price": 124.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 154.99,
+   "reference_label": "precio de venta recomendado",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable (lanzado en 2026)",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "6\"",
+    "16 GB",
+    "USB-C",
+    "ligero"
+   ],
+   "highlights": [],
+   "note": "Primera rebaja seria de la nueva generación: 30 € menos que el PVP. Sin histórico no se puede llamar mínimo. La versión sin publicidad cuesta 139,99 €.",
+   "info": "El Kindle básico renovado: pantalla de 6\", 16 GB y más rápido al pasar página. Con publicidad en la pantalla de bloqueo.",
+   "link": "https://www.amazon.es/dp/B0G4SM81G1",
+   "sources": [
+    {
+     "title": "Amazon.es · Kindle 2026 16 GB",
+     "url": "https://www.amazon.es/dp/B0G4SM81G1"
+    },
+    {
+     "title": "20minutos · Kindle 16 GB a 124 €",
+     "url": "https://www.20minutos.es/ofertas-descuentos/comprar-kindle-16-gb-oferta-black-friday_7062444_0.html"
+    },
+    {
+     "title": "idealo · Kindle 2026",
+     "url": "https://www.idealo.es/precios/214348792/amazon-kindle-2026.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "214348792",
+    "url": "https://www.idealo.es/precios/214348792/amazon-kindle-2026.html",
+    "include_regex": "kindle",
+    "exclude_regex": "sin publicidad|without advertising|colorsoft|scribe|paperwhite|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|protector|cargador"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/214348/7/214348792/s11_produktbild_max/amazon-kindle-2026.jpg",
+   "facets": {
+    "tipo": "E-reader",
+    "sistema": "Kindle",
+    "marca": "Amazon"
+   },
+   "checked_on": "2026-11-23"
+  },
+  {
+   "id": "philips-27e1n1100a",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "Philips 27E1N1100A monitor 27 IPS",
+   "name": "Philips 27E1N1100A 27\" Full HD 120 Hz IPS",
+   "store": "MediaMarkt",
+   "price": 79,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 119.9,
+   "reference_label": "precio tachado MediaMarkt",
+   "annual_low": 79,
+   "annual_low_note": "79 € Amazon.es (oferta anticipada BF, 16/11), Gizmodo",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "27\" FHD",
+    "120 Hz",
+    "IPS",
+    "altavoces"
+   ],
+   "highlights": [],
+   "note": "Monitor básico de oficina o juegos casuales a 79 €, mínimo en lo que va de campaña. Solo Full HD y HDMI 1.4: no esperes más. PcComponentes lo tiene a 79,90 €.",
+   "info": "IPS de 27\" Full HD a 120 Hz con altavoces integrados y Adaptive Sync. Entradas HDMI y VGA.",
+   "link": "https://www.mediamarkt.es/es/product/_monitor-philips-27e1n1100a00-27-full-hd-4-ms-mprt-de-1-ms-100-hz-vga-hdmi-audio-negro-1579929.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Philips 27E1N1100A",
+     "url": "https://www.mediamarkt.es/es/product/_monitor-philips-27e1n1100a00-27-full-hd-4-ms-mprt-de-1-ms-100-hz-vga-hdmi-audio-negro-1579929.html"
+    },
+    {
+     "title": "Gizmodo · 27E1N1100A a 79 € en Amazon",
+     "url": "https://es.gizmodo.com/amazon-rebaja-el-monitor-philips-fhd-de-27-pulgadas-a-su-precio-minimo-historico-en-una-oferta-anticipada-del-black-friday-por-tiempo-limitado-2000271831"
+    },
+    {
+     "title": "idealo · Philips 27E1N1100A",
+     "url": "https://www.idealo.es/precios/204253567/philips-27e1n1100a.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "204253567",
+    "url": "https://www.idealo.es/precios/204253567/philips-27e1n1100a.html",
+    "include_regex": "27e1n1100a",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/204253/5/204253567/s11_produktbild_max/philips-27e1n1100a.jpg",
+   "facets": {
+    "panel": "IPS",
+    "hz": "120 Hz",
+    "marca": "Philips"
+   },
+   "checked_on": "2026-11-23"
   }
  ],
  "groups": [
