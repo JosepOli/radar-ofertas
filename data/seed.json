@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-23",
+ "checked_on": "2026-11-24",
  "sections": [
   {
    "id": "cpu",
@@ -1430,7 +1430,7 @@
    "image_query": "MOZA R5 Pro bundle",
    "name": "Moza R5 Pro (bundle)",
    "store": "PcComponentes",
-   "price": 375.99,
+   "price": 389,
    "price_text": null,
    "currency": "€",
    "reference_price": 419.99,
@@ -1447,7 +1447,7 @@
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "PcComponentes lo tiene a 375,99 €, 14 € menos que Simufy. Son 44 € menos que el precio habitual: descuento moderado. Por unos 225 € más, el bundle R9 es otro nivel.",
+   "note": "PcComponentes lo tiene hoy a 389 € (ayer 375,99 €), igual que Simufy (389,99 €). Son 31 € menos que el PVP de 419,99 €: descuento moderado. Por unos 225 € más, el bundle R9 es otro nivel.",
    "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
    "link": "https://www.pccomponentes.com/simulador-de-carreras-moza-racing-r5-pro-rs105-6-nm-direct-drive-usb-pc",
    "sources": [
@@ -1477,7 +1477,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-24",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -6168,7 +6168,7 @@
    "image_query": "Apple iPhone 17 256GB",
    "name": "Apple iPhone 17 256 GB",
    "store": "Carrefour",
-   "price": 959,
+   "price": 929,
    "price_text": null,
    "currency": "€",
    "reference_price": 1109,
@@ -6176,7 +6176,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "discount_override": null,
-   "ends_on": null,
+   "ends_on": "2026-11-29",
    "verdict": "ok",
    "rank": 4,
    "tags": [
@@ -6185,7 +6185,7 @@
     "256 GB"
    ],
    "highlights": [],
-   "note": "Carrefour lo vende él mismo a 959 €: 150 € menos que en Apple (1.109 €) y 70 € menos que en PcComponentes. MediaMarkt ha subido a 1.075 €. Rebaja de tienda, no de Black Friday, pero es el mejor precio con venta directa.",
+   "note": "Carrefour lo vende él mismo a 929 € (antes 1.009 €) hasta el 29/11: 180 € menos que en Apple (1.109 €) y 100 € menos que en PcComponentes. Rebaja de tienda, no de Black Friday, pero es el mejor precio con venta directa.",
    "info": "iPhone con pantalla OLED de 6,3\" y chip A19.",
    "link": "https://www.carrefour.es/apple-iphone-17-256-gb-63-pantalla-super-retina-xdr-chip-a19-negro/VC4A-31500615/p",
    "sources": [
@@ -6235,7 +6235,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-17",
+   "checked_on": "2026-11-24",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -7833,7 +7833,7 @@
    "store": "MediaMarkt",
    "price": 359.99,
    "verdict": "ok",
-   "rank": 1,
+   "rank": 2,
    "tags": [
     "Intel N100",
     "8 GB DDR5",
@@ -7900,7 +7900,7 @@
    "store": "Neobyte",
    "price": 348.89,
    "verdict": "ok",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "Celeron J4125",
     "2 GB",
@@ -7948,7 +7948,9 @@
    "annual_low_note": "599 € PcComponentes (14/10/2026, sin discos)",
    "discount_override": null,
    "ends_on": null,
-   "highlights": [],
+   "highlights": [
+    "mín. histórico"
+   ],
    "options": [],
    "id": "ugreen-nasync-dxp4800-plus",
    "section": "servidores",
@@ -7956,16 +7958,16 @@
    "image_query": "UGREEN NASync DXP4800 Plus NAS",
    "name": "UGREEN NASync DXP4800 Plus · 4 bahías",
    "store": "PcComponentes",
-   "price": 619.95,
-   "verdict": "pasa",
-   "rank": 3,
+   "price": 519,
+   "verdict": "top",
+   "rank": 1,
    "tags": [
     "Pentium Gold 8505",
     "8 GB DDR5",
     "10 GbE + 2,5 GbE",
     "4 bahías"
    ],
-   "note": "20 € más caro que en octubre. El hardware es de lo mejor para 4 bahías (10 GbE, M.2), pero espera a verlo por debajo de 600 €. Sin discos.",
+   "note": "PcComponentes lo baja a 519 € (PVP 659 €), 80 € menos que el mínimo de octubre (599 €). Hardware de lo mejor para 4 bahías (10 GbE, M.2). Sin discos.",
    "info": "Pentium Gold 8505, 8 GB DDR5, puertos de 10 GbE y 2,5 GbE, 4 bahías SATA y 2 ranuras M.2.",
    "link": "https://www.pccomponentes.com/nas-ugreen-nasync-dxp4800-plus-8gb-ddr5-intel-pentium-gold-112tb-sata-nvme-ethernet-escritorio",
    "sources": [
@@ -7995,7 +7997,7 @@
     "bahias": "4 bahías",
     "marca": "UGREEN"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-24"
   },
   {
    "price_text": null,
@@ -9931,7 +9933,7 @@
    "image_query": "tado Termostato Inteligente X cableado kit de inicio Bridge X",
    "name": "tado° Termostato Inteligente X cableado · kit de inicio con Bridge X",
    "store": "MediaMarkt",
-   "price": 99.99,
+   "price": 94.99,
    "verdict": "ok",
    "rank": 5,
    "tags": [
@@ -9940,7 +9942,7 @@
     "Cableado",
     "Bridge X incluido"
    ],
-   "note": "99,99 € y el mismo precio en MediaMarkt, PcComponentes y Amazon.es según idealo. Sin histórico no es un mínimo, pero es un precio estable y razonable. Comprueba antes que tu caldera es compatible.",
+   "note": "MediaMarkt lo vende hoy a 94,99 € (antes 99,99 €); PcComponentes sigue en 99,99 €. Sin histórico no es un mínimo, pero es un precio razonable. Comprueba antes que tu caldera es compatible.",
    "info": "Termostato cableado con Bridge X para conectar a internet. Compatible con Matter y con la mayoría de calderas y bombas de calor. Las funciones avanzadas de tado° dependen de su suscripción.",
    "link": "https://www.mediamarkt.es/es/product/_termostato-tado-inteligente-x-cableado-compatible-con-la-mayoria-de-calderas-y-bombas-de-calor-negroblanco-1586845.html",
    "sources": [
@@ -9965,7 +9967,7 @@
     "protocolo": "Matter",
     "marca": "tado°"
    },
-   "checked_on": "2026-11-21",
+   "checked_on": "2026-11-24",
    "image_url": "https://cdn.idealo.com/folder/Product/204318/1/204318198/s11_produktbild_max/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.jpg"
   },
   {
@@ -10816,16 +10818,16 @@
    "discount_override": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-24",
    "id": "dyson-v16-piston-animal-submarine",
    "image_query": "Dyson V16 Piston Animal Submarine aspiradora fregona",
    "name": "Dyson V16 Piston Animal Submarine (negro mate/cobre)",
    "store": "Dyson ES (tienda oficial)",
-   "price": 699,
+   "price": 649,
    "reference_price": 999,
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
-   "ends_on": null,
+   "ends_on": "2026-11-27",
    "verdict": "ok",
    "rank": 2,
    "tags": [
@@ -10833,7 +10835,7 @@
     "hasta 70 min",
     "aspira y friega"
    ],
-   "note": "La gama alta de Dyson con fregado. 699 € frente a 999 € de PVP, pero sin histórico fiable de esta variante; Carrefour pide 749 €.",
+   "note": "La tienda oficial de Dyson lo baja a 649 € (PVP 999 €) hasta el 27/11, con un limpiador Dyson Probiotic de regalo. Gama alta con fregado; sin histórico fiable de esta variante.",
    "info": "Escoba con motor de pistón, cubo de 1,3 L y cepillo húmedo Submarine 2.0. Pesa unos 3,4 kg. Incluye Probiotic de regalo.",
    "link": "https://www.dyson.es/aspiradoras/aspiradora-fregona/v16-piston-submarine/mate-negro-cobre",
    "sources": [
