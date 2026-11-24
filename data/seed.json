@@ -10615,7 +10615,7 @@
    "annual_low_note": "245,65 € El Corte Inglés (ago.-sep.), chollo.es",
    "ends_on": "2026-12-07",
    "verdict": "ok",
-   "rank": 3,
+   "rank": 4,
    "tags": [
     "150 AW",
     "hasta 60 min",
@@ -10668,7 +10668,7 @@
    "annual_low_note": "329,75 € MediaMarkt (ago.), chollo.es",
    "ends_on": "2026-12-07",
    "verdict": "pasa",
-   "rank": 6,
+   "rank": 8,
    "tags": [
     "150 AW",
     "hasta 60 min",
@@ -10776,7 +10776,7 @@
    "annual_low_note": "426,55 € Dyson ES con cupón (oct.), chollo.es",
    "ends_on": "2026-12-07",
    "verdict": "pasa",
-   "rank": 7,
+   "rank": 9,
    "tags": [
     "aspira y friega",
     "hasta 60 min",
@@ -10882,7 +10882,7 @@
    "annual_low_note": "sin histórico fiable",
    "ends_on": "2026-11-29",
    "verdict": "ok",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "ultrafina",
     "1,8 kg",
@@ -10935,7 +10935,7 @@
    "annual_low_note": "sin histórico fiable (mínimo 30 días en PcComponentes: 219 €)",
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 7,
    "tags": [
     "190 AW",
     "hasta 90 min",
@@ -11139,6 +11139,114 @@
     "marca": "Philips"
    },
    "checked_on": "2026-11-23"
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-24",
+   "id": "dyson-v15s-detect-submarine-mediamarkt",
+   "image_query": "Dyson V15s Detect Submarine aspiradora fregona",
+   "name": "Dyson V15s Detect Submarine (níquel/amarillo)",
+   "store": "MediaMarkt",
+   "price": 499,
+   "reference_price": 899,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "aspira y friega",
+    "240 AW",
+    "60 min",
+    "láser"
+   ],
+   "note": "MediaMarkt la vende a 499 € (PVP 899 €), 80 € menos que en Dyson (579 €). Sin histórico fiable de esta variante no se puede llamar mínimo, pero es mucho precio para una Dyson con fregado.",
+   "info": "Escoba 2 en 1 que aspira y friega suelos duros. Cabezal con láser, sensor de suciedad y cubo de 0,77 L.",
+   "link": "https://www.mediamarkt.es/es/product/_aspirador-escoba-dyson-v15s-detecttm-submarine-aspira-y-friega-kit-para-el-coche-y-cabezal-laser-potencia-succion-240-aw-60-min-sensor-suciedad-1672418.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Dyson V15s Detect Submarine",
+     "url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-dyson-v15s-detecttm-submarine-aspira-y-friega-kit-para-el-coche-y-cabezal-laser-potencia-succion-240-aw-60-min-sensor-suciedad-1672418.html"
+    },
+    {
+     "title": "idealo · Dyson V15 Detect Submarine",
+     "url": "https://www.idealo.es/precios/210758178/dyson-v15-detect-submarine.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210758178",
+    "url": "https://www.idealo.es/precios/210758178/dyson-v15-detect-submarine.html",
+    "include_regex": "v15s?\\s+(detect|detec)\\w*\\s+sub",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|repuesto|cepillo suelto|bater[ií]a de repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210758/1/210758178/s11_produktbild_max/dyson-494724-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Aspira y friega",
+    "autonomia": "45-70 min"
+   }
+  },
+  {
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "price_text": null,
+   "currency": "€",
+   "reference_label": "precio de venta recomendado",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-24",
+   "id": "dyson-v8-absolute-mediamarkt",
+   "image_query": "Dyson V8 Absolute aspiradora sin cable",
+   "name": "Dyson V8 Absolute (níquel)",
+   "store": "MediaMarkt",
+   "price": 222,
+   "reference_price": 429,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "115 AW",
+    "40 min",
+    "mascotas",
+    "0,54 L"
+   ],
+   "note": "MediaMarkt la baja a 222 € (PVP 429 €), 27 € menos que la V8 Cyclone de Dyson de esta lista. Sin histórico fiable no es mínimo, pero es la Dyson sin cable más barata que hay hoy. Autonomía justa: 40 min.",
+   "info": "Escoba sin cable ligera (2,5 kg) con cepillo para pelo de mascotas. Cubo de 0,54 L y filtro lavable.",
+   "link": "https://www.mediamarkt.es/es/product/_aspirador-escoba-dyson-v8-absolute-potencia-succion-115-aw-autonomia-40-min-ligera-accesorios-hogares-con-mascota-niquel-1672416.html",
+   "sources": [
+    {
+     "title": "MediaMarkt · Dyson V8 Absolute",
+     "url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-dyson-v8-absolute-potencia-succion-115-aw-autonomia-40-min-ligera-accesorios-hogares-con-mascota-niquel-1672416.html"
+    },
+    {
+     "title": "idealo · Dyson V8 Absolute",
+     "url": "https://www.idealo.es/precios/214953120/dyson-v8-absolute-664957-01.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "214953120",
+    "url": "https://www.idealo.es/precios/214953120/dyson-v8-absolute-664957-01.html",
+    "include_regex": "v8\\W*\\s+absolute",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|repuesto|cepillo suelto|bater[ií]a de repuesto"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/214953/1/214953120/s11_produktbild_max/dyson-v8-absolute-664957-01.jpg",
+   "facets": {
+    "marca": "Dyson",
+    "tipo": "Escoba sin cable",
+    "autonomia": "Hasta 45 min"
+   }
   }
  ],
  "groups": [
