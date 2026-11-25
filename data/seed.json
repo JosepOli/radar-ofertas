@@ -5595,15 +5595,15 @@
    "image_query": "Lenovo IdeaPad Slim 3 15AMN8",
    "name": "Lenovo IdeaPad Slim 3 15AMN8 · Ryzen 5 7520U",
    "store": "MediaMarkt",
-   "price": 529,
-   "verdict": "no",
+   "price": 449,
+   "verdict": "pasa",
    "rank": 5,
    "tags": [
     "Ryzen 5 7520U",
     "16 GB / 512 GB",
     "sin cargador"
    ],
-   "note": "MediaMarkt lo tiene hoy a 529 € (ayer 625 €). Se vende sin cargador y sin sistema operativo. Hay portátiles con Ryzen 7 por un precio parecido. Mejor otra opción.",
+   "note": "MediaMarkt lo tiene hoy a 449 € (hace cinco días, 529 €). Con 16 GB y 512 GB es un precio correcto, pero se vende sin cargador y sin sistema operativo: súmale cargador USB-C y licencia. Mejor míralo solo si ya los tienes.",
    "info": "Portátil básico de 15,6\" Full HD con Ryzen 5 7520U, 16 GB de RAM y 512 GB de SSD.",
    "link": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15amn8-156-full-hd-amd-ryzentm-5-7520u-16gb-ram-512gb-ssd-radeontm-610m-sin-sistema-operativo-sin-cargador-1625754.html",
    "sources": [
@@ -5624,7 +5624,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|8\\s?gb"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210667/3/210667321/s11_produktbild_max/lenovo-ideapad-slim-3-15-2026.jpg",
-   "checked_on": "2026-11-20",
+   "checked_on": "2026-11-25",
    "facets": {
     "uso": "Diario",
     "marca": "Lenovo",
@@ -5702,7 +5702,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "27\" QHD",
     "180 Hz",
@@ -5769,7 +5769,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "27\" QHD",
     "144 Hz",
@@ -5877,7 +5877,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 6,
+   "rank": 7,
    "tags": [
     "QD-OLED 27\"",
     "QHD",
@@ -9472,7 +9472,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "850 W",
     "80+ Gold",
@@ -11249,6 +11249,114 @@
     "tipo": "Escoba sin cable",
     "autonomia": "Hasta 45 min"
    }
+  },
+  {
+   "id": "gigabyte-ud850gm-pg5-v2-850w",
+   "section": "cajas",
+   "illustration": "pc",
+   "image_query": "Gigabyte UD850GM PG5 V2 fuente 850W",
+   "name": "Gigabyte UD850GM PG5 V2 · 850 W 80 Plus Gold",
+   "store": "Amazon.es (vendido por Amazon)",
+   "price": 71.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "850 W",
+    "80 Plus Gold",
+    "ATX 3.1 / PCIe 5.1",
+    "modular"
+   ],
+   "highlights": [],
+   "note": "Amazon la vende hoy a 71,99 €, unos 15 € menos que la siguiente tienda (87,48 €). Es una fuente de 850 W completamente modular, con cable de 16 pines nativo y ATX 3.1. No hay histórico fiable, así que no se puede llamar mínimo, pero para una Gold de 850 W es muy buen precio.",
+   "info": "Fuente ATX de 850 W con certificación 80 Plus Gold, diseño totalmente modular y conector de 16 pines para gráficas con PCIe 5.1. Ventilador de 120 mm.",
+   "link": "https://www.amazon.es/GIGABYTE-UD850GM-PG5-V2-Alimentaci%C3%B3n/dp/B0FFMYW8CV",
+   "sources": [
+    {
+     "title": "Amazon.es · Gigabyte UD850GM PG5 V2",
+     "url": "https://www.amazon.es/GIGABYTE-UD850GM-PG5-V2-Alimentaci%C3%B3n/dp/B0FFMYW8CV"
+    },
+    {
+     "title": "idealo · Gigabyte UD850GM PG5 V2 850 W",
+     "url": "https://www.idealo.es/precios/208361197/gigabyte-ud850gm-pg5-v2-850w.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "208361197",
+    "url": "https://www.idealo.es/precios/208361197/gigabyte-ud850gm-pg5-v2-850w.html",
+    "include_regex": "ud850gm[\\s-]*pg5\\s*v2",
+    "exclude_regex": "\\bice\\b|white|blanc|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|cable"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/208361/1/208361197/s11_produktbild_max/gigabyte-ud850gm-pg5-v2-850w.jpg",
+   "facets": {
+    "tipo": "Fuente",
+    "formato": "ATX",
+    "marca": "Gigabyte"
+   },
+   "checked_on": "2026-11-25"
+  },
+  {
+   "id": "aoc-q27b36x",
+   "section": "monitores",
+   "illustration": "monitor",
+   "image_query": "AOC Q27B36X monitor 27 QHD 144 Hz",
+   "name": "AOC Q27B36X · 27\" QHD 144 Hz IPS",
+   "store": "PcComponentes",
+   "price": 104.99,
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "27\" QHD",
+    "IPS 144 Hz",
+    "0,5 ms MPRT",
+    "HDR10"
+   ],
+   "highlights": [],
+   "note": "PcComponentes lo vende hoy a 104,99 €; la siguiente tienda con ficha propia (Neobyte) está en 110,79 €. Un QHD de 27\" con IPS a 144 Hz por poco más de 100 € es raro: es la opción de entrada más barata de la sección. Sin histórico fiable, no se puede llamar mínimo.",
+   "info": "Monitor de 27\" con resolución QHD (2560 x 1440), panel IPS a 144 Hz, AdaptiveSync y HDR10. Entradas HDMI y DisplayPort.",
+   "link": "https://www.pccomponentes.com/monitor-aoc-q27b36x-27-quad-hd-144hz-ips-0-5ms-hdr10-adaptivesync",
+   "sources": [
+    {
+     "title": "PcComponentes · AOC Q27B36X",
+     "url": "https://www.pccomponentes.com/monitor-aoc-q27b36x-27-quad-hd-144hz-ips-0-5ms-hdr10-adaptivesync"
+    },
+    {
+     "title": "idealo · AOC Q27B36X",
+     "url": "https://www.idealo.es/precios/209704695/aoc-q27b36x.html"
+    }
+   ],
+   "options": [],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209704695",
+    "url": "https://www.idealo.es/precios/209704695/aoc-q27b36x.html",
+    "include_regex": "q27b36x",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|embalaje deteriorado"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209704/6/209704695/s11_produktbild_max/aoc-q27b36x.jpg",
+   "facets": {
+    "panel": "IPS",
+    "hz": "144 Hz",
+    "marca": "AOC"
+   },
+   "checked_on": "2026-11-25"
   }
  ],
  "groups": [
