@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-24",
+ "checked_on": "2026-11-25",
  "sections": [
   {
    "id": "cpu",
@@ -1430,7 +1430,7 @@
    "image_query": "MOZA R5 Pro bundle",
    "name": "Moza R5 Pro (bundle)",
    "store": "PcComponentes",
-   "price": 389,
+   "price": 375.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 419.99,
@@ -1447,7 +1447,7 @@
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "PcComponentes lo tiene hoy a 389 € (ayer 375,99 €), igual que Simufy (389,99 €). Son 31 € menos que el PVP de 419,99 €: descuento moderado. Por unos 225 € más, el bundle R9 es otro nivel.",
+   "note": "PcComponentes lo tiene hoy a 375,99 €; Simufy estaba en 389,99 €. Son 44 € menos que el PVP de 419,99 €: descuento moderado. El precio cambia de un día a otro.",
    "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
    "link": "https://www.pccomponentes.com/simulador-de-carreras-moza-racing-r5-pro-rs105-6-nm-direct-drive-usb-pc",
    "sources": [
@@ -1477,7 +1477,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -4330,7 +4330,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-25",
    "facets": {
     "marca": "Thrustmaster",
     "freno": "Celda de carga",
@@ -7315,14 +7315,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-23",
+   "checked_on": "2026-11-25",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B850-Plus WiFi placa base",
    "name": "ASUS Prime B850-Plus WiFi",
    "store": "PcComponentes",
-   "price": 185.95,
+   "price": 169.99,
    "verdict": "ok",
    "rank": 4,
    "tags": [
@@ -7331,7 +7331,7 @@
     "WiFi 6E",
     "3x M.2"
    ],
-   "note": "PcComponentes la vende hoy a 185,95 € (ayer 169,99 €). El precio sube y baja de un día a otro, así que compáralo al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
+   "note": "PcComponentes la vende hoy a 169,99 € (ayer 185,95 €). El precio sube y baja de un día a otro, así que compáralo al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
    "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
    "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
    "sources": [
@@ -7548,15 +7548,15 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-21",
+   "checked_on": "2026-11-25",
    "id": "asus-tuf-gaming-b550-plus-wifi-ii",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS TUF Gaming B550-Plus WiFi II placa base",
    "name": "ASUS TUF Gaming B550-Plus WiFi II",
    "store": "PcComponentes",
-   "price": 184.28,
-   "verdict": "no",
+   "price": 148,
+   "verdict": "pasa",
    "rank": 6,
    "tags": [
     "AM4",
@@ -7564,7 +7564,7 @@
     "DDR4",
     "WiFi 6"
    ],
-   "note": "PcComponentes la ha subido a 184,28 € (antes 138,50 €). Chipset de 2020 a precio de placa actual de AM5. Solo tiene sentido para actualizar un Ryzen 5000 con DDR4 que ya tengas.",
+   "note": "PcComponentes la ha bajado hoy a 148 € (ayer 184,28 €; hace unos días 138,50 €). Sigue sin ser mínimo. Chipset de 2020: solo tiene sentido para actualizar un Ryzen 5000 con DDR4.",
    "info": "B550 ATX para AM4 con DDR4, PCIe 4.0, dos M.2, WiFi 6 y LAN 2,5 GbE.",
    "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb",
    "sources": [
@@ -7823,7 +7823,9 @@
    "annual_low_note": "359,99 € PcComponentes (14/10/2026, sin discos)",
    "discount_override": null,
    "ends_on": null,
-   "highlights": [],
+   "highlights": [
+    "mín. histórico"
+   ],
    "options": [],
    "id": "ugreen-nasync-dxp2800",
    "section": "servidores",
@@ -7831,8 +7833,8 @@
    "image_query": "UGREEN NASync DXP2800 NAS",
    "name": "UGREEN NASync DXP2800 · 2 bahías · N100 · 8 GB",
    "store": "MediaMarkt",
-   "price": 359.99,
-   "verdict": "ok",
+   "price": 329.99,
+   "verdict": "top",
    "rank": 2,
    "tags": [
     "Intel N100",
@@ -7840,7 +7842,7 @@
     "2,5 GbE",
     "2× M.2"
    ],
-   "note": "Iguala el mínimo de octubre (359,99 €), no lo mejora. Es el NAS de 2 bahías con más hardware por el precio, pero el software (UGOS) es más joven que DSM. Precio sin discos.",
+   "note": "MediaMarkt lo baja a 329,99 €, 30 € menos que el mínimo de octubre (359,99 €). Es el NAS de 2 bahías con más hardware por el precio, pero el software (UGOS) es más joven que DSM. Precio sin discos.",
    "info": "Intel N100, 8 GB DDR5 ampliable a 16 GB, un puerto de 2,5 GbE, HDMI 4K y dos ranuras M.2 NVMe. Admite Docker.",
    "link": "https://www.mediamarkt.es/es/product/_servidor-nas-ugreen-dxp2800-hdd-capacidad-64tb-memoria-8gb-2-bahias-procesador-intel-n100-negro-1611538.html",
    "sources": [
@@ -7870,7 +7872,7 @@
     "bahias": "2 bahías",
     "marca": "UGREEN"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-25"
   },
   {
    "price_text": null,
@@ -8728,7 +8730,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-25",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Wheel Stand Pro",
@@ -10105,7 +10107,7 @@
     "protocolo": "Thread",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-25",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   },
   {
@@ -10818,7 +10820,7 @@
    "discount_override": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-25",
    "id": "dyson-v16-piston-animal-submarine",
    "image_query": "Dyson V16 Piston Animal Submarine aspiradora fregona",
    "name": "Dyson V16 Piston Animal Submarine (negro mate/cobre)",
