@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-25",
+ "checked_on": "2026-11-26",
  "sections": [
   {
    "id": "cpu",
@@ -4212,7 +4212,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|lite|clutch|embrague|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/210271/1/210271117/s11_produktbild_max/moza-racing-srp2-racing-pedals.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-26",
    "facets": {
     "marca": "Moza",
     "freno": "Celda de carga",
@@ -4330,7 +4330,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-26",
    "facets": {
     "marca": "Thrustmaster",
     "freno": "Celda de carga",
@@ -5638,7 +5638,7 @@
    "image_query": "Samsung Odyssey G5 G50F 27 QHD monitor",
    "name": "Samsung Odyssey G5 G50F 27\" QHD 180 Hz",
    "store": "MediaMarkt",
-   "price": 149,
+   "price": 139,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -5656,7 +5656,7 @@
     "altura ajustable"
    ],
    "highlights": [],
-   "note": "MediaMarkt lo ha bajado a 149 €. Es de los QHD de 180 Hz más baratos de la lista. Sin histórico, así que no es un «mínimo»: es una buena compra por precio, no un chollo demostrado.",
+   "note": "MediaMarkt lo ha bajado a 139 € (antes 149 €). Es de los QHD de 180 Hz más baratos de la lista. Sin histórico, así que no es un «mínimo»: es una buena compra por precio, no un chollo demostrado.",
    "info": "Panel IPS plano de 27\" a 2560×1440 y 180 Hz, con peana regulable en altura.",
    "link": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27fg506euxen-27-qhd-180-hz-1-ms-ips-conmutacion-en-el-plano-altura-ajustable-negro-1614059.html",
    "sources": [
@@ -5678,7 +5678,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo|oled"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209442/2/209442252/s11_produktbild_max/samsung-odyssey-g5-g50f-ls27fg506euxen.jpg",
-   "checked_on": "2026-11-20",
+   "checked_on": "2026-11-26",
    "facets": {
     "panel": "IPS",
     "hz": "180 Hz",
@@ -6235,7 +6235,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-26",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -7494,14 +7494,14 @@
      "note": "vendido por Amazon"
     }
    ],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-26",
    "id": "asus-tuf-gaming-x870-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS TUF Gaming X870-Plus WiFi placa base",
    "name": "ASUS TUF Gaming X870-Plus WiFi",
    "store": "PcComponentes",
-   "price": 264.95,
+   "price": 229.99,
    "verdict": "pasa",
    "rank": 5,
    "tags": [
@@ -7510,7 +7510,7 @@
     "WiFi 7",
     "USB4"
    ],
-   "note": "Precio igual en PcComponentes y Amazon, sin rebaja visible. El salto frente a una B850 (unos 95 €) solo merece la pena si quieres USB4 y más líneas PCIe.",
+   "note": "PcComponentes la baja hoy a 229,99 €; Amazon sigue en 264,95 €. Sin histórico fiable, rebaja moderada. El salto frente a una B850 solo merece la pena si quieres USB4 y más líneas PCIe.",
    "info": "X870 ATX con USB4 de 40 Gbps, cuatro M.2, WiFi 7 y LAN 2,5 GbE.",
    "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-x870-plus-wifi",
    "sources": [
@@ -8730,7 +8730,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-26",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Wheel Stand Pro",
@@ -10107,7 +10107,7 @@
     "protocolo": "Thread",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-26",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   },
   {
@@ -10820,7 +10820,7 @@
    "discount_override": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-26",
    "id": "dyson-v16-piston-animal-submarine",
    "image_query": "Dyson V16 Piston Animal Submarine aspiradora fregona",
    "name": "Dyson V16 Piston Animal Submarine (negro mate/cobre)",
@@ -10873,7 +10873,7 @@
    "discount_override": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-26",
    "id": "dyson-pencilvac-fluffycones",
    "image_query": "Dyson PencilVac Fluffycones aspiradora",
    "name": "Dyson PencilVac Fluffycones (negro)",
