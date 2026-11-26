@@ -5491,7 +5491,7 @@
    "store": "Amazon.es",
    "price": 1279,
    "verdict": "pasa",
-   "rank": 3,
+   "rank": 4,
    "tags": [
     "M5",
     "16 GB / 512 GB",
@@ -5544,7 +5544,7 @@
    "store": "PcComponentes",
    "price": 1019,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "RTX 5050",
     "Core 5 210H",
@@ -5597,7 +5597,7 @@
    "store": "MediaMarkt",
    "price": 449,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "Ryzen 5 7520U",
     "16 GB / 512 GB",
@@ -9204,7 +9204,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 6,
    "tags": [
     "perfil bajo",
     "Bluetooth / Logi Bolt",
@@ -9257,7 +9257,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 5,
+   "rank": 7,
    "tags": [
     "switches amarillos",
     "6 teclas macro",
@@ -11357,6 +11357,156 @@
     "marca": "AOC"
    },
    "checked_on": "2026-11-25"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 1999,
+   "reference_label": "PVPR de la tienda",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "lenovo-legion-5-15ahp11-oled-rtx-5060-32gb",
+   "section": "portatiles",
+   "illustration": "laptop",
+   "image_query": "Lenovo Legion 5 15AHP11 OLED RTX 5060 32GB",
+   "name": "Lenovo Legion 5 15AHP11 OLED · RTX 5060 · 32 GB",
+   "store": "PcComponentes",
+   "price": 1379,
+   "verdict": "ok",
+   "rank": 3,
+   "tags": [
+    "RTX 5060",
+    "Ryzen 7 250",
+    "32 GB / 512 GB",
+    "OLED 15,3\""
+   ],
+   "note": "PcComponentes lo vende hoy a 1.379 €; MediaMarkt, 1.399 €. Es un gaming con pantalla OLED y 32 GB de RAM, algo poco habitual en este precio. Viene sin sistema operativo y con solo 512 GB. Sin histórico fiable no se puede llamar mínimo; el PVPR de 1.999 € no es una referencia real.",
+   "info": "Portátil gaming de 15,3\" OLED WQXGA a 165 Hz con Ryzen 7 250, RTX 5060 de 8 GB, 32 GB de RAM y 512 GB de SSD. Sin sistema operativo (FreeDOS).",
+   "link": "https://www.pccomponentes.com/portatil-lenovo-legion-5-15ahp11-15-3-amd-ryzen-7-250-32gb-512gb-ssd-rtx-5060-freedos",
+   "sources": [
+    {
+     "title": "PcComponentes · Legion 5 15AHP11 OLED RTX 5060",
+     "url": "https://www.pccomponentes.com/portatil-lenovo-legion-5-15ahp11-15-3-amd-ryzen-7-250-32gb-512gb-ssd-rtx-5060-freedos"
+    },
+    {
+     "title": "idealo · Legion 5 15AHP11 (83Q7004FSP)",
+     "url": "https://www.idealo.es/precios/210706841/lenovo-legion-5-15ahp11-83q7004fsp.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "210706841",
+    "url": "https://www.idealo.es/precios/210706841/lenovo-legion-5-15ahp11-83q7004fsp.html",
+    "include_regex": "legion\\s*5.*15ahp11.*5060",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/210706/8/210706841/s11_produktbild_max/lenovo-legion-5-15ahp11-83q7004fsp.jpg",
+   "facets": {
+    "uso": "Gaming",
+    "marca": "Lenovo",
+    "grafica": "RTX 5060"
+   },
+   "checked_on": "2026-11-26"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": null,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "logitech-lift-vertical-grafito",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Logitech Lift ratón vertical ergonómico grafito",
+   "name": "Logitech Lift · ratón vertical ergonómico",
+   "store": "PcComponentes",
+   "price": 34.99,
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "vertical",
+    "4000 DPI",
+    "Bluetooth / Logi Bolt",
+    "clics silenciosos"
+   ],
+   "note": "PcComponentes lo vende hoy a 34,99 € en gris-negro para diestros (el color rosa de la misma tienda está a 63,98 €). Amazon.es lo anuncia al mismo precio en idealo. Es un ratón vertical muy cómodo para muñecas cargadas, pero no es para juegos. Sin histórico fiable no se puede llamar mínimo.",
+   "info": "Ratón vertical para diestros con ángulo de 57°, sensor de 4000 DPI, clics silenciosos y conexión Bluetooth o receptor Logi Bolt.",
+   "link": "https://www.pccomponentes.com/logitech-lift-raton-inalambrico-vertical-para-diestros-4000-dpi-gris-negro",
+   "sources": [
+    {
+     "title": "PcComponentes · Logitech Lift gris-negro",
+     "url": "https://www.pccomponentes.com/logitech-lift-raton-inalambrico-vertical-para-diestros-4000-dpi-gris-negro"
+    },
+    {
+     "title": "idealo · Logitech Lift grafito",
+     "url": "https://www.idealo.es/precios/201926567/logitech-lift-graphite.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "201926567",
+    "url": "https://www.idealo.es/precios/201926567/logitech-lift-graphite.html",
+    "include_regex": "lift",
+    "exclude_regex": "business|for mac|left|zurdo|rosa|pink|blanco|white|arena|sand|reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/201926/5/201926567/s11_produktbild_max/logitech-lift-graphite.jpg",
+   "facets": {
+    "tipo": "Ratón",
+    "conexion": "Inalámbrico",
+    "marca": "Logitech"
+   },
+   "checked_on": "2026-11-26"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "reference_price": 150.99,
+   "reference_label": "precio habitual",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "id": "keychron-k2-he-gateron-double-rail",
+   "section": "perifericos",
+   "illustration": "pc",
+   "image_query": "Keychron K2 HE teclado magnético 75%",
+   "name": "Keychron K2 HE · 75 % magnético inalámbrico",
+   "store": "PcComponentes",
+   "price": 104.99,
+   "verdict": "ok",
+   "rank": 5,
+   "tags": [
+    "Hall effect",
+    "75 %",
+    "inalámbrico",
+    "hot-swap RGB"
+   ],
+   "note": "PcComponentes lo vende hoy a 104,99 € (versión con switches Gateron Double-Rail). La otra versión de la misma tienda, en blanco, está a 119,99 €. Un 75 % magnético con triple conexión por ese dinero es buena compra para quien quiera ajustar el punto de activación. No hay histórico fiable para llamarlo mínimo.",
+   "info": "Teclado 75 % con switches magnéticos de efecto Hall, conexión por cable, Bluetooth o 2,4 GHz, RGB y switches intercambiables.",
+   "link": "https://www.pccomponentes.com/teclado-keychron-k2-he-hall-effect-magnetico-inalambrico-75-con-switches-magneticos-y-rgb",
+   "sources": [
+    {
+     "title": "PcComponentes · Keychron K2 HE Gateron Double-Rail",
+     "url": "https://www.pccomponentes.com/teclado-keychron-k2-he-hall-effect-magnetico-inalambrico-75-con-switches-magneticos-y-rgb"
+    }
+   ],
+   "facets": {
+    "tipo": "Teclado",
+    "conexion": "Inalámbrico",
+    "marca": "Keychron"
+   },
+   "checked_on": "2026-11-26"
   }
  ],
  "groups": [
