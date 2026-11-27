@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-26",
+ "checked_on": "2026-11-27",
  "sections": [
   {
    "id": "cpu",
@@ -1370,7 +1370,7 @@
    "image_query": "MOZA R12 V2 wheelbase",
    "name": "Moza R12 V2 (solo base)",
    "store": "PcComponentes",
-   "price": 361.99,
+   "price": 379,
    "price_text": null,
    "currency": "€",
    "reference_price": 529,
@@ -1379,14 +1379,14 @@
    "annual_low_note": "sin histórico fiable en EU",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
-   "rank": 3,
+   "verdict": "pasa",
+   "rank": 7,
    "tags": [
     "12 Nm",
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "Si quieres margen de par a futuro. Mismo ecosistema y mismo driver que la R9. PcComponentes la vende y envía, 17 € por debajo de Moza EU y de su mínimo de 30 días (378,99 €).",
+   "note": "PcComponentes ha subido a 379 €, el mismo precio que en la tienda oficial de Moza EU. Ya no hay ventaja de precio ni histórico que lo respalde. Mismo ecosistema y driver que la R9.",
    "info": "El bundle R12 V2 + volante + SRP2 también baja un 28 %.",
    "link": "https://www.pccomponentes.com/base-para-volante-moza-racing-r12-v2-direct-drive-12nm-aluminio-negro",
    "sources": [
@@ -1416,7 +1416,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Moza",
     "tipo": "Solo base",
@@ -1430,7 +1430,7 @@
    "image_query": "MOZA R5 Pro bundle",
    "name": "Moza R5 Pro (bundle)",
    "store": "PcComponentes",
-   "price": 375.99,
+   "price": 389,
    "price_text": null,
    "currency": "€",
    "reference_price": 419.99,
@@ -1447,7 +1447,7 @@
     "Linux en kernel"
    ],
    "highlights": [],
-   "note": "PcComponentes lo tiene hoy a 375,99 €; Simufy estaba en 389,99 €. Son 44 € menos que el PVP de 419,99 €: descuento moderado. El precio cambia de un día a otro.",
+   "note": "PcComponentes lo tiene hoy a 389 € (ayer 375,99 €); Simufy estaba en 389,99 €. Son unos 30 € menos que el PVP de 419,99 €: descuento moderado. El precio cambia de un día a otro.",
    "info": "Base de 6 Nm con volante ES Lite y pedales SR-P Lite2.",
    "link": "https://www.pccomponentes.com/simulador-de-carreras-moza-racing-r5-pro-rs105-6-nm-direct-drive-usb-pc",
    "sources": [
@@ -1477,7 +1477,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -1762,7 +1762,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207967/9/207967958/s11_produktbild_max/logitech-g-rs50-system-xbox-pc.jpg",
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Logitech",
     "tipo": "Base y volante",
@@ -2276,7 +2276,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "no",
-   "rank": 2,
+   "rank": 3,
    "tags": [
     "lentes pancake",
     "realidad mixta"
@@ -2318,7 +2318,7 @@
    "image_query": "Meta Quest 3S headset",
    "name": "Meta Quest 3S 128 GB",
    "store": "Meta Store",
-   "price": 359.99,
+   "price": 305.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -2327,13 +2327,13 @@
    "annual_low_note": "mínimo del BF 2025",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "no",
-   "rank": 3,
+   "verdict": "pasa",
+   "rank": 2,
    "tags": [
     "lentes Fresnel"
    ],
    "highlights": [],
-   "note": "La oferta de 249,99 € se acabó: hoy cuesta 359,99 € en Meta y unos 359 € en otras tiendas. Mismas lentes Fresnel que la Quest 2, no es una mejora real para PC VR.",
+   "note": "Meta ha bajado a 305,99 € (antes 359,99 €), pero el mínimo del BF 2025 fue 249,99 €: 56 € más caro. Mismas lentes Fresnel que la Quest 2, no es una mejora real para PC VR. Solo si lo necesitas ya.",
    "info": "",
    "link": "https://www.meta.com/es/quest/quest-3s/",
    "sources": [
@@ -2355,7 +2355,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204861/0/204861013/s11_produktbild_max/meta-quest-3s-128gb.jpg",
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Meta",
     "estado": "Nueva",
@@ -4247,7 +4247,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "ok",
-   "rank": 4,
+   "rank": 3,
    "tags": [
     "3,9 Nm",
     "base + volante + pedales",
@@ -6235,7 +6235,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|air|funda|protector|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207673/4/207673491/s11_produktbild_max/apple-iphone-17-256gb-negro.jpg",
-   "checked_on": "2026-11-26",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -6304,7 +6304,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|pro|plus|16e|funda|protector|256|512"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204771/1/204771161/s11_produktbild_max/apple-iphone-16-128gb-negro.jpg",
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Apple",
     "sistema": "iOS",
@@ -7315,15 +7315,15 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-27",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B850-Plus WiFi placa base",
    "name": "ASUS Prime B850-Plus WiFi",
    "store": "PcComponentes",
-   "price": 169.99,
-   "verdict": "ok",
+   "price": 184.95,
+   "verdict": "pasa",
    "rank": 4,
    "tags": [
     "AM5",
@@ -7331,7 +7331,7 @@
     "WiFi 6E",
     "3x M.2"
    ],
-   "note": "PcComponentes la vende hoy a 169,99 € (ayer 185,95 €). El precio sube y baja de un día a otro, así que compáralo al comprar. ATX con Wi-Fi sólida para Ryzen 7000/9000; sin histórico anual no llega a «Comprar».",
+   "note": "PcComponentes la vende hoy a 184,95 €: ha vuelto al precio de hace unos días tras bajar a 169,99 €. ATX con Wi-Fi sólida para Ryzen 7000/9000, pero sin histórico ni rebaja clara.",
    "info": "B850 ATX con DDR5, PCIe 5.0, tres M.2, WiFi 6E, LAN de 2,5 GbE y BIOS FlashBack.",
    "link": "https://www.pccomponentes.com/placa-base-asus-prime-b850-plus-wifi",
    "sources": [
@@ -7548,14 +7548,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-25",
+   "checked_on": "2026-11-27",
    "id": "asus-tuf-gaming-b550-plus-wifi-ii",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS TUF Gaming B550-Plus WiFi II placa base",
    "name": "ASUS TUF Gaming B550-Plus WiFi II",
    "store": "PcComponentes",
-   "price": 148,
+   "price": 188.29,
    "verdict": "pasa",
    "rank": 6,
    "tags": [
@@ -7564,7 +7564,7 @@
     "DDR4",
     "WiFi 6"
    ],
-   "note": "PcComponentes la ha bajado hoy a 148 € (ayer 184,28 €; hace unos días 138,50 €). Sigue sin ser mínimo. Chipset de 2020: solo tiene sentido para actualizar un Ryzen 5000 con DDR4.",
+   "note": "PcComponentes la vende a 188,29 € (los 148 € anteriores eran de otra variante, sin Wi-Fi). Sin rebaja real. Chipset de 2020: solo tiene sentido para actualizar un Ryzen 5000 con DDR4.",
    "info": "B550 ATX para AM4 con DDR4, PCIe 4.0, dos M.2, WiFi 6 y LAN 2,5 GbE.",
    "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb",
    "sources": [
@@ -8815,7 +8815,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 5,
+   "rank": 4,
    "tags": [
     "3,1 Nm",
     "híbrido con correas",
@@ -8877,7 +8877,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 6,
+   "rank": 5,
    "tags": [
     "2,2 Nm",
     "engranajes",
@@ -8930,7 +8930,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 7,
+   "rank": 6,
    "tags": [
     "5,5 Nm",
     "base + volante + pedales",
@@ -8973,7 +8973,7 @@
    "image_query": "Thrustmaster T598 PS5 PC",
    "name": "Thrustmaster T598 (PS5/PC)",
    "store": "Simufy",
-   "price": 449.99,
+   "price": 399.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 453.99,
@@ -8990,7 +8990,7 @@
     "3 pedales"
    ],
    "highlights": [],
-   "note": "Simufy ha subido a 449,99 € (ayer 399,99 €); idealo muestra Amazon.es a 453,99 €. Ya no hay ventaja de precio. Por ese dinero el bundle Moza R9 o el R5 Pro dan más par o igual por menos. Solo si quieres ecosistema Thrustmaster.",
+   "note": "Simufy lo tiene hoy a 399,99 € (ayer 449,99 €). El precio oscila de un día a otro. Por ese dinero el bundle Moza R5 Pro da más par con volante y pedales. Solo si quieres ecosistema Thrustmaster.",
    "info": "Base direct axial drive de 5 Nm con volante de 28 cm y pedales magnéticos, para PlayStation y PC.",
    "link": "https://simufy.com/products/t598-playstation-pc",
    "sources": [
@@ -9004,7 +9004,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-27",
    "facets": {
     "marca": "Thrustmaster",
     "tipo": "Kit completo",
@@ -9587,7 +9587,7 @@
    "image_query": "Apple iPad 11 generación 128 GB Wi-Fi",
    "name": "Apple iPad (11.ª gen, 2025) · 128 GB · Wi-Fi",
    "store": "MediaMarkt",
-   "price": 459,
+   "price": 449,
    "verdict": "pasa",
    "rank": 4,
    "tags": [
@@ -9596,7 +9596,7 @@
     "128 GB",
     "Wi-Fi"
    ],
-   "note": "459 € en MediaMarkt, vendido por la propia tienda. Hay otras tiendas más baratas en idealo (desde unos 435 €) y no tenemos histórico para saber si es un mínimo, así que no es una compra urgente.",
+   "note": "449 € en MediaMarkt (antes 499 €), vendido por la propia tienda. Hay otras tiendas algo más baratas en idealo y no tenemos histórico para saber si es un mínimo, así que no es una compra urgente.",
    "info": "Pantalla de 11\", chip A16 y 128 GB. Funciona con Apple Pencil USB-C, pero no con Apple Pencil Pro. Precio de la versión Wi-Fi en azul.",
    "link": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-azul-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595894.html",
    "sources": [
@@ -9621,7 +9621,7 @@
     "sistema": "iPadOS",
     "marca": "Apple"
    },
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-27",
    "image_url": "https://cdn.idealo.com/folder/Product/206023/4/206023475/s11_produktbild_max/apple-ipad-128gb-wifi-azul-2025.jpg"
   },
   {
