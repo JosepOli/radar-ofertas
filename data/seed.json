@@ -902,7 +902,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 4,
+   "rank": 5,
    "tags": [
     "fregado con rodillo",
     "30.000 Pa",
@@ -959,7 +959,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "ok",
-   "rank": 5,
+   "rank": 6,
    "tags": [
     "gama alta",
     "HA oficial"
@@ -1021,7 +1021,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "ok",
-   "rank": 6,
+   "rank": 7,
    "tags": [
     "25.000 Pa",
     "mopas desmontables",
@@ -1076,7 +1076,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 10,
+   "rank": 11,
    "tags": [
     "gama media",
     "HA oficial"
@@ -1123,7 +1123,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 11,
+   "rank": 12,
    "tags": [
     "rodillo de fregado",
     "agua 40–75 °C"
@@ -1175,7 +1175,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 12,
+   "rank": 13,
    "tags": [
     "28.000 Pa",
     "gama media"
@@ -1227,7 +1227,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 13,
+   "rank": 14,
    "tags": [
     "25.000 Pa",
     "sin agua caliente"
@@ -3994,7 +3994,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "ok",
-   "rank": 9,
+   "rank": 10,
    "tags": [
     "25.000 Pa",
     "230 min",
@@ -4047,7 +4047,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "pasa",
-   "rank": 14,
+   "rank": 15,
    "tags": [
     "11.000 Pa",
     "194 min",
@@ -6969,7 +6969,7 @@
    "annual_low": null,
    "annual_low_note": "sin histórico fiable",
    "verdict": "ok",
-   "rank": 7,
+   "rank": 8,
    "tags": [
     "15.000 Pa",
     "LiDAR",
@@ -7020,7 +7020,7 @@
    "discount_override": null,
    "ends_on": "2026-11-30",
    "verdict": "pasa",
-   "rank": 15,
+   "rank": 16,
    "tags": [
     "entrada",
     "autovaciado",
@@ -7071,7 +7071,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "ok",
-   "rank": 8,
+   "rank": 9,
    "tags": [
     "10.000 Pa",
     "autovaciado 4 L",
@@ -7138,7 +7138,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 16,
+   "rank": 17,
    "tags": [
     "7.000 Pa",
     "160 min",
@@ -7201,7 +7201,7 @@
    "discount_override": null,
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 17,
+   "rank": 18,
    "tags": [
     "8.000 Pa",
     "lavado de mopa a 55 °C",
@@ -10617,7 +10617,7 @@
    "annual_low_note": "sin histórico fiable (mínimo 30 días en PcComponentes: 219 €)",
    "ends_on": null,
    "verdict": "pasa",
-   "rank": 1,
+   "rank": 3,
    "tags": [
     "190 AW",
     "hasta 90 min",
@@ -11079,6 +11079,167 @@
     "marca": "Keychron"
    },
    "checked_on": "2026-11-26"
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-27",
+   "id": "roborock-qrevo-curv-2-flow",
+   "section": "robots",
+   "illustration": "robot",
+   "image_query": "Roborock Qrevo Curv 2 Flow robot aspirador",
+   "name": "Roborock Qrevo Curv 2 Flow",
+   "store": "Roborock España (tienda oficial)",
+   "price": 499,
+   "reference_price": 899,
+   "reference_label": "PVPR de la tienda",
+   "verdict": "ok",
+   "rank": 4,
+   "tags": [
+    "20.000 Pa",
+    "mopa de rodillo",
+    "base multifuncional"
+   ],
+   "note": "La tienda oficial de Roborock lo vende hoy a 499 € frente a 899 € de PVPR; sin histórico fiable no se puede llamar mínimo. Mopa de rodillo con autolimpieza y base completa: un robot solvente en gama media-alta.",
+   "info": "Robot aspirador y fregasuelos con 20.000 Pa, mopa de rodillo con limpieza automática en tiempo real SpiraFlow, doble sistema antienredos y base multifuncional.",
+   "link": "https://es.roborock.com/products/roborock-qrevo-curv-2-flow",
+   "sources": [
+    {
+     "title": "Roborock España · Qrevo Curv 2 Flow",
+     "url": "https://es.roborock.com/products/roborock-qrevo-curv-2-flow"
+    },
+    {
+     "title": "idealo · Qrevo Curv 2 Flow",
+     "url": "https://www.idealo.es/precios/209521682/roborock-qrevo-curv-2-flow.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "209521682",
+    "url": "https://www.idealo.es/precios/209521682/roborock-qrevo-curv-2-flow.html",
+    "include_regex": "qrevo\\s*curv\\s*2\\s*flow",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bater[ií]a|repuesto|bolsa|flowx|prox"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/209521/6/209521682/s11_produktbild_max/roborock-qrevo-curv-2-flow.jpg",
+   "facets": {
+    "marca": "Roborock",
+    "base": "Vacía y lava mopas",
+    "fregado": "Rodillo"
+   }
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-27",
+   "id": "roborock-f25-gt-gen-2-set",
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "image_query": "Roborock F25 GT Gen 2 Set aspiradora en seco y húmedo",
+   "name": "Roborock F25 GT Gen 2 Set",
+   "store": "Roborock España (tienda oficial)",
+   "price": 159,
+   "reference_price": 309,
+   "reference_label": "PVPR de la tienda",
+   "verdict": "ok",
+   "rank": 1,
+   "tags": [
+    "20.000 Pa",
+    "aspira y friega",
+    "autolimpieza 90 °C",
+    "38 min"
+   ],
+   "note": "159 € hoy en la tienda oficial de Roborock, casi la mitad de los 309 € de PVPR. Es un modelo de 2026 y no hay histórico fiable para decir mínimo. Aspira y friega a la vez con rodillo autolimpiable; la autonomía es corta (38 min), suficiente para un piso.",
+   "info": "Aspiradora sin cable para seco y húmedo con 20.000 Pa, rodillo antienredos JawScrapers, autolimpieza y secado con aire caliente y diseño FlatReach para llegar bajo los muebles.",
+   "link": "https://es.roborock.com/products/roborock-f25-gt-gen2",
+   "sources": [
+    {
+     "title": "Roborock España · F25 GT Gen 2 Set",
+     "url": "https://es.roborock.com/products/roborock-f25-gt-gen2"
+    },
+    {
+     "title": "idealo · F25 GT Gen 2",
+     "url": "https://www.idealo.es/precios/211064447/roborock-rrde-f25gtgen2-m1-n.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "211064447",
+    "url": "https://www.idealo.es/precios/211064447/roborock-rrde-f25gtgen2-m1-n.html",
+    "include_regex": "f25\\s*(gt|rt)\\s*gen\\s*2",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bater[ií]a|repuesto|bolsa"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/211064/4/211064447/s11_produktbild_max/roborock-rrde-f25gtgen2-m1-n.jpg",
+   "facets": {
+    "marca": "Roborock",
+    "tipo": "Aspira y friega",
+    "autonomia": "Hasta 45 min"
+   }
+  },
+  {
+   "price_text": null,
+   "currency": "€",
+   "annual_low": null,
+   "annual_low_note": "sin histórico fiable",
+   "discount_override": null,
+   "ends_on": null,
+   "highlights": [],
+   "options": [],
+   "checked_on": "2026-11-27",
+   "id": "roborock-f25-xt",
+   "section": "aspiradoras",
+   "illustration": "robot",
+   "image_query": "Roborock F25 XT aspiradora en seco y húmedo",
+   "name": "Roborock F25 XT",
+   "store": "Roborock España (tienda oficial)",
+   "price": 229,
+   "reference_price": 449,
+   "reference_label": "PVPR de la tienda",
+   "verdict": "ok",
+   "rank": 2,
+   "tags": [
+    "20.000 Pa",
+    "aspira y friega",
+    "autolimpieza 90 °C",
+    "60 min"
+   ],
+   "note": "229 € hoy en la tienda oficial de Roborock y el mismo precio en Amazon.es según idealo; el PVPR de 449 € no es una referencia real. Sin histórico fiable no se puede llamar mínimo. Más autonomía (60 min) que el F25 GT Gen 2, por 70 € más.",
+   "info": "Aspiradora sin cable para seco y húmedo con 20.000 Pa, autolimpieza y secado rápido a 90 °C, diseño plano de 180°, ruedas asistidas y Wi-Fi. Versión nueva del F25 ACE.",
+   "link": "https://es.roborock.com/products/roborock-f25-xt",
+   "sources": [
+    {
+     "title": "Roborock España · F25 XT",
+     "url": "https://es.roborock.com/products/roborock-f25-xt"
+    },
+    {
+     "title": "idealo · F25 XT",
+     "url": "https://www.idealo.es/precios/207759064/roborock-f25-xt-ace.html"
+    }
+   ],
+   "tracking": {
+    "source": "idealo",
+    "product_id": "207759064",
+    "url": "https://www.idealo.es/precios/207759064/roborock-f25-xt-ace.html",
+    "include_regex": "f25\\s*xt",
+    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|filtro|cepillo|bater[ií]a|repuesto|bolsa"
+   },
+   "image_url": "https://cdn.idealo.com/folder/Product/207759/0/207759064/s11_produktbild_max/roborock-f25-xt-ace.jpg",
+   "facets": {
+    "marca": "Roborock",
+    "tipo": "Aspira y friega",
+    "autonomia": "45-70 min"
+   }
   }
  ],
  "groups": [
