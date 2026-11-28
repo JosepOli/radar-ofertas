@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-27",
+ "checked_on": "2026-11-28",
  "sections": [
   {
    "id": "cpu",
@@ -1416,7 +1416,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-27",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Moza",
     "tipo": "Solo base",
@@ -1477,7 +1477,7 @@
      "checked_on": "2026-11-16"
     }
    ],
-   "checked_on": "2026-11-27",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -1654,7 +1654,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311927/s11_produktbild_max/simagic-alpha-evo-sport.jpg",
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Simagic",
     "tipo": "Solo base",
@@ -1710,7 +1710,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206311/9/206311931/s11_produktbild_max/simagic-alpha-evo-direct-drive.jpg",
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Simagic",
     "tipo": "Solo base",
@@ -2304,7 +2304,7 @@
    },
    "image_url": "https://cdn.idealo.com/folder/Product/203284/3/203284363/s11_produktbild_max/meta-quest-3-512gb.jpg",
    "options": [],
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Meta",
     "estado": "Nueva",
@@ -3148,7 +3148,7 @@
    "image_query": "Intel Arc Pro B60 24GB",
    "name": "Intel Arc Pro B60 24 GB",
    "store": "PcComponentes (ASRock Arc Pro B60 Creator)",
-   "price": 1251.48,
+   "price": 1310.78,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -3165,7 +3165,7 @@
     "Linux multi-GPU"
    ],
    "highlights": [],
-   "note": "A 1.250 € ya no compensa: una RTX 3090 usada da los mismos 24 GB por bastante menos y con mejor soporte de software. Los 732 € eran de junio.",
+   "note": "A 1.311 € ya no compensa: una RTX 3090 usada da los mismos 24 GB por bastante menos y con mejor soporte de software. Los 732 € eran de junio.",
    "info": "456 GB/s de ancho de banda y 200 W.",
    "link": "https://www.pccomponentes.com/tarjeta-grafica-asrock-intel-arc-pro-b60-creator-24gb-gddr6-cuatro-displayport-pcie-4-0",
    "sources": [
@@ -3179,7 +3179,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-28",
    "facets": {
     "chip": "Intel",
     "vram": "24 GB",
@@ -4278,7 +4278,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|xbox|ps5|shifter|soporte"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/206095/6/206095619/s11_produktbild_max/moza-racing-r3-racing-wheel-and-pedals-pc-version.jpg",
-   "checked_on": "2026-11-19",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Moza",
     "tipo": "Kit completo",
@@ -4330,7 +4330,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|rubber|grip|kit"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/200301/4/200301428/s11_produktbild_max/thrustmaster-t-lcm-pedals.jpg",
-   "checked_on": "2026-11-26",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Thrustmaster",
     "freno": "Celda de carga",
@@ -4734,7 +4734,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581803/s11_produktbild_max/amd-ryzen-7-9700x.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "AMD",
     "plataforma": "AMD AM5",
@@ -4796,7 +4796,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|9600x3d|tray|bandeja|\\(t\\)"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204581/8/204581805/s11_produktbild_max/amd-ryzen-5-9600x.jpg",
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "AMD",
     "plataforma": "AMD AM5",
@@ -5121,7 +5121,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|cl36|cl40|64\\s?gb|5200|5600"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204101/9/204101930/s11_produktbild_max/kingston-fury-beast-rgb-32gb-kit-ddr5-6000-cl30.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-28",
    "facets": {
     "tipo": "DDR5",
     "capacidad": "32 GB",
@@ -5571,7 +5571,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/209055/0/209055038/s11_produktbild_max/hp-victus-15-fa2001ns.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-28",
    "facets": {
     "uso": "Gaming",
     "marca": "HP",
@@ -5799,7 +5799,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|soporte|brazo"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/208391/5/208391544/s11_produktbild_max/dell-s2725dsm.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-28",
    "facets": {
     "panel": "IPS",
     "hz": "144 Hz",
@@ -6646,7 +6646,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|funda|anc|cancelaci"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/204746/2/204746227/s11_produktbild_max/apple-airpods-4.jpg",
-   "checked_on": "2026-11-15",
+   "checked_on": "2026-11-28",
    "facets": {
     "uso": "Diario",
     "formato": "Intrauditivos",
@@ -6837,7 +6837,7 @@
     "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|almohadilla|funda|repuesto|xbox"
    },
    "image_url": "https://cdn.idealo.com/folder/Product/207121/5/207121523/s11_produktbild_max/razer-blackshark-v3-x-hyperspeed.jpg",
-   "checked_on": "2026-11-20",
+   "checked_on": "2026-11-28",
    "facets": {
     "uso": "Gaming",
     "formato": "Diadema",
@@ -7315,7 +7315,7 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-27",
+   "checked_on": "2026-11-28",
    "id": "asus-prime-b850-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
@@ -7431,14 +7431,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "id": "asus-prime-b860m-a-wifi",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS Prime B860M-A WiFi placa base",
    "name": "ASUS Prime B860M-A WiFi",
    "store": "PcComponentes",
-   "price": 154.95,
+   "price": 154.99,
    "verdict": "ok",
    "rank": 3,
    "tags": [
@@ -7494,7 +7494,7 @@
      "note": "vendido por Amazon"
     }
    ],
-   "checked_on": "2026-11-26",
+   "checked_on": "2026-11-28",
    "id": "asus-tuf-gaming-x870-plus-wifi",
    "section": "placas",
    "illustration": "motherboard",
@@ -7548,14 +7548,14 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-27",
+   "checked_on": "2026-11-28",
    "id": "asus-tuf-gaming-b550-plus-wifi-ii",
    "section": "placas",
    "illustration": "motherboard",
    "image_query": "ASUS TUF Gaming B550-Plus WiFi II placa base",
    "name": "ASUS TUF Gaming B550-Plus WiFi II",
    "store": "PcComponentes",
-   "price": 188.29,
+   "price": 181.58,
    "verdict": "pasa",
    "rank": 6,
    "tags": [
@@ -7564,7 +7564,7 @@
     "DDR4",
     "WiFi 6"
    ],
-   "note": "PcComponentes la vende a 188,29 € (los 148 € anteriores eran de otra variante, sin Wi-Fi). Sin rebaja real. Chipset de 2020: solo tiene sentido para actualizar un Ryzen 5000 con DDR4.",
+   "note": "PcComponentes la vende hoy a 181,58 € (ayer 188,29 €). Sin rebaja real. Chipset de 2020: solo tiene sentido para actualizar un Ryzen 5000 con DDR4.",
    "info": "B550 ATX para AM4 con DDR4, PCIe 4.0, dos M.2, WiFi 6 y LAN 2,5 GbE.",
    "link": "https://www.pccomponentes.com/placa-base-asus-tuf-gaming-b550-plus-wifi-ii-b550-am4-ddr4-atx-wifi-6-dual-m-2-rgb",
    "sources": [
@@ -7602,7 +7602,7 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "id": "pccom-lite-ryzen-5-8400f-rtx-5060-v2",
    "illustration": "pc",
    "image_query": "PcCom Lite Ryzen 5 8400F RTX 5060",
@@ -7645,7 +7645,7 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-23",
+   "checked_on": "2026-11-28",
    "id": "pccom-imperial-5800x3d-rtx-5070",
    "illustration": "pc",
    "image_query": "PcCom Imperial Ryzen 7 5800X3D RTX 5070",
@@ -7653,7 +7653,7 @@
    "store": "PcComponentes",
    "price": 1959,
    "verdict": "no",
-   "rank": 5,
+   "rank": 4,
    "tags": [
     "Ryzen 7 5800X3D",
     "RTX 5070 12 GB",
@@ -7699,22 +7699,22 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "id": "pccom-imperial-7800x3d-rtx-5070-v2",
    "illustration": "pc",
    "image_query": "PcCom Imperial Ryzen 7 7800X3D RTX 5070 V2",
    "name": "PcCom Imperial Ryzen 7 7800X3D / 32 GB / 1 TB / RTX 5070 V2",
    "store": "PcComponentes",
-   "price": 2299,
+   "price": 2399,
    "verdict": "pasa",
-   "rank": 4,
+   "rank": 3,
    "tags": [
     "Ryzen 7 7800X3D",
     "RTX 5070 12 GB",
     "32 GB",
     "1 TB SSD"
    ],
-   "note": "La mejor de las Imperial en plataforma (AM5 + X3D), pero 2.299 € es precio de configuración normal, sin rebaja visible. Solo compensa si no quieres montarlo tú.",
+   "note": "La mejor de las Imperial en plataforma (AM5 + X3D), pero 2.399 € es precio de configuración normal, sin rebaja visible. Solo compensa si no quieres montarlo tú.",
    "info": "Torre gaming con la CPU para juegos más equilibrada de AMD y una RTX 5070 de 12 GB, lista con Windows 11.",
    "link": "https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7-7800x3d-32gb-1tb-ssd-rtx-5070-v2-windows-11-home",
    "sources": [
@@ -7731,48 +7731,6 @@
    "section": "pcs"
   },
   {
-   "reference_price": 651,
-   "price_text": null,
-   "currency": "€",
-   "reference_label": "PVP tachado PcComponentes",
-   "annual_low": null,
-   "annual_low_note": "sin histórico fiable",
-   "discount_override": null,
-   "ends_on": null,
-   "highlights": [],
-   "options": [],
-   "checked_on": "2026-11-16",
-   "id": "pccom-work-ryzen-5-8500g-16gb-1tb",
-   "illustration": "pc",
-   "image_query": "PcCom Work Ryzen 5 8500G",
-   "name": "PcCom Work Ryzen 5 8500G / 16 GB / 1 TB",
-   "store": "PcComponentes",
-   "price": 619,
-   "verdict": "ok",
-   "rank": 2,
-   "tags": [
-    "Ryzen 5 8500G",
-    "16 GB",
-    "1 TB SSD",
-    "Windows 11 Home"
-   ],
-   "note": "Sobremesa de oficina y estudio con gráficos integrados, sin tarjeta dedicada que añada ruido o consumo. Rebaja pequeña (32 €), pero precio razonable por AM5, 1 TB y Windows.",
-   "info": "Torre compacta de PcCom con APU Ryzen 5 8500G; sirve para ofimática, navegación y juegos ligeros.",
-   "link": "https://www.pccomponentes.com/pccom-work-amd-ryzen-5-8500g-16gb-1tb-ssd-windows-11-home",
-   "sources": [
-    {
-     "title": "PcComponentes · ficha del producto",
-     "url": "https://www.pccomponentes.com/pccom-work-amd-ryzen-5-8500g-16gb-1tb-ssd-windows-11-home"
-    }
-   ],
-   "facets": {
-    "uso": "Oficina y estudio",
-    "formato": "Torre",
-    "grafica": "Integrada"
-   },
-   "section": "pcs"
-  },
-  {
    "reference_price": null,
    "price_text": null,
    "currency": "€",
@@ -7783,22 +7741,22 @@
    "ends_on": null,
    "highlights": [],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "id": "gmktec-m3-i5-12450h-32gb-1tb",
    "illustration": "minipc",
    "image_query": "GMKtec M3 Intel Core i5-12450H 32GB 1TB mini PC",
    "name": "GMKtec M3 Core i5-12450H / 32 GB / 1 TB",
    "store": "PcComponentes",
-   "price": 609.01,
+   "price": 626.27,
    "verdict": "ok",
-   "rank": 3,
+   "rank": 2,
    "tags": [
     "Core i5-12450H",
     "32 GB",
     "1 TB SSD",
     "Windows 11 Pro"
    ],
-   "note": "32 GB y 1 TB de serie por 609 € es lo que lo hace interesante; la CPU es de 2022, correcta para oficina y multitarea. Sin ficha idealo ni segunda tienda verificada, así que no podemos confirmar que sea el mejor precio.",
+   "note": "32 GB y 1 TB de serie por 626 € es lo que lo hace interesante; la CPU es de 2022, correcta para oficina y multitarea. Sin ficha idealo ni segunda tienda verificada, así que no podemos confirmar que sea el mejor precio.",
    "info": "Mini PC con CPU de 8 núcleos, WiFi 6 y Windows 11 Pro preinstalado.",
    "link": "https://www.pccomponentes.com/mini-pc-gmktec-m3-intel-core-i5-12450h-32gb-1tb-ssd-uhd-windows-11-pro-wifi-6",
    "sources": [
@@ -7999,7 +7957,7 @@
     "bahias": "4 bahías",
     "marca": "UGREEN"
    },
-   "checked_on": "2026-11-24"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -8220,7 +8178,7 @@
    "image_query": "Aqara Hub M3",
    "name": "Aqara Hub M3",
    "store": "PcComponentes",
-   "price": 122.0,
+   "price": 119.99,
    "verdict": "pasa",
    "rank": 7,
    "tags": [
@@ -8255,7 +8213,7 @@
     "protocolo": "Matter",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -8354,7 +8312,7 @@
     "bahias": "2 bahías",
     "marca": "Synology"
    },
-   "checked_on": "2026-11-19"
+   "checked_on": "2026-11-28"
   },
   {
    "id": "simagic-p500-pedales",
@@ -8394,7 +8352,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Simagic",
     "freno": "Celda de carga",
@@ -8451,7 +8409,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Fanatec",
     "freno": "Celda de carga",
@@ -8496,7 +8454,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Simagic",
     "freno": "Celda de carga",
@@ -8549,7 +8507,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Heusinkveld",
     "freno": "Celda de carga",
@@ -8633,7 +8591,7 @@
    "image_query": "Next Level Racing F-GT Lite",
    "name": "Next Level Racing F-GT Lite",
    "store": "Simufy",
-   "price": 249.99,
+   "price": 229.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 289.99,
@@ -8650,7 +8608,7 @@
     "hasta 130 kg"
    ],
    "highlights": [],
-   "note": "Simufy la tiene a 249,99 € y PcComponentes a 289,99 €: 40 € de diferencia. Cockpit plegable muy popular para espacios pequeños; con bases potentes se queda flojo.",
+   "note": "Simufy la tiene hoy a 229,99 € (ayer 249,99 €; PcComponentes estaba a 289,99 €). Cockpit plegable muy popular para espacios pequeños; con bases potentes se queda flojo.",
    "info": "Cockpit plegable con dos posiciones (GT y Fórmula) y asiento de tela. Admite hasta 130 kg y mide 19 kg. Versión negra.",
    "link": "https://simufy.com/products/cockpit-plegable-f-gt-lite",
    "sources": [
@@ -8677,7 +8635,7 @@
      "note": "vendido y enviado por PcComponentes"
     }
    ],
-   "checked_on": "2026-11-18",
+   "checked_on": "2026-11-28",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Next Level Racing",
@@ -8730,7 +8688,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-26",
+   "checked_on": "2026-11-28",
    "facets": {
     "material": "Tubo de acero",
     "marca": "Wheel Stand Pro",
@@ -9004,7 +8962,7 @@
     }
    ],
    "options": [],
-   "checked_on": "2026-11-27",
+   "checked_on": "2026-11-28",
    "facets": {
     "marca": "Thrustmaster",
     "tipo": "Kit completo",
@@ -9853,7 +9811,7 @@
     "bahias": "2 bahías",
     "marca": "QNAP"
    },
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "image_url": "https://cdn.idealo.com/folder/Product/202235/6/202235667/s11_produktbild_max/qnap-ts-264-8g.jpg"
   },
   {
@@ -9935,7 +9893,7 @@
    "image_query": "tado Termostato Inteligente X cableado kit de inicio Bridge X",
    "name": "tado° Termostato Inteligente X cableado · kit de inicio con Bridge X",
    "store": "MediaMarkt",
-   "price": 94.99,
+   "price": 99.99,
    "verdict": "ok",
    "rank": 5,
    "tags": [
@@ -9944,7 +9902,7 @@
     "Cableado",
     "Bridge X incluido"
    ],
-   "note": "MediaMarkt lo vende hoy a 94,99 € (antes 99,99 €); PcComponentes sigue en 99,99 €. Sin histórico no es un mínimo, pero es un precio razonable. Comprueba antes que tu caldera es compatible.",
+   "note": "MediaMarkt lo vende hoy a 99,99 €, igual que PcComponentes (ayer 94,99 € en MediaMarkt). Sin histórico no es un mínimo, pero es un precio razonable. Comprueba antes que tu caldera es compatible.",
    "info": "Termostato cableado con Bridge X para conectar a internet. Compatible con Matter y con la mayoría de calderas y bombas de calor. Las funciones avanzadas de tado° dependen de su suscripción.",
    "link": "https://www.mediamarkt.es/es/product/_termostato-tado-inteligente-x-cableado-compatible-con-la-mayoria-de-calderas-y-bombas-de-calor-negroblanco-1586845.html",
    "sources": [
@@ -9969,7 +9927,7 @@
     "protocolo": "Matter",
     "marca": "tado°"
    },
-   "checked_on": "2026-11-24",
+   "checked_on": "2026-11-28",
    "image_url": "https://cdn.idealo.com/folder/Product/204318/1/204318198/s11_produktbild_max/tado-smart-thermostat-x-starter-kit-wired-thermostat-bridge-x.jpg"
   },
   {
@@ -10054,7 +10012,7 @@
     "protocolo": "Matter",
     "marca": "Nuki"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -10107,7 +10065,7 @@
     "protocolo": "Thread",
     "marca": "Aqara"
    },
-   "checked_on": "2026-11-26",
+   "checked_on": "2026-11-28",
    "image_url": "https://cdn.idealo.com/folder/Product/203096/7/203096718/s11_produktbild_max/aqara-dw-s02d.jpg"
   },
   {
@@ -10225,7 +10183,7 @@
    "image_query": "Next Level Racing F-GT Elite Lite",
    "name": "Next Level Racing F-GT Elite Lite Front & Side Mount (solo estructura)",
    "store": "Simufy",
-   "price": 749.99,
+   "price": 674.99,
    "price_text": null,
    "currency": "€",
    "reference_price": 799.0,
@@ -10242,7 +10200,7 @@
     "solo estructura"
    ],
    "highlights": [],
-   "note": "Simufy la tiene a 749,99 € y la tienda oficial de NLR a 799 €: 49 € menos. Sin histórico fiable, el descuento es solo contra otra tienda. Rígido y multiposición.",
+   "note": "Simufy la tiene hoy a 674,99 € (ayer 749,99 €; la tienda oficial de NLR estaba a 799 €). Sin histórico fiable, el descuento es solo contra otra tienda. Rígido y multiposición.",
    "info": "Estructura de aluminio 4080 con piezas de acero, montaje de base frontal y lateral. Va sin asiento. La versión con bandeja multi-volante cuesta 699 € en la tienda oficial.",
    "link": "https://simufy.com/products/cockpit-f-gt-elite-lite",
    "sources": [
@@ -10269,7 +10227,7 @@
      "note": "solo estructura"
     }
    ],
-   "checked_on": "2026-11-16",
+   "checked_on": "2026-11-28",
    "facets": {
     "material": "Perfil de aluminio",
     "color": "Negro",
@@ -10378,7 +10336,7 @@
    "image_query": "SimXPro R80 cockpit negro",
    "name": "SimXPro R80 negro (chasis solo, sin asiento)",
    "store": "Simufy",
-   "price": 389.99,
+   "price": 349.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -10395,7 +10353,7 @@
     "Pedalera estándar"
    ],
    "highlights": [],
-   "note": "Buen precio de entrada para un perfil 40x80 en negro. La tienda oficial lo vende a 366,18 €, pero su ficha no indica color: comprueba que sea el negro. Si tu base pasa de 9 Nm, mira el X80.",
+   "note": "Buen precio de entrada para un perfil 40x80 en negro: 349,99 € en Simufy (ayer 389,99 €). La tienda oficial lo vendía a 366,18 €, pero su ficha no indicaba color. Si tu base pasa de 9 Nm, mira el X80.",
    "info": "Precio del chasis solo: no incluye asiento ni soporte de asiento. Compacto (1250 x 580 x 680 mm), con soporte de volante y de shifter incluidos.",
    "link": "https://simufy.com/products/cockpit-simxpro-r80",
    "sources": [
@@ -10423,7 +10381,7 @@
     "color": "Negro",
     "marca": "SimXPro"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "id": "simxpro-x80-negro",
@@ -10432,7 +10390,7 @@
    "image_query": "SimXPro X80 cockpit negro",
    "name": "SimXPro X80 negro (chasis solo, pedalera estándar)",
    "store": "Simufy",
-   "price": 409.99,
+   "price": 369.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -10449,7 +10407,7 @@
     "Negro o plata"
    ],
    "highlights": [],
-   "note": "Más sólido que el R80 para direct drive. En la tienda oficial el negro con bandeja estándar está agotado; Simufy lo tiene a 409,99 €. El gris sale 20 € más barato.",
+   "note": "Más sólido que el R80 para direct drive. Simufy lo tiene hoy a 369,99 € en negro con bandeja estándar (ayer 409,99 €). El gris sale 20 € más barato.",
    "info": "Precio del chasis solo con bandeja de pedales estándar (Profile Pedal Deck, aparte). Sin asiento. El soporte de shifter no va incluido.",
    "link": "https://simufy.com/products/cockpit-simxpro-x80",
    "sources": [
@@ -10468,7 +10426,7 @@
     "color": "Negro",
     "marca": "SimXPro"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "id": "trak-racer-tr120s-v2-negro",
@@ -10509,7 +10467,7 @@
     "color": "Negro",
     "marca": "Trak Racer"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "id": "sim-lab-gt1-pro",
@@ -10518,7 +10476,7 @@
    "image_query": "Sim-Lab GT1 Pro cockpit",
    "name": "Sim-Lab GT1 Pro (chasis solo, sin asiento)",
    "store": "Simufy",
-   "price": 649.99,
+   "price": 584.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -10535,7 +10493,7 @@
     "Soporte lateral"
    ],
    "highlights": [],
-   "note": "Sin descuento hoy. Por menos tienes el X80 o el TR120S, y Sim-Lab ya tiene el GT1 Evo más barato. Solo si quieres este diseño concreto.",
+   "note": "Simufy ha bajado el chasis a 584,99 € (ayer 649,99 €), pero por menos tienes el X80 o el TR120S. Solo si quieres este diseño concreto.",
    "info": "Precio del chasis solo: asiento y soporte de asiento aparte (+50 € con soporte de asiento). Con wheel deck y soportes frontales incluidos.",
    "link": "https://simufy.com/products/gt1-pro-sim-racing-cockpit",
    "sources": [
@@ -10554,7 +10512,7 @@
     "color": "Negro",
     "marca": "Sim-Lab"
    },
-   "checked_on": "2026-11-16"
+   "checked_on": "2026-11-28"
   },
   {
    "id": "simxpro-xt160",
@@ -10563,7 +10521,7 @@
    "image_query": "SimXPro XT160 cockpit",
    "name": "SimXPro XT160 (chasis solo, perfil 160x40)",
    "store": "Simufy",
-   "price": 799.99,
+   "price": 719.99,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -10580,7 +10538,7 @@
     "Pedalera extendida incluida"
    ],
    "highlights": [],
-   "note": "Es el chasis más rígido de esta lista a menos de 800 €, pero el descuento es frente al PVP y no hay histórico. Solo compensa con bases muy potentes o motion.",
+   "note": "Es el chasis más rígido de esta lista a menos de 750 €: 719,99 € en Simufy (ayer 799,99 €), sin histórico que confirme mínimo. Solo compensa con bases muy potentes o motion.",
    "info": "Precio del chasis solo, sin asiento (soportes de asiento opcionales). Incluye soporte de shifter. Acabado plata y negro.",
    "link": "https://simufy.com/products/cockpit-simxpro-xt160",
    "sources": [
@@ -10595,56 +10553,7 @@
     "color": "Otro",
     "marca": "SimXPro"
    },
-   "checked_on": "2026-11-16"
-  },
-  {
-   "section": "aspiradoras",
-   "illustration": "robot",
-   "price_text": null,
-   "currency": "€",
-   "reference_label": "PVPR PcComponentes",
-   "discount_override": null,
-   "highlights": [],
-   "options": [],
-   "checked_on": "2026-11-23",
-   "id": "dreame-r20",
-   "image_query": "Dreame R20 aspiradora escoba sin cable",
-   "name": "Dreame R20",
-   "store": "PcComponentes",
-   "price": 229,
-   "reference_price": 279,
-   "annual_low": null,
-   "annual_low_note": "sin histórico fiable (mínimo 30 días en PcComponentes: 219 €)",
-   "ends_on": null,
-   "verdict": "pasa",
-   "rank": 3,
-   "tags": [
-    "190 AW",
-    "hasta 90 min",
-    "22.000 Pa"
-   ],
-   "note": "Hoy está a 229 € en PcComponentes (ayer 199 €), el precio al que ya estaba antes de la subida puntual. Un 18 % bajo el PVP de 279 €, pero sin descuento claro frente a lo que cuesta de normal. Espera a que vuelva a bajar.",
-   "info": "Escoba sin cable de gama media con cabezal antienredos y luz. Vendida y enviada por PcComponentes; Amazon.es la tiene al mismo precio.",
-   "link": "https://www.pccomponentes.com/dreame-r20-aspiradora-escoba-mano-sin-cables-570w-negra",
-   "sources": [
-    {
-     "title": "PcComponentes · Dreame R20",
-     "url": "https://www.pccomponentes.com/dreame-r20-aspiradora-escoba-mano-sin-cables-570w-negra"
-    }
-   ],
-   "tracking": {
-    "source": "idealo",
-    "product_id": "202925023",
-    "url": "https://www.idealo.es/precios/202925023/dreame-r20.html",
-    "include_regex": "dreame\\s+r20(?!\\s*slim)",
-    "exclude_regex": "reacondicionad|usad[oa]|segunda mano|b-stock|demo|refurb|accesorio|bater[ií]a|filtro|repuesto|cepillo suelto"
-   },
-   "image_url": "https://cdn.idealo.com/folder/Product/202925/0/202925023/s11_produktbild_max/dreame-vtv97a.jpg",
-   "facets": {
-    "marca": "Dreame",
-    "tipo": "Escoba sin cable",
-    "autonomia": "Más de 70 min"
-   }
+   "checked_on": "2026-11-28"
   },
   {
    "id": "amazon-kindle-colorsoft-2024-16gb",
@@ -10883,7 +10792,7 @@
    "image_query": "AOC Q27B36X monitor 27 QHD 144 Hz",
    "name": "AOC Q27B36X · 27\" QHD 144 Hz IPS",
    "store": "PcComponentes",
-   "price": 104.99,
+   "price": 136.98,
    "price_text": null,
    "currency": "€",
    "reference_price": null,
@@ -10892,7 +10801,7 @@
    "annual_low_note": "sin histórico fiable",
    "discount_override": null,
    "ends_on": null,
-   "verdict": "ok",
+   "verdict": "pasa",
    "rank": 4,
    "tags": [
     "27\" QHD",
@@ -10901,7 +10810,7 @@
     "HDR10"
    ],
    "highlights": [],
-   "note": "PcComponentes lo vende hoy a 104,99 €; la siguiente tienda con ficha propia (Neobyte) está en 110,79 €. Un QHD de 27\" con IPS a 144 Hz por poco más de 100 € es raro: es la opción de entrada más barata de la sección. Sin histórico fiable, no se puede llamar mínimo.",
+   "note": "PcComponentes lo vende hoy a 136,98 €; ayer estaba a 104,99 €. Sigue siendo un QHD de 27\" con IPS a 144 Hz de entrada, pero ya no es el chollo de ayer y no hay histórico que lo respalde.",
    "info": "Monitor de 27\" con resolución QHD (2560 x 1440), panel IPS a 144 Hz, AdaptiveSync y HDR10. Entradas HDMI y DisplayPort.",
    "link": "https://www.pccomponentes.com/monitor-aoc-q27b36x-27-quad-hd-144hz-ips-0-5ms-hdr10-adaptivesync",
    "sources": [
@@ -10928,7 +10837,7 @@
     "hz": "144 Hz",
     "marca": "AOC"
    },
-   "checked_on": "2026-11-25"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -10982,7 +10891,7 @@
     "marca": "Lenovo",
     "grafica": "RTX 5060"
    },
-   "checked_on": "2026-11-26"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -11036,7 +10945,7 @@
     "conexion": "Inalámbrico",
     "marca": "Logitech"
    },
-   "checked_on": "2026-11-26"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
@@ -11078,7 +10987,7 @@
     "conexion": "Inalámbrico",
     "marca": "Keychron"
    },
-   "checked_on": "2026-11-26"
+   "checked_on": "2026-11-28"
   },
   {
    "price_text": null,
